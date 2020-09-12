@@ -11,7 +11,8 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 function Footer() {
     return (
         <div className="footer">
-            <div className="sub-footer"> 
+            <div 
+                className="sub-footer"> 
                 <img src={FooterLogo} alt="footer" className="img-footeri"/>
                 <div className="subscribe-c">
                 <h1>Subscribe to our newsletter!!</h1>

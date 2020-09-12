@@ -41,11 +41,42 @@
 .aboutLogo1{
     width: 100% !important;
 }
+.aboutLogo1:hover{
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 .aboutLogo3{
     padding-bottom: 20px;
     width: 100%;
 }
+.aboutLogo3:hover{
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
 .aboutLogo2{
     padding-top: 20px;
     width: 100%;
+}
+.aboutLogo2:hover{
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
 }

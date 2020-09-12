@@ -61,7 +61,8 @@ export class WorkSection extends Component {
         const { classes } = this.props;
         const classa = `${classes.butone} ${classes.active}`
         return (
-            <div className="WorkSection">
+            <div className="WorkSection" data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
                 <h1>Our Creative Works</h1>
                 <div clasname="workUL">
                     <button className={classa} name='butoni1' onClick={this.handleClick.bind(this, 'Software')}>Software</button>

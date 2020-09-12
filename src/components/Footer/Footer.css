@@ -56,6 +56,7 @@
     border-radius: 16% 45% 0 0;
     width: 100%;
 }
+
 /* ========================================= */
 .down-footer{
     margin-top: 50px;
@@ -100,6 +101,9 @@ color: white;
     display: flex;
     flex-direction: column;
 }
+.footer-link:hover{
+    transform: scale(1.1);
+}
 /* ====================================== */
 .footer-fund{
     margin-top: 20px;
@@ -138,6 +142,9 @@ color: white;
     align-items: center;
     cursor: pointer;
     color: white;
+}
+.footer-icon-label:hover{
+    transform: scale(1.1);
 }
 
 .ikonaFooter{

@@ -20,7 +20,14 @@
     display: grid;
     grid-template-columns: repeat(3,310px);  /* 3 columns */
     grid-template-rows: repeat(2,310px); /* 3 rows  */
-    grid-gap:35px 20px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+    grid-gap:35px 40px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  }
+  .service:hover{
+      border-color: #006FFF ;
+      -webkit-box-shadow: 0px 0px 65px -9px rgba(0,111,255,0.55);
+      -moz-box-shadow: 0px 0px 65px -9px rgba(0,111,255,0.55);
+      box-shadow: 0px 0px 65px -9px rgba(0,111,255,0.55);
+      transform: scale(1.05);
   }
   .service{
     border: 1px #C1C1C1 solid;

@@ -11,7 +11,7 @@ function Design() {
     return (
         <div className="workC">
         <div className="work_co">
-            <div className="containeri">
+            <div className="containeri" data-aos="zoom-in" data-aos-duration="2000"  data-aos-once="false">
                  <img src={workLogo3} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
                  <div class="middle">
                  <h2>Web Design</h2>
@@ -19,7 +19,7 @@ function Design() {
             </div>
             </div>
 
-            <div className="containeri">
+            <div className="containeri" data-aos="zoom-in" data-aos-duration="2000"  data-aos-once="false">
                  <img src={workLogo4} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
                  <div class="middle">
                  <h2>Web Design</h2>
@@ -27,21 +27,21 @@ function Design() {
             </div>
             </div>
 
-            <div className="containeri">
+            <div className="containeri" data-aos="zoom-in" data-aos-duration="2000"  data-aos-once="false">
                  <img src={workLogo5} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
                  <div class="middle">
                  <h2>Web Design</h2>
                 <div class="Wtext">View Project</div>
             </div>
             </div>
-            <div className="containeri">
+            <div className="containeri" data-aos="zoom-in" data-aos-duration="3000"  data-aos-once="false">
                  <img src={workLogo6} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
                  <div class="middle">
                  <h2>Web Design</h2>
                 <div class="Wtext">View Project</div>
             </div>
             </div>
-            <div className="containeri">
+            <div className="containeri" data-aos="zoom-in" data-aos-duration="3000"  data-aos-once="false">
                  <img src={workLogo1} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
                  <div class="middle">
                  <h2>Web Design</h2>
@@ -49,7 +49,7 @@ function Design() {
             </div>
             </div>
 
-            <div className="containeri">
+            <div className="containeri" data-aos="zoom-in" data-aos-duration="3000"  data-aos-once="false">
                  <img src={workLogo2} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
                  <div class="middle">
                  <h2>Web Design</h2>

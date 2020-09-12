@@ -55,12 +55,12 @@ export class Services extends Component {
           backgroundColor: 'white'
       };
     return (
-      <div className="services">
+      <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="services">
           <h1>Explore what we offer</h1>
 
          
   <AwesomeSlider organicArrows={false} cssModule={{eBardh}} className="slideri">
-    <div> <div className="grid">
+    <div> <div className="grid" >
             {this.state.services.map((item, index) => {
               return (
                 <article key={index} className="service">

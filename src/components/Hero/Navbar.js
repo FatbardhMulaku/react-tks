@@ -8,13 +8,13 @@ export class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-        <div className="navbar__icon">
+        <div data-aos="fade-down-right" className="navbar__icon">
           <Link to="/" className="navbar__icon--main">
             <FaAngleDoubleRight />
             KosovaOutsource.
           </Link>
         </div>
-        <div className="navbar__menu">
+        <div data-aos="fade-down-left" className="navbar__menu">
           <div className="navbar__menu--item">
             <ul className="nav-links">
               <li>

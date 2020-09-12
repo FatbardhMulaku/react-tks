@@ -75,6 +75,10 @@
     background-position: center !important;
     margin: 0;
 }
+.team__Right1:hover{
+    animation: zoomi 1s ease-in-out;
+}
+
 .team__Right1-con{
     background-color: #006FFF;
     padding: 60px;
@@ -91,6 +95,9 @@
 .team__Right2{
     width: 50%;
     margin-top:29%;
+}
+.team__Right2:hover{
+    animation: zoomi 1s ease-in-out;
 }
 .quotes{
     padding: 10px;
@@ -132,4 +139,15 @@
     padding: 5px 15px;
     background-color: black;
     color: white;
+}
+@keyframes zoomi{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.03);
+    }
+    100%{
+        transform: scale(1);
+    }
 }

@@ -15,7 +15,7 @@ export class Team extends Component {
     return (
       <div className="team">
           <div className="team-c">
-        <div className="team__left">
+        <div data-aos="zoom-out-right" data-aos-duration="2000" data-aos-once="false" className="team__left">
           <h1>We might be maybe already just one email away from working together</h1>
           <p>
             if you like to work with KosovaOutsource please send us a CV at our e-mail and we will review import PropTypes from 'prop-types'
@@ -30,7 +30,8 @@ export class Team extends Component {
         </div>
 
             
-        <div className="team__Right">
+        <div data-aos="zoom-out-left" data-aos-once="false"
+ data-aos-duration="2000"  className="team__Right">
             <div className="team__Right1">
                 <div className="team__Right1-img">
                     <img src={AboutLogo1} className="team__Right1-imgA" alt="aa"/>
