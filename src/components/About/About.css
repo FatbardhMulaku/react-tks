@@ -1,0 +1,51 @@
+.about{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutText1{
+    padding: 110px;
+    text-align: left;
+}
+.aboutText1 p{
+    padding-right: 70px;
+    padding-bottom: 40px;
+    color: rgb(141, 135, 135);
+}
+.aboutText1 a{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #006FFF;
+    padding: 12px 45px;
+    border-radius: 50px;
+}
+.aboutText1 a:hover{
+    color: #006FFF;
+    border: 1px solid #006FFF;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.aboutLeft{
+    padding: 20px;
+}  
+.aboutRight{
+    padding: 20px;
+}
+.aboutLogo1{
+    width: 100% !important;
+}
+.aboutLogo3{
+    padding-bottom: 20px;
+    width: 100%;
+}
+.aboutLogo2{
+    padding-top: 20px;
+    width: 100%;
+}

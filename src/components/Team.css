@@ -1,0 +1,135 @@
+.team{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.team-c{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+
+}
+.team__left{
+    width: 48%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.team__left h1{
+    font-size: 45px;
+    width: 80%;
+    text-align: left;
+}
+.team__left p{
+    width: 70%;
+    font-size: 22px;
+    text-align: left !important;
+}
+.team-btn-container{
+    margin-top: 70px;
+}
+.team-btn-container a{
+    margin-top: 70px;
+    color: white;
+    margin-top: 100px;
+    text-decoration: none;
+    color: white;
+    background-color: #006FFF;
+    padding: 12px 45px;
+    border-radius: 50px;
+}
+.team-btn-container a:hover{
+    color: #006FFF;
+    border: 1px solid #006FFF;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.team-btn{
+    margin-top: 70px;
+}
+/* ======================================================================= */
+.team__Right{
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.team__Right1{
+    width: 50%;
+}
+.team__Right1-img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.team__Right1-imgA{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center !important;
+    margin: 0;
+}
+.team__Right1-con{
+    background-color: #006FFF;
+    padding: 60px;
+    margin-top: 0;
+    color: #fff;
+    margin-top: -4px;
+    text-align: left;
+}
+.team__Right1-con p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+/* ================= */
+.team__Right2{
+    width: 50%;
+    margin-top:29%;
+}
+.quotes{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: black;
+}
+.awssld__box, .awssld--active{
+    margin: 0 !important;
+}
+/* ================================ */
+.shigjeta-c{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.shigjeta-majt{
+    width:49%;
+    padding: 5px 25px;
+    background-color: black;
+    color: white;
+    margin:3px;
+    cursor: pointer;
+}
+.shigjeta-djatht{
+    width:49%;
+    padding: 5px 25px;
+    background-color: black;
+    color: white;
+    margin:3px;
+    cursor: pointer;
+}
+.shigjeta__icon{
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+}

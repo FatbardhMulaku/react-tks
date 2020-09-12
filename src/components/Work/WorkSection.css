@@ -1,0 +1,104 @@
+.WorkSection{
+    margin-top: 100px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.work_co{
+    display: grid;
+    grid-template-columns: repeat(3,450px);  /* 3 columns */
+    grid-template-rows: repeat(2,450px); /* 3 rows  */
+    grid-gap:35px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WorkSection h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+.workUL{
+    /* display: block; */
+    margin-top: 30px;
+}
+.workUL button{
+    background-color: #ffff00;
+    margin-top: 30px;
+}
+.workitem{
+    background-color: #ffff00;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 1600px) {
+    .WorkSection{
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .work_co{
+        display: grid;
+        grid-template-columns: repeat(3,400px);  /* 3 columns */
+        grid-template-rows: repeat(2,400px); /* 3 rows  */
+        grid-gap:35px 20px;
+        margin-left: auto;
+        margin-right: auto;
+}}
+@media only screen and (max-width: 1400px) {
+    .WorkSection{
+        width:95%;
+}}
+@media only screen and (max-width: 1300px) {
+    .WorkSection{
+        width:95%;
+    }
+    .work_co{
+        display: grid;
+        grid-template-columns: repeat(3,350px);  /* 3 columns */
+        grid-template-rows: repeat(2,350px); /* 3 rows  */
+        grid-gap:15px 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.containeri {
+    position: relative;
+    width: 100%;
+  }
+  .Wimage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);
+    text-align: center;
+  }
+  
+  .containeri:hover .Wimage {
+    opacity: 0.3;
+  }
+  
+  .containeri:hover .middle {
+    opacity: 1;
+  }
+  
+  .Wtext {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
