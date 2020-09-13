@@ -56,7 +56,7 @@ function Design() {
                 <div className="Wtext">View Project</div>
             </div>
             </div>
-
+ 
             </div>
         </div>
     )
