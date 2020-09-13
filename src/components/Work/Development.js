@@ -13,48 +13,48 @@ function Development() {
 
             <div className="containeri" data-aos="zoom-in" data-aos-duration="2000"  data-aos-once="false">
                  <img src={workLogo4} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
-                 <div class="middle">
+                 <div className="middle">
                  <h2>Web Design</h2>
-                <div class="Wtext">View Project</div>
+                <div className="Wtext">View Project</div>
             </div>
             </div>
 
             <div className="containeri" data-aos="zoom-in" data-aos-duration="2000"  data-aos-once="false">
                  <img src={workLogo1} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
-                 <div class="middle">
+                 <div className="middle">
                  <h2>Web Design</h2>
-                <div class="Wtext">View Project</div>
+                <div className="Wtext">View Project</div>
             </div>
             </div>
 
             <div className="containeri" data-aos="zoom-in" data-aos-duration="2000"  data-aos-once="false">
                  <img src={workLogo2} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
-                 <div class="middle">
+                 <div className="middle">
                  <h2>Web Design</h2>
-                <div class="Wtext">View Project</div>
+                <div className="Wtext">View Project</div>
             </div>
             </div>
 
             <div className="containeri" data-aos="zoom-in" data-aos-duration="3000"  data-aos-once="false">
                  <img src={workLogo3} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
-                 <div class="middle">
+                 <div className="middle">
                  <h2>Web Design</h2>
-                <div class="Wtext">View Project</div>
+                <div className="Wtext">View Project</div>
             </div>
             </div>
 
             <div className="containeri" data-aos="zoom-in" data-aos-duration="3000"  data-aos-once="false">
                  <img src={workLogo5} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
-                 <div class="middle">
+                 <div className="middle">
                  <h2>Web Design</h2>
-                <div class="Wtext">View Project</div>
+                <div className="Wtext">View Project</div>
             </div>
             </div>
             <div className="containeri" data-aos="zoom-in" data-aos-duration="3000"  data-aos-once="false">
                  <img src={workLogo6} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
-                 <div class="middle">
+                 <div className="middle">
                  <h2>Web Design</h2>
-                <div class="Wtext">View Project</div>
+                <div className="Wtext">View Project</div>
             </div>
             </div>
         </div>

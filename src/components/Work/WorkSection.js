@@ -7,10 +7,15 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
     butone: {
-      border: 'none',
-      padding: '20px 30px',
-      margin: '20px',
+      border: '1px solid #d9d9d9',
+      padding: '30px 50px',
+      backgroundColor: '#fff',
+      fontWeight: 'bold',
+      marginLeft: '0px',
+      marginRight: '0px',
+      marginBottom: '40px',
       color: 'black',
+      fontSize: '14px',
       borderRadius: '10px',
       cursor: 'pointer',
       '&:hover': { backgroundColor: '#006FFF',
@@ -62,7 +67,7 @@ export class WorkSection extends Component {
         const classa = `${classes.butone} ${classes.active}`
         return (
             <div className="WorkSection" data-aos="fade-up"
-            data-aos-anchor-placement="top-center">
+            data-aos-anchor-placement="top-center"> 
                 <h1>Our Creative Works</h1>
                 <div clasname="workUL">
                     <button className={classa} name='butoni1' onClick={this.handleClick.bind(this, 'Software')}>Software</button>

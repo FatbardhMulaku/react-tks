@@ -7,8 +7,8 @@
 .work_co{
     display: grid;
     grid-template-columns: repeat(3,450px);  /* 3 columns */
-    grid-template-rows: repeat(2,450px); /* 3 rows  */
-    grid-gap:0px 20px;
+    grid-template-rows: repeat(2,400px); /* 3 rows  */
+    grid-gap:5px 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,12 +36,14 @@
         margin-right: auto;
     }
     .work_co{
-        display: grid;
-        grid-template-columns: repeat(3,400px);  /* 3 columns */
-        grid-template-rows: repeat(2,400px); /* 3 rows  */
-        grid-gap:35px 20px;
         margin-left: auto;
         margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(3,400px);  /* 3 columns */
+        grid-template-rows: repeat(2,350px); /* 3 rows  */
+        grid-gap:35px 20px;
+        align-self: center;
+        justify-self: center;
 }}
 @media only screen and (max-width: 1400px) {
     .WorkSection{
@@ -54,7 +56,7 @@
     .work_co{
         display: grid;
         grid-template-columns: repeat(3,350px);  /* 3 columns */
-        grid-template-rows: repeat(2,350px); /* 3 rows  */
+        grid-template-rows: repeat(2,300px); /* 3 rows  */
         grid-gap:15px 20px;
         margin-left: auto;
         margin-right: auto;
