@@ -7,6 +7,7 @@ import Team from './../components/Team/Team';
 import WorkSection from './../components/Work/WorkSection';
 import About from './../components/About/About';
 import Footer from './../components/Footer/Footer';
+import Teknologies from './../components/Teknologies/Teknologies';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Banner />
         </Hero>
         <Services />
+        <Teknologies />
         <Team />
         <WorkSection />
         <About />

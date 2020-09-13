@@ -21,13 +21,13 @@ export class Navbar extends Component {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/">Services</Link>
+                <Link to="/">About &#11206;</Link>
               </li>
               <li>
-                <Link to="/">About us</Link>
+                <Link to="/">Industries</Link>
               </li>
               <li>
-                <Link to="/">Career</Link>
+                <Link to="/">Case studies</Link>
               </li>
               <li>
                 <Link to="/">Blog</Link>

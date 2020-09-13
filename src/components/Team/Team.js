@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Team.css";
 import FormatQuoteIcon from '@material-ui/icons/FormatQuote';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import {FaLongArrowAltLeft, FaLongArrowAltRight} from 'react-icons/fa'
+import {ChevronLeftIcon} from '@material-ui/icons/ChevronLeft';
 import AboutLogo1 from './../../img/lonaa.png';
 import AboutLogo2 from './../../img/ilir.png';
 
@@ -52,10 +52,10 @@ export class Team extends Component {
                 </div>
                 <div className="shigjeta-c">
                         <div className="shigjeta-majt">
-                            <ChevronLeftIcon className="shigjeta__icon"/>
+                            <FaLongArrowAltLeft className="shigjeta__icon" />
                         </div>
                         <div className="shigjeta-djatht">
-                            <ChevronRightIcon className="shigjeta__icon"/>
+                            <FaLongArrowAltRight className="shigjeta__icon" />
                         </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ export class Team extends Component {
             <div className="team__Right1-img">
                     <img src={AboutLogo2} className="team__Right1-imgA" alt="aa"/>
                 </div>
-                <div className="team__Right1-con">
+                <div className="team__Right1-con2">
                     <h1>Leona Zeqiri</h1>
                     <p>Project Manager</p>
                     <hr/>

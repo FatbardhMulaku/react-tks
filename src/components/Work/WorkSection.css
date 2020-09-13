@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(3,450px);  /* 3 columns */
     grid-template-rows: repeat(2,450px); /* 3 rows  */
-    grid-gap:35px 20px;
+    grid-gap:0px 20px;
     margin-left: auto;
     margin-right: auto;
 }

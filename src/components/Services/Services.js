@@ -16,37 +16,37 @@ export class Services extends Component {
         icon: <PhoneIphoneOutlinedIcon fontSize={'large'}/>,
         title: "Mobile design",
         info:
-          "We will create a beatiful and working design for you idea",
+          "Our mobile UI/UX design specialists create a conversion-driven mobile user experience that makes for high conversion and user retention.",
       },
       {
         icon: <DashboardOutlinedIcon fontSize={'large'}/>,
         title: "Web Design",
         info:
-        "We will create a beatiful and working design for you idea",
+        "Web design services comprise the processes of user interface (UI) and user experience (UX) design of any web-based solution. ",
       },
       {
         icon: <FilterDramaOutlinedIcon fontSize={'large'}/>,
         title: "Cloud",
         info:
-        "We will create a beatiful and working design for you idea",
+        "Cloud infrastructure management services provide scalability to businesses. Where multiple users can share a common infrastructure.",
       },
       {
         icon: <GraphicEqOutlinedIcon fontSize={'large'}/>,
         title: "Branding",
         info:
-        "We will create a beatiful and working design for you idea",
+        "We branding is mostly applied to intranets and portals, and it’s not just about improving the look and feel of a solution for the sake of it.",
       },
       {
         icon: <SettingsApplicationsOutlinedIcon fontSize={'large'}/>,
         title: "Web services",
         info:
-        "We will create a beatiful and working design for you idea",
+        "Web development services imply designing, building, integrating, scaling and maintaining dynamic software solutions that work via intranet or internet.",
       },
       {
         icon: <DescriptionOutlinedIcon fontSize={'large'}/>,
         title: "Managment",
         info:
-          "We will create a beatiful and working design for you idea",
+          "Management refers to the monitoring and administration of an organization’s information technology systems: hardware, software and networks. ",
       },
     ],
   };

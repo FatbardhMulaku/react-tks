@@ -18,8 +18,8 @@
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: repeat(3,310px);  /* 3 columns */
-    grid-template-rows: repeat(2,310px); /* 3 rows  */
+    grid-template-columns: repeat(3,360px);  /* 3 columns */
+    grid-template-rows: repeat(2,330px); /* 3 rows  */
     grid-gap:35px 40px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
   }
   .service:hover{
