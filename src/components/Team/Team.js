@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./Team.css";
 import FormatQuoteIcon from '@material-ui/icons/FormatQuote';
 import {FaLongArrowAltLeft, FaLongArrowAltRight} from 'react-icons/fa'
-import {ChevronLeftIcon} from '@material-ui/icons/ChevronLeft';
 import AboutLogo1 from './../../img/lonaa.png';
 import AboutLogo2 from './../../img/ilir.png';
 
