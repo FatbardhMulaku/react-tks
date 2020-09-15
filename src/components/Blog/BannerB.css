@@ -1,0 +1,71 @@
+.bannerBlog{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ======================== pjesa e banerit me text ========================================= */
+.banner__textBlog{
+    margin-top: 10%;
+    width: 45%;
+    color: white;
+    text-align: left;
+}
+.banner__textBlog h1{
+    font-size: 55px;
+    width: 80%;
+}
+.banner__textBlog p {
+    width: 70%;
+}
+.banner__textBlog a{
+    color: white;
+    margin-top: 100px;
+    text-decoration: none;
+    color: white;
+    background-color: #006FFF;
+    padding: 12px 45px;
+    border-radius: 50px;
+}
+.banner__textBlog a:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 900px) {
+    .banner__textBlog h1{
+        font-size: 28px;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 1260px) {
+    .banner__textBlog h1{
+        font-size: 38px;
+        width: 80%;
+    }
+}
+
+
+
+.banner-img1Blog{
+    background-image: url(./../../assets/Blog/blogBanner1.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.banner-img3Blog{
+    background-image: url(./../../assets/Blog/blogBanner1.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.banner-img4Blog{
+    background-image: url(./../../assets/Blog/blogBanner1.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}

@@ -1,0 +1,14 @@
+.SectionB1{
+    width: 99vw;
+    height: 50vh;
+    background-image:linear-gradient(to right , rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(./../../assets/Blog/bannerBlog.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.SectionB1c{
+    width: 90%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
