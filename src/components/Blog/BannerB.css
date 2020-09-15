@@ -1,5 +1,5 @@
 .bannerBlog{
-    width: 85%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -13,11 +13,14 @@
     text-align: left;
 }
 .banner__textBlog h1{
-    font-size: 55px;
+    font-size: 45px;
     width: 80%;
 }
 .banner__textBlog p {
     width: 70%;
+}
+.div-banner-btnBlog{
+    margin-top: 9vh;
 }
 .banner__textBlog a{
     color: white;
@@ -56,6 +59,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 75vh;
 }
 .banner__imgBlogLeft{
     width: 50%;
@@ -64,14 +68,14 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    height: 100%;
 }
 .banner__imgBlogRight{
     width: 50%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    align-content: space-between !important;
 }
 
 
@@ -80,20 +84,46 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    padding: 10px 0px 10px 10px;
-    border-radius: 0 32% 0 32%;
-    width: 100%;
-    height: 80%;
+    margin: 30px !important;
+    width: 21vw;
+    height: 55vh;
 }
+.banner-img1Blog:hover{
+    -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
 .banner-img3Blog{
-    background-image: url(./../../assets/Blog/blogBanner1.png);
+    background-image: url(./../../assets/Blog/blogBanner2.png);
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
+    width: 18vw;
+    height: 280px;
+    margin-bottom: 0px;
+    margin-left: 1vw;
+}
+.banner-img3Blog:hover{
+    -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
 }
 .banner-img4Blog{
-    background-image: url(./../../assets/Blog/blogBanner1.png);
+    background-image: url(./../../assets/Blog/blogBanner3.png);
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
+    margin-top: 27vh;
+    width: 13vw;
+    height: 12vw;
+    margin-left: 3vw;
+}
+.banner-img4Blog:hover{
+    -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
 }

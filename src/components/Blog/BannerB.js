@@ -20,11 +20,11 @@ export class BannerB extends Component {
               </div>
     
             </div>
-            <div data-aos="fade-left" data-aos-delay="400" className="banner__img">
+            <div data-aos="fade-left" data-aos-delay="400" className="banner__imgBlog">
                 <div className="banner__imgLeftBlog">
                     <div className="banner-img1Blog"/>
                 </div>
-                <div className="banner__imgRight">
+                <div className="banner__imgRightBlog">
                     <div className="banner-img3Blog"/>
                     <div className="banner-img4Blog"/>
                 </div>
