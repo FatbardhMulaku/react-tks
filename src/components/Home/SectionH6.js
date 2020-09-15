@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './SectionH6.css';
-import AboutLogo1 from './../../img/about1.png';
-import AboutLogo2 from './../../img/about2.png';
-import AboutLogo3 from './../../img/about3.png';
+import AboutLogo1 from './../../assets/Home/about1.png';
+import AboutLogo2 from './../../assets/Home/about2.png';
+import AboutLogo3 from './../../assets/Home/about3.png';
 
 export default function About() {
     return (

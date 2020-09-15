@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import FooterLogo from './../../img/footer.png';
+import FooterLogo from './../../assets/Home/footer.png';
 import { Link } from "react-router-dom";
 import {useTranslation} from 'react-i18next';
 import TwitterIcon from '@material-ui/icons/Twitter';

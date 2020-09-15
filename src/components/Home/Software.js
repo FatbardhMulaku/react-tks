@@ -1,10 +1,10 @@
 import React from 'react';
-import workLogo1 from './../../img/galery1.png';
-import workLogo2 from './../../img/galery2.png';
-import workLogo3 from './../../img/galery3.png';
-import workLogo4 from './../../img/galery4.png';
-import workLogo5 from './../../img/galery5.png';
-import workLogo6 from './../../img/galery6.png';
+import workLogo1 from './../../assets/Home/galery1.png';
+import workLogo2 from './../../assets/Home/galery2.png';
+import workLogo3 from './../../assets/Home/galery3.png';
+import workLogo4 from './../../assets/Home/galery4.png';
+import workLogo5 from './../../assets/Home/galery5.png';
+import workLogo6 from './../../assets/Home/galery6.png';
 import './SectionH5.css';
 
 function Software() {

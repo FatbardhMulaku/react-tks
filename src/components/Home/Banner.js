@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Banner.css";
-import logo1 from "./../../img/hero1.png";
-import logo2 from "./../../img/hero2.png";
-import logo3 from "./../../img/hero3.png";
+import logo1 from "./../../assets/Home/hero1.png";
+import logo2 from "./../../assets/Home/hero2.png";
+import logo3 from "./../../assets/Home/hero3.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

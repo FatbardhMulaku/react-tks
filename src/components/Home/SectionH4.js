@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import "./SectionH4.css";
 import FormatQuoteIcon from '@material-ui/icons/FormatQuote';
 import {FaLongArrowAltLeft, FaLongArrowAltRight} from 'react-icons/fa'
-import AboutLogo1 from './../../img/lonaa.png';
-import AboutLogo2 from './../../img/ilir.png';
+import AboutLogo1 from './../../assets/Home/lonaa.png';
+import AboutLogo2 from './../../assets/Home/ilir.png';
 
 export class Team extends Component {
     componentDidMount(){

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineSearch } from "react-icons/ai";
-import Logo from './../../img/KoLogo.svg';
+import Logo from './../../assets/Home/KoLogo.svg';
 import "./Navbar.css";
 
 export class Navbar extends Component {
@@ -33,7 +33,7 @@ export class Navbar extends Component {
                 <Link to="/">Blog</Link>
               </li>
               <li>
-                <Link to="/">Contact us</Link>
+                <Link to="/Contact">Contact us</Link>
               </li>
             </ul>
           </div>

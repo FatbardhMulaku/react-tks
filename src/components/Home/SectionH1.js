@@ -5,7 +5,6 @@ function Hero({children}) {
   return (
     <div className="hero">
         <div className="hero__containner">{children}</div>
-            
     </div>
   );
 }
