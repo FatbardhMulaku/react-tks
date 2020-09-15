@@ -34,10 +34,9 @@ function Footer() {
                     <p>Zip Code 10000</p>
                     <p>+383 45400400</p>
 
-                   {/*  Butonat per me ndrru gjuhen */}
-                    {/* <button onClick={() => handleClick('en')}>English</button>
+                 <button onClick={() => handleClick('en')}>English</button>
                     <button onClick={() => handleClick('de')}>German</button>
-                    <button onClick={() => handleClick('al')}>Albanian</button> */}
+                    <button onClick={() => handleClick('al')}>Albanian</button> 
                 </div>
                 <div className="down-footer-link">
                     <div className="down-footer-link-c c1">
