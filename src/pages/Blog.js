@@ -14,7 +14,7 @@ const Blog = () => {
             <BannerB />
         </SectionOne>
         <SectionTwo />
-        <Footer />
+        {/* <Footer /> */}
         </>
     )
 }

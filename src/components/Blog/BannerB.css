@@ -48,7 +48,31 @@
         width: 80%;
     }
 }
-
+/* ======================== pjesa e banerit me foto ========================================= */
+.banner__imgBlog{
+    margin-top: 5%;
+    width: 53%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.banner__imgBlogLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.banner__imgBlogRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
 
 
 .banner-img1Blog{
@@ -56,6 +80,10 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
+    padding: 10px 0px 10px 10px;
+    border-radius: 0 32% 0 32%;
+    width: 100%;
+    height: 80%;
 }
 .banner-img3Blog{
     background-image: url(./../../assets/Blog/blogBanner1.png);
