@@ -38,6 +38,22 @@
     border-radius: 50px;
 }
 
+@media only screen and (max-width: 900px) {
+    .banner__text h1{
+        font-size: 28px;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 1260px) {
+    .banner__text h1{
+        font-size: 38px;
+        width: 80%;
+    }
+}
+
+
 /* ======================== pjesa e banerit me foto ========================================= */
 .banner__img{
     margin-top: 5%;

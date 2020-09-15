@@ -1,14 +1,17 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './i18next';
 import App from './App';
 import {BrowserRouter as Router} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
+  <Suspense fallback={(<div>Loading....</div>)}>
   <Router>
     <App />
-  </Router>,
+  </Router>
+  </Suspense>,
   document.getElementById('root')
 );
 

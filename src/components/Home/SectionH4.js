@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./Team.css";
+import "./SectionH4.css";
 import FormatQuoteIcon from '@material-ui/icons/FormatQuote';
 import {FaLongArrowAltLeft, FaLongArrowAltRight} from 'react-icons/fa'
 import AboutLogo1 from './../../img/lonaa.png';

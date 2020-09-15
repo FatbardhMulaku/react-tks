@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaAngleDoubleRight } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { AiOutlineSearch } from "react-icons/ai";
+import Logo from './../../img/KoLogo.svg';
 import "./Navbar.css";
 
 export class Navbar extends Component {
@@ -10,8 +11,7 @@ export class Navbar extends Component {
       <div className="navbar">
         <div data-aos="fade-down-right" className="navbar__icon">
           <Link to="/" className="navbar__icon--main">
-            <FaAngleDoubleRight />
-            KosovaOutsource.
+            <img src={Logo} alt="logo" className="Logo-kosovaoutsource"/>
           </Link>
         </div>
         <div data-aos="fade-down-left" className="navbar__menu">

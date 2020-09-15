@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './WorkSection.css';
-import Software from '../Work/Software';
-import Development from '../Work/Development';
-import Design from '../Work/Design';
+import './SectionH5.css';
+import Software from './Software';
+import Development from './Development';
+import Design from './Design';
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = {

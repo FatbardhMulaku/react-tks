@@ -1,26 +1,27 @@
 import React from 'react';
-import Hero from './../components/Hero/Hero';
-import Banner from './../components/Hero/Banner';
-import Services from './../components/Services/Services';
-import Navbar from './../components/Hero/Navbar';
-import Team from './../components/Team/Team';
-import WorkSection from './../components/Work/WorkSection';
-import About from './../components/About/About';
-import Footer from './../components/Footer/Footer';
-import Teknologies from './../components/Teknologies/Teknologies';
+import SectionOne from '../components/Home/SectionH1';
+import Banner from './../components/Home/Banner';
+import Navbar from '../components/Home/Navbar';
+import SectionTwo from './../components/Home/SectionH2';
+import SectionThree from './../components/Home/SectionH3';
+import SectionFour from './../components/Home/SectionH4';
+import SectionFive from './../components/Home/SectionH5';
+import SectionSix from './../components/Home/SectionH6';
+import Footer from './../components/Home/Footer';
+
 
 const Home = () => {
     return (
         <>
-        <Hero>
+        <SectionOne>
             <Navbar />
             <Banner />
-        </Hero>
-        <Services />
-        <Teknologies />
-        <Team />
-        <WorkSection />
-        <About />
+        </SectionOne>
+        <SectionTwo />
+        <SectionThree />
+        <SectionFour />
+        <SectionFive />
+        <SectionSix />
         <Footer />
         </>
     )

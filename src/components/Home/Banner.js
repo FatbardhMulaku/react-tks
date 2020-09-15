@@ -14,14 +14,16 @@ export class Banner extends Component {
       offset: 400,
       easing: 'ease',
       duration : 2000
-    })
+    });
   }
   
   render() {
+
+ 
     return (
       <div className="banner">
         <div data-aos="fade-right" data-aos-delay="400" className="banner__text">
-          <h1>We are the best Software Company in Kosova.</h1>
+            <h1>We are the best Software Company in Kosova.</h1>
           <p>
             We offer professional outsourcing, programming, managment, design or
             any visual or administration work. Contact us for more information

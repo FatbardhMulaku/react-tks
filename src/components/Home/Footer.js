@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import FooterLogo from './../../img/footer.png';
 import { Link } from "react-router-dom";
+import {useTranslation} from 'react-i18next';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -9,17 +10,22 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 
 function Footer() {
+    const {t, i18n} = useTranslation();
+
+    function handleClick(Lang){
+        i18n.changeLanguage(Lang);
+    }
     return (
         <div className="footer">
             <div 
                 className="sub-footer"> 
                 <img src={FooterLogo} alt="footer" className="img-footeri"/>
                 <div className="subscribe-c">
-                <h1>Subscribe to our newsletter!!</h1>
+    <h1>{t('footer.subscribe')}</h1>
                 <input type='text' placeholder="Enter your email adress"/><button className="footer-btn">Subscribe</button>
                 </div>
             </div>
-
+            {/* Subscribe to our newsletter!! */}
             <div className="down-footer">
                 <div className="down-footer-loc">
                     <h2>KosovaOutsource</h2>
@@ -27,6 +33,11 @@ function Footer() {
                     <p>Rr,St-Sinan Gashi</p>
                     <p>Zip Code 10000</p>
                     <p>+383 45400400</p>
+
+                   {/*  Butonat per me ndrru gjuhen */}
+                    {/* <button onClick={() => handleClick('en')}>English</button>
+                    <button onClick={() => handleClick('de')}>German</button>
+                    <button onClick={() => handleClick('al')}>Albanian</button> */}
                 </div>
                 <div className="down-footer-link">
                     <div className="down-footer-link-c c1">

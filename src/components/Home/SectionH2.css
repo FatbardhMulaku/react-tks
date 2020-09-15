@@ -7,13 +7,18 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px; 
+    margin-top: 70px;
+    height: 80vh;
 }
 .services h1 {
     padding: 0 1em;
     margin: 60px 0px;
     font-size: 55px;
   }
-  .grid
+  .awssld{
+      height: 70vh !important;
+  }
+      .grid
    {
     margin-left: auto;
     margin-right: auto;
@@ -22,6 +27,17 @@
     grid-template-rows: repeat(2,330px); /* 3 rows  */
     grid-gap:35px 40px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
   }
+  @media only screen and (max-width: 1500px) {
+    .grid
+    {
+     margin-left: auto;
+     margin-right: auto;
+     display: grid;
+     grid-template-columns: repeat(3,300px);  /* 3 columns */
+     grid-template-rows: repeat(2,320px); /* 3 rows  */
+     grid-gap:25px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+   }
+}
   .service:hover{
       border-color: #006FFF ;
       -webkit-box-shadow: 0px 0px 65px -9px rgba(0,111,255,0.55);

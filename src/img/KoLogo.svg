@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="master-artboard" viewBox="0 0 171.75010681152344 36.500118255615234" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style="enable-background:new 0 0 1400 980;" width="171.75010681152344px" height="36.500118255615234px"><rect id="ee-background" x="0" y="0" width="171.75010681152344" height="36.500118255615234" style="fill: white; fill-opacity: 0; pointer-events: none;"/><defs><clipPath id="clip-Logo-Kosovaoutsource">
+      <path d="M 0 0 H 1920 V 1080 H 0 V 0 Z"/>
+    </clipPath></defs><g transform="matrix(0.7291666865348816, 0, 0, 0.7291666865348816, -606.6874380111694, -377.6249694824219)"><g id="Logo-Kosovaoutsource" clip-path="url(#clip-Logo-Kosovaoutsource)">
+    <path d="M 0 0 H 1920 V 1080 H 0 V 0 Z" fill="none"/>
+    <text id="KosovaOutsource." transform="translate(869 549)" fill="#030303" stroke="#030303" stroke-width="1" font-size="25" font-family="Ubuntu-Light, Ubuntu" font-weight="300" style="fill: rgb(3, 3, 3); stroke: rgb(3, 3, 3); stroke-width: 1; font-size: 25px; font-family: Ubuntu-Light, Ubuntu; font-weight: 300; white-space: pre;"><tspan x="0" y="0">KosovaOutsource.</tspan></text>
+    <g id="Path_86" data-name="Path 86" transform="translate(852.387 529)" fill="#030303">
+      <path d="M 0.5000003576278687 14.347825050354 L 0.5000003576278687 0.5000035166740417 L 13.85326290130615 0.5000035166740417 L 0.5000003576278687 14.347825050354 Z" stroke="none"/>
+      <path d="M 1 1.000003814697266 L 1 13.10898685455322 L 12.6765251159668 1.000003814697266 L 1 1.000003814697266 M 0 3.814697265625e-06 L 15.03000068664551 3.814697265625e-06 L 0 15.58666324615479 L 0 3.814697265625e-06 Z" stroke="none" fill="#030303"/>
+    </g>
+    <g id="Path_87" data-name="Path 87" transform="translate(848 535.608)" fill="#030303">
+      <path d="M 14.84999942779541 15.13005828857422 L 1.191833257675171 15.13005828857422 L 14.84999942779541 1.222699165344238 L 14.84999942779541 15.13005828857422 Z" stroke="none"/>
+      <path d="M 14.34999942779541 2.445420265197754 L 2.383687019348145 14.63005828857422 L 14.34999942779541 14.63005828857422 L 14.34999942779541 2.445420265197754 M 15.34999942779541 -1.9073486328125e-06 L 15.34999942779541 15.63005828857422 L 0 15.63005828857422 L 15.34999942779541 -1.9073486328125e-06 Z" stroke="none" fill="#030303"/>
+    </g>
+  </g></g></svg>

@@ -20,6 +20,33 @@
     font-size: 25px;
 
 }
+.Logo-kosovaoutsource{
+    filter: invert(100%);
+    width: 250px;
+}
+@media only screen and (max-width: 900px) {
+    .navbar{
+        width: 90%;
+    }
+    .navbar__icon{
+        width: 40%;
+        }
+        
+    .navbar__menu{
+        width: 100% !important;
+ 
+    }
+}
+@media only screen and (max-width: 1260px) {
+    .navbar__icon{
+        width: 25%;
+    }
+    .navbar__menu{
+        width: 100%;
+ 
+    }
+}
+
 /* ================================================================= */
 .navbar__menu{
     margin-top: 30px;
@@ -29,13 +56,13 @@
 }
 .navbar__menu--item{
     justify-content: flex-start;
-    width: 85%;
+    width: 90%;
 }
 .navbar__menu--icon{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    width: 15%;
+    width: 10%;
 }
 .nav-links{
     display: flex;

@@ -5,7 +5,7 @@ import workLogo3 from './../../img/galery3.png';
 import workLogo4 from './../../img/galery4.png';
 import workLogo5 from './../../img/galery5.png';
 import workLogo6 from './../../img/galery6.png';
-import './WorkSection.css';
+import './SectionH5.css';
 
 function Software() {
     return (

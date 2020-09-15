@@ -7,7 +7,7 @@ import DashboardOutlinedIcon from '@material-ui/icons/DashboardOutlined';
 import PhoneIphoneOutlinedIcon from '@material-ui/icons/PhoneIphoneOutlined';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
-import "./Services.css";
+import "./SectionH2.css";
 
 export class Services extends Component {
   state = {

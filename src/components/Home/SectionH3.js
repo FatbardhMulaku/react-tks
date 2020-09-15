@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Teknologies.css";
+import "./SectionH3.css";
 
 function Teknologies() {
     return (
