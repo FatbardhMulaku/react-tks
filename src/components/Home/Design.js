@@ -26,7 +26,7 @@ function Design() {
                 <div className="Wtext">View Project</div>
             </div>
             </div>
-
+  
             <div className="containeri" data-aos="zoom-in" data-aos-duration="2000"  data-aos-once="false">
                  <img src={workLogo5} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
                  <div className="middle">
