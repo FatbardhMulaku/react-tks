@@ -26,6 +26,13 @@
     align-items: center;
     flex-direction: column;
 }
+.cinfo1:hover{
+    border-color: #676869 ;
+    -webkit-box-shadow: 0px 0px 65px -9px rgba(92, 93, 94, 0.55);
+    -moz-box-shadow: 0px 0px 65px -9px rgba(92, 93, 94,0.55);
+    box-shadow: 0px 0px 65px -9px rgba(92, 93, 94,0.55);
+    transform: scale(1.05);
+}
 .cinfo1 h2{
     color: #006FFF;
 }

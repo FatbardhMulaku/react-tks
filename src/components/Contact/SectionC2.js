@@ -10,7 +10,7 @@ export default function SectionC2() {
     return (
         <div className="SectionC2">
             <h1>Get in touch us</h1>
-            <div className="cInfo__contact">
+            <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="cInfo__contact">
                 <div className="cinfo1">
                     <h2>Phone</h2>
                     <p><AiFillPhone className="contact__icons"/> +3834445400400</p>
