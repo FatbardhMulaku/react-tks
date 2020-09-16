@@ -1,7 +1,7 @@
 .SectionC1{
     width: 99vw;
     height: 50vh;
-    background-image:linear-gradient(to right , rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(./../../assets/contact/contact.png);
+    background-image:linear-gradient(to right , rgba(74, 181, 252, 0.7), rgba(74, 181, 252, 0.7)), url(./../../assets/contact/contact.png);
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;

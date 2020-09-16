@@ -1,13 +1,14 @@
 .SectionC2{
     margin-top: 50px;
     width: 60%;
-    height: 55vh;
+    height: 45vh;
     margin-left: auto;
     margin-right: auto;
 }
 .SectionC2 h1{
     font-size: 40px;
     font-weight: 600;
+    text-align: center;
 }
 
 .cInfo__contact{

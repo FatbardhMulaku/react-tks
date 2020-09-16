@@ -25,7 +25,7 @@ export default function About() {
                 </div>
                 <img src={AboutLogo1} className="aboutLogo1" alt="AboutLogo1"/>
                 <div data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom" className="aboutText1">
+     data-aos-anchor-placement="center-bottom" className="aboutText2">
                      <h1>We promote integrity</h1>
                      <p>
                          We are independent which further fosters our values

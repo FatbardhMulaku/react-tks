@@ -1,3 +1,6 @@
+:root {
+    --content-background-color: white !important;
+  }
 .services{
     width: 75%;
     display: flex;
@@ -51,8 +54,12 @@
     padding:50px;
   }
   .service-icon{
+    transform: translateX(45%);
     background-color: #006FFF;
     color: white !important;
+    margin-left: 38%;
+    margin-right: auto;
+    text-align: center;
     font-size: 2.5rem;
     padding: 5px 15px;
     margin-top: 30px;
@@ -61,6 +68,10 @@
 .service-title{
     font-size: 23px;
     font-weight: bold;
+    text-align: center;
+}
+.slideri{
+    background-color: white !important;
 }
 .service-info{
     color: #C1C1C1;
@@ -69,7 +80,7 @@
     color: white;
 }
 .awssld__content{
-    background-color: white !important;
+    background-color: #fff ;
 }
 .awssld__bullets--active{
     background-color: #006FFF !important;

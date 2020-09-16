@@ -51,15 +51,12 @@ export class Services extends Component {
     ],
   };
   render() {
-      const eBardh = {
-          backgroundColor: 'white'
-      };
     return (
       <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="services">
           <h1>Explore what we offer</h1>
 
          
-  <AwesomeSlider organicArrows={false} cssModule={{eBardh}} className="slideri">
+  <AwesomeSlider organicArrows={false} cssModule={{backgroundColor:'#fff'}} className="slideri">
     <div> <div className="grid" >
             {this.state.services.map((item, index) => {
               return (

@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import './BannerB.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export class BannerB extends Component {
+  componentDidMount(){
+    AOS.init({
+      offset: 400,
+      easing: 'ease',
+      duration : 2000
+    });
+  }
+
     render() {
         return (
             <div className="bannerBlog">

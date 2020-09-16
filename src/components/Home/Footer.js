@@ -17,11 +17,10 @@ function Footer() {
     }
     return (
         <div className="footer">
-            <div 
-                className="sub-footer"> 
+            <div  className="sub-footer"> 
                 <img src={FooterLogo} alt="footer" className="img-footeri"/>
                 <div className="subscribe-c">
-    <h1>{t('footer.subscribe')}</h1>
+                     <h1>{t('footer.subscribe')}</h1>
                 <input type='text' placeholder="Enter your email adress"/><button className="footer-btn">Subscribe</button>
                 </div>
             </div>

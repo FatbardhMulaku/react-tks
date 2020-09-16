@@ -7,13 +7,13 @@
 }
 /* ======================== pjesa e banerit me text ========================================= */
 .banner__textBlog{
-    margin-top: 10%;
+    margin-top: 13%;
     width: 45%;
     color: white;
     text-align: left;
 }
 .banner__textBlog h1{
-    font-size: 45px;
+    font-size: 48px;
     width: 80%;
 }
 .banner__textBlog p {
