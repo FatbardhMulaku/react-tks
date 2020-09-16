@@ -9,12 +9,12 @@ export class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-        <div data-aos="fade-down-right" className="navbar__icon">
+        <div className="navbar__icon">
           <Link to="/" className="navbar__icon--main">
             <img src={Logo} alt="logo" className="Logo-kosovaoutsource"/>
           </Link>
         </div>
-        <div data-aos="fade-down-left" className="navbar__menu">
+        <div className="navbar__menu">
           <div className="navbar__menu--item">
             <ul className="nav-links">
               <li>
