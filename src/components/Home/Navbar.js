@@ -27,7 +27,7 @@ export class Navbar extends Component {
                 <Link to="/">Industries</Link>
               </li>
               <li>
-                <Link to="/">Case studies</Link>
+                <Link to="/CaseStudies">Case studies</Link>
               </li>
               <li>
                 <Link to="/Blog">Blog</Link>

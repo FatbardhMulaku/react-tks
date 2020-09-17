@@ -1,0 +1,96 @@
+.SectionCS3{
+    margin-top: 20px;
+    height: 80Vh;
+    width: 100%;
+    background-image:linear-gradient(to right , rgba(255, 255, 255, 0.644), rgba(255, 255, 255, 0.644)), url(./../../assets/CaseStudies/bannerCS3.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.SectionCS3__container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+.SectionCS3__Left{
+    width: 50%;
+    padding: 30px 20px;
+}
+.SectionCS3__Left-img1{
+    background-image: url(./../../assets/CaseStudies/fotoCS1.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 70%;
+    height: 35vh;
+    transform: translate(5%, 27%);
+    border-radius: 20px;
+}
+.SectionCS3__Left-img2{
+    background-image: url(./../../assets/CaseStudies/fotoCS2.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 55%;
+    height: 25vh;
+    transform: translateY(27%);
+    border-radius: 20px;
+}
+.SectionCS3__Left-img3{
+    background-image: url(./../../assets/CaseStudies/fotoCS3.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 35%;
+    height: 15vh;
+    transform: translate(170%, -80%);
+    border-radius: 20px;
+    
+}
+/* ================================== */
+.SectionCS3__Right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SectionCS3__RightC h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+.SectionCS3__RightC p{
+    font-size: 19px;
+    color: #686868;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.SectionCS3__RightC a{
+    transform: translateY(30%);
+    text-decoration: none;
+    color: white;
+    border: 1px solid #006FFF;
+    background-color: #006FFF;
+    border-radius: 20px;
+    padding: 12px 45px;
+}
+.SectionCS3__RightC a:hover{
+    color: #006FFF;
+    border: 1px solid #006FFF;
+    background-color: transparent;
+}
+.SectionCS3__RightC{
+    height: 50%;
+    padding:20px 50px;
+    text-align: left !important;
+}

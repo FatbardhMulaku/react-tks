@@ -1,0 +1,48 @@
+.SectionCS2{
+    margin-top: 70px;
+    height: 90Vh;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+.SectionCS2Left{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+}
+.SectionCS2Left h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.SectionCS2Left p{
+    font-size: 18px;
+    color: #a19f9f;
+}
+.SectionCS2 a{
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #006FFF;
+    background-color: #006FFF;
+    border-radius: 20px;
+    padding: 12px 45px;
+}
+.SectionCS2 a:hover{
+    color: #006FFF;
+    border: 1px solid #006FFF;
+    background-color: transparent;
+}
+/* ========================================= */
+.SectionCS2Right{
+    width: 40%;
+    height: 80%;
+    margin: 90px 90px;
+    background-image: url(./../../assets/CaseStudies/section1CS.png);
+}
