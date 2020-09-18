@@ -1,0 +1,31 @@
+{
+  "mainMenu": [
+    {
+      "link": "",
+      "name": "home"
+    },
+    {
+      "link": "service",
+      "name": "services"
+    },
+    {
+      "link": "about",
+      "name": "about us"
+    },
+    {
+      "link": "career",
+      "name": "career"
+    },
+    {
+      "link": "blog",
+      "name": "blog"
+    },
+    {
+      "link": "contact",
+      "name": "contact us"
+    }
+  ],
+  "footer": {
+    "subscribe": "Subscribe to our newsletter!!"
+  }
+}
