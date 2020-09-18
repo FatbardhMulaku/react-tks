@@ -36,3 +36,10 @@ code {
   border-bottom: 5px solid #fff !important;
   border-top: 0 !important;
 }
+.col_black {
+  color: black;
+}
+
+.col_white {
+  color: white;
+}

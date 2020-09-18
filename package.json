@@ -12,6 +12,7 @@
     "add": "^2.0.6",
     "aos": "^2.3.4",
     "bootstrap": "^4.5.2",
+    "framer-motion": "^2.6.15",
     "i18next": "^19.7.0",
     "i18next-browser-languagedetector": "^6.0.1",
     "i18next-http-backend": "^1.0.20",
@@ -30,6 +31,7 @@
     "react-swipeable-views": "^0.13.9",
     "react-tabs": "^3.1.1",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.0",
     "yarn": "^1.22.5"
   },
   "scripts": {

@@ -1,15 +1,15 @@
-import React, { useState, Fragment } from "react";
+import React, { Fragment } from "react";
 import Toolbar from "./Navigation/Toolbar";
 import MobileMenu from "./MobileMenu/MobileMenu";
+import { useToggle } from "../../Hooks/useToggle";
 
 const Header = () => {
-  const [isToggled, setToggled] = useState(false);
-  const toggleTrueFalse = () => setToggled(!isToggled);
+  const [isToggled, setToggled] = useToggle(false);
 
   return (
     <Fragment>
-      <Toolbar drawerToggle={toggleTrueFalse} />
-      <MobileMenu drawerToggle={toggleTrueFalse} isToggled={isToggled} />
+      <Toolbar drawerToggle={setToggled} />
+      <MobileMenu drawerToggle={setToggled} isToggled={isToggled} />
     </Fragment>
   );
 };
