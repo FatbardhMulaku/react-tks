@@ -1,0 +1,51 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 4px 15px !important;
+  font-size: 17px !important;
+  font-family: "Source Sans Pro", sans-serif !important;
+  text-transform: capitalize;
+  text-decoration: none !important;
+  transition: all 0.35s ease-in;
+  line-height: 20px !important;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.button:after {
+  display: block;
+  content: "";
+  border-bottom: 2px solid #006fff;
+  transform: scaleX(0);
+  transition: transform 0.5s ease-in-out;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.a_black {
+  color: #000;
+}
+.a_white {
+  color: white !important;
+}
+.button:hover:after,
+.button.active:after,
+.a_black:hover:after,
+.a_black.active:after {
+  transform: scaleX(1);
+}
+.button:hover,
+.button:focus,
+.button.active {
+  color: white;
+  outline: none;
+}
+.a_black:hover,
+.button:focus,
+.a_black.active {
+  color: black;
+  outline: none;
+}

@@ -1,9 +1,8 @@
-.DrawerToggle {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
 @media (max-width: 1200px) {
+  .searchIcon {
+    float: right;
+    margin-left: auto;
+  }
   .DesktopOnly {
     display: none;
   }

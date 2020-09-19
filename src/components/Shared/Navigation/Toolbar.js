@@ -9,13 +9,14 @@ import "./Toolbar.css";
 import SearchIcon from "../../UI/SearchIcon/SearchIcon";
 import SearchInput from "../../UI/Input/Search/Search";
 import { useToggle } from "../../../Hooks/useToggle";
+
 const useStyles = makeStyles({
   appBar: {
     display: "flex",
     justifyContent: "space-between",
     padding: "5px",
     alignItems: "center",
-    paddingTop: "15px",
+    paddingTop: "12px",
   },
   fullList: {
     width: "auto",
@@ -24,7 +25,7 @@ const useStyles = makeStyles({
     boxShadow: "none ",
     backgroundColor: "transparent ",
     transition: "all 0.7s ease-out",
-    padding: "0 0 15px",
+    padding: "0 0 18px",
     top: "auto !important",
   },
   box2: {
@@ -32,7 +33,7 @@ const useStyles = makeStyles({
       "0px 3px 5px -1px #00000033, 0px 6px 10px 0px #00000024, 0px 1px 18px 0px #0000001f ",
     backgroundColor: "#fff !important ",
     transition: "all 0.7s ease-in",
-    padding: "0 0 10px",
+    padding: "0 0 8px",
     top: "auto !important",
   },
 });
@@ -56,7 +57,7 @@ const Toolbar = (props) => {
         <div className="DesktopOnly col_black">
           <NavList />
         </div>
-        <div className="DesktopOnly">
+        <div className="searchIcon">
           <SearchIcon toggleSearch={setisSearch} isSearch={isSearch} />
         </div>
         <div className="DrawerToggle">
