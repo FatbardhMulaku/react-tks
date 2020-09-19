@@ -21,7 +21,103 @@
       "name": "contact us"
     }
   ],
+
+  "footerMenu": [
+    {
+      "title": "Company",
+      "items": [
+        {
+          "link": "/",
+          "name": "home"
+        },
+        {
+          "link": "/service",
+          "name": "service"
+        },
+        {
+          "link": "/career",
+          "name": "career"
+        },
+        {
+          "link": "/blog",
+          "name": "blog"
+        },
+        {
+          "link": "/about",
+          "name": "about us"
+        }
+      ]
+    },
+    {
+      "title": "About",
+      "items": [
+        {
+          "link": "/team",
+          "name": "team"
+        },
+        {
+          "link": "/contact",
+          "name": "Contact us"
+        },
+        {
+          "link": "/company",
+          "name": "company"
+        },
+        {
+          "link": "/news",
+          "name": "news"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "items": [
+        {
+          "link": "/software-development",
+          "name": "Software development"
+        },
+        {
+          "link": "/callaboration",
+          "name": "Callaboration"
+        },
+        {
+          "link": "/nerwork-infrastructure",
+          "name": "Nerwork infrastructure"
+        },
+        {
+          "link": "/administration",
+          "name": "Administration"
+        },
+        {
+          "link": "/managment-services",
+          "name": "It managment services"
+        }
+      ]
+    },
+    {
+      "title": "Help Center",
+      "items": [
+        {
+          "link": "/team-services",
+          "name": "Team of services"
+        },
+        {
+          "link": "/privacy-policy",
+          "name": "Privacy policy"
+        },
+        {
+          "link": "/security",
+          "name": "Security"
+        },
+        {
+          "link": "/faq",
+          "name": "FAQs"
+        }
+      ]
+    }
+  ],
   "footer": {
     "subscribe": "Subscribe to our newsletter!!"
-  }
+  },
+  "alRight": "2020 All rights are reserved by"
 }

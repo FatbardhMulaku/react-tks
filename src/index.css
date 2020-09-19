@@ -5,8 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -20,7 +23,6 @@ code {
 }
 .flag-select__options {
   bottom: 45px !important;
-  right: 2px !important;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -31,10 +33,17 @@ code {
 }
 .flag-select__btn {
   color: white !important;
+  padding-left: 0 !important;
 }
 .flag-select__btn:after {
   border-bottom: 5px solid #fff !important;
   border-top: 0 !important;
+}
+.flag-select__btn span > span {
+  color: white;
+}
+.flag-select__option__label {
+  color: black;
 }
 .col_black {
   color: black;

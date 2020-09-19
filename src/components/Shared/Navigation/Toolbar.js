@@ -53,7 +53,10 @@ const Toolbar = (props) => {
     <AppBar color="inherit" className={trigger ? classes.box2 : classes.box1}>
       <SearchInput isSearch={isSearch} />
       <Container maxWidth="lg" className={classes.appBar}>
-        <Logo />
+        <Logo
+          logo={trigger ? "black_logo" : "white_logo"}
+          text={trigger ? "col_black" : "col_white"}
+        />
         <div className="DesktopOnly col_black">
           <NavList />
         </div>
