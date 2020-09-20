@@ -239,7 +239,10 @@ export class SectionB3 extends Component {
                 </div>
               </div>
             </AwesomeSlider>
+<<<<<<< HEAD
            
+=======
+>>>>>>> f2b447c7be75654fe40da63147f7bf3996eb834c
           </div>
         </div>
       </div>

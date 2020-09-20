@@ -1,5 +1,9 @@
 .hero {
+<<<<<<< HEAD
   width: 99vw;
+=======
+  width: 100vw;
+>>>>>>> f2b447c7be75654fe40da63147f7bf3996eb834c
   height: 100vh;
   background-image: linear-gradient(
       to right,

@@ -31,7 +31,11 @@ export class BannerB extends Component {
             <Link to="/" className="banner-btnBlog">
               Learn More
             </Link>
+<<<<<<< HEAD
           </div>  
+=======
+          </div>
+>>>>>>> f2b447c7be75654fe40da63147f7bf3996eb834c
         </div>
         <div
           data-aos="fade-left"
