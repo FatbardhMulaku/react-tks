@@ -9,13 +9,8 @@
       "name": "about us"
     },
     {
-<<<<<<< HEAD
       "link": "Case-studies",
       "name": "Case Studies"
-=======
-      "link": "career",
-      "name": "career"
->>>>>>> f2b447c7be75654fe40da63147f7bf3996eb834c
     },
     {
       "link": "blog",

@@ -8,23 +8,14 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import YouTubeIcon from "@material-ui/icons/YouTube";
-<<<<<<< HEAD
 import KoLogo from '../../../assets/images/logoLight.svg'
 import ReactFlagsSelect from 'react-flags-select';      
 import 'react-flags-select/css/react-flags-select.css';
-=======
->>>>>>> f2b447c7be75654fe40da63147f7bf3996eb834c
 
 function Footer() {
   const { t, i18n } = useTranslation();
 
-<<<<<<< HEAD
 
-=======
-  function handleClick(Lang) {
-    i18n.changeLanguage(Lang);
-  }
->>>>>>> f2b447c7be75654fe40da63147f7bf3996eb834c
   return (
     <div className="footer">
       <div className="sub-footer">
@@ -37,7 +28,6 @@ function Footer() {
       </div>
       {/* Subscribe to our newsletter!! */}
       <div className="down-footer">
-<<<<<<< HEAD
           <div className="down-footer-loc">
             <div><h2><img src={KoLogo} alt="logo"/>KosovaOutsource</h2>
               <p>Location-Prishtina, Kosova</p>
@@ -120,87 +110,6 @@ function Footer() {
               </Link>
             </div>
           </div>
-=======
-        <div className="down-footer-loc">
-          <h2>KosovaOutsource</h2>
-          <p>Location-Prishtina, Kosova</p>
-          <p>Rr,St-Sinan Gashi</p>
-          <p>Zip Code 10000</p>
-          <p>+383 45400400</p>
-
-          <button onClick={() => handleClick("en")}>English</button>
-          <button onClick={() => handleClick("de")}>German</button>
-          <button onClick={() => handleClick("al")}>Albanian</button>
-        </div>
-        <div className="down-footer-link">
-          <div className="down-footer-link-c c1">
-            <h5>Company</h5>
-            <Link to="/" className="footer-link">
-              Home{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              Service{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              Career{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              Blog{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              About us{" "}
-            </Link>
-          </div>
-          <div className="down-footer-link-c c2">
-            <h5>About</h5>
-            <Link to="/" className="footer-link">
-              Team{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              Faq{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              Contact us{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              Company{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              News{" "}
-            </Link>
-          </div>
-          <div className="down-footer-link-c c3">
-            <h5>Services</h5>
-            <Link to="/" className="footer-link">
-              Software development{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              Callaboration{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              Nerwork infrastructure{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              Administration{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              It managment services
-            </Link>
-          </div>
-          <div className="down-footer-link-c c4">
-            <h5>Help Center</h5>
-            <Link to="/" className="footer-link">
-              Team of services{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              Privacy policy{" "}
-            </Link>
-            <Link to="/" className="footer-link">
-              security{" "}
-            </Link>
-          </div>
-        </div>
->>>>>>> f2b447c7be75654fe40da63147f7bf3996eb834c
       </div>
 
       <div className="footer-fund">
