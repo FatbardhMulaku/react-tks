@@ -1,0 +1,30 @@
+.logo {
+  display: flex;
+  margin: 0;
+  text-decoration: none;
+}
+.white_logo {
+  background-image: url("../../../assets/images/logoLight.svg");
+}
+.black_logo {
+  background-image: url("../../../assets/images/logoDark.svg");
+}
+.img_logo {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logo-name {
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding-left: 5px;
+  font-size: 26px;
+  line-height: 30px;
+}
+.logo:hover {
+  text-decoration: none !important;
+}

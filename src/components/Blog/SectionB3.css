@@ -24,7 +24,6 @@
 }
 .SectionB3__title-btn {
     width: 50%;
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -65,7 +64,6 @@
 .slideriB3 {
     background-color: #f0f0f0 !important;
 }
-    
 .boxB3 {
 		background-color: #444;
 		color: #fff;
@@ -162,4 +160,106 @@
 }
 .boxB3b__content{
     margin-top: 250px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .SectionB3{
+        height: 120vh;
+    }
+    .SectionB3__wrapper {
+        width :100%;
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #f0f0f0 !important;
+    }
+    .slideriB3{
+        margin-top: 0px !important;
+    }
+    .SectionB3__wrapper_c{
+        margin-top: 0px !important;
+    }
+    .B3a p, .B3b p, .B3c p, .B3d p, .B3e p{
+        font-size: 16px;
+    }
+    .boxB3 {
+		background-color: #444;
+		color: #fff;
+		border-radius: 5px;
+		padding: 20px;
+        font-size: 100%;
+        height: 270px;
+        width: 340px;
+        border-radius: 20px;
+        cursor: pointer;
+}
+    .boxB3b {
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 100%;
+        height: 270px;
+        width: 340px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .boxB3__content{
+        margin-top: 150px;
+    }
+    .boxB3b__content{
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .SectionB3{
+        height: 200vh;
+    }
+    .SectionB3__wrapper {
+        width :100%;
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #f0f0f0 !important;
+    }
+    .slideriB3{
+        margin-top: 0px !important;
+    }
+    .SectionB3__wrapper_c{
+        margin-top: 0px !important;
+    }
+    .B3a p, .B3b p, .B3c p, .B3d p, .B3e p{
+        font-size: 14px;
+    }
+    .boxB3 {
+		background-color: #444;
+		color: #fff;
+		border-radius: 5px;
+		padding: 20px;
+        font-size: 100%;
+        height: 270px;
+        width: 350px;
+        border-radius: 20px;
+        cursor: pointer;
+}
+    .boxB3b {
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 100%;
+        height: 270px;
+        width: 350px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .boxB3__content{
+        margin-top: 150px;
+    }
+    .boxB3b__content{
+        margin-top: 150px;
+    }
 }

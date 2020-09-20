@@ -82,3 +82,21 @@ font-weight: 600;
     background-size: cover;
     background-position:center;
 }
+@media only screen and (max-width: 800px) {
+    .logo-java, .logo-html, .logo-react, .logo-wordpress, .logo-php{
+        height: 80px;
+    }
+    .teknologies h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    }
+    .teknologies__logos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

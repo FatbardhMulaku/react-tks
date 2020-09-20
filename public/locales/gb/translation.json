@@ -1,0 +1,27 @@
+{
+  "mainMenu": [
+    {
+      "link": "",
+      "name": "home"
+    },
+    {
+      "link": "about",
+      "name": "about us"
+    },
+    {
+      "link": "Case-studies",
+      "name": "Case Studies"
+    },
+    {
+      "link": "blog",
+      "name": "blog"
+    },
+    {
+      "link": "contact",
+      "name": "contact us"
+    }
+  ],
+  "footer": {
+    "subscribe": "Subscribe to our newsletter!!"
+  }
+}

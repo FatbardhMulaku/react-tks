@@ -4,6 +4,7 @@
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 /* ======================== pjesa e banerit me text ========================================= */
 .banner__textBlog{
@@ -37,20 +38,15 @@
     background-color: transparent;
     border-radius: 50px;
 }
-@media only screen and (max-width: 900px) {
-    .banner__textBlog h1{
-        font-size: 28px;
-        width: 80%;
-    }
 
-}
 
-@media only screen and (max-width: 1260px) {
+/* @media only screen and (max-width: 1260px) {
     .banner__textBlog h1{
         font-size: 38px;
         width: 80%;
     }
-}
+} */
+
 /* ======================== pjesa e banerit me foto ========================================= */
 .banner__imgBlog{
     margin-top: 5%;
@@ -126,4 +122,59 @@
         animation: swing 1s ease;
         -webkit-animation-iteration-count: 1;
         animation-iteration-count: 1;
+}
+
+@media only screen and (max-width: 750px) {
+    .banner__textBlog h1{
+        font-size: 28px;
+        width: 100%;
+    }.bannerBlog{
+        height: 110vh;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .banner__textBlog{
+        width: 85%;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .banner__textBlog p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div-banner-btnBlog{
+        margin-top: 4vh;
+    }
+    .banner__imgBlog{
+        width: 85vw !important;
+        margin-top: -10px;
+    }
+    /* ===================== */
+    .banner__imgBlogRight{
+        width: 50%;
+        height: 55vh;
+    }
+    .banner-img1Blog{
+        margin: 10px !important;
+        width: 40vw;
+        height: 35vh;
+    }
+    .banner-img3Blog{
+        width: 25vw;
+        height: 280px;
+        margin-bottom: 0px;
+        margin-left: 1vw;
+    }
+    .banner-img4Blog{
+        margin-top: 12vh;
+        width: 17vw;
+        height: 12vw;
+        margin-left: 3vw;
+    }
 }

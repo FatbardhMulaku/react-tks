@@ -1,0 +1,14 @@
+@media (max-width: 1200px) {
+  .searchIcon {
+    float: right;
+    margin-left: auto;
+  }
+  .DesktopOnly {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .DrawerToggle {
+    display: none;
+  }
+}

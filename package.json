@@ -11,6 +11,8 @@
     "@testing-library/user-event": "^7.2.1",
     "add": "^2.0.6",
     "aos": "^2.3.4",
+    "bootstrap": "^4.5.2",
+    "framer-motion": "^2.6.15",
     "i18next": "^19.7.0",
     "i18next-browser-languagedetector": "^6.0.1",
     "i18next-http-backend": "^1.0.20",
@@ -18,6 +20,7 @@
     "react": "^16.13.1",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.13.1",
+    "react-flags-select": "^1.1.13",
     "react-i18next": "^11.7.2",
     "react-icons": "^3.11.0",
     "react-parallax": "^3.0.3",
@@ -28,6 +31,7 @@
     "react-swipeable-views": "^0.13.9",
     "react-tabs": "^3.1.1",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.0",
     "yarn": "^1.22.5"
   },
   "scripts": {
