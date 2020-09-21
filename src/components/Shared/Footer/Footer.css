@@ -357,7 +357,7 @@ color: white;
     }
     .footer-icon-label{
         padding: 2px 10px !important;
-        width: 85px;
+        width: 75px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -470,6 +470,7 @@ color: white;
     }
     .footer-icon-label {
         padding: 0;
+        width: 75px;
         flex-wrap: wrap;
     }
     .ikonaFooter{
