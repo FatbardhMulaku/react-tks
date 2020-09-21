@@ -51,6 +51,34 @@
     margin-top: 70px;
 }
 /* ======================================================================= */
+@media only screen and (max-width: 800px) {
+    .team-c{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+    .team__left{
+        width: 100%;
+        text-align: center;
+    }
+    .team__left h1{
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+    }
+    .team__left p{
+        width: 100%;
+        font-size: 20px;
+        text-align: center !important;
+    }
+    .team__Right{
+        width: 100% !important;
+    }
+}
+
 .team__Right{
     width: 49%;
     display: flex;

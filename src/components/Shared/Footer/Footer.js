@@ -15,14 +15,14 @@ function Footer(props) {
   return (
     <div className="footer">
       <div className="container-fluid px-5 py-3">
-        {/* <div className="sub-footer ">
-        <img src={FooterLogo} alt="footer" className="img-footeri" />
-        <div className="subscribe-c">
-          <h1>{t("footer.subscribe")}</h1>
-          <input type="text" placeholder="Enter your email adress" />
-          <button className="footer-btn">Subscribe</button>
+        <div className="sub-footer ">
+          <img src={FooterLogo} alt="footer" className="img-footeri" />
+          <div className="subscribe-c">
+            <h1>{t("footer.subscribe")}</h1>
+            <input type="text" placeholder="Enter your email adress" />
+            <button className="footer-btn">Subscribe</button>
+          </div>
         </div>
-      </div> */}
 
         <div className="row">
           <div className="col-md-12 col-lg-5 footer-logo">

@@ -5,7 +5,7 @@ import Development from './Development';
 import Design from './Design';
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = {
+const styles = theme =>   ({
     butone: {
       border: '1px solid #d9d9d9',
       padding: '30px 50px',
@@ -18,6 +18,9 @@ const styles = {
       fontSize: '14px',
       borderRadius: '10px',
       cursor: 'pointer',
+      [theme.breakpoints.down('md')]: {
+            padding: '15px 25px',
+      },
       '&:hover': { backgroundColor: '#006FFF',
                     color: 'white',
      },
@@ -40,7 +43,7 @@ const styles = {
         padding: '5px 20px',
     }
 
-  };
+});
 
 export class WorkSection extends Component {
     constructor(){

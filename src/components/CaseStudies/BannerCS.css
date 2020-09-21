@@ -38,3 +38,16 @@
     color: white;
     border-color: #006FFF ;
 }
+@media only screen and (max-width: 750px) {
+    .BannerCS h1{
+        font-size: 45px;
+        margin: 10px;
+    }
+    .BannerCS p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 1250px) {
+    
+}

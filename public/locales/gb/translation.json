@@ -5,6 +5,10 @@
       "name": "home"
     },
     {
+      "link": "Case-studies",
+      "name": "Case Studies"
+    },
+    {
       "link": "blog",
       "name": "blog"
     },

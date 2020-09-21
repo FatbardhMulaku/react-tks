@@ -94,3 +94,88 @@
     padding:20px 50px;
     text-align: left !important;
 }
+@media only screen and (max-width: 750px) {
+    .SectionCS3{
+        height: 100Vh;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .SectionCS3__container{
+        height: 100Vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .SectionCS3__Left{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    .SectionCS3__RightC{
+        height: 50%;
+        text-align: left !important;
+        padding: 0px;
+        text-align: center;
+    }
+    .SectionCS3__Right{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .SectionCS3__RightC h1{
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .SectionCS3__RightC p{
+        font-size: 15px;
+        color: #686868;
+        font-weight: 600;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .BannerCS-btnCS3{
+        text-align: center !important;
+        display: flex;
+        align-items: center;
+        width: 25%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SectionCS3__Left-img1{
+        width: 70%;
+        height: 30vh;
+        transform: translate(15%, 27%);
+        border-radius: 20px;
+    }
+    .SectionCS3__Left-img2{
+        width: 55%;
+        height: 25vh;
+        transform: translateY(20%);
+        border-radius: 20px;
+    }
+    .SectionCS3__Left-img3{
+        background-image: url(./../../assets/CaseStudies/fotoCS3.png);
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        width: 35%;
+        height: 15vh;
+        transform: translate(170%, -100%);
+        border-radius: 20px;
+        
+    }
+}

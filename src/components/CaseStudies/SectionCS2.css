@@ -46,3 +46,30 @@
     margin: 90px 90px;
     background-image: url(./../../assets/CaseStudies/section1CS.png);
 }
+
+@media only screen and (max-width: 750px) {
+    .SectionCS2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .SectionCS2Left{
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SectionCS2Right{
+        width: 90%;
+        height: 80%;
+        margin: 90px 90px;
+        background-image: url(./../../assets/CaseStudies/section1CS.png);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
