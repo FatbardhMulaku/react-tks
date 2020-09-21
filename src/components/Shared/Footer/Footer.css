@@ -47,6 +47,7 @@
 .footer-bottom div {
   display: inline-flex;
   align-items: center;
+  justify-content: space-around;
 }
 .footer-bottom h6 {
   color: #fff;
