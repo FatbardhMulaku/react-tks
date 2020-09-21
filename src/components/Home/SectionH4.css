@@ -148,6 +148,13 @@
 .awssld__box, .awssld--active{
     margin: 0 !important;
 }
+.team__thojzat{
+    font-size: 40px !important; 
+    padding: 10px !important;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
 /* ================================ */
 .shigjeta-c{
     width: 40%;
@@ -190,5 +197,62 @@
     }
     100%{
         transform: scale(1);
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .team-c{
+        margin-top: 70px;
+    }
+    .team__left{
+        width: 100%;
+        text-align: center;
+    }
+    .team__left h1{
+        font-size: 27px;
+        width: 100%;
+        text-align: center;
+    }
+    .team__left p{
+        width: 100%;
+        font-size: 18px;
+        text-align: center !important;
+    }
+    .team-btn-container{
+        margin-top: 40px;
+    }
+    .team__Right{
+        width: 100% !important;
+    }
+    .team__Right1-con, .team__Right1-con2   {
+        padding: 10px;
+    }
+    .team__Right1-con h1, .team__Right1-con2 h1{
+        padding: 10px;
+        font-size: 23px;
+    }
+    .team__Right1-con p, .team__Right1-con2 p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .quotes{
+        padding: 5px;
+        border-radius: 50%;
+        background-color: #fff;
+        color: black;
+    }
+    .team__thojzat{
+        font-size: 30px !important; 
+        padding: 5px !important;
+    }
+    .shigjeta__icon{
+        padding: 0px 5px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+    }
+    .shigjeta-majt, .shigjeta-djatht{
+        margin:10px;
     }
 }

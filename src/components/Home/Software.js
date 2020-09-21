@@ -21,9 +21,9 @@ function Software() {
             <div className="containeri" data-aos="zoom-in" data-aos-duration="2000"  data-aos-once="false">
                  <img src={workLogo2} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
                  <div className="middle">
-                 <h2>Web Design</h2>
-                <div className="Wtext">View Project</div>
-            </div>
+                    <h2>Web Design</h2>
+                    <div className="Wtext">View Project</div>
+                </div>
             </div>
 
             <div className="containeri" data-aos="zoom-in" data-aos-duration="2000"  data-aos-once="false">

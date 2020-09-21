@@ -100,3 +100,24 @@ font-weight: 600;
         margin-bottom: 20px;
     }
 }
+@media only screen and (max-width: 500px) {
+    .teknologies{
+        width: 95%;
+    }
+    .logo-java, .logo-html, .logo-react, .logo-wordpress, .logo-php{
+        height: 80px;
+    }
+    .teknologies h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    }
+    .teknologies__logos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 24px;
+        margin-bottom: 20px;
+    }
+}

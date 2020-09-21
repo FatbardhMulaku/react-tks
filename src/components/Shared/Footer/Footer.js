@@ -8,7 +8,8 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import YouTubeIcon from "@material-ui/icons/YouTube";
-import KoLogo from '../../../assets/images/logoLight.svg'
+import KoLogo from '../../../assets/images/logoLight.svg';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import ReactFlagsSelect from 'react-flags-select';      
 import 'react-flags-select/css/react-flags-select.css';
 
@@ -29,7 +30,7 @@ function Footer() {
       {/* Subscribe to our newsletter!! */}
       <div className="down-footer">
           <div className="down-footer-loc">
-            <div><h2><img src={KoLogo} alt="logo"/>KosovaOutsource</h2>
+            <div className="footer--info"><h2><img src={KoLogo} alt="logo"/>KosovaOutsource</h2>
               <p>Location-Prishtina, Kosova</p>
               <p>Rr,St-Sinan Gashi</p>
               <p>Zip Code 10000</p>
@@ -132,9 +133,11 @@ function Footer() {
           <Link to="/" className="footer-icon-label">
             <FacebookIcon className="ikonaFooter" /> Facebook{" "}
           </Link>
-
           <Link to="/" className="footer-icon-label">
             <YouTubeIcon className="ikonaFooter" /> YouTube{" "}
+          </Link>
+          <Link to="/" className="footer-icon-label">
+            <GitHubIcon className="ikonaFooter" /> Github{" "}
           </Link>
         </div>
       </div>

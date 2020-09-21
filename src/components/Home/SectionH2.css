@@ -58,4 +58,20 @@
 .awssld__bullets--active{
     background-color: #006FFF !important;
 }
+@media only screen and (max-width: 500px) {
+    .services{ 
+        height: 250vh;
+        width: 95%;
+        margin-top: 40px;
 
+    } 
+    .services h1 {
+        padding: 0 1em;
+        margin: 20px 0px;
+        font-size: 24px !important;
+      }
+      .awssld{
+        height: 150vh !important;
+    }
+
+    }

@@ -63,3 +63,29 @@
         height: 200vh !important;
     }
 }
+@media only screen and (max-width: 500px) {
+    .service{
+        height: 252vh;
+        margin-top: 20px;
+        width: 250px;
+        height: 205px;
+        padding: 50px;
+         border-radius: 30px;
+        padding:40px 20px;
+    }
+    .SectionH2_wrapper{ 
+        height: 252vh;
+
+    } 
+    .awssld{
+        height: 252vh !important;
+    }
+    .service-icon{
+        transform: translateX(45%);
+        font-size: 2.5rem;
+        padding: 0px 15px;
+    }
+    .service-title{
+        font-size: 17px;
+    }
+}

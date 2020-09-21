@@ -21,6 +21,10 @@ const styles = theme =>   ({
       [theme.breakpoints.down('md')]: {
             padding: '15px 25px',
       },
+      [theme.breakpoints.down('sm')]: {
+        padding: '10px 20px',
+        fontSize: '13px',
+  },
       '&:hover': { backgroundColor: '#006FFF',
                     color: 'white',
      },

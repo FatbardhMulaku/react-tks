@@ -41,13 +41,7 @@ export class Team extends Component {
                     <hr/>
                     <p>Hi i am Lona project manager at KosovaOutsource, nice to
                     meet you</p>
-                    <FormatQuoteIcon style={{ 
-                        fontSize: 40, 
-                        padding: 10,
-                        color: 'black',
-                        backgroundColor: 'white',
-                        borderRadius: '50%',
-                        }}/>
+                    <FormatQuoteIcon className="team__thojzat" />
                 </div>
                 <div className="shigjeta-c">
                         <div className="shigjeta-majt">
@@ -69,13 +63,7 @@ export class Team extends Component {
                     <hr/>
                     <p>Hi i am Lona project manager at KosovaOutsource, nice to
                     meet you</p>
-                    <FormatQuoteIcon style={{ 
-                        fontSize: 40, 
-                        padding: 10,
-                        color: 'black',
-                        backgroundColor: 'white',
-                        borderRadius: '50%',
-                        }}/>
+                    <FormatQuoteIcon className="team__thojzat" />
                 </div>
             </div>
         </div>

@@ -171,3 +171,33 @@
         align-items: center;
     }
 }
+
+@media only screen and (max-width: 700px) {
+    .aboutText1, .aboutText2{
+        padding: 5px;
+        text-align: left;
+    }
+    .aboutText1 h1, .aboutText2 h1{
+        font-size: 25px;
+    }
+    .aboutText1 p, .aboutText2 p{
+        margin-left: 5%;
+    }
+    .div-about-btn{
+        margin-left: 10%;
+        margin-top: -20px;
+    }
+    .aboutText1 a, .aboutText2 a{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding: 8px 35px;
+        border-radius: 50px;
+    }
+    .aboutLogo1{
+        margin-top: 25px;
+    }
+    .aboutRight{
+        padding: 5px;
+        margin-top: 0px;
+    }
+}
