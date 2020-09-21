@@ -168,14 +168,59 @@
         border-radius: 20px;
     }
     .SectionCS3__Left-img3{
-        background-image: url(./../../assets/CaseStudies/fotoCS3.png);
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-        background-position: center !important;
         width: 35%;
         height: 15vh;
         transform: translate(170%, -100%);
         border-radius: 20px;
         
+    }
+}
+    @media only screen and (max-width: 500px) {
+        .SectionCS3{
+            height: 105Vh;
+        }
+        .SectionCS3__container{
+            height: 100Vh;
+            width: 98%;
+        }
+        .SectionCS3__RightC h1{
+            font-size: 22px;
+        }
+        .SectionCS3__RightC p{
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .BannerCS-btnCS3{
+            width: 33%;
+        }
+        .SectionCS3__RightC a{
+            padding: 10px 25px;
+        }
+        .SectionCS3__Left-img1{
+            width: 75%;
+            height: 27vh;
+        }
+        .SectionCS3__Left-img2{
+            width: 55%;
+            height: 21vh;
+        }
+        .SectionCS3__Left-img3{
+            width: 35%;
+            height: 15vh;
+            transform: translate(170%, -80%);
+            
+        }
+}
+@media only screen and (max-width: 376px) {
+    .SectionCS3{
+        height: 105Vh;
+        width: 100%;
+    }
+    .SectionCS3__container{
+        height: 100Vh;
+        width: 99%;
+    }
+    .SectionCS3__Right {
+        width: 96%;
     }
 }

@@ -152,13 +152,13 @@
         margin-top: 4vh;
     }
     .banner__imgBlog{
-        width: 85vw !important;
+        width: 90vw !important;
         margin-top: -10px;
     }
     /* ===================== */
     .banner__imgBlogRight{
         width: 50%;
-        height: 55vh;
+        height: 50vh;
     }
     .banner-img1Blog{
         margin: 10px !important;
@@ -175,6 +175,45 @@
         margin-top: 12vh;
         width: 17vw;
         height: 12vw;
+        margin-left: 3vw;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .bannerBlog {
+       /*  height: 110vh; */
+        width: 100%;
+    }
+    .banner__textBlog{
+        margin-top: 25%;
+    }
+    .banner__textBlog h1{
+        font-size: 23px;
+        margin-top: 0;
+    }
+    .banner__textBlog p {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .banner__textBlog a{
+        padding: 10px 35px;
+        border-radius: 50px;
+    }
+    .banner-img1Blog{
+        margin: 10px !important;
+        width: 40vw;
+        height: 30vh;
+    }
+    .banner-img3Blog{
+        width: 35vw;
+        height: 25vh;
+        margin-bottom: 0px;
+        margin-left: 1vw;
+    }
+    .banner-img4Blog{
+        margin-top: 5vh;
+        width: 23vw;
+        height: 17vw;
         margin-left: 3vw;
     }
 }

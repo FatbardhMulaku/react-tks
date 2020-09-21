@@ -10,3 +10,21 @@
     font-size: 55px;
     font-weight: 600;
 }
+@media only screen and (max-width: 900px) {
+ 
+    .BannerC h1{
+        color: white;
+        font-size: 45px;
+        font-weight: 600;
+        margin-top: 5%;
+        padding-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .BannerC h1{
+        color: white;
+        font-size: 35px;
+        font-weight: 600;
+    }
+}

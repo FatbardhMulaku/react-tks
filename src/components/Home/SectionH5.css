@@ -128,7 +128,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        height: 265vh;
+        height: 230vh;
     }
     .middle{
         font-size: 17px;
@@ -137,4 +137,14 @@
         font-size: 13px;
         padding: 10px 15px;
       }
+  }
+  @media only screen and (max-width: 376px) {
+    .WorkSection{
+        height: 255vh;
+    }
+  }
+  @media only screen and (max-width: 346px) {
+    .WorkSection{
+        height: 310vh;
+    }
   }

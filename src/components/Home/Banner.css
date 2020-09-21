@@ -252,3 +252,41 @@
         margin-top: 0px;
 }
 }
+@media only screen and (max-width: 380px) {
+    .banner{
+        height: 100vh;
+        width: 98%;
+    }
+    .banner__text{
+        margin-top: 30%;
+        width: 97%;
+    }
+    .banner__text h1{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        width: 80%;
+    }
+    .banner__text p {
+        width: 70%;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div-banner-btn{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .banner-img2 {
+        height: 50px;
+        margin-top: 0;
+    }
+    
+    .banner__text a {
+        padding: 7px 35px
+    }
+    .banner__img {
+        margin-top: 0px;
+}
+}

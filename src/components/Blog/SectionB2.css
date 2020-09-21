@@ -77,6 +77,26 @@
 @media only screen and (max-width: 700px) {
     .SectionB2{ 
         height: 145vh;
-
+        margin-top: 100px;
     } 
+}
+@media only screen and (max-width: 500px) {
+    .SectionB2{ 
+        height: 215vh;
+        margin-top: 70px;
+    } 
+    .SectionB2 h1{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .SectionB2{ 
+        height: 235vh;
+        margin-top: 70px;
+    } 
+    .SectionB2 h1{
+        font-size: 25px;
+        text-align: center;
+    }
 }

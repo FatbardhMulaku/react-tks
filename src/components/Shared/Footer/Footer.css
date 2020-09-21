@@ -403,6 +403,10 @@ color: white;
            .down-footer-link-c{
             padding: 0px 5px;
         }
+        .flag-select__option {
+            padding: 0px !important;
+            margin: 4px 0;
+        }
 }
 
 @media only screen and (max-width: 500px) {
@@ -462,8 +466,7 @@ color: white;
     }
     .footer-icon-c {
         flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
+        justify-content: center;
     }
     .footer-icon-label {
         padding: 0;
@@ -479,6 +482,11 @@ color: white;
     }
     .footer--info{
         margin-top: 15px;
+        margin-left: 2%;
+    }
+    .flag-select__option {
+        padding: 0px !important;
+        margin: 4px 0;
     }
 }
 

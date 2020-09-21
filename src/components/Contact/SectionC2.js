@@ -13,13 +13,13 @@ export default function SectionC2() {
             <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="cInfo__contact">
                 <div className="cinfo1">
                     <h2>Phone</h2>
-                    <p><AiFillPhone className="contact__icons"/> +3834445400400</p>
-                    <p><AiFillPhone className="contact__icons"/> +3834445400400</p>
+                    <p><AiFillPhone className="contact__icons" href="tel: +3834445400400"/> +3834445400400</p>
+                    <p><AiFillPhone className="contact__icons" href="tel: +3834445400400"/> +3834445400400</p>
                 </div>
                 <div className="cinfo1">
                     <h2>Email</h2>
-                    <p><AiOutlineMail className="contact__icons"/> info@KsOutsource.com</p>
-                    <p><AiOutlineMail className="contact__icons"/> info@KsOutsource.com</p>
+                    <p><AiOutlineMail className="contact__icons" href="mailto: info@KsOutsource.com"/> info@KsOutsource.com</p>
+                    <p><AiOutlineMail className="contact__icons" href="mailto: info@KsOutsource.com"/> info@KsOutsource.com</p>
                 </div>
                 <div className="cinfo1">
                     <h2>Social Media</h2>

@@ -45,6 +45,9 @@
     height: 80%;
     margin: 90px 90px;
     background-image: url(./../../assets/CaseStudies/section1CS.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 750px) {
@@ -60,7 +63,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        padding-left: 80px;
+        padding-left: 0px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -68,8 +71,66 @@
         width: 90%;
         height: 80%;
         margin: 90px 90px;
-        background-image: url(./../../assets/CaseStudies/section1CS.png);
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+@media only screen and (max-width: 500px) {
+    .SectionCS2{
+        height: 95vh;
+        margin-top: 10px;
+    }
+    .SectionCS2Left{
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50%;
+
+    }
+    .SectionCS2Left h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .SectionCS2Left p{
+        font-size: 15px;
+    }
+    .SectionCS2 a{
+        margin-top: 20px;
+        padding: 8px 25px;
+    }
+    .SectionCS2Right{
+        width: 90%;
+        height: 50%;
+        margin: 5px 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .SectionCS2{
+        height: 100vh;
+        margin-top: 10px;
+    }
+    .SectionCS2Left{
+        width: 100%;
+        height: 55%;
+    }
+    .SectionCS2Right{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 325px) {
+    .SectionCS2{
+        height: 120vh;
+        margin-top: 10px;
+    }
+    .SectionCS2Left h1{
+        font-size: 21px;
+        font-weight: 600;
+    }
+    .SectionCS2Left p{
+        font-size: 13px;
+    }
+
 }

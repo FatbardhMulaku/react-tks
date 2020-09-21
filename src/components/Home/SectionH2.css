@@ -75,3 +75,18 @@
     }
 
     }
+
+    @media only screen and (max-width: 376px) {
+        .services{
+            height: 278vh;
+        }
+        .awssld{
+            height: 278vh;
+        }
+      }
+     /*  @media only screen and (max-width: 346px) {
+        .WorkSection{
+            height: 310vh;
+        }
+      }
+ */

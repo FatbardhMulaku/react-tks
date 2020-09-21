@@ -161,6 +161,9 @@
 .boxB3b__content{
     margin-top: 250px;
 }
+.brcpxa {
+    background-color: #005FDB !important;
+}
 
 @media only screen and (max-width: 1500px) {
     .SectionB3{
@@ -261,5 +264,44 @@
     }
     .boxB3b__content{
         margin-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .SectionB3{
+        height: 230vh;
+    }
+    .SectionB3_container{
+        width: 95%;
+    }
+    .SectionB3__wrapper_c {
+        margin-top: 20px;
+    }
+    .SectionB3__title h1 {
+        font-size: 30px;
+    }
+    .Bsection3-btn{
+        padding: 10px 35px;
+    }
+    .boxB3 {
+        height: 240px;
+        width: 280px;
+    }
+    .boxB3b {
+        height: 240px;
+        width: 280px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .SectionB3{
+        height: 250vh;
+    }
+    .boxB3 {
+        height: 240px;
+        width: 250px;
+    }
+    .boxB3b {
+        height: 240px;
+        width: 250px;
     }
 }

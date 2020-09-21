@@ -48,6 +48,22 @@
         margin-bottom: 20px;
     }
 }
-@media only screen and (max-width: 1250px) {
-    
+@media only screen and (max-width: 500px) {
+    .BannerCS h1{
+        font-size: 33px;
+        margin: 10px;
+    }
+    .BannerCS a{
+        padding: 8px 25px;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .BannerCS{
+        width: 70%;
+        height: 80vh;
+    }
+    .BannerCS h1{
+        font-size: 28px;
+        margin: 10px;
+    }
 }

@@ -172,16 +172,17 @@
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
     .aboutText1, .aboutText2{
         padding: 5px;
         text-align: left;
     }
     .aboutText1 h1, .aboutText2 h1{
         font-size: 25px;
+        text-align: center;
     }
     .aboutText1 p, .aboutText2 p{
-        margin-left: 5%;
+        margin-left: 10%;
     }
     .div-about-btn{
         margin-left: 10%;

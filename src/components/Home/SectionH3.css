@@ -116,7 +116,7 @@ font-weight: 600;
     .teknologies__logos{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin-top: 24px;
         margin-bottom: 20px;
     }

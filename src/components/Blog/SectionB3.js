@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./SectionB3.css";
-import AwesomeSlider from "react-awesome-slider";
+import Carousel from 'react-elastic-carousel';
+
 
 export class SectionB3 extends Component {
   render() {
@@ -22,7 +23,7 @@ export class SectionB3 extends Component {
             </div>
           </div>
           <div className="SectionB3__wrapper_c">
-            <AwesomeSlider organicArrows={false} className="slideriB3">
+            <Carousel itemsToShow={1} showArrows={false} className="slideriB3">
               <div className="SectionB3__wrapper">
                 <div className="boxB3 B3a">
                   <div className="boxB3__content">
@@ -238,7 +239,7 @@ export class SectionB3 extends Component {
                   </div>
                 </div>
               </div>
-            </AwesomeSlider>
+            </Carousel >
           </div>
         </div>
       </div>

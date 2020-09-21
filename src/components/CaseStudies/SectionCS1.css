@@ -1,5 +1,5 @@
 .SectionCS1{
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
     background-image:linear-gradient(to right , rgba(54, 54, 54, 0.397), rgba(54, 54, 54, 0.4)), url(./../../assets/CaseStudies/bannerCS.png);
     background-repeat: no-repeat !important;
@@ -11,10 +11,8 @@
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
-}
-@media only screen and (max-width: 700px) {
-    .SectionCS1{ 
-        height: 80vh;
-
-    } 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
