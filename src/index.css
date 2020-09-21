@@ -52,3 +52,7 @@ code {
 .col_white {
   color: white;
 }
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}

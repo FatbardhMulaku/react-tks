@@ -3,7 +3,7 @@ import "./Footer.css";
 import LangOptions from "../../UI/LangOptions";
 import MenuListFooter from "./MenuList";
 import Logo from "../../UI/Logo/Logo";
-import FooterLogo from "../../../assets/Home/footer.png";
+// import FooterLogo from "../../../assets/Home/footer.png";
 import { useTranslation } from "react-i18next";
 import { Divider, Typography } from "@material-ui/core";
 import ScrollTop from "../../UI/ScrollTop";
