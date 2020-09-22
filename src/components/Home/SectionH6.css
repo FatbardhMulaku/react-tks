@@ -223,8 +223,8 @@
             padding: 0px;
         }
 
-        .aboutText1, .aboutText2{
-width: 100%;
+    .aboutText1, .aboutText2{
+        width: 100%;
         }
     .aboutText1 p, .aboutText2 p{
         font-size: 14px;

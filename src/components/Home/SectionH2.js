@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
+/* import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css"; */
 import "./SectionH2.css";
 import SectionH2items from "./SectionH2items";
+import Carousel from 'react-elastic-carousel';
 
 
 export class Services extends Component {
@@ -10,9 +11,7 @@ export class Services extends Component {
     return (
       <div className="services">
         <h1>Explore what we offer</h1>
-          <AwesomeSlider
-            organicArrows={false}
-            cssModule={{ backgroundColor: "#fff" }}
+        <Carousel itemsToShow={1} showArrows={false}
             className="slideri"
           >
             <div>
@@ -27,7 +26,7 @@ export class Services extends Component {
               {" "}
               <SectionH2items />
             </div>
-          </AwesomeSlider>
+          </Carousel>
       </div>
     );
   }

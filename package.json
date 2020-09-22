@@ -19,7 +19,6 @@
     "i18next-http-backend": "^1.0.20",
     "jquery": "^3.5.1",
     "react": "^16.13.1",
-    "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.13.1",
     "react-elastic-carousel": "^0.7.5",
     "react-flags-select": "^1.1.13",

@@ -11,6 +11,7 @@ export class Banner extends Component {
   render() {
     return (
       <div className="banner">
+
         <div
           className="banner__text"
         >

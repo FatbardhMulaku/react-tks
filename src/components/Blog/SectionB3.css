@@ -6,6 +6,7 @@
     background-color: #f0f0f0;
 }
 .SectionB3_container{
+    padding-top: 30px;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +46,6 @@
     font-weight: bold;
 }
 .SectionB3__wrapper_c{
-    margin-top: 80px !important;
     background-color: #f0f0f0 !important;
 }
 .slideriB3{
@@ -170,7 +170,7 @@
 
 @media only screen and (max-width: 1500px) {
     .SectionB3{
-        height: 120vh;
+        height: 80vh;
     }
     .SectionB3__wrapper {
         width :100%;
@@ -184,7 +184,7 @@
         margin-top: 0px !important;
     }
     .SectionB3__wrapper_c{
-        margin-top: 0px !important;
+        margin-top: 40px !important;
     }
     .B3a p, .B3b p, .B3c p, .B3d p, .B3e p{
         font-size: 16px;
@@ -222,10 +222,16 @@
         font-weight: 600;
      }
 }
-
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1300px) {
     .SectionB3{
-        height: 190vh;
+        height: 105vh;
+    }
+    
+}
+
+@media only screen and (max-width: 866px) {
+    .SectionB3{
+        height: 155vh;
     }
     .SectionB3__wrapper {
         width :100%;
@@ -239,7 +245,7 @@
         margin-top: 0px !important;
     }
     .SectionB3__wrapper_c{
-        margin-top: 0px !important;
+        margin-top: 30px !important;
     }
     .B3a p, .B3b p, .B3c p, .B3d p, .B3e p{
         font-size: 14px;

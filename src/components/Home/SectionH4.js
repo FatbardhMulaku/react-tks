@@ -57,10 +57,10 @@ export class Team extends Component {
                     <img src={AboutLogo2} className="team__Right1-imgA" alt="aa"/>
                 </div>
                 <div className="team__Right1-con2">
-                    <h1>Leona Zeqiri</h1>
+                    <h1>Ilir Osmani</h1>
                     <p>Project Manager</p>
                     <hr/>
-                    <p>Hi i am Lona project manager at KosovaOutsource, nice to
+                    <p>Hello I am Ilir Osmani web designer at KosovaOutsource, nice to
                     meet you</p>
                     <FormatQuoteIcon className="team__thojzat" />
                 </div>

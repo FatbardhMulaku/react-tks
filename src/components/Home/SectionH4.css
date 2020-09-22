@@ -51,36 +51,9 @@
     margin-top: 70px;
 }
 /* ======================================================================= */
-@media only screen and (max-width: 800px) {
-    .team-c{
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 80px;
-    }
-    .team__left{
-        width: 100%;
-        text-align: center;
-    }
-    .team__left h1{
-        font-size: 35px;
-        width: 100%;
-        text-align: center;
-    }
-    .team__left p{
-        width: 100%;
-        font-size: 20px;
-        text-align: center !important;
-    }
-    .team__Right{
-        width: 100% !important;
-    }
-}
 
 .team__Right{
-    width: 49%;
+    width: 51%;
     display: flex;
     flex-direction: row;
     margin-top: 70px;
@@ -199,8 +172,69 @@
         transform: scale(1);
     }
 }
+@media only screen and (max-width: 1400px) {
+    .team__left h1{
+        font-size: 35px;
+        width: 80%;
+    }
+    .team__left p{
+        width: 70%;
+        font-size: 20px;
+    }
+    .team-btn-container{
+        margin-top: 60px;
+    }
+    .team__Right1-con, .team__Right1-con2{
+        padding: 40px 20px;
+    }
+    .team__Right1-con h1, .team__Right1-con2 h1{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    .team__left h1{
+        font-size: 30px;
+        width: 90%;
+    }
+    .team__left p{
+        width: 80%;
+        font-size: 18px;
+    }
+    .team__Right1-con h1, .team__Right1-con2 h1{
+        font-size: 26px;
+    }
+    .team__Right1-con p, .team__Right1-con2 p{
+        font-size: 15px;
+    }
 
-
+}
+@media only screen and (max-width: 800px) {
+    .team-c{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+    .team__left{
+        width: 100%;
+        text-align: center;
+    }
+    .team__left h1{
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+    }
+    .team__left p{
+        width: 100%;
+        font-size: 20px;
+        text-align: center !important;
+    }
+    .team__Right{
+        width: 100% !important;
+    }
+}   
 @media only screen and (max-width: 500px) {
     .team{
         height: 125vh;
