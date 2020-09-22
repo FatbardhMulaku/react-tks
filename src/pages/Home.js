@@ -12,7 +12,7 @@ const Home = () => {
     <Fragment>
       <SectionOne>
         <Banner />
-      </SectionOne>
+      </SectionOne> 
       <SectionTwo />
       <SectionThree />
       <SectionFour />

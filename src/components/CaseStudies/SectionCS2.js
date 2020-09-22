@@ -5,7 +5,7 @@ import './SectionCS2.css'
 function SectionCS2() {
     return (
         <div className="SectionCS2">
-            <div data-aos="fade-right" data-aos-once="false"  className="SectionCS2Left">
+            <div className="SectionCS2Left">
                 <h1>We do what we love <br/>
                     for the better.
                 </h1>
@@ -20,7 +20,7 @@ function SectionCS2() {
                 </Link>
             </div>
 
-            <div data-aos="fade-left" data-aos-once="false"  className="SectionCS2Right">
+            <div className="SectionCS2Right">
         
             </div>
         </div>

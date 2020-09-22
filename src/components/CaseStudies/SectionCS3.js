@@ -6,17 +6,17 @@ function SectionCS3() {
     return (
         <div className="SectionCS3">
             <div  className="SectionCS3__container">
-                <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="SectionCS3__Left">
+                <div className="SectionCS3__Left">
                     <div className="SectionCS3__Left-img1"></div>
                     <div className="SectionCS3__Left-img2"></div>
                     <div className="SectionCS3__Left-img3"></div>
                 </div>
-                <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="SectionCS3__Right">
+                <div className="SectionCS3__Right">
                     <div className="SectionCS3__RightC">
                     <h1>KosovaOutsource run all kinds <br/>
                         of IT Services whith success.
                     </h1>
-                    <p>asd
+                    <p>
                         Here is all of KosovaOutsource's team apply to  <br/>
                         our company and maybe can be in our team. As <br/>
                         a software company we have a very great and  <br/>

@@ -25,6 +25,18 @@
         font-size: 44px !important;
       }
 }
+@media only screen and (max-width: 1450px) {
+    .services{ 
+        height: 150vh;
+        margin-top: 50px;
+
+    } 
+    .services h1 {
+        padding: 0 1em;
+        margin: 20px 0px;
+        font-size: 44px !important;
+      }
+}
 @media only screen and (max-width: 800px) {
     .services{ 
         height: 210vh;
@@ -44,7 +56,7 @@
     font-size: 55px;
   }
   .awssld{
-      height: 70vh !important;
+      height: 70vh;
   }
 .slideri{
     background-color: white !important;
@@ -60,7 +72,7 @@
 }
 @media only screen and (max-width: 500px) {
     .services{ 
-        height: 250vh;
+        height: 250vh !important;
         width: 95%;
         margin-top: 40px;
 
@@ -71,22 +83,24 @@
         font-size: 24px !important;
       }
       .awssld{
-        height: 150vh !important;
+        height: 250vh;
     }
 
     }
 
-    @media only screen and (max-width: 376px) {
+    @media only screen and (max-width: 380px) {
         .services{
-            height: 278vh;
+            height: 250vh;
         }
         .awssld{
-            height: 278vh;
+            height: 250vh;
         }
       }
-     /*  @media only screen and (max-width: 346px) {
-        .WorkSection{
-            height: 310vh;
+      @media only screen and (max-width: 348px) {
+        .services{
+            height: 288vh;
+        }
+        .awssld{
+            height: 288vh;
         }
       }
- */

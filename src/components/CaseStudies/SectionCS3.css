@@ -177,41 +177,45 @@
 }
     @media only screen and (max-width: 500px) {
         .SectionCS3{
-            height: 105Vh;
+            height: 100Vh;
         }
         .SectionCS3__container{
-            height: 100Vh;
+            height: 97Vh;
             width: 98%;
+        }
+        .SectionCS3__Right{
+            width: 90%;
         }
         .SectionCS3__RightC h1{
             font-size: 22px;
         }
         .SectionCS3__RightC p{
-            font-size: 14px;
+            font-size: 16px;
             margin-bottom: 20px;
+            font-weight: 500;
         }
         .BannerCS-btnCS3{
-            width: 33%;
+            width: 45%;
         }
         .SectionCS3__RightC a{
             padding: 10px 25px;
         }
         .SectionCS3__Left-img1{
             width: 75%;
-            height: 27vh;
+            height: 26vh;
         }
         .SectionCS3__Left-img2{
             width: 55%;
-            height: 21vh;
+            height: 20vh;
         }
         .SectionCS3__Left-img3{
             width: 35%;
-            height: 15vh;
+            height: 14vh;
             transform: translate(170%, -80%);
             
         }
 }
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 378px) {
     .SectionCS3{
         height: 105Vh;
         width: 100%;
@@ -222,5 +226,29 @@
     }
     .SectionCS3__Right {
         width: 96%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .SectionCS3{
+        height: 110Vh;
+        width: 100%;
+    }
+    .SectionCS3__container{
+        height: 15Vh;
+        width: 99%;
+    }
+    .SectionCS3__RightC h1{
+        font-size: 20px;
+    }
+    .SectionCS3__RightC p{
+        font-size: 14px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    .BannerCS-btnCS3{
+        width: 45%;
+    }
+    .SectionCS3__RightC a{
+        padding: 8px 20px;
     }
 }

@@ -9,6 +9,7 @@ import './SectionH2items.css';
 
 export default function SectionH2items() {
     return (
+
         <div className="SectionH2_wrapper">
             
         <div className="service">

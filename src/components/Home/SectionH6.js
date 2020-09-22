@@ -9,10 +9,9 @@ export default function About() {
     return (
         <div className="about">
             <div className="aboutLeft">
-                <div data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom" className="aboutText1">
+                <div className="aboutText1">
                     <h1>For what we are Proud</h1>
-                    <p>We pride ourselves on being Techonology Native and
+                    <p className="team-p">We pride ourselves on being Techonology Native and
                         not being locked into certain Techonologies instead
                         provide the best solution for our costumers. We aim
                         to provide a fixed set of services will a service catalog.
@@ -24,10 +23,9 @@ export default function About() {
                     </div>
                 </div>
                 <img src={AboutLogo1} className="aboutLogo1" alt="AboutLogo1"/>
-                <div data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom" className="aboutText2">
+                <div className="aboutText2">
                      <h1>We promote integrity</h1>
-                     <p>
+                     <p className="team-p">
                          We are independent which further fosters our values
                          that interests of our clients are always a priority.
                          Intergrity and responsibility towards our clients and

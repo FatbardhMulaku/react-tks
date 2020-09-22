@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./BannerCS.css";
-import AOS from "aos";
-// import "../Home/node_modules/aos/dist/aos.css";
-import "aos/dist/aos.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export class BannerCS extends Component {
   componentDidMount() {
@@ -16,7 +15,7 @@ export class BannerCS extends Component {
 
   render() {
     return (
-      <div data-aos="zoom-in" className="BannerCS">
+      <div className="BannerCS">
         <h1>What we do</h1>
         <p>
           We offer professional outsourcing, programming,

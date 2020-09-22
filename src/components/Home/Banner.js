@@ -4,24 +4,14 @@ import "./Banner.css";
 import logo1 from "./../../assets/Home/hero1.png";
 import logo2 from "./../../assets/Home/hero2.png";
 import logo3 from "./../../assets/Home/hero3.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 export class Banner extends Component {
-  componentDidMount() {
-    AOS.init({
-      offset: 400,
-      easing: "ease",
-      duration: 2000,
-    });
-  }
 
   render() {
     return (
       <div className="banner">
         <div
-          data-aos="fade-right"
-          data-aos-delay="400"
           className="banner__text"
         >
           <h1>We are the best Software Company in Kosova.</h1>
@@ -36,7 +26,7 @@ export class Banner extends Component {
             </Link>
           </div>
         </div>
-        <div data-aos="fade-left" data-aos-delay="400" className="banner__img">
+        <div  className="banner__img">
           <div className="banner__imgLeft">
             <img src={logo1} alt="" className="banner-img1" />
             <div className="banner-img2"></div>

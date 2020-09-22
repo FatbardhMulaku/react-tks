@@ -38,7 +38,7 @@ font-weight: 600;
 .logo-java{
     width: 15%;
     height: 120px;
-    background-image: url(./../../assets/Home/java.png);
+    background-image: url(./../../assets/Home/java2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -110,8 +110,8 @@ font-weight: 600;
     .teknologies h1{
     text-align: center;
     padding-top: 50px;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 700;
     }
     .teknologies__logos{
         display: flex;

@@ -118,26 +118,26 @@ function Footer() {
         <div className="footer-icon-c">
           <Link to="/" className="footer-icon-label">
             {" "}
-            <TwitterIcon className="ikonaFooter" /> Twitter{" "}
+            <TwitterIcon style={{ fontSize: 40 }} className="ikonaFooter" /> Twitter{" "}
           </Link>
 
           <Link to="/" className="footer-icon-label">
-            <InstagramIcon className="ikonaFooter" /> Instagram{" "}
+            <InstagramIcon style={{ fontSize: 40 }} className="ikonaFooter" /> Instagram{" "}
           </Link>
 
           <Link to="/" className="footer-icon-label">
             {" "}
-            <LinkedInIcon className="ikonaFooter" /> Linked{" "}
+            <LinkedInIcon style={{ fontSize: 40 }} className="ikonaFooter" /> Linked{" "}
           </Link>
 
           <Link to="/" className="footer-icon-label">
-            <FacebookIcon className="ikonaFooter" /> Facebook{" "}
+            <FacebookIcon style={{ fontSize: 40 }} className="ikonaFooter" /> Facebook{" "}
           </Link>
           <Link to="/" className="footer-icon-label">
-            <YouTubeIcon className="ikonaFooter" /> YouTube{" "}
+            <YouTubeIcon style={{ fontSize: 40 }} className="ikonaFooter" /> YouTube{" "}
           </Link>
           <Link to="/" className="footer-icon-label">
-            <GitHubIcon className="ikonaFooter" /> Github{" "}
+            <GitHubIcon style={{ fontSize: 40 }} className="ikonaFooter" /> Github{" "}
           </Link>
         </div>
       </div>

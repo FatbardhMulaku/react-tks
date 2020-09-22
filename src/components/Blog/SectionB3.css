@@ -156,10 +156,13 @@
 }
 
 .boxB3__content{
-    margin-top: 130px;
+    margin-top: 110px;
 }
 .boxB3b__content{
-    margin-top: 250px;
+    margin-top: 220px;
+}
+.boxB3__content h3, .boxB3b__content h3{
+   font-size: 25px;
 }
 .brcpxa {
     background-color: #005FDB !important;
@@ -209,16 +212,20 @@
         cursor: pointer;
     }
     .boxB3__content{
-        margin-top: 150px;
+        margin-top: 120px;
     }
     .boxB3b__content{
-        margin-top: 150px;
+        margin-top: 120px;
     }
+    .boxB3__content h3, .boxB3b__content h3{
+        font-size: 23px;
+        font-weight: 600;
+     }
 }
 
 @media only screen and (max-width: 850px) {
     .SectionB3{
-        height: 200vh;
+        height: 190vh;
     }
     .SectionB3__wrapper {
         width :100%;
@@ -260,16 +267,20 @@
         cursor: pointer;
     }
     .boxB3__content{
-        margin-top: 150px;
+        margin-top: 120px;
     }
     .boxB3b__content{
-        margin-top: 150px;
+        margin-top: 120px;
     }
+    .boxB3__content h3, .boxB3b__content h3{
+        font-size: 23px;
+        font-weight: 600;
+     }
 }
 
 @media only screen and (max-width: 500px) {
     .SectionB3{
-        height: 230vh;
+        height: 200vh;
     }
     .SectionB3_container{
         width: 95%;
@@ -285,23 +296,57 @@
     }
     .boxB3 {
         height: 240px;
-        width: 280px;
+        width: 300px;
     }
     .boxB3b {
         height: 240px;
-        width: 280px;
+        width: 300px;
+    }
+    .boxB3__content{
+        margin-top: 110px;
+    }
+    .boxB3b__content{
+        margin-top: 110px;
+    }
+    .boxB3__content h3{
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .boxB3b__content h3{
+        font-weight: 500;
+        font-size: 18px;
     }
 }
 @media only screen and (max-width: 380px) {
     .SectionB3{
-        height: 250vh;
+        height: 220vh;
     }
     .boxB3 {
         height: 240px;
-        width: 250px;
+        width: 280px;
     }
     .boxB3b {
         height: 240px;
-        width: 250px;
+        width: 280px;
+    }
+    .boxB3__content h3{
+        font-weight: 600;
+    }
+    .boxB3b__content h3{
+        font-weight: 600;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .SectionB3{
+        height: 250vh;
+    }
+    .SectionB3__title h1 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .Bsection3-btn{
+        background-color: #006FFF;
+        padding: 8px 20px;  
+        font-size: 12px;
     }
 }

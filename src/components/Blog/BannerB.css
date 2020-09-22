@@ -112,7 +112,7 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    margin-top: 27vh;
+    margin-top: 23vh;
     width: 13vw;
     height: 12vw;
     margin-left: 3vw;
@@ -215,5 +215,29 @@
         width: 23vw;
         height: 17vw;
         margin-left: 3vw;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .banner__imgBlog{
+        margin-top: -17%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .banner__textBlog h1{
+        font-size: 20px;
+        margin-top: 0;
+        font-weight: 600;
+    }
+    .banner__textBlog p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .banner__textBlog a{
+        padding: 8px 20px;
+        border-radius: 50px;
+        font-size: 15px;
+    }
+    .banner__imgBlog{
+        margin-top: -17%;
     }
 }

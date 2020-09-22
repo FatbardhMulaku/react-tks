@@ -157,7 +157,7 @@
 }
 /* ================================ */
 .shigjeta-c{
-    width: 40%;
+    width: 60%;
     height: 20%;
     display: flex;
     flex-direction: row;
@@ -202,6 +202,9 @@
 
 
 @media only screen and (max-width: 500px) {
+    .team{
+        height: 125vh;
+    }
     .team-c{
         margin-top: 70px;
     }
@@ -255,4 +258,57 @@
     .shigjeta-majt, .shigjeta-djatht{
         margin:10px;
     }
+    .shigjeta-c {
+        width: 60%;}
+}
+@media only screen and (max-width: 380px) {
+    .team{
+        height: 125vh;
+    }
+    .team__left h1{
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+    .team__left p{
+        margin-top: 0px;
+        width: 90%;
+        font-size: 16px;
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .team-btn-container {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .team{
+        height: 150vh;
+    }
+    .team__left h1{
+        font-size: 21px;
+        width: 100%;
+        text-align: center;
+    }
+    .team__left p{
+        font-size: 15px;
+    }
+    .team-btn-container {
+        margin-top: 20px;
+    }
+    .team-btn-container a {
+        padding: 8px 25px;
+    }
+    .team__Right1-con h1, .team__Right1-con2 h1 {
+        padding: 10px;
+        font-size: 19px;
+    }
+    .team__Right1-con p, .team__Right1-con2 p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .shigjeta-c {
+        width: 90%;}
 }

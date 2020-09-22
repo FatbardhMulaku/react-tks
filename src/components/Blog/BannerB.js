@@ -14,11 +14,7 @@ export class BannerB extends Component {
   render() {
     return (
       <div className="bannerBlog">
-        <div
-          data-aos="fade-right"
-          data-aos-delay="400"
-          className="banner__textBlog"
-        >
+        <div className="banner__textBlog">
           <h1>
             Why KosovaOutsource <br /> is the best software company in region.
           </h1>
@@ -37,8 +33,6 @@ export class BannerB extends Component {
 
         </div>
         <div
-          data-aos="fade-left"
-          data-aos-delay="400"
           className="banner__imgBlog"
         >
           <div className="banner__imgLeftBlog">

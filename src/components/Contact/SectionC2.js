@@ -1,6 +1,7 @@
 import React from 'react';
 import './SectionC2.css';
 import {AiFillPhone, AiOutlineMail, AiFillInstagram,AiFillFacebook } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,18 +14,18 @@ export default function SectionC2() {
             <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="cInfo__contact">
                 <div className="cinfo1">
                     <h2>Phone</h2>
-                    <p><AiFillPhone className="contact__icons" href="tel: +3834445400400"/> +3834445400400</p>
-                    <p><AiFillPhone className="contact__icons" href="tel: +3834445400400"/> +3834445400400</p>
+                    <Link><AiFillPhone className="contact__icons" to="tel: +3834445400400"/> +3834445400400</Link>
+                    <Link><AiFillPhone className="contact__icons" to="tel: +3834445400400"/> +3834445400400</Link>
                 </div>
                 <div className="cinfo1">
                     <h2>Email</h2>
-                    <p><AiOutlineMail className="contact__icons" href="mailto: info@KsOutsource.com"/> info@KsOutsource.com</p>
-                    <p><AiOutlineMail className="contact__icons" href="mailto: info@KsOutsource.com"/> info@KsOutsource.com</p>
+                    <Link><AiOutlineMail className="contact__icons" to="mailto: info@KsOutsource.com"/> info@KsOutsource.com</Link>
+                    <Link><AiOutlineMail className="contact__icons" to="mailto: info@KsOutsource.com"/> info@KsOutsource.com</Link>
                 </div>
                 <div className="cinfo1">
                     <h2>Social Media</h2>
-                    <p><AiFillFacebook className="contact__icons"/> Like our facebook page</p>
-                    <p><AiFillInstagram className="contact__icons"/> Follow us on instagram</p>
+                    <Link><AiFillFacebook className="contact__icons" to="#"/> Like our facebook page</Link>
+                    <Link><AiFillInstagram className="contact__icons" to="#"/> Follow us on instagram</Link>
                 </div>
             </div>
         </div>

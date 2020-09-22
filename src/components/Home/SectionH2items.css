@@ -14,14 +14,14 @@
 }
 .service{
     margin-top: 20px;
-    width: 280px;
-    height: 235px;
+    width: 360px;
+    height: 335px;
     border: 1px solid rgb(199, 199, 199);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding: 50px;
     border: 1px #C1C1C1 solid;
-     border-radius: 30px;
+    border-radius: 30px;
     padding:50px;
 }
 .service-icon{
@@ -51,7 +51,20 @@
 
     } 
     .awssld{
-        height: 100vh !important;
+        height: 100vh;
+    }
+}
+@media only screen and (max-width: 1450px) {
+    .services{ 
+        height: 150vh;
+        margin-top: 50px;
+    } 
+    .SectionH2_wrapper{ 
+        height: 150vh;
+
+    } 
+    .awssld{
+        height: 150vh;
     }
 }
 @media only screen and (max-width: 800px) {
@@ -60,21 +73,20 @@
 
     } 
     .awssld{
-        height: 200vh !important;
+        height: 200vh;
     }
 }
 @media only screen and (max-width: 500px) {
     .service{
-        height: 252vh;
         margin-top: 20px;
-        width: 250px;
-        height: 205px;
+        width: 330px;
+        height: 280px;
         padding: 50px;
          border-radius: 30px;
-        padding:40px 20px;
+        padding:30px 30px;
     }
     .SectionH2_wrapper{ 
-        height: 252vh;
+        height: 252vh !important;
 
     } 
     .awssld{
@@ -90,11 +102,43 @@
     }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 380px) {
     .SectionH2_wrapper{
-        height: 278vh !important;
+        height: 250vh;
     }
     .awssld{
-        height: 278vh !important;
+        height: 250vh;
+    }
+    .service{
+        margin-top: 10px;
+        width: 300px;
+        height: 250px;
+        padding:25px 30px;
+    }
+    .service-info{
+        font-size: 14px;
+        color: #a8a8a8;
     }
   }
+
+  @media only screen and (max-width: 348px) {
+    .SectionH2_wrapper{
+        height: 288vh ;
+    }
+    .awssld{
+        height: 288vh ;
+    }
+    .service{
+        margin-top: 15px;
+        width: 270px;
+        height: 240px;
+        padding: 22px 30px;
+    }
+    .service-info{
+        font-size: 13px;
+        color: #a8a8a8;
+    }
+    .service-icon {
+        margin-left: 35%;
+  }
+}

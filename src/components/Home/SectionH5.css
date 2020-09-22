@@ -31,12 +31,35 @@
     background-color: #ffff00;
     margin-top: 30px;
 }
+@media only screen and (max-width: 1450px) {
+    .work_co{
+        display: grid;
+        grid-template-columns: repeat(2,400px);  /* 3 columns */
+        grid-template-rows: repeat(3,350px); /* 3 rows  */
+        grid-gap:10px 20px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .WorkSection{
+        margin-top: 100px;
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: 120vh;
+    }
+    .WorkSection h1 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+}
 @media only screen and (max-width: 1100px) {
     .work_co{
         display: grid;
         grid-template-columns: repeat(2,350px);  /* 3 columns */
         grid-template-rows: repeat(3,300px); /* 3 rows  */
-        grid-gap:5px 20px;
+        grid-gap:15px 20px;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
@@ -115,7 +138,7 @@
     border-radius: 10px;
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 500px) {    
     .work_co{
         display: grid;
         grid-template-columns: repeat(1,300px);  /* 3 columns */
@@ -128,7 +151,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        height: 230vh;
+        height: 235vh;
     }
     .middle{
         font-size: 17px;
@@ -138,13 +161,26 @@
         padding: 10px 15px;
       }
   }
-  @media only screen and (max-width: 376px) {
+  @media only screen and (max-width: 380px) {
     .WorkSection{
-        height: 255vh;
+        height: 260vh;
+    }
+    .WorkSection h1 {
+        font-size: 25px;
+        font-weight: 500;
     }
   }
   @media only screen and (max-width: 346px) {
     .WorkSection{
-        height: 310vh;
+        height: 320vh;
+    }
+    .work_co{
+        display: grid;
+        grid-template-columns: repeat(1,280px);  /* 3 columns */
+        grid-template-rows: repeat(6,250px); /* 3 rows  */
+        grid-gap:5px 150px;
+    }
+    .middle h2{
+        font-size: 20px;
     }
   }
