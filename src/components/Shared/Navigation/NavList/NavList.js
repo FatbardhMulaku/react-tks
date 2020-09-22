@@ -2,9 +2,11 @@ import React from "react";
 import "./styles/NavList.css";
 import "./styles/NavigationLink.css";
 import NavigationLink from "./NavigationLink";
-import { useTranslation } from "react-i18next";
-import ServiceBtn from "../../../UI/Button/ServiceDrop/Service";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
+import { useTranslation } from "react-i18next";
+import ServiceDropdown from "../../../UI/Popper/ServicePop/Service";
+import AboutDropdown from "../../../UI/Popper/AboutPop/About";
+import CareerDropdown from "../../../UI/Popper/CareerPop/Career";
 
 function NavList(props) {
   const { t } = useTranslation();
@@ -18,9 +20,9 @@ function NavList(props) {
   return (
     <div className="nav_list">
       <ul>
-        <li className="navigation_link ">
-          <ServiceBtn trigger={trigger} />
-        </li>
+        <ServiceDropdown trigger={trigger} />
+        <AboutDropdown trigger={trigger} />
+        <CareerDropdown trigger={trigger} />
         {t("mainMenu").map(({ link, name }, index) => (
           <NavigationLink
             clicked={props.drawerToggle}

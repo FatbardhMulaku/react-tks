@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
 import "./SectionH3.css";
 
 
 function Teknologies() {
+
     return (
 
         <div  className="teknologies">
@@ -17,6 +18,8 @@ function Teknologies() {
         </div>
 
     )
+
+  
 }
 
-export default Teknologies
+export default Teknologies;

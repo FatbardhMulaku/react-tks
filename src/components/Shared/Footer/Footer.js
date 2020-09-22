@@ -1,146 +1,79 @@
 import React from "react";
 import "./Footer.css";
-import FooterLogo from "../../../assets/Home/footer.png";
-import { Link } from "react-router-dom";
+import LangOptions from "../../UI/LangOptions";
+import MenuListFooter from "./MenuList";
+import Logo from "../../UI/Logo/Logo";
+// import FooterLogo from "../../../assets/Home/footer.png";
 import { useTranslation } from "react-i18next";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import KoLogo from '../../../assets/images/logoLight.svg';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import ReactFlagsSelect from 'react-flags-select';      
-import 'react-flags-select/css/react-flags-select.css';
-
-function Footer() {
-  const { t, i18n } = useTranslation();
-
+import { Divider, Typography } from "@material-ui/core";
+import ScrollTop from "../../UI/ScrollTop";
+import SocialMedia from "../../UI/SocialMedia/SocialMedia";
+import { FaCopyright } from "react-icons/fa";
+function Footer(props) {
+  const { t } = useTranslation();
 
   return (
     <div className="footer">
-      <div className="sub-footer">
-        <img src={FooterLogo} alt="footer" className="img-footeri" />
-        <div className="subscribe-c">
-          <h1>{t("footer.subscribe")}</h1>
-          <input type="text" placeholder="Enter your email adress" />
-          <button className="footer-btn">Subscribe</button>
-        </div>
-      </div>
-      {/* Subscribe to our newsletter!! */}
-      <div className="down-footer">
-          <div className="down-footer-loc">
-            <div className="footer--info"><h2><img src={KoLogo} alt="logo"/>KosovaOutsource</h2>
-              <p>Location-Prishtina, Kosova</p>
-              <p>Rr,St-Sinan Gashi</p>
-              <p>Zip Code 10000</p>
-              <p>+383 45400400</p></div>
-
-              <ReactFlagsSelect
-                        countries={["GB", "DE", "AL"]} 
-                        defaultCountry="GB"
-                        className="Flag-btn"
-                        onSelect={(Lang) => i18n.changeLanguage(Lang)}
-                    />
+      <div className="container-fluid px-5 py-3">
+        {/* <div className="sub-footer ">
+          <img src={FooterLogo} alt="footer" className="img-footeri" />
+          <div className="subscribe-c">
+            <h1>{t("footer.subscribe")}</h1>
+            <input type="text" placeholder="Enter your email adress" />
+            <button className="footer-btn">Subscribe</button>
           </div>
-          <div className="down-footer-link">
-            <div className="down-footer-link-c c1">
-              <h5>Company</h5>
-              <Link to="/" className="footer-link">
-                Home{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                Service{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                Career{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                Blog{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                About us{" "}
-              </Link>
-            </div>
-            <div className="down-footer-link-c c2">
-              <h5>About</h5>
-              <Link to="/" className="footer-link">
-                Team{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                Faq{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                Contact us{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                Company{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                News{" "}
-              </Link>
-            </div>
-            <div className="down-footer-link-c c3">
-              <h5>Services</h5>
-              <Link to="/" className="footer-link">
-                Software development{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                Callaboration{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                Nerwork infrastructure{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                Administration{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                It managment services
-              </Link>
-            </div>
-            <div className="down-footer-link-c c4">
-              <h5>Help Center</h5>
-              <Link to="/" className="footer-link">
-                Team of services{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                Privacy policy{" "}
-              </Link>
-              <Link to="/" className="footer-link">
-                security{" "}
-              </Link>
+        </div> */}
+
+        <div className="row">
+          <div className="col-md-12 col-lg-5 footer-logo">
+            <h2>
+              <Logo logo="white_logo" text="col_white" />
+            </h2>
+            <ul className="footer-list ">
+              <li>
+                <a href="/#">
+                  Location-Prishtina, <br /> Kosova St.Sinan Gashi <br /> Zip
+                  Code 10000
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-lowercase"
+                  href="mailto: info@kosovaoutsource.com"
+                >
+                  info@kosovaoutsource.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+38345400400">+383 45 400 400</a>
+              </li>
+            </ul>
+            <div className="">
+              <LangOptions />
             </div>
           </div>
-      </div>
-
-      <div className="footer-fund">
-        <p>Copyright 2020 All rights are reserved by KosovaOutsource</p>
-        <div className="footer-icon-c">
-          <Link to="/" className="footer-icon-label">
-            {" "}
-            <TwitterIcon style={{ fontSize: 40 }} className="ikonaFooter" /> Twitter{" "}
-          </Link>
-
-          <Link to="/" className="footer-icon-label">
-            <InstagramIcon style={{ fontSize: 40 }} className="ikonaFooter" /> Instagram{" "}
-          </Link>
-
-          <Link to="/" className="footer-icon-label">
-            {" "}
-            <LinkedInIcon style={{ fontSize: 40 }} className="ikonaFooter" /> Linked{" "}
-          </Link>
-
-          <Link to="/" className="footer-icon-label">
-            <FacebookIcon style={{ fontSize: 40 }} className="ikonaFooter" /> Facebook{" "}
-          </Link>
-          <Link to="/" className="footer-icon-label">
-            <YouTubeIcon style={{ fontSize: 40 }} className="ikonaFooter" /> YouTube{" "}
-          </Link>
-          <Link to="/" className="footer-icon-label">
-            <GitHubIcon style={{ fontSize: 40 }} className="ikonaFooter" /> Github{" "}
-          </Link>
+          <div className="col-md-12 col-lg-7">
+            <div className="row">
+              {t("footerMenu").map((item, index) => (
+                <MenuListFooter
+                  key={index}
+                  title={item.title}
+                  list={item.items}
+                />
+              ))}
+            </div>
+          </div>
         </div>
+        <Divider />
+        <div className="footer-bottom">
+          <Typography variant="subtitle2" gutterBottom>
+            <FaCopyright /> {t("alRight")} KosovaOutsource
+          </Typography>
+          <SocialMedia />
+        </div>
+        <Divider />
       </div>
+      <ScrollTop {...props} />
     </div>
   );
 }

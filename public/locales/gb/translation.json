@@ -5,10 +5,6 @@
       "name": "home"
     },
     {
-      "link": "about",
-      "name": "about us"
-    },
-    {
       "link": "Case-studies",
       "name": "Case Studies"
     },
@@ -21,7 +17,138 @@
       "name": "contact us"
     }
   ],
+
+  "footerMenu": [
+    {
+      "title": "Company",
+      "items": [
+        {
+          "link": "/",
+          "name": "home"
+        },
+        {
+          "link": "/service",
+          "name": "service"
+        },
+        {
+          "link": "/career",
+          "name": "career"
+        },
+        {
+          "link": "/blog",
+          "name": "blog"
+        },
+        {
+          "link": "/about",
+          "name": "about us"
+        }
+      ]
+    },
+    {
+      "title": "About",
+      "items": [
+        {
+          "link": "/team",
+          "name": "team"
+        },
+        {
+          "link": "/contact",
+          "name": "Contact us"
+        },
+        {
+          "link": "/company",
+          "name": "company"
+        },
+        {
+          "link": "/news",
+          "name": "news"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "items": [
+        {
+          "link": "/software-development",
+          "name": "Software development"
+        },
+        {
+          "link": "/callaboration",
+          "name": "Callaboration"
+        },
+        {
+          "link": "/nerwork-infrastructure",
+          "name": "Nerwork infrastructure"
+        },
+        {
+          "link": "/administration",
+          "name": "Administration"
+        },
+        {
+          "link": "/managment-services",
+          "name": "It managment services"
+        }
+      ]
+    },
+    {
+      "title": "Help Center",
+      "items": [
+        {
+          "link": "/team-services",
+          "name": "Team of services"
+        },
+        {
+          "link": "/privacy-policy",
+          "name": "Privacy policy"
+        },
+        {
+          "link": "/security",
+          "name": "Security"
+        },
+        {
+          "link": "/faq",
+          "name": "FAQs"
+        }
+      ]
+    }
+  ],
+  "servicePopper": {
+    "serviceMenu": [
+      { "link": "seo-analysis", "name": "Seo analysis" },
+      { "link": "managment", "name": "Managment" },
+      { "link": "web-services", "name": "Web services" },
+      { "link": "portfolio", "name": "Portfolio" },
+      { "link": "desktop", "name": "Desktop" },
+      { "link": "mobile-design", "name": "Mobile design" },
+      { "link": "cloud", "name": "Cloud" },
+      { "link": "serverless", "name": "Serverless" },
+      { "link": "web-front-end", "name": "Web front-end" },
+      { "link": "branding", "name": "Branding" },
+      { "link": "web-design", "name": "Web design" },
+      { "link": "web-back-end", "name": "Web back-end" }
+    ],
+    "serviceInfoName": "Company",
+    "serviceInfoMenu": ["Terms of Use", "Privacy", "Security"]
+  },
+  "aboutPopper": {
+    "aboutMenu": [
+      { "link": "Team", "name": "Team" },
+      { "link": "Security", "name": "Security" },
+      { "link": "Faq", "name": "Faq" },
+      { "link": "Career", "name": "Career" },
+      { "link": "Who we are", "name": "Who we are " },
+      { "link": "What we do", "name": "What we do" }
+    ]
+  },
+  "careerPopper": {
+    "careerMenu": [
+      { "link": "Experience", "name": "Experience" },
+      { "link": "Stories", "name": "Stories" }
+    ]
+  },
+
   "footer": {
     "subscribe": "Subscribe to our newsletter!!"
-  }
+  },
+  "alRight": "2020 All rights are reserved by"
 }

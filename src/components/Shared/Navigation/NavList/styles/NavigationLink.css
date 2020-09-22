@@ -18,11 +18,13 @@
 .navigation_link a:after {
   display: block;
   content: "";
-  border-bottom: 2px solid #006fff;
+  border-bottom: 1px solid #006fff;
   transform: scaleX(0);
+  transform-origin: 0% 50%;
   transition: transform 0.5s ease-in-out;
   margin-left: 1px;
   margin-right: 1px;
+  padding-top: 2px;
 }
 
 .a_black {

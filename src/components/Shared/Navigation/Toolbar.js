@@ -32,7 +32,7 @@ const useStyles = makeStyles({
     boxShadow:
       "0px 3px 5px -1px #00000033, 0px 6px 10px 0px #00000024, 0px 1px 18px 0px #0000001f ",
     backgroundColor: "#fff !important ",
-    transition: "all 0.7s ease-in",
+    transition: "all 0.5s ease-in",
     padding: "0 0 8px",
     top: "auto !important",
   },
@@ -53,7 +53,10 @@ const Toolbar = (props) => {
     <AppBar color="inherit" className={trigger ? classes.box2 : classes.box1}>
       <SearchInput isSearch={isSearch} />
       <Container maxWidth="lg" className={classes.appBar}>
-        <Logo />
+        <Logo
+          logo={trigger ? "black_logo" : "white_logo"}
+          text={trigger ? "col_black" : "col_white"}
+        />
         <div className="DesktopOnly col_black">
           <NavList />
         </div>

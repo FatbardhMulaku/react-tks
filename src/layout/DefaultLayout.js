@@ -7,6 +7,7 @@ const DefaultLayout = (props) => {
   return (
     <div>
       <Header />
+      <div id="back-to-top-anchor"></div>
       <main>{children}</main>
       <Footer />
     </div>
