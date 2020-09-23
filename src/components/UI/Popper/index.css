@@ -129,15 +129,15 @@
   background-repeat: no-repeat;
 }
 
-.service_popper_container,
-.career_popper_container,
+.industries_popper_container,
+.caseStudies_popper_container,
 .about_popper_container {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
 }
-.service_popper_list,
-.career_popper_list,
+.industries_popper_list,
+.caseStudies_popper_list,
 .about_popper_list {
   display: flex;
   flex-flow: row wrap;
@@ -149,8 +149,8 @@
   align-items: center;
   padding-left: 0;
 }
-.service_popper_list li,
-.career_popper_list li,
+.industries_popper_list li,
+.caseStudies_popper_list li,
 .about_popper_list li {
   display: inline-flex;
   align-items: center;
@@ -159,8 +159,8 @@
   width: 180px;
 }
 
-.service_popper_list li a,
-.career_popper_list li a,
+.industries_popper_list li a,
+.caseStudies_popper_list li a,
 .about_popper_list li a {
   color: #22273e;
   font-size: 18px;

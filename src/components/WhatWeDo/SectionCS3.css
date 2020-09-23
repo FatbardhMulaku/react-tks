@@ -1,0 +1,254 @@
+.SectionCS3{
+    margin-top: 20px;
+    height: 80Vh;
+    width: 100%;
+    background-image:linear-gradient(to right , rgba(255, 255, 255, 0.644), rgba(255, 255, 255, 0.644)), url(./../../assets/CaseStudies/bannerCS3.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.SectionCS3__container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+.SectionCS3__Left{
+    width: 50%;
+    padding: 30px 20px;
+}
+.SectionCS3__Left-img1{
+    background-image: url(./../../assets/CaseStudies/fotoCS1.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 70%;
+    height: 35vh;
+    transform: translate(5%, 27%);
+    border-radius: 20px;
+}
+.SectionCS3__Left-img2{
+    background-image: url(./../../assets/CaseStudies/fotoCS2.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 55%;
+    height: 25vh;
+    transform: translateY(27%);
+    border-radius: 20px;
+}
+.SectionCS3__Left-img3{
+    background-image: url(./../../assets/CaseStudies/fotoCS3.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 35%;
+    height: 15vh;
+    transform: translate(170%, -80%);
+    border-radius: 20px;
+    
+}
+/* ================================== */
+.SectionCS3__Right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SectionCS3__RightC h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+.SectionCS3__RightC p{
+    font-size: 19px;
+    color: #686868;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.SectionCS3__RightC a{
+    transform: translateY(30%);
+    text-decoration: none;
+    color: white;
+    border: 1px solid #006FFF;
+    background-color: #006FFF;
+    border-radius: 20px;
+    padding: 12px 45px;
+}
+.SectionCS3__RightC a:hover{
+    color: #006FFF;
+    border: 1px solid #006FFF;
+    background-color: transparent;
+}
+.SectionCS3__RightC{
+    height: 50%;
+    padding:20px 50px;
+    text-align: left !important;
+}
+@media only screen and (max-width: 750px) {
+    .SectionCS3{
+        height: 100Vh;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .SectionCS3__container{
+        height: 100Vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .SectionCS3__Left{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    .SectionCS3__RightC{
+        height: 50%;
+        text-align: left !important;
+        padding: 0px;
+        text-align: center;
+    }
+    .SectionCS3__Right{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .SectionCS3__RightC h1{
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .SectionCS3__RightC p{
+        font-size: 15px;
+        color: #686868;
+        font-weight: 600;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .BannerCS-btnCS3{
+        text-align: center !important;
+        display: flex;
+        align-items: center;
+        width: 25%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SectionCS3__Left-img1{
+        width: 70%;
+        height: 30vh;
+        transform: translate(15%, 27%);
+        border-radius: 20px;
+    }
+    .SectionCS3__Left-img2{
+        width: 55%;
+        height: 25vh;
+        transform: translateY(20%);
+        border-radius: 20px;
+    }
+    .SectionCS3__Left-img3{
+        width: 35%;
+        height: 15vh;
+        transform: translate(170%, -100%);
+        border-radius: 20px;
+        
+    }
+}
+    @media only screen and (max-width: 500px) {
+        .SectionCS3{
+            height: 100Vh;
+        }
+        .SectionCS3__container{
+            height: 97Vh;
+            width: 98%;
+        }
+        .SectionCS3__Right{
+            width: 90%;
+        }
+        .SectionCS3__RightC h1{
+            font-size: 22px;
+        }
+        .SectionCS3__RightC p{
+            font-size: 16px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        .BannerCS-btnCS3{
+            width: 45%;
+        }
+        .SectionCS3__RightC a{
+            padding: 10px 25px;
+        }
+        .SectionCS3__Left-img1{
+            width: 75%;
+            height: 26vh;
+        }
+        .SectionCS3__Left-img2{
+            width: 55%;
+            height: 20vh;
+        }
+        .SectionCS3__Left-img3{
+            width: 35%;
+            height: 14vh;
+            transform: translate(170%, -80%);
+            
+        }
+}
+@media only screen and (max-width: 378px) {
+    .SectionCS3{
+        height: 105Vh;
+        width: 100%;
+    }
+    .SectionCS3__container{
+        height: 100Vh;
+        width: 99%;
+    }
+    .SectionCS3__Right {
+        width: 96%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .SectionCS3{
+        height: 110Vh;
+        width: 100%;
+    }
+    .SectionCS3__container{
+        height: 15Vh;
+        width: 99%;
+    }
+    .SectionCS3__RightC h1{
+        font-size: 20px;
+    }
+    .SectionCS3__RightC p{
+        font-size: 14px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    .BannerCS-btnCS3{
+        width: 45%;
+    }
+    .SectionCS3__RightC a{
+        padding: 8px 20px;
+    }
+}

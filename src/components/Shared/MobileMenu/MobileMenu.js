@@ -5,11 +5,12 @@ import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import { useTranslation } from "react-i18next";
 import "./MobileMenu.css";
 import MobileMenuItem from "./MobileMenuItem";
+import DropItem from "./DropItem";
 
 const useStyles = makeStyles((theme) => ({
   drawer: {
     "& > .MuiDrawer-paper": {
-      width: "200px !important",
+      width: "225px !important",
     },
   },
   drawerHeader: {
@@ -18,6 +19,9 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0, 1),
     ...theme.mixins.toolbar,
     justifyContent: "flex-start",
+    "& > button": {
+      outline: "none",
+    },
   },
 }));
 
@@ -48,6 +52,21 @@ const MobileMenu = (props) => {
             drawerToggle={props.drawerToggle}
           />
         ))}
+        <DropItem
+          drawerToggle={props.drawerToggle}
+          name={t("servicePopper.name")}
+          items={t("servicePopper.serviceMenu")}
+        />
+        <DropItem
+          drawerToggle={props.drawerToggle}
+          name={t("aboutPopper.name")}
+          items={t("aboutPopper.aboutMenu")}
+        />
+        <DropItem
+          drawerToggle={props.drawerToggle}
+          name={t("careerPopper.name")}
+          items={t("careerPopper.careerMenu")}
+        />
       </List>
     </Drawer>
   );

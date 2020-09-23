@@ -1,0 +1,69 @@
+.BannerCS{
+    width: 60%;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BannerCS h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 10px;
+}
+.BannerCS p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.BannerCS a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #006FFF;
+    background-color: #006FFF;
+    border-radius: 20px;
+    padding: 12px 45px;
+}
+.BannerCS a:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.BannerCS-btn:hover{
+    color: white;
+    border-color: #006FFF ;
+}
+@media only screen and (max-width: 750px) {
+    .BannerCS h1{
+        font-size: 45px;
+        margin: 10px;
+    }
+    .BannerCS p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .BannerCS h1{
+        font-size: 33px;
+        margin: 10px;
+    }
+    .BannerCS a{
+        padding: 8px 25px;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .BannerCS{
+        width: 70%;
+        height: 80vh;
+    }
+    .BannerCS h1{
+        font-size: 28px;
+        margin: 10px;
+    }
+}

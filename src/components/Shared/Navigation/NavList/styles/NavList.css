@@ -28,7 +28,7 @@
 }
 .nav_list:nth-child(6) li {
   order: 6;
-} */
-.nav_list li:nth-child(2) {
+} 
+.nav_list > :nth-child(2) {
   order: 1;
-}
+} */

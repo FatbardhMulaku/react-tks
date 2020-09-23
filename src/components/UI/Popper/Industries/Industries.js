@@ -2,31 +2,35 @@ import React from "react";
 import PopperBox from "../PopperBox";
 import PopperItem from "../PopperItem";
 import { useTranslation } from "react-i18next";
-import "./Service.css";
+import "./Industries.css";
 import "../index.css";
 
-const Service = (props) => {
+const Industries = (props) => {
   const { t } = useTranslation();
 
   return (
-    <PopperBox name="Service" trigger={props.trigger} width="800px">
-      <div className="service_popper_container">
-        <ul className="service_popper_list">
-          {t("servicePopper.serviceMenu").map((item, index) => (
+    <PopperBox
+      name={t("industriesPopper.name")}
+      trigger={props.trigger}
+      width="800px"
+    >
+      <div className="industries_popper_container">
+        <ul className="industries_popper_list">
+          {t("industriesPopper.industriesMenu").map((item, index) => (
             <PopperItem
               key={index}
               link={item.link}
               name={item.name}
-              icon={`service_popper_icon${index + 1}`}
+              icon={`industries_popper_icon${index + 1}`}
             />
           ))}
         </ul>
         <div>
           <h6 className="col_black font-roboto">
-            {t("servicePopper.serviceInfoName")}
+            {t("industriesPopper.industriesInfoName")}
           </h6>
-          <ul className="service_popper_info">
-            {t("servicePopper.serviceInfoMenu").map((item, index) => (
+          <ul className="industries_popper_info">
+            {t("industriesPopper.industriesInfoMenu").map((item, index) => (
               <li key={index}>
                 <a href="/#">{item}</a>
               </li>
@@ -38,4 +42,4 @@ const Service = (props) => {
   );
 };
 
-export default Service;
+export default Industries;

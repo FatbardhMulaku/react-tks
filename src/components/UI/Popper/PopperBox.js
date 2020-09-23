@@ -3,7 +3,7 @@ import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
 import "./index.css";
 import { ClickAwayListener, Popper, Zoom, Paper } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-
+// import Child from "../../Shared/Child";
 const useStyles = makeStyles((theme) => ({
   root: (props) => ({
     maxWidth: "50%",
@@ -58,7 +58,7 @@ const PopperBox = (props) => {
         >
           {props.name}
           <span className="icon_dropdown">
-            {open ? <RiArrowDropDownLine /> : <RiArrowDropUpLine />}
+            {open ? <RiArrowDropUpLine /> : <RiArrowDropDownLine />}
           </span>
         </button>
       </li>
@@ -101,6 +101,7 @@ const PopperBox = (props) => {
               onMouseLeave={handleClose}
             >
               <ClickAwayListener onClickAway={handleClose}>
+                {/* <Child handleClose={handleClose}>{props.children}</Child> */}
                 {props.children}
               </ClickAwayListener>
             </Paper>
