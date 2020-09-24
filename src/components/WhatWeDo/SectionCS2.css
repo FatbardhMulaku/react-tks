@@ -20,10 +20,12 @@
 .SectionCS2Left h1{
     font-size: 45px;
     font-weight: 600;
+    width: 70%;
 }
 .SectionCS2Left p{
     font-size: 18px;
     color: #a19f9f;
+    width: 70%;
 }
 .SectionCS2 a{
     margin-top: 50px;
@@ -49,6 +51,15 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media only screen and (max-width: 1150px) {
+    .SectionCS2Left h1{
+        width: 100%;
+        font-size: 35px;
+    }
+    .SectionCS2Left p{
+        width: 100%;
+    }
+}
 
 @media only screen and (max-width: 750px) {
     .SectionCS2{
@@ -73,6 +84,12 @@
         margin: 90px 90px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .SectionCS2Left h1{
+        width: 100%;
+    }
+    .SectionCS2Left p{
+        width: 100%;
     }
 }
 

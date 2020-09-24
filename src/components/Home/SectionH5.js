@@ -71,7 +71,10 @@ export class WorkSection extends Component {
     
     render() {
         const { classes } = this.props;
-        const classa = `${classes.butone} ${classes.active}`
+        const classa = `${classes.butone} ${classes.active}`;
+
+        
+        
         return (
             <div className="WorkSection"> 
                 <h1>Our Creative Works</h1>

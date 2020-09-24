@@ -123,6 +123,20 @@
         -webkit-animation-iteration-count: 1;
         animation-iteration-count: 1;
 }
+@media only screen and (max-width: 1600px) {
+    .banner__textBlog p {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .banner__textBlog h1{
+        font-size: 38px;
+        width: 100%;
+    }
+    .banner__textBlog p {
+        width: 70%;
+    }
+}
 
 @media only screen and (max-width: 750px) {
     .banner__textBlog h1{

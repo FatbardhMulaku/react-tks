@@ -87,6 +87,17 @@
 	-webkit-animation: flash 1.5s;
 	animation: flash 1.5s;
 }
+@media only screen and (max-width: 1300px) {
+    .aboutText1, .aboutText2{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .aboutText1 h1, .aboutText2 h1{
+        width: 100%;
+    }
+    .aboutText1 p, .aboutText2 p{
+        width: 100%;
+}}
 @media only screen and (max-width: 1100px) {
     .about{
         margin-top: 50px;
@@ -97,7 +108,7 @@
         margin-right: auto;
     }
     .aboutRight{
-        margin-top: 40%;
+        margin-top: 10%;
     }
    /*  .aboutLeft{
         width: 50%;
@@ -108,17 +119,18 @@
         margin-top: 40px;
         width: 50%;
     } */
-    .aboutText1{
-        padding-top: 40px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        text-align: left;
+    .aboutText1, .aboutText2{
+        width: 100%;
+        padding: 20px 0px;
     }
-    .aboutText2{
-        padding: 40px 50px 0px 50px;
-        text-align: left;
+    .aboutText1 h1, .aboutText2 h1{
+        width: 100%;
+        font-size: 30px;
     }
+    .aboutText1 p, .aboutText2 p{
+        width: 100%;
+        font-size: 15px;
+}
 }
 @media only screen and (max-width: 700px) {
     .about{
