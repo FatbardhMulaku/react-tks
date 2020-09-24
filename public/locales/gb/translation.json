@@ -5,10 +5,6 @@
       "name": "home"
     },
     {
-      "link": "Case-studies",
-      "name": "Case Studies"
-    },
-    {
       "link": "blog",
       "name": "blog"
     },
@@ -20,44 +16,24 @@
 
   "footerMenu": [
     {
-      "title": "Company",
+      "title": "quick links",
       "items": [
         {
           "link": "/",
           "name": "home"
         },
         {
-          "link": "/service",
-          "name": "service"
+          "link": "/about",
+          "name": "about us"
         },
-        {
-          "link": "/career",
-          "name": "career"
-        },
+
         {
           "link": "/blog",
           "name": "blog"
         },
         {
-          "link": "/about",
-          "name": "about us"
-        }
-      ]
-    },
-    {
-      "title": "About",
-      "items": [
-        {
-          "link": "/team",
-          "name": "team"
-        },
-        {
           "link": "/contact",
-          "name": "Contact us"
-        },
-        {
-          "link": "/company",
-          "name": "company"
+          "name": "contact us"
         },
         {
           "link": "/news",
@@ -112,8 +88,9 @@
       ]
     }
   ],
-  "servicePopper": {
-    "serviceMenu": [
+  "industriesPopper": {
+    "name": "industries",
+    "industriesMenu": [
       { "link": "seo-analysis", "name": "Seo analysis" },
       { "link": "managment", "name": "Managment" },
       { "link": "web-services", "name": "Web services" },
@@ -127,28 +104,30 @@
       { "link": "web-design", "name": "Web design" },
       { "link": "web-back-end", "name": "Web back-end" }
     ],
-    "serviceInfoName": "Company",
-    "serviceInfoMenu": ["Terms of Use", "Privacy", "Security"]
+    "industriesInfoName": "Company",
+    "industriesInfoMenu": ["Terms of Use", "Privacy", "Security"]
   },
   "aboutPopper": {
+    "name": "about us",
     "aboutMenu": [
       { "link": "Team", "name": "Team" },
-      { "link": "Security", "name": "Security" },
-      { "link": "Faq", "name": "Faq" },
+      { "link": "Our agency", "name": "Our agency" },
       { "link": "Career", "name": "Career" },
+      { "link": "Faq", "name": "Faq" },
       { "link": "Who we are", "name": "Who we are " },
       { "link": "What we do", "name": "What we do" }
     ]
   },
-  "careerPopper": {
-    "careerMenu": [
+  "caseStudiesPopper": {
+    "name": "case studies",
+    "caseStudiesMenu": [
       { "link": "Experience", "name": "Experience" },
       { "link": "Stories", "name": "Stories" }
     ]
   },
-
-  "footer": {
-    "subscribe": "Subscribe to our newsletter!!"
+  "location": "Str.Nene Tereza, No.18, Gjakove 50000, Kosovo",
+  "subscribe": {
+    "name": "Subscribe to our newsletter!!"
   },
   "alRight": "2020 All rights are reserved by",
 

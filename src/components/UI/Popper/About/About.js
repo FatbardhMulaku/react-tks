@@ -8,9 +8,12 @@ import { paramCase } from "change-case";
 
 const About = (props) => {
   const { t } = useTranslation();
-
   return (
-    <PopperBox name="about us" trigger={props.trigger} width="430px">
+    <PopperBox
+      name={t("aboutPopper.name")}
+      trigger={props.trigger}
+      width="430px"
+    >
       <div className="about_popper_container">
         <ul className="about_popper_list">
           {t("aboutPopper.aboutMenu").map((item, index) => (

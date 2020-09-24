@@ -4,12 +4,14 @@ import "./Footer.css";
 
 const MenuList = (props) => {
   return (
-    <div className="col-sm-6 col-md-3">
-      <h2 className="text-white footer-list-text">{props.title} </h2>
+    <div className="col-sm-12 col-md-6 col-lg-2">
+      <h2 className="text-white footer-list-text text-capitalize">
+        {props.title}
+      </h2>
       <ul className="footer-list">
         {props.list.map((item, index) => (
           <li key={index}>
-            <Link to={`/${item.link}`}>{item.name}</Link>
+            <Link to={item.link}>{item.name}</Link>
           </li>
         ))}
       </ul>

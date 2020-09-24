@@ -4,7 +4,7 @@ import Layout from "../layout/DefaultLayout";
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import Blog from "../pages/Blog";
-import CaseStudies from "../pages/CaseStudies";
+import WhatWeDo from "../pages/WhatWeDo";
 
 const route = () => {
   return (
@@ -14,7 +14,7 @@ const route = () => {
           <Route path="/" exact render={() => <Home />} />
           <Route path="/contact" exact render={() => <Contact />} />
           <Route path="/blog" exact render={() => <Blog />} />
-          <Route path="/Case-studies" exact render={() => <CaseStudies />} />
+          <Route path="/what-we-do" exact render={() => <WhatWeDo />} />
         </Switch>
       </Layout>
     </Router>
