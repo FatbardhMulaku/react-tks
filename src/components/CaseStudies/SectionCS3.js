@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './SectionCS3.css';
+import { useTranslation } from "react-i18next";
 
 function SectionCS3() {
+
+    const { t } = useTranslation();
     return (
         <div className="SectionCS3">
             <div  className="SectionCS3__container">
@@ -13,17 +16,12 @@ function SectionCS3() {
                 </div>
                 <div className="SectionCS3__Right">
                     <div className="SectionCS3__RightC">
-                    <h1>KosovaOutsource run all kinds <br/>
-                        of IT Services whith success.
-                    </h1>
+                    <h1>{t("Blog.SectionCS3h")}</h1>
                     <p>
-                        Here is all of KosovaOutsource's team apply to  <br/>
-                        our company and maybe can be in our team. As <br/>
-                        a software company we have a very great and  <br/>
-                        hardworking team.
+                    {t("Blog.SectionCS3p")}
                     </p> 
                     <Link to="/" className="BannerCS-btnCS3">
-                        Learn More
+                    {t("Blog.SectionCSbtn")}
                     </Link>
                     </div>
                     

@@ -1,22 +1,18 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './SectionCS2.css'
+import './SectionCS2.css';
+import { useTranslation } from "react-i18next";
 
 function SectionCS2() {
+    const { t } = useTranslation();
+
     return (
         <div className="SectionCS2">
             <div className="SectionCS2Left">
-                <h1>We do what we love <br/>
-                    for the better.
-                </h1>
-                <p>
-                    To offer quality softwaredevelopment services, <br/>
-                    you need to master technology. To make it top-<br/>
-                    notch, you need to master people interactions<br/>
-                    an let team go beyond.
-                </p>
+                <h1>{t("Blog.SectionCS2h")}</h1>
+                <p>{t("Blog.SectionCS2p")}</p>
                 <Link to="/" className="BannerCS-btn">
-                    Learn More
+                {t("Blog.SectionCSbtn")}
                 </Link>
             </div>
 

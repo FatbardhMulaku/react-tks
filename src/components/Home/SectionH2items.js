@@ -6,46 +6,48 @@ import FilterDramaOutlinedIcon from '@material-ui/icons/FilterDramaOutlined';
 import DashboardOutlinedIcon from '@material-ui/icons/DashboardOutlined';
 import PhoneIphoneOutlinedIcon from '@material-ui/icons/PhoneIphoneOutlined';
 import './SectionH2items.css';
+import { useTranslation } from "react-i18next";
 
 export default function SectionH2items() {
+    const { t } = useTranslation();
     return (
 
         <div className="SectionH2_wrapper">
             
         <div className="service">
         <i className="service-icon" ><PhoneIphoneOutlinedIcon fontSize={'large'}/></i>
-            <h3 className="service-title">Mobile design</h3>
-            <p className="service-info">Our mobile UI/UX design specialists create a conversion-driven mobile user experience that makes for high conversion and user retention.</p>
+            <h3 className="service-title">{t("Home.SectionH2_TitleA")}</h3>
+            <p className="service-info">{t("Home.SectionH2_InfoA")}</p>
         </div>
     
         <div className="service">
         <i className="service-icon" ><DashboardOutlinedIcon fontSize={'large'}/></i>
-            <h3 className="service-title">Web Design</h3>
-            <p className="service-info">Web design services comprise the processes of user interface (UI) and user experience (UX) design of any web-based solution.</p>
+            <h3 className="service-title">{t("Home.SectionH2_TitleB")}</h3>
+            <p className="service-info">{t("Home.SectionH2_InfoB")}</p>
         </div>
 
         <div className="service">
         <i className="service-icon" ><FilterDramaOutlinedIcon fontSize={'large'}/></i>
-            <h3 className="service-title">Cloud</h3>
-            <p className="service-info">Cloud infrastructure management services provide scalability to businesses. Where multiple users can share a common infrastructure.</p>
+            <h3 className="service-title">{t("Home.SectionH2_TitleC")}</h3>
+            <p className="service-info">{t("Home.SectionH2_InfoC")}</p>
         </div>
 
         <div className="service">
         <i className="service-icon" ><GraphicEqOutlinedIcon fontSize={'large'}/></i>
-            <h3 className="service-title">Branding</h3>
-            <p className="service-info">We branding is mostly applied to intranets and portals, and it’s not just about improving the look and feel of a solution for the sake of it.</p>
+            <h3 className="service-title">{t("Home.SectionH2_TitleD")}</h3>
+            <p className="service-info">{t("Home.SectionH2_InfoD")}</p>
         </div>
 
         <div className="service">
         <i className="service-icon" ><SettingsApplicationsOutlinedIcon fontSize={'large'}/></i>
-            <h3 className="service-title">Web services</h3>
-            <p className="service-info">Web development services imply designing, building, integrating, scaling and maintaining dynamic software solutions that work via intranet or internet.</p>
+            <h3 className="service-title"> {t("Home.SectionH2_TitleE")}</h3>
+            <p className="service-info"> {t("Home.SectionH2_InfoE")}</p>
         </div>
 
         <div className="service">
         <i className="service-icon" ><DescriptionOutlinedIcon fontSize={'large'}/></i>
-            <h3 className="service-title">Managment</h3>
-            <p className="service-info">Management refers to the monitoring and administration of an organization’s information technology systems: hardware, software and networks.</p>
+            <h3 className="service-title">{t("Home.SectionH2_TitleF")}</h3>
+            <p className="service-info">{t("Home.SectionH2_InfoF")}</p>
         </div>
 
     </div>

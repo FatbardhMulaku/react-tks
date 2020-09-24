@@ -1,35 +1,32 @@
-import React, { Component } from "react";
+import React, {useEffect} from 'react';
 import { Link } from "react-router-dom";
 import "./BannerCS.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslation } from "react-i18next";
 
-export class BannerCS extends Component {
-  componentDidMount() {
-    AOS.init({
-      offset: 400,
-      easing: "ease",
-      duration: 2000,
-    });
-  }
+function BannerCS() {
 
-  render() {
-    return (
-      <div className="BannerCS">
-        <h1>What we do</h1>
-        <p>
-          We offer professional outsourcing, programming,
-          <br />
-          managment, design pr any visual or administration
-          <br />
-          work. Contact us for more information.
-        </p>
-        <Link to="/" className="BannerCS-btn">
-          Learn More
-        </Link>
-      </div>
-    );
-  }
+    useEffect(() => {
+      AOS.init({
+        easing: "ease",
+        duration: 2000,
+      });
+    }, []);
+
+    const { t } = useTranslation();
+
+  return (
+    <div className="BannerCS">
+    <h1>{t("Blog.SectionCS1h")}</h1>
+    <p>
+    {t("Blog.SectionCS1p")}
+    </p>
+    <Link to="/" className="BannerCS-btn">
+    {t("Blog.SectionCSbtn")}
+    </Link>
+  </div>
+  )
 }
 
-export default BannerCS;
+export default BannerCS

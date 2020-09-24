@@ -1,25 +1,23 @@
-import React, { Component } from "react";
+import React, { useEffect } from 'react';
 import "./BannerC.css";
 import AOS from "aos";
-// import "../Home/node_modules/aos/dist/aos.css";
 import "aos/dist/aos.css";
+import { useTranslation } from "react-i18next";
 
-export class BannerC extends Component {
-  componentDidMount() {
+function BannerC() {
+  useEffect(() => {
     AOS.init({
-      offset: 400,
       easing: "ease",
       duration: 2000,
     });
-  }
+  }, []);
 
-  render() {
-    return (
-      <div data-aos="fade-right" data-aos-delay="400" className="BannerC">
-        <h1>Contact us</h1>
-      </div>
-    );
-  }
+  const { t } = useTranslation();
+  return (
+    <div data-aos="fade-right" data-aos-delay="400" className="BannerC">
+    <h1>{t("Contact.BannerB")}</h1>
+  </div>
+  )
 }
 
-export default BannerC;
+export default BannerC
