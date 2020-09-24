@@ -1,11 +1,11 @@
 .footer {
   background-color: #006fff;
-  margin-top: 10%;
+  margin-top: 11rem;
 }
 
 .footer_content {
   padding: 1rem 5% !important;
-  padding-top: 10rem !important;
+  padding-top: 11rem !important;
 }
 
 .footer hr {
@@ -112,7 +112,7 @@
 }
 @media (max-width: 600px) {
   .footer {
-    margin-top: 15%;
+    margin-top: 9rem;
   }
   .footer_content {
     padding-top: 9rem !important;

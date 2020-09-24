@@ -13,7 +13,13 @@
       "name": "contact us"
     }
   ],
-
+  "faq": {
+    "faqForm": {
+      "name": "faq",
+      "input": "Ask us a question",
+      "btn": "send"
+    }
+  },
   "footerMenu": [
     {
       "title": "quick links",

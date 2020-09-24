@@ -18,10 +18,28 @@ code {
   outline: none !important;
 }
 .fullBackground {
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  background-attachment: fixed;
+  height: auto;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .fullBackground {
+    background-attachment: scroll;
+  }
+}
+
+.img_css {
+  vertical-align: middle;
+  border-style: none;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  transition: All 0.3s ease-in-out;
+  -webkit-transition: All 0.3s ease-in-out;
 }
 
 .flag-select__btn:focus {

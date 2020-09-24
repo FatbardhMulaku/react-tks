@@ -5,7 +5,7 @@ import "./Subscribe.css";
 const Subscribe = () => {
   const { t } = useTranslation();
   return (
-    <div className="fullBackground subscribe_img">
+    <div className="img_css subscribe_img">
       <div className="subscribe_container">
         <h3 className="col_white font-helvetica">{t("subscribe.name")} </h3>
         <form className="subscribe">
