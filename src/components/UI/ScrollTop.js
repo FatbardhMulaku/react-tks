@@ -7,7 +7,7 @@ import { Zoom, Fab } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   root: {
     position: "fixed",
-    bottom: theme.spacing(3),
+    bottom: theme.spacing(6),
     right: theme.spacing(3),
     width: "45px",
     height: "45px",

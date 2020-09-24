@@ -1,92 +1,55 @@
 import React from "react";
 import {
-  FaFacebookF,
   FaTwitter,
-  FaLinkedinIn,
-  FaYoutube,
+  FaFacebookF,
   FaBehance,
+  FaLinkedinIn,
 } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
-
 import "./SocialMedia.css";
+
+const socalMedias = [
+  {
+    name: "Instagram",
+    link: "instagram.com",
+    icon: <RiInstagramFill />,
+  },
+  {
+    name: "Twitter",
+    link: "twitter.com",
+    icon: <FaTwitter />,
+  },
+  {
+    name: "Linkedin",
+    link: "linkedin.com",
+    icon: <FaLinkedinIn />,
+  },
+  {
+    name: "Behance",
+    link: "behance.net",
+    icon: <FaBehance />,
+  },
+  {
+    name: "Facebook",
+    link: "facebook.com",
+    icon: <FaFacebookF />,
+  },
+];
 
 const SocialMedia = () => {
   return (
     <div className="SocalMedia">
-      <div className="row">
-        <div className="col-sm-6 col-md-4 col-xl-2 my-2">
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.instagram.com"
-          >
-            <span>
-              <RiInstagramFill />
-            </span>
-            Instagram
-          </a>
-        </div>
-        <div className="col-sm-6 col-md-4 col-xl-2 my-2">
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.twitter.com"
-          >
-            <span>
-              <FaTwitter />
-            </span>
-            Twitter
-          </a>
-        </div>
-        <div className="col-sm-6 col-md-4 col-xl-2 my-2">
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.linkedin.com"
-          >
-            <span>
-              <FaLinkedinIn />
-            </span>
-            LinkedIn
-          </a>
-        </div>
-        <div className="col-sm-6 col-md-4 col-xl-2 my-2">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.behance.net"
-          >
-            <span>
-              <FaBehance />
-            </span>
-            Behance
-          </a>
-        </div>
-        <div className="col-sm-6 col-md-4 col-xl-2 my-2">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.facebook.com"
-          >
-            <span>
-              <FaFacebookF />
-            </span>
-            Facebook
-          </a>
-        </div>
-        <div className="col-sm-6 col-md-4 col-xl-2 my-2">
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.youtube.com"
-          >
-            <span>
-              <FaYoutube />
-            </span>
-            Youtube
-          </a>
-        </div>
-      </div>
+      {socalMedias.map((item, index) => (
+        <a
+          key={index}
+          rel="noopener noreferrer"
+          target="_blank"
+          href={`https://www.${item.link}`}
+        >
+          <span>{item.icon}</span>
+          <p>{item.name}</p>
+        </a>
+      ))}
     </div>
   );
 };

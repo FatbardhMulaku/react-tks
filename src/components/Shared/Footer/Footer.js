@@ -3,37 +3,34 @@ import "./Footer.css";
 import LangOptions from "../../UI/LangOptions";
 import MenuListFooter from "./MenuList";
 import Logo from "../../UI/Logo/Logo";
-// import FooterLogo from "../../../assets/Home/footer.png";
 import { useTranslation } from "react-i18next";
-import { Divider, Typography } from "@material-ui/core";
+import { Divider } from "@material-ui/core";
 import ScrollTop from "../../UI/ScrollTop";
 import SocialMedia from "../../UI/SocialMedia/SocialMedia";
+import Subscribe from "./Subscribe";
 import { FaCopyright } from "react-icons/fa";
 function Footer(props) {
   const { t } = useTranslation();
 
   return (
     <div className="footer">
-      <div className="container-fluid px-5 py-3">
-        {/* <div className="sub-footer ">
-          <img src={FooterLogo} alt="footer" className="img-footeri" />
-          <div className="subscribe-c">
-            <h1>{t("footer.subscribe")}</h1>
-            <input type="text" placeholder="Enter your email adress" />
-            <button className="footer-btn">Subscribe</button>
-          </div>
-        </div> */}
-
-        <div className="row">
-          <div className="col-md-12 col-lg-5 footer-logo">
+      <div className="container-fluid ">
+        <Subscribe />
+      </div>
+      <div className="container-fluid footer_content ">
+        <div className="row justify-content-between">
+          <div className="col-sm-12 col-md-6 col-lg-3 footer-logo">
             <h2>
               <Logo logo="white_logo" text="col_white" />
             </h2>
             <ul className="footer-list ">
               <li>
-                <a href="/#">
-                  Location-Prishtina, <br /> Kosova St.Sinan Gashi <br /> Zip
-                  Code 10000
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://goo.gl/maps/gWGFJN2rzNrBZ5FX7"
+                >
+                  {t("location")}
                 </a>
               </li>
               <li>
@@ -48,30 +45,28 @@ function Footer(props) {
                 <a href="tel:+38345400400">+383 45 400 400</a>
               </li>
             </ul>
-            <div className="">
-              <LangOptions />
-            </div>
           </div>
-          <div className="col-md-12 col-lg-7">
-            <div className="row">
-              {t("footerMenu").map((item, index) => (
-                <MenuListFooter
-                  key={index}
-                  title={item.title}
-                  list={item.items}
-                />
-              ))}
-            </div>
-          </div>
+          {t("footerMenu").map((item, index) => (
+            <MenuListFooter key={index} title={item.title} list={item.items} />
+          ))}
         </div>
         <Divider />
-        <div className="footer-bottom">
-          <Typography variant="subtitle2" gutterBottom>
-            <FaCopyright /> {t("alRight")} KosovaOutsource
-          </Typography>
+        <div className="footer_socialMedia">
+          <h2 className="text-white footer-list-text text-capitalize">
+            Follow us
+          </h2>
           <SocialMedia />
         </div>
         <Divider />
+        <div className="footer-bottom ">
+          <h6 className="alRight">
+            <i>
+              <FaCopyright />
+            </i>
+            {t("alRight")}
+          </h6>
+          <LangOptions />
+        </div>
       </div>
       <ScrollTop {...props} />
     </div>

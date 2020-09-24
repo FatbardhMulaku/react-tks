@@ -1,6 +1,13 @@
 .footer {
   background-color: #006fff;
+  margin-top: 10%;
 }
+
+.footer_content {
+  padding: 1rem 5% !important;
+  padding-top: 10rem !important;
+}
+
 .footer hr {
   background-color: #c2c2c2;
   margin: 1% 0%;
@@ -21,17 +28,17 @@
 }
 
 .footer-list li a {
-  color: #dddddd;
+  color: #d1d1d1;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   text-transform: capitalize;
   text-decoration: none !important;
 
-  -moz-transition: all 0.4s ease-in;
-  -o-transition: all 0.4s ease-in;
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 .footer-list li a:hover {
   color: white;
@@ -54,6 +61,28 @@
   margin: 0;
 }
 
+.footer_socialMedia {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row;
+}
+
+.alRight {
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+.alRight > i {
+  font-size: 1.1rem;
+  margin-right: 4px;
+}
+.alRight > i > svg {
+  vertical-align: text-top;
+}
+
 @media (max-width: 992px) {
   .footer > * {
     text-align: center;
@@ -70,12 +99,22 @@
     justify-content: center;
     margin: 20px 0px;
   }
-  .footer-bottom {
-    display: flex;
-    flex-flow: column-reverse;
-    align-items: center;
+
+  .footer_socialMedia {
+    flex-flow: wrap column;
+    padding: 1rem 0;
   }
-  .footer-bottom h6 {
-    padding-top: 20px;
+}
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-flow: column-reverse;
+  }
+}
+@media (max-width: 600px) {
+  .footer {
+    margin-top: 15%;
+  }
+  .footer_content {
+    padding-top: 9rem !important;
   }
 }

@@ -2,6 +2,15 @@
   display: flex;
   justify-content: space-evenly;
   color: white;
+  flex-flow: row;
+}
+.SocalMedia > a > p {
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .SocalMedia > a > p {
+    display: none;
+  }
 }
 .SocalMedia a {
   display: flex;
@@ -18,8 +27,6 @@
   -o-transition: all 0.4s ease-in;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
-  margin: 0px 10px;
-  width: 140px;
 }
 .SocalMedia a:hover {
   color: white;

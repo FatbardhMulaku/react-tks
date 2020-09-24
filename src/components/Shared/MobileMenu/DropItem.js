@@ -10,6 +10,7 @@ import {
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { Link } from "react-router-dom";
 import "./MobileMenu.css";
+import { paramCase } from "change-case";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -77,7 +78,7 @@ const DropItem = (props) => {
         {props.items.map((item, index) => (
           <Link
             key={index}
-            to={`/${item.link}`}
+            to={`/${paramCase(item.link)}`}
             onClick={props.drawerToggle}
             className="link subMenu_text "
           >

@@ -4,11 +4,7 @@ const Child = (props) => {
   const updateChildrenWithProps = React.Children.map(
     props.children,
     (child, i) => {
-      return React.cloneElement(
-        child,
-        //this properties are available as a props in child components
-        child.props.handleClose
-      );
+      return React.cloneElement(child, child.props.handleClose);
     }
   );
 

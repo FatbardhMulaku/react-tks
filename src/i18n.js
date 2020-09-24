@@ -72,8 +72,8 @@ i18n
       useSuspense: true,
       bindI18n: "languageChanged loaded",
       bindStore: "added removed",
-      // transSupportBasicHtmlNodes: true, // allow <br/> and simple html elements in translations
-      // transKeepBasicHtmlNodesFor: ["br", "strong", "i"], // don't convert to <1></1> if simple react elements
+      transSupportBasicHtmlNodes: true, // allow <br/> and simple html elements in translations
+      transKeepBasicHtmlNodesFor: ["br", "strong", "i"], // don't convert to <1></1> if simple react elements
     },
   });
 

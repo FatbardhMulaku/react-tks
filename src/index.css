@@ -14,6 +14,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+* {
+  outline: none !important;
+}
+.fullBackground {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
 
 .flag-select__btn:focus {
   outline: none !important;
@@ -55,4 +64,7 @@ code {
 
 .font-roboto {
   font-family: "Roboto", sans-serif;
+}
+.font_helvetica {
+  font-family: Helvetica, sans-serif;
 }
