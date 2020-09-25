@@ -1,0 +1,14 @@
+.sectionF2 > h3 {
+  width: 60%;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.acc_icon {
+  color: #006fff;
+}
+@media (max-width: 768px) {
+  .sectionF2 > h3 {
+    width: 90%;
+    font-size: 1.3rem;
+  }
+}
