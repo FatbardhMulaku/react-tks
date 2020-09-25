@@ -6,6 +6,7 @@ import Contact from "../pages/Contact";
 import Blog from "../pages/Blog";
 import WhatWeDo from "../pages/WhatWeDo";
 import Faq from "../pages/Faq";
+import Security from "../pages/Security";
 
 const route = () => {
   return (
@@ -17,6 +18,7 @@ const route = () => {
           <Route path="/blog" exact render={() => <Blog />} />
           <Route path="/what-we-do" exact render={() => <WhatWeDo />} />
           <Route path="/faq" exact render={() => <Faq />} />
+          <Route path="/security" exact render={() => <Security />} />
         </Switch>
       </Layout>
     </Router>

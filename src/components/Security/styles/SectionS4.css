@@ -1,0 +1,15 @@
+.sectionS4 {
+  background-color: #fff;
+  padding: 2rem 0;
+}
+
+.section4_img {
+  background-image: url("../../../assets/images/security/Path\ 155.jpg");
+  border-bottom-left-radius: 100px;
+}
+
+@media (max-width: 576px) {
+  .section4_img {
+    border-bottom-left-radius: 70px;
+  }
+}

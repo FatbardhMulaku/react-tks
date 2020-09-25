@@ -86,3 +86,23 @@ code {
 .font_helvetica {
   font-family: Helvetica, sans-serif;
 }
+.font_p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+.font-w-500 {
+  font-weight: 500;
+}
+.font-w-600 {
+  font-weight: 600;
+}
+.font-w-700 {
+  font-weight: 700;
+}
+.font-w-800 {
+  font-weight: 800;
+}
+.font-w-900 {
+  font-weight: 900;
+}

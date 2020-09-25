@@ -13,6 +13,22 @@
       "name": "contact us"
     }
   ],
+  "learnMoreBtn": "learn more",
+  "security": {
+    "section_1": {
+      "title": "security",
+      "desc": "We offer professional outsourcing, programming, management, design or any visual or administration work. Contact us for more  information."
+    },
+    "section_2": ["Protected", "Codes", "Authentication"],
+    "section_3": {
+      "title": "You are secured 100% with KosovaOutsource",
+      "desc": "As a great company, KosovaOutsource guarantees you that you are secured by cooperating with us"
+    },
+    "section_4": {
+      "title": "Grow your business more with KosovaOutsource",
+      "desc": "Here is all of KosovaOutsource's team, apply to our company and maybe can be in our team. Asa software company we have a very great andhardworking team."
+    }
+  },
   "faq": {
     "faqForm": {
       "name": "faq",
@@ -162,7 +178,7 @@
   "subscribe": {
     "name": "Subscribe to our newsletter!!"
   },
-  "alRight": "2020 All rights are reserved by",
+  "alRight": "2020 KosovaOutsource. All rights are reserved",
 
   "Home": {
     "BanerH1": "We are the best Software Company in Kosova.",

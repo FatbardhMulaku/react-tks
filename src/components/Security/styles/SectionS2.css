@@ -1,0 +1,41 @@
+.sectionS2 {
+  margin: 2rem 0;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.sectionS2_icon_1 {
+  background-image: url("../../../assets/images/security/shield.svg");
+}
+.sectionS2_icon_2 {
+  background-image: url("../../../assets/images/security/digital.svg");
+}
+.sectionS2_icon_3 {
+  background-image: url("../../../assets/images/security/authentication.svg");
+}
+
+.sectionS2_icons {
+  background-color: #006fff;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 50%;
+}
+.sectionS2_icon_1,
+.sectionS2_icon_2,
+.sectionS2_icon_3 {
+  width: 50px;
+  height: 50px;
+  padding: 1rem;
+}
+.sectionS2 > div > h4 {
+  color: #22273e;
+}
+
+@media (max-width: 992.98px) {
+  .sectionS2 {
+    flex-flow: column;
+  }
+}

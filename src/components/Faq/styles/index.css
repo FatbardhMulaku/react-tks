@@ -6,7 +6,8 @@
 .acc_icon {
   color: #006fff;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 992px) {
   .sectionF2 > h3 {
     width: 90%;
     font-size: 1.3rem;

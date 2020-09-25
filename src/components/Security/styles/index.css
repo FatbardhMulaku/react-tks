@@ -1,0 +1,59 @@
+.sectionS1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(34, 39, 62, 0.45),
+      rgba(34, 39, 62, 0.45)
+    ),
+    url("../../../assets/images/security/Rectangle\ 222.jpg");
+}
+.sectionS1 > div > .row,
+.sectionS3 > div > .row,
+.sectionS4 > div > .row {
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+.section3_img,
+.section4_img {
+  height: 500px;
+  border: 1px solid transparent;
+  background-size: cover;
+  margin: 4rem 7%;
+}
+
+.textGrid {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 5% !important;
+}
+
+.textGrid > h1 {
+  font-size: 3rem;
+}
+.textGrid > p {
+  font-size: 1.1rem;
+}
+@media (max-width: 992px) {
+  .sectionS1_row,
+  .sectionS3_row {
+    flex-flow: wrap-reverse !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .section3_img,
+  .section4_img {
+    height: 350px;
+    margin: 2rem 1%;
+  }
+  .textGrid {
+    padding: 5% !important;
+  }
+  .textGrid > h1 {
+    font-size: 1.7rem;
+  }
+  .textGrid > p {
+    font-size: 0.9rem;
+  }
+}
