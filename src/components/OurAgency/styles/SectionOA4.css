@@ -1,0 +1,39 @@
+.sectionOA4 {
+  margin: 4rem 0;
+}
+
+.sectionOA4_card {
+  margin: 2rem 0;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.sectionOA4_icon1 {
+  background-image: url("../../../assets/images/ouragency/surface1.svg");
+}
+.sectionOA4_icon2 {
+  background-image: url("../../../assets/images/ouragency/alert.svg");
+}
+.sectionOA4_icon3 {
+  background-image: url("../../../assets/images/ouragency/internet.svg");
+}
+
+.sectionOA4_icon_box {
+  background-color: #006fff;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 1rem;
+}
+.sectionOA4_icon_box > div:first-child {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 992.98px) {
+  .sectionOA4_card {
+    flex-flow: column;
+  }
+}

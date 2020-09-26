@@ -8,7 +8,7 @@ import {
   ListItem,
 } from "@material-ui/core";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./MobileMenu.css";
 import { paramCase } from "change-case";
 
@@ -17,8 +17,12 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     boxShadow: "none",
     margin: "0 !important",
+
     "&:before": {
       height: "0",
+    },
+    "& > .MuiCollapse-entered": {
+      marginTop: "-9px !important",
     },
   },
   heading: {
@@ -45,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
     flexFlow: "column",
     backgroundColor: "#f8f8f8",
     margin: "0 10px",
-    padding: "5px 10px",
+    padding: "2px 0",
   },
   litsItem: {
     padding: "5px 10px",
@@ -59,7 +63,11 @@ const DropItem = (props) => {
   const classes = useStyles();
 
   return (
-    <Accordion className={classes.root}>
+    <Accordion
+      className={classes.root}
+      expanded={props.expanded === props.panel}
+      onChange={props.handleChange(props.panel)}
+    >
       <ListItem button className={classes.litsItem}>
         <ListItemText className={classes.listText}>
           <AccordionSummary
@@ -68,22 +76,22 @@ const DropItem = (props) => {
             aria-controls={props.name}
             id={props.name}
           >
-            <Link to="/service" className="link mb-0">
-              {props.name}
-            </Link>
+            <p className="link mb-0">{props.name}</p>
           </AccordionSummary>
         </ListItemText>
       </ListItem>
       <AccordionDetails className={classes.accDetails}>
         {props.items.map((item, index) => (
-          <Link
+          <NavLink
+            exact
             key={index}
             to={`/${paramCase(item.link)}`}
             onClick={props.drawerToggle}
             className="link subMenu_text "
+            activeClassName="activeMobile_2"
           >
             {item.name}
-          </Link>
+          </NavLink>
         ))}
       </AccordionDetails>
     </Accordion>

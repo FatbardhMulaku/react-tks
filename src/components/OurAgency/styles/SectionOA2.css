@@ -1,0 +1,46 @@
+.sectionOA2 > h2 {
+  width: 50%;
+  margin: 3rem auto;
+}
+
+.sectionOA2_icon_box > div:first-child {
+  width: 40px;
+  height: 40px;
+}
+.sectionOA2_icon_box {
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: #006fff;
+  margin: 1rem 0;
+}
+
+.sectionOA2_icon1 {
+  background-image: url("../../../assets/images/ouragency/phone.svg");
+}
+.sectionOA2_icon2 {
+  background-image: url("../../../assets/images/ouragency/shapes.svg");
+}
+.sectionOA2_icon3 {
+  background-image: url("../../../assets/images/ouragency/data.svg");
+}
+.sectionOA2_icon4 {
+  background-image: url("../../../assets/images/ouragency/branding.svg");
+}
+.sectionOA2_icon5 {
+  background-image: url("../../../assets/images/ouragency/coding.svg");
+}
+.sectionOA2_icon6 {
+  background-image: url("../../../assets/images/ouragency/www.svg");
+}
+.sectionOA2_icon7 {
+  background-image: url("../../../assets/images/ouragency/desktop.svg");
+}
+.sectionOA2_icon8 {
+  background-image: url("../../../assets/images/ouragency/minus.svg");
+}
+
+@media (max-width: 992px) {
+  .sectionOA2 > h2 {
+    width: 100%;
+  }
+}
