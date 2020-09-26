@@ -1,0 +1,5 @@
+.sectionOA1 > div > .row,
+.sectionOA3 > div > .row {
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}

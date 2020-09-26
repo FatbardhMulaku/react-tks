@@ -1,0 +1,50 @@
+.ask_form {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column;
+  margin-top: 30%;
+}
+.ask_form .form {
+  width: 380px;
+  display: flex;
+  padding: 4px;
+  align-items: center;
+  border-radius: 40px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+}
+.ask_form > h4 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.ask_btn {
+  padding: 10px 40px;
+  border-radius: 40px;
+  background-color: #006fff;
+  color: white;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+}
+.ask_btn:hover {
+  background-color: #0061de;
+}
+
+@media (max-width: 992px) {
+  .ask_form {
+    margin-top: 8%;
+    align-items: center;
+    padding: 3% 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .ask_form .form {
+    width: 290px;
+  }
+}

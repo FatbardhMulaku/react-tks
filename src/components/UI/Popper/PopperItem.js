@@ -7,8 +7,10 @@ import { MenuItem } from "@material-ui/core";
 const PopperItem = (props) => {
   return (
     <MenuItem>
-      <div className={`popper_item_icon ${props.icon}`}></div>
-      <Link to={`/${props.link}`}>{props.name}</Link>
+      <Link to={`/${props.link}`}>
+        <div className={`popper_item_icon ${props.icon}`}></div>
+        {props.name}
+      </Link>
     </MenuItem>
   );
 };

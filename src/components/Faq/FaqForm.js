@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { InputBase } from "@material-ui/core";
 import { useTranslation } from "react-i18next";
+import "./styles/FaqForm.css";
 
 const useStyles = makeStyles((theme) => ({
   input: {

@@ -162,6 +162,8 @@
 .industries_popper_list li a,
 .caseStudies_popper_list li a,
 .about_popper_list li a {
+  display: inline-flex;
+  align-items: center;
   color: #22273e;
   font-size: 18px;
   font-family: "Roboto", sans-serif;

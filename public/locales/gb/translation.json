@@ -29,6 +29,16 @@
       "desc": "Here is all of KosovaOutsource's team, apply to our company and maybe can be in our team. Asa software company we have a very great andhardworking team."
     }
   },
+  "ourAgency": {
+    "section_1": {
+      "title": "Services of our Company",
+      "desc": "If you want to see allof our services, you just have to scroll down  and you can see all of them. Thank you for visiting an hope you"
+    },
+    "section_3": {
+      "title": "Is really KosovaOutsource very recommended to others and which is the reason?",
+      "desc": "The that we are the best and most recommended is considered by our loyal clients, so cooperate with us you will not regret"
+    }
+  },
   "faq": {
     "faqForm": {
       "name": "faq",
