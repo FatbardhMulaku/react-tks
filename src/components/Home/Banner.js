@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import "./Banner.css";
 import logo1 from "./../../assets/Home/hero1.png";
 import logo2 from "./../../assets/Home/hero2.png";
 import logo3 from "./../../assets/Home/hero3.png";
+import LearnMore from "./../UI/Button/LearnMore";
 import { useTranslation } from "react-i18next";
 
 function Banner() {
@@ -21,9 +21,7 @@ function Banner() {
       </p>
 
       <div className="div-banner-btn">
-        <Link to="/" className="banner-btn">
-        {t("Home.BannerA")}
-        </Link>
+      <LearnMore offset={-90} /> 
       </div>
     </div>
     <div  className="banner__img">

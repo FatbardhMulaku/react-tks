@@ -43,11 +43,14 @@ function Software() {
             </div>
             </div>
 
-            <div className="containeri" >
-                 <img src={workLogo2} alt="Avatar" className="Wimage" style={{width:'100%'}}/>
-                 <div className="middle">
-                 <h2>{t("Home.SectionH5Tabtitle")}</h2>
-                    <div className="Wtext">{t("Home.SectionH5TabBtn")}</div>
+            {t("SectionH5").map((item, index) => {
+              return (
+                <div key={index} className="containeri">
+                    <div className={`workLogo${index +1} Wimage`} alt="Avatar" style={{width:'100%'}}/>
+                    <div className="middle">
+                        <h2>{item.title}</h2>
+                        <div className="Wtext">{item.btn}</div>
+                    </div>
                 </div>
             </div>
 
