@@ -34,9 +34,63 @@
       "title": "Services of our Company",
       "desc": "If you want to see allof our services, you just have to scroll down  and you can see all of them. Thank you for visiting an hope you"
     },
+    "section_2": {
+      "title": "Here are all of our Services that our Company offers.",
+      "allServices": [
+        {
+          "title": "Mobile design",
+          "desc": "We will create a beautiful and working design for your idea."
+        },
+        {
+          "title": "Web design",
+          "desc": "We will create a beautiful and working design for your idea."
+        },
+        {
+          "title": "Cloud",
+          "desc": "We will create a beautiful and working design for your idea."
+        },
+        {
+          "title": "Branding",
+          "desc": "We will create a beautiful and working design for your idea."
+        },
+        {
+          "title": "Web Front-end",
+          "desc": "We will create a beautiful and working design for your idea."
+        },
+        {
+          "title": "Web Back-end",
+          "desc": "We will create a beautiful and working design for your idea."
+        },
+        {
+          "title": "Desktop",
+          "desc": "We will create a beautiful and working design for your idea."
+        },
+        {
+          "title": "Serverless",
+          "desc": "We will create a beautiful and working design for your idea."
+        }
+      ]
+    },
     "section_3": {
       "title": "Is really KosovaOutsource very recommended to others and which is the reason?",
       "desc": "The that we are the best and most recommended is considered by our loyal clients, so cooperate with us you will not regret"
+    },
+    "section_4": {
+      "title": "Our features",
+      "allServices": [
+        {
+          "title": "Quality",
+          "desc": "Our company gives to you best quality that you ever have."
+        },
+        {
+          "title": "Security",
+          "desc": "We support your projects with competence and experience."
+        },
+        {
+          "title": "Network Infrastrucrure",
+          "desc": "We will create a beautiful and working design for your idea."
+        }
+      ]
     }
   },
   "faq": {

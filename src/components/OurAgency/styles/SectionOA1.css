@@ -20,16 +20,77 @@
   font-size: 2.2rem;
 }
 
+.chevron {
+  margin-left: 75px;
+  margin-bottom: 15px;
+}
+.chevron:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+  height: 67%;
+  width: 80px;
+  background: #006fff;
+}
+.chevron:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 97%;
+  border-top: 80px solid #0255c1;
+  border-left: 80px solid transparent;
+}
+
+@media (max-width: 1200px) {
+  .chevron {
+    margin-bottom: -13px;
+  }
+  .chevron:before {
+    height: 58%;
+  }
+  .chevron:after {
+    width: 97%;
+  }
+  .sectionOA1_text {
+    padding: 8% 5% 1% 5% !important;
+  }
+}
+
 @media (max-width: 992px) {
   .img_ourAgency_1 {
     height: 350px;
-    margin: 2%;
   }
   .sectionOA1 > div:first-child {
     padding: 8rem 2%;
   }
   .sectionOA1_row {
     flex-flow: wrap-reverse !important;
+  }
+  .sectionOA1_text {
+    padding: 7% 12% 5% 1% !important;
+  }
+  .chevron {
+    margin-left: 18px;
+    margin-bottom: 93px;
+  }
+  .chevron:before {
+    height: 82%;
+  }
+  .chevron:after {
+    width: 88.5%;
+  }
+}
+@media (max-width: 768px) {
+  .chevron {
+    margin: 2% !important;
+  }
+  .chevron:before {
+    content: none;
+  }
+  .chevron:after {
+    content: none;
   }
 }
 @media (max-width: 576px) {
