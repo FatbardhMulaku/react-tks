@@ -26,23 +26,6 @@
 .div-banner-btn{
     margin-top: 70px;
 }
-.banner__text a{
-    color: white;
-    margin-top: 100px;
-    text-decoration: none;
-    color: white;
-    background-color: #006FFF;
-    padding: 12px 45px;
-    border-radius: 50px;
-}
-.banner__text a:hover{
-    color: white;
-    border: 1px solid white;
-    background-color: transparent;
-    border-radius: 50px;
-}
-
-
 /* ======================== pjesa e banerit me foto ========================================= */
 .banner__img{
     margin-top: 5%;

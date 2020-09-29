@@ -1,0 +1,101 @@
+.SectionA2{
+    width: 100%;
+    height: 85vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 235, 235);
+}
+
+.SectionA2a{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.SectionA2a-div{
+    width: 15%;
+    height: 55%;
+    background-color: #85BBFF;
+    clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
+}
+.SectionA2a-img{
+    width: 60%;
+    height: 90%;
+    background-image: url(./../../assets/About/section2.png);
+    background-position: center;
+    background-size: cover;
+}
+/* ============== */
+.SectionA2b{
+    width: 50vw;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 60px;
+}
+.SectionA2b h1{
+    width: 60%;
+    margin: 20px;
+}
+.SectionA2b ul{
+    width: 80%;
+    font-size: 18px;
+    list-style: none;
+    position: relative;
+    color: rgb(59, 59, 59);
+}
+.liA2{
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translate(0%,-50%);
+    font-weight: bold;
+}
+@media only screen and (max-width: 900px) {
+    .SectionA2{
+        height: 75vh;
+    }
+    .SectionA2a-img{
+        width: 80%;
+    }
+    .SectionA2b{
+        padding: 100px 10px;
+    }
+    .SectionA2b h1{
+        width: 80%;
+        font-size: 35px;
+    }
+    .SectionA2b ul{
+        width: 90%;
+        font-size: 16px;
+}}
+
+@media only screen and (max-width: 550px) {
+    .SectionA2{
+        height: 115vh;
+    }
+    .SectionA2{
+        flex-direction: column;
+    }
+    .SectionA2a{
+        width: 95%;
+        height: 45vh;
+        padding: 50px 50px 0px 50px;
+    }
+    .SectionA2b{
+        width: 95%;
+        padding: 0px 20px;
+    }
+    .SectionA2b h1{
+        padding-top: 0px;
+        width: 95%;
+        font-size: 30px;
+    }
+    .SectionA2b ul{
+        width: 100%;
+}}

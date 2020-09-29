@@ -4,6 +4,8 @@ import PopperItem from "../PopperItem";
 import { useTranslation } from "react-i18next";
 import "./Industries.css";
 import "../index.css";
+import { paramCase } from "change-case";
+import { Link } from "react-router-dom";
 
 const Industries = (props) => {
   const { t } = useTranslation();
@@ -32,7 +34,7 @@ const Industries = (props) => {
           <ul className="industries_popper_info">
             {t("industriesPopper.industriesInfoMenu").map((item, index) => (
               <li key={index}>
-                <a href="/#">{item}</a>
+                <Link to={`/${paramCase(item)}`}>{item}</Link>
               </li>
             ))}
           </ul>

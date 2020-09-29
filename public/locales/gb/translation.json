@@ -13,7 +13,66 @@
       "name": "contact us"
     }
   ],
-
+  "learnMoreBtn": "learn more",
+  "security": {
+    "section_1": {
+      "title": "security",
+      "desc": "We offer professional outsourcing, programming, management, design or any visual or administration work. Contact us for more  information."
+    },
+    "section_2": ["Protected", "Codes", "Authentication"],
+    "section_3": {
+      "title": "You are secured 100% with KosovaOutsource",
+      "desc": "As a great company, KosovaOutsource guarantees you that you are secured by cooperating with us"
+    },
+    "section_4": {
+      "title": "Grow your business more with KosovaOutsource",
+      "desc": "Here is all of KosovaOutsource's team, apply to our company and maybe can be in our team. Asa software company we have a very great andhardworking team."
+    }
+  },
+  "ourAgency": {
+    "section_1": {
+      "title": "Services of our Company",
+      "desc": "If you want to see allof our services, you just have to scroll down  and you can see all of them. Thank you for visiting an hope you"
+    },
+    "section_3": {
+      "title": "Is really KosovaOutsource very recommended to others and which is the reason?",
+      "desc": "The that we are the best and most recommended is considered by our loyal clients, so cooperate with us you will not regret"
+    }
+  },
+  "faq": {
+    "faqForm": {
+      "name": "faq",
+      "input": "Ask us a question",
+      "btn": "send"
+    },
+    "questionsHeader": "Read all of Frequently Asked Questions of KosovaOutsource",
+    "questions": [
+      {
+        "question": "Why KosovaOutsource is the best company in Kosovo?",
+        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+      },
+      {
+        "question": "Is everything good always at your company?",
+        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+      },
+      {
+        "question": "How can I apply for a job at KosovaOutsource?",
+        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+      },
+      {
+        "question": "Is KosovaOutsource very hardworking company?",
+        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+      },
+      {
+        "question": "How many years experience have your company?",
+        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+      },
+      {
+        "question": "How much hours per day KosovaOutsource works?",
+        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+      }
+    ]
+  },
   "footerMenu": [
     {
       "title": "quick links",
@@ -129,7 +188,7 @@
   "subscribe": {
     "name": "Subscribe to our newsletter!!"
   },
-  "alRight": "2020 All rights are reserved by",
+  "alRight": "2020 KosovaOutsource. All rights are reserved",
 
   "SectionH5":[
     {
@@ -169,24 +228,24 @@
 		"BannerP":" We offer professional outsourcing, programming, managment, design or any visual or administration work. Contact us for more information",
 		"BannerA":"Learn More",
 
-		"SectionH2": "Explore what we offer",
-		"SectionH2_TitleA": "Mobile design",
-		"SectionH2_InfoA": "Our mobile UI/UX design specialists create a conversion-driven mobile user experience that makes for high conversion and user retention.",
-		"SectionH2_TitleB": "Web Design",
-		"SectionH2_InfoB": "Web design services comprise the processes of user interface (UI) and user experience (UX) design of any web-based solution.",
-		"SectionH2_TitleC": "Cloud",
-		"SectionH2_InfoC": "Cloud infrastructure management services provide scalability to businesses. Where multiple users can share a common infrastructure.",
-		"SectionH2_TitleD": "Branding",
-		"SectionH2_InfoD": "We branding is mostly applied to intranets and portals, and it’s not just about improving the look and feel of a solution for the sake of it.",
-		"SectionH2_TitleE": "Web services",
-		"SectionH2_InfoE": "Web development services imply designing, building, integrating, scaling and maintaining dynamic software solutions that work via intranet or internet.",
-		"SectionH2_TitleF": "Managment",
-		"SectionH2_InfoF": "Management refers to the monitoring and administration of an organization’s information technology systems: hardware, software and networks.",
+    "SectionH2": "Explore what we offer",
+    "SectionH2_TitleA": "Mobile design",
+    "SectionH2_InfoA": "Our mobile UI/UX design specialists create a conversion-driven mobile user experience that makes for high conversion and user retention.",
+    "SectionH2_TitleB": "Web Design",
+    "SectionH2_InfoB": "Web design services comprise the processes of user interface (UI) and user experience (UX) design of any web-based solution.",
+    "SectionH2_TitleC": "Cloud",
+    "SectionH2_InfoC": "Cloud infrastructure management services provide scalability to businesses. Where multiple users can share a common infrastructure.",
+    "SectionH2_TitleD": "Branding",
+    "SectionH2_InfoD": "We branding is mostly applied to intranets and portals, and it’s not just about improving the look and feel of a solution for the sake of it.",
+    "SectionH2_TitleE": "Web services",
+    "SectionH2_InfoE": "Web development services imply designing, building, integrating, scaling and maintaining dynamic software solutions that work via intranet or internet.",
+    "SectionH2_TitleF": "Managment",
+    "SectionH2_InfoF": "Management refers to the monitoring and administration of an organization’s information technology systems: hardware, software and networks.",
 
     "SectionH3": "Technologies that KosovaOutsource use",
 
-    "SectionH4LeftTitle":"We might be maybe already just one email away from working together",
-    "SectionH4LeftP":"if you like to work with KosovaOutsource please send us a CV at our e-mail and we will review import PropTypes from 'prop-types' and maybe we can work with fun together.",
+    "SectionH4LeftTitle": "We might be maybe already just one email away from working together",
+    "SectionH4LeftP": "if you like to work with KosovaOutsource please send us a CV at our e-mail and we will review import PropTypes from 'prop-types' and maybe we can work with fun together.",
     "SectionH4LeftBtn": "Learn More",
     "SectionH4RightName1": "Leona Zeqiri",
     "SectionH4RightTitle1": "Project Manager",
@@ -195,8 +254,8 @@
     "SectionH4RightTitle2": "Web Designer",
     "SectionH4RightP2": "Hello I am Ilir Osmani web designer at KosovaOutsource, nice to meet you",
 
-    "SectionH5title":"Our Creative Works",
-    "SectionH5Soft":"Software",
+    "SectionH5title": "Our Creative Works",
+    "SectionH5Soft": "Software",
     "SectionH5Deve": "Development",
     "SectionH5Design": "UI/UX Design",
     "SectionH5SeeAll": "See all items",
@@ -209,28 +268,28 @@
     "SectionH6T2": "We promote integrity",
     "SectionH6P2": "We are independent which further fosters our values that interests of our clients are always a priority. Intergrity and responsibility towards our clients and made us the partner of choice in the region for thousand od domestic and international clients."
   },
-  
-  "Contact":{
+
+  "Contact": {
     "BannerB": "Contact us",
     "SectionB2": "Get in touch us",
     "SectionB2p": "Phone",
     "SectionB2e": "Email",
     "SectionB2sm": "Social Media",
-    "SectionB2Fb" : "Like our facebook page",
-    "SectionB2insta" : "Follow us on instagram"
+    "SectionB2Fb": "Like our facebook page",
+    "SectionB2insta": "Follow us on instagram"
   },
 
   "Blog": {
-    "BannerB1h":"Why KosovaOutsource is the best software company in region.",
-    "BannerB1p":"Our costumers say always that KosovaOutsource is the best software company in Kosova ever.",
-    "BannerBbtn":"Learn More",
+    "BannerB1h": "Why KosovaOutsource is the best software company in region.",
+    "BannerB1p": "Our costumers say always that KosovaOutsource is the best software company in Kosova ever.",
+    "BannerBbtn": "Learn More",
 
-    "SectionB2h":"Top pick artickle",
-    "SectionB2a1":"Why KosovaOutsource is the best company in region",
-    "SectionB2a2":"Is KosovaOutsource the best company",
-    "SectionB2a3":"Are loyal costumers of KosovaOutsource",
-    "SectionB2a4":"How can I apply for a job at KosovaOutsource",
-    "SectionB2btn":"Read Story",
+    "SectionB2h": "Top pick artickle",
+    "SectionB2a1": "Why KosovaOutsource is the best company in region",
+    "SectionB2a2": "Is KosovaOutsource the best company",
+    "SectionB2a3": "Are loyal costumers of KosovaOutsource",
+    "SectionB2a4": "How can I apply for a job at KosovaOutsource",
+    "SectionB2btn": "Read Story",
 
     "SectionB3h": "Inspirations",
     "SectionB3btn": "View more",
@@ -247,5 +306,20 @@
     "SectionCS2p": "To offer quality softwaredevelopment services, you need to master technology. To make it top-notch, you need to master people interactions an let team go beyond.",
     "SectionCS3h": "KosovaOutsource run all kinds of IT Services whith success.",
     "SectionCS3p": "Here is all of KosovaOutsource's team apply to our company and maybe can be in our team. As a software company we have a very great and hardworking team."
+  },
+  "About" : {
+    "SectionA1h1":"About Us",
+    "SectionA1title": "We do what we love for the better.",
+    "SectionA1p1":"To offer quality software development services, you need to master technology. To make it top-notch, you need to master people interactions an let your team go beyond",
+    "SectionA1p2":"we have been doing that for many years.",
+    
+    "SectionA2h":"Unique Solutions For Your Business",
+    "SectionA2":[
+      {"txt": "Then that we are the best and most recommended is considered by our loyal clients, so cooperate with us you will not regrent."},
+      {"txt": "We are independent which further foster our values that interests of our clients are always a priority."},
+      {"txt": "We pride ourselves on being Technology Native and not being locked into certain technologies instead."}
+    ]
+  
   }
+  
 }

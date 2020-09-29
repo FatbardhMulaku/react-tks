@@ -1,0 +1,15 @@
+.sectionS3 {
+  background-color: #f6f6f6;
+  padding: 2rem 0;
+}
+
+.section3_img {
+  background-image: url("../../../assets/images/security/Rectangle\ 224.jpg");
+  border-top-right-radius: 100px;
+}
+
+@media (max-width: 576px) {
+  .section3_img {
+    border-top-right-radius: 70px;
+  }
+}

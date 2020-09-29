@@ -1,0 +1,25 @@
+.textGrid {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 5% !important;
+}
+
+.textGrid > h1 {
+  font-size: 3rem;
+}
+.textGrid > p {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 576px) {
+  .textGrid {
+    padding: 5%;
+  }
+  .textGrid > h1 {
+    font-size: 1.7rem;
+  }
+  .textGrid > p {
+    font-size: 0.9rem;
+  }
+}

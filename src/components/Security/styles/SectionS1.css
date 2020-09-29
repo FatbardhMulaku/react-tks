@@ -1,0 +1,18 @@
+.sectionS1 > div:first-child {
+  padding: 10% 2%;
+}
+
+.img_security_1 {
+  background-image: url("../../../assets/images/security/Image\ 38.jpg");
+  height: 550px;
+}
+
+@media (max-width: 992px) {
+  .img_security_1 {
+    height: 350px;
+    margin: 2%;
+  }
+  .sectionS1 > div:first-child {
+    padding: 8rem 2%;
+  }
+}
