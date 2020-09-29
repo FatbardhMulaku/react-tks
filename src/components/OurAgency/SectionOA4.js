@@ -7,9 +7,11 @@ const SectionOA4 = () => {
 
   return (
     <div className="container sectionOA4">
-      <h2 className="col_black font-roboto text-center">
-        {t("ourAgency.section_4.title")}
-      </h2>
+      <div>
+        <h2 className="col_black font-roboto text-center">
+          {t("ourAgency.section_4.title")}
+        </h2>
+      </div>
       <div className="sectionOA4_card my-4">
         {t("ourAgency.section_4.allServices").map((item, index) => (
           <CardService

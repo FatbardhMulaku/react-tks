@@ -1,6 +1,25 @@
 .sectionOA4 {
   margin: 4rem 0;
 }
+.sectionOA4 > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.sectionOA4 > div > h2:first-child {
+  line-height: 2.7rem;
+}
+.sectionOA4 > div > h2::after {
+  content: "";
+  position: absolute;
+  width: 4rem;
+  height: 2px;
+  display: block;
+  margin: 0 3.5rem;
+  background-color: #006fff;
+}
 
 .sectionOA4_card {
   margin: 2rem 0;

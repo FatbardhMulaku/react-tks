@@ -1,0 +1,58 @@
+.sectionSeo2 {
+  background: rgb(246, 246, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 246, 246, 1) 37%,
+    rgba(254, 254, 254, 1) 100%
+  );
+  padding: 3rem 0;
+}
+
+.sectionSeo2_text > h1 {
+  font-size: 2rem;
+}
+
+.sectionSeo2_text > p {
+  color: #b2b2b2;
+  width: 80%;
+}
+.sectionSeo2_img_row > div {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+.sectionSeo2_img1 {
+  background-image: url("../../../assets/images/seo/Ellipse\ 20.jpg");
+}
+.sectionSeo2_img2 {
+  background-image: url("../../../assets/images/seo/Ellipse\ 21.jpg");
+}
+.sectionSeo2_img3 {
+  background-image: url("../../../assets/images/seo/Ellipse\ 22.jpg");
+}
+
+.sectionSeo2_img1,
+.sectionSeo2_img2,
+.sectionSeo2_img3 {
+  margin: 1.7rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .sectionSeo2_img1,
+  .sectionSeo2_img2 {
+    margin-right: 0;
+  }
+  .sectionSeo2_img3 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .sectionSeo2_text > p {
+    width: auto;
+  }
+}

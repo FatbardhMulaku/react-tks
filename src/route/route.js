@@ -13,6 +13,7 @@ import Blog from "../pages/Blog";
 import WhatWeDo from "../pages/WhatWeDo";
 import Faq from "../pages/Faq";
 import Security from "../pages/Security";
+import Seo from "../pages/Seo";
 import OurAgency from "../pages/OurAgency";
 
 const route = () => {
@@ -26,6 +27,7 @@ const route = () => {
           <Route path="/what-we-do" exact render={() => <WhatWeDo />} />
           <Route path="/faq" exact render={() => <Faq />} />
           <Route path="/security" exact render={() => <Security />} />
+          <Route path="/seo-analysis" exact render={() => <Seo />} />
           <Route path="/our-agency" exact render={() => <OurAgency />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
