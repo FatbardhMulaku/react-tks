@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import './SectionCS3.css';
 import { useTranslation } from "react-i18next";
+import LearnMore from "./../UI/Button/LearnMore";
 
 function SectionCS3() {
 
@@ -20,9 +20,7 @@ function SectionCS3() {
                     <p>
                     {t("Blog.SectionCS3p")}
                     </p> 
-                    <Link to="/" className="BannerCS-btnCS3">
-                    {t("Blog.SectionCSbtn")}
-                    </Link>
+                    <LearnMore link="BannerCS" offset={-90} />
                     </div>
                     
                 </div>

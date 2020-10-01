@@ -59,7 +59,7 @@
 .SectionA3b-img5{
     background-image: url(./../../assets/About/section3e.png);
 }
-.SectionA3b-imgb, .SectionA3b-imgc, .SectionA3b-imgd,.SectionA3b-imge{
+.SectionA3bImg2, .SectionA3bImg3, .SectionA3bImg4,.SectionA3bImg5{
     width: 250px;
     height: 200px;
     background-color: white;
@@ -67,16 +67,16 @@
     justify-content: center;
     align-items: center;
 }
-.SectionA3b-imgb{
+.SectionA3bImg2{
     transform: translate(25px, -400px);
 }
-.SectionA3b-imgc{
+.SectionA3bImg3{
     transform: translate(270px, -350px);
 }
-.SectionA3b-imgd{
+.SectionA3bImg4{
     transform: translate(-220px, -550px);
 }
-.SectionA3b-imge{
+.SectionA3bImg5{
     transform: translate(20px, -530px);
 }
 
@@ -101,7 +101,7 @@
         padding: 30px;
         transform: scale(0.7);
     }
-    .SectionA3b-imgb, .SectionA3b-imgc, .SectionA3b-imgd,.SectionA3b-imge{
+    .SectionA3bImg2, .SectionA3bImg3, .SectionA3bImg4,.SectionA3bImg5{
         width: 200px;
         height: 150px;
         background-color: white;
@@ -109,16 +109,16 @@
         justify-content: center;
         align-items: center;
     }
-    .SectionA3b-imgb{
+    .SectionA3bImg2{
         transform: translate(20px, -295px);
     }
-    .SectionA3b-imgc{
+    .SectionA3bImg3{
         transform: translate(210px, -250px);
     }
-    .SectionA3b-imgd{
+    .SectionA3bImg4{
         transform: translate(-180px, -400px);
     }
-    .SectionA3b-imge{
+    .SectionA3bImg5{
         transform: translate(20px, -370px);
     }
 }
@@ -166,20 +166,20 @@
         height: 110px;
         transform: translate(55px, 55px)
     }
-    .SectionA3b-imgb, .SectionA3b-imgc, .SectionA3b-imgd,.SectionA3b-imge{
+    .SectionA3bImg2, .SectionA3bImg3, .SectionA3bImg4,.SectionA3bImg5{
         width: 120px;
         height: 120px;
     }
-    .SectionA3b-imgb{
+    .SectionA3bImg2{
         transform: translate(45px, -195px);
     }
-    .SectionA3b-imgc{
+    .SectionA3bImg3{
         transform: translate(180px, -180px);
     }
-    .SectionA3b-imgd{
+    .SectionA3bImg4{
         transform: translate(-80px, -300px);
     }
-    .SectionA3b-imge{
+    .SectionA3bImg5{
         transform: translate(45px, -290px);
     }
 }

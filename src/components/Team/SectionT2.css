@@ -1,0 +1,19 @@
+.SectionT2{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SectionT2 h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.brcpxa {
+    background-color: #005FDB !important;
+    box-shadow: 0 0 1px 3px rgb(9, 77, 155) !important;
+}
+@media only screen and (max-width: 500px) {
+    .SectionT2{
+        width: 98%;
+}}

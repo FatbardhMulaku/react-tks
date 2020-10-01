@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import './SectionCS2.css';
 import { useTranslation } from "react-i18next";
+import LearnMore from "./../UI/Button/LearnMore";
 
 function SectionCS2() {
     const { t } = useTranslation();
@@ -11,9 +11,7 @@ function SectionCS2() {
             <div className="SectionCS2Left">
                 <h1>{t("Blog.SectionCS2h")}</h1>
                 <p>{t("Blog.SectionCS2p")}</p>
-                <Link to="/" className="BannerCS-btn">
-                {t("Blog.SectionCSbtn")}
-                </Link>
+                <LearnMore link="SectionCS3" offset={-90} /> 
             </div>
 
             <div className="SectionCS2Right">
@@ -23,4 +21,4 @@ function SectionCS2() {
     )
 }
 
-export default SectionCS2
+export default SectionCS2;

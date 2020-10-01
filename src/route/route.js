@@ -16,6 +16,7 @@ import Security from "../pages/Security";
 import Seo from "../pages/Seo";
 import WebServices from "../pages/WebServices";
 import About from "../pages/About";
+import Team from "../pages/Team";
 
 const route = () => {
   return (
@@ -31,6 +32,7 @@ const route = () => {
           <Route path="/seo-analysis" exact render={() => <Seo />} />
           <Route path="/web-services" exact render={() => <WebServices />} />
           <Route path="/who-we-are" exact render={() => <About />} />
+          <Route path="/team" exact render={() => <Team />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
         </Switch>

@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
-import { Link } from "react-router-dom";
 import "./BannerB.css";
 import AOS from 'aos';
 import { useTranslation } from "react-i18next";
+import LearnMore from "./../UI/Button/LearnMore";
 
 function BannerB() {
   useEffect(() => {
@@ -21,15 +21,7 @@ function BannerB() {
       <p>
       {t("Blog.BannerB1p")}
       </p>
-
-      <div className="div-banner-btnBlog">
-        <Link to="/" className="banner-btnBlog">
-        {t("Blog.BannerBbtn")}
-        </Link>
-
-   
-      </div>
-
+        <LearnMore link="SectionB2" offset={-90} /> 
     </div>
     <div
       className="banner__imgBlog"

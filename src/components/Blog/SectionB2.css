@@ -71,6 +71,31 @@
     margin-top: 20px;
     font-size: 20px;
 }
+.Bbox a:hover{
+    text-decoration: none;
+    transform: scale(1.05);
+}
+.BlogArtickle__img1:hover,.BlogArtickle__img2:hover,.BlogArtickle__img3:hover,.BlogArtickle__img4:hover{
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 @media only screen and (max-width: 1510px) {
     .SectionB2{ 

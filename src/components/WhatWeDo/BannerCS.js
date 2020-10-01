@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
-import { Link } from "react-router-dom";
 import "./BannerCS.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useTranslation } from "react-i18next";
+import LearnMore from "./../UI/Button/LearnMore";
 
 function BannerCS() {
 
@@ -22,9 +22,9 @@ function BannerCS() {
     <p>
     {t("Blog.SectionCS1p")}
     </p>
-    <Link to="/" className="BannerCS-btn">
-    {t("Blog.SectionCSbtn")}
-    </Link>
+    
+    <LearnMore link="SectionCS2" offset={-90} /> 
+
   </div>
   )
 }

@@ -19,9 +19,8 @@ function Banner() {
       <p>
       {t("Home.BannerP")}
       </p>
-
       <div className="div-banner-btn">
-      <LearnMore offset={-90} /> 
+      <LearnMore link="services" offset={-90} /> 
       </div>
     </div>
     <div  className="banner__img">

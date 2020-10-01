@@ -1,0 +1,135 @@
+.BannerT{
+    width: 85%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+/* ======================== pjesa e banerit me text ========================================= */
+.leftT{
+    margin-top: 10%;
+    width: 45%;
+    color: white;
+    text-align: left;
+}
+.leftT h1{
+    font-size: 60px;
+    width: 80%;
+}
+.leftT p {
+    font-size: 22px;
+    width: 50%;
+}
+/* ======================== pjesa e banerit me foto ========================================= */
+.rightT{
+    margin-top: 5%;
+    width: 53%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rightT1{
+    width: 29%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rightT1-nalt{
+    width: 100%;
+    height: 32vh;
+    background-image: url(./../../assets/Team/Banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.rightT1-posht{
+    width: 100%;
+    height: 32vh;
+    background-image: url(./../../assets/Team/Banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+/* ============== */
+.rightT2{
+    width: 69%;
+    height: 67vh;
+    background-image: url(./../../assets/Team/Banner3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px;
+}
+@media only screen and (max-width: 1400px) {
+    .leftT p {
+        font-size: 18px;
+        width: 70%;
+    }
+
+}
+@media only screen and (max-width: 900px) {
+    .BannerT{
+        flex-direction: column;
+    }
+    .leftT{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .leftT p, .leftT h1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rightT{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rightT1-nalt{
+        width: 100%;
+        height: 20vh;
+        margin: 15px;
+    }
+    .rightT1-posht{
+        width: 100%;
+        height: 20vh;
+        margin: 15px;
+    }
+    /* ============== */
+    .rightT2{
+        width: 69%;
+        height: 43vh;
+        margin: 30px 0px 30px 30px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .leftT{
+        padding-top: 5%;
+        margin-top: 10%;
+        width: 90%;
+    }
+    .rightT{
+        width: 100%;
+    }
+    .leftT h1{
+        font-size: 45px;
+        width: 80%;
+    }
+    .leftT p {
+        font-size: 16px;
+        width: 80%;
+    }
+}

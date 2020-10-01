@@ -11,7 +11,7 @@ import "./SocialMedia.css";
 const socalMedias = [
   {
     name: "Instagram",
-    link: "instagram.com",
+    link: "instagram.com/kosovaoutsource/",
     icon: <RiInstagramFill />,
   },
   {
@@ -31,7 +31,7 @@ const socalMedias = [
   },
   {
     name: "Facebook",
-    link: "facebook.com",
+    link: "facebook.com/KosovaOutsource-115703036932572",
     icon: <FaFacebookF />,
   },
 ];

@@ -37,6 +37,8 @@
     border: 1px solid #006FFF;
     background-color: #fff;
     border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
 }
 .aboutLeft{
     padding: 20px;

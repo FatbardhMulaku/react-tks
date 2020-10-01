@@ -1,0 +1,128 @@
+.SectionT4{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 300px;
+
+}
+.SectionT4i{
+    margin: 20px;
+    padding: 50px;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    background-image: url(./../../assets/Team/Section4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 170px;
+    border-bottom-right-radius: 170px;
+}
+.SectionT4t{
+    padding: 50px;
+    margin: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SectionT4t h1{
+    width: 100%;
+    font-size: 45px;
+}
+.SectionT4t p{
+    width: 70%;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(48, 48, 48);
+}
+.team-btni{
+    margin-top: 30px;
+}
+.team-btni a{
+    margin-top: 35px;
+    color: white;
+    margin-top: 100px;
+    text-decoration: none;
+    color: white;
+    background-color: #006FFF;
+    border: 2px solid transparent;
+    padding: 12px 45px;
+    border-radius: 50px;
+    width: 130px;
+}
+.team-btni a:hover{
+    color: #006FFF;
+    font-weight: bold;
+    border: 2px solid #006FFF;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1200px) {
+    .SectionT4i{
+        width: 45%;
+    }
+    .SectionT4t{
+        padding: 25px;
+        margin: 10px;
+    }
+    .SectionT4t h1{
+        width: 90%;
+        font-size: 40px;
+    }
+    .SectionT4t p{
+        width: 90%;
+        font-size: 18px;
+    }
+      
+}
+@media only screen and (max-width: 900px) {
+    .SectionT4t{
+        padding: 5px;
+        margin: 5px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .SectionT4{
+        width: 90%;
+        margin-top: 80px;
+        margin-bottom: 200px;
+        flex-direction: column;
+    }
+    .SectionT4i{
+        width: 80%;
+        height: 40vh;
+        border-top-left-radius: 130px;
+        border-bottom-right-radius: 130px;
+    }
+    .SectionT4t{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SectionT4t h1{
+        width: 100%;
+        font-size: 35px;
+    }
+    .SectionT4t p{
+        width: 100%;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .SectionT4{
+        width: 98%;}
+    .SectionT4t h1{
+        font-size: 30px;
+    }
+    .SectionT4i{
+        border-top-left-radius: 90px;
+        border-bottom-right-radius: 90px;
+    }
+}
