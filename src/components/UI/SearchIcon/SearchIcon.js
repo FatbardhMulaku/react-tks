@@ -5,13 +5,13 @@ import IconButton from "@material-ui/core/IconButton";
 import { makeStyles } from "@material-ui/core/styles";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   button: {
     "&:focus": {
       outline: "none",
     },
     "& span > svg": {
-      fontSize: "30px",
+      fontSize: "1.8rem",
     },
   },
   white: {
@@ -20,7 +20,14 @@ const useStyles = makeStyles({
   black: {
     color: "#000",
   },
-});
+  [theme.breakpoints.down("xs")]: {
+    button: {
+      "& span > svg": {
+        fontSize: "1.5rem",
+      },
+    },
+  },
+}));
 
 const SearchBtn = (props) => {
   const classes = useStyles();

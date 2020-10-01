@@ -4,11 +4,14 @@ import IconButton from "@material-ui/core/IconButton";
 import { makeStyles } from "@material-ui/core/styles";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   button: {
     "&:focus": {
       outline: "none",
     },
+  },
+  svg: {
+    fontSize: "2.1rem",
   },
   white: {
     color: "#fff",
@@ -16,7 +19,12 @@ const useStyles = makeStyles({
   black: {
     color: "#000",
   },
-});
+  [theme.breakpoints.down("xs")]: {
+    svg: {
+      fontSize: "1.5rem",
+    },
+  },
+}));
 const DrawerToggle = (props) => {
   const classes = useStyles();
 
@@ -30,8 +38,9 @@ const DrawerToggle = (props) => {
   return (
     <IconButton className={classes.button} onClick={props.clicked}>
       <DehazeIcon
-        fontSize="large"
-        className={trigger ? classes.black : classes.white}
+        className={` ${classes.svg}  ${
+          trigger ? classes.black : classes.white
+        }`}
       />
     </IconButton>
   );

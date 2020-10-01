@@ -28,3 +28,14 @@
 .logo:hover {
   text-decoration: none !important;
 }
+
+@media (max-width: 576px) {
+  .img_logo {
+    width: 25px;
+    height: 25px;
+  }
+  .logo-name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

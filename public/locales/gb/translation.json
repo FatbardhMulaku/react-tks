@@ -29,7 +29,7 @@
       "desc": "Here is all of KosovaOutsource's team, apply to our company and maybe can be in our team. Asa software company we have a very great andhardworking team."
     }
   },
-  "ourAgency": {
+  "webServices": {
     "section_1": {
       "title": "Services of our Company",
       "desc": "If you want to see allof our services, you just have to scroll down  and you can see all of them. Thank you for visiting an hope you"
@@ -255,7 +255,7 @@
   },
   "alRight": "2020 KosovaOutsource. All rights are reserved",
 
-  "SectionH5":[
+  "SectionH5": [
     {
       "image": "./../../../src/assets/Home/galery1.png",
       "title": "Web Design",
@@ -288,10 +288,10 @@
     }
   ],
 
-  "Home":{
-		"BanerH1":"We are the best Software Company in Kosova.",
-		"BannerP":" We offer professional outsourcing, programming, managment, design or any visual or administration work. Contact us for more information",
-		"BannerA":"Learn More",
+  "Home": {
+    "BanerH1": "We are the best Software Company in Kosova.",
+    "BannerP": " We offer professional outsourcing, programming, managment, design or any visual or administration work. Contact us for more information",
+    "BannerA": "Learn More",
 
     "SectionH2": "Explore what we offer",
     "SectionH2_TitleA": "Mobile design",
@@ -372,19 +372,23 @@
     "SectionCS3h": "KosovaOutsource run all kinds of IT Services whith success.",
     "SectionCS3p": "Here is all of KosovaOutsource's team apply to our company and maybe can be in our team. As a software company we have a very great and hardworking team."
   },
-  "About" : {
-    "SectionA1h1":"About Us",
+  "About": {
+    "SectionA1h1": "About Us",
     "SectionA1title": "We do what we love for the better.",
-    "SectionA1p1":"To offer quality software development services, you need to master technology. To make it top-notch, you need to master people interactions an let your team go beyond",
-    "SectionA1p2":"we have been doing that for many years.",
-    
-    "SectionA2h":"Unique Solutions For Your Business",
-    "SectionA2":[
-      {"txt": "Then that we are the best and most recommended is considered by our loyal clients, so cooperate with us you will not regrent."},
-      {"txt": "We are independent which further foster our values that interests of our clients are always a priority."},
-      {"txt": "We pride ourselves on being Technology Native and not being locked into certain technologies instead."}
+    "SectionA1p1": "To offer quality software development services, you need to master technology. To make it top-notch, you need to master people interactions an let your team go beyond",
+    "SectionA1p2": "we have been doing that for many years.",
+
+    "SectionA2h": "Unique Solutions For Your Business",
+    "SectionA2": [
+      {
+        "txt": "Then that we are the best and most recommended is considered by our loyal clients, so cooperate with us you will not regrent."
+      },
+      {
+        "txt": "We are independent which further foster our values that interests of our clients are always a priority."
+      },
+      {
+        "txt": "We pride ourselves on being Technology Native and not being locked into certain technologies instead."
+      }
     ]
-  
   }
-  
 }

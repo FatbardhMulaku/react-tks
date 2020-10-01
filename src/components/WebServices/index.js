@@ -1,9 +1,9 @@
 import React from "react";
 import "./styles/index.css";
-import SectionOA1 from "./SectionOA1";
-import SectionOA2 from "./SectionOA2";
-import SectionOA3 from "./SectionOA3";
-import SectionOA4 from "./SectionOA4";
+import SectionWS1 from "./SectionWS1";
+import SectionWS2 from "./SectionWS2";
+import SectionWS3 from "./SectionWS3";
+import SectionWS4 from "./SectionWS4";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 
 const theme = createMuiTheme({
@@ -21,10 +21,10 @@ const index = () => {
   return (
     <div>
       <ThemeProvider theme={theme}>
-        <SectionOA1 />
-        <SectionOA2 />
-        <SectionOA3 />
-        <SectionOA4 />
+        <SectionWS1 />
+        <SectionWS2 />
+        <SectionWS3 />
+        <SectionWS4 />
       </ThemeProvider>
     </div>
   );

@@ -14,7 +14,7 @@ import WhatWeDo from "../pages/WhatWeDo";
 import Faq from "../pages/Faq";
 import Security from "../pages/Security";
 import Seo from "../pages/Seo";
-import OurAgency from "../pages/OurAgency";
+import WebServices from "../pages/WebServices";
 import About from "../pages/About";
 
 const route = () => {
@@ -29,8 +29,8 @@ const route = () => {
           <Route path="/faq" exact render={() => <Faq />} />
           <Route path="/security" exact render={() => <Security />} />
           <Route path="/seo-analysis" exact render={() => <Seo />} />
-          <Route path="/our-agency" exact render={() => <OurAgency />} />
-          <Route path="/about" exact render={() => <About />} />
+          <Route path="/web-services" exact render={() => <WebServices />} />
+          <Route path="/who-we-are" exact render={() => <About />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
         </Switch>
