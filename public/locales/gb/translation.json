@@ -297,6 +297,13 @@
     "SectionH2_InfoF": "Management refers to the monitoring and administration of an organization’s information technology systems: hardware, software and networks.",
 
     "SectionH3": "Technologies that KosovaOutsource use",
+    "SectionH3L":[
+      {"tlogos": "tlogo logo-java"},
+      {"tlogos": "tlogo logo-html"},
+      {"tlogos": "tlogo logo-react"},
+      {"tlogos": "tlogo logo-wordpress"},
+      {"tlogos": "tlogo logo-php"}
+    ],
 
     "SectionH4LeftTitle": "We might be maybe already just one email away from working together",
     "SectionH4LeftP": "if you like to work with KosovaOutsource please send us a CV at our e-mail and we will review import PropTypes from 'prop-types' and maybe we can work with fun together.",
@@ -372,8 +379,31 @@
       {"txt": "Then that we are the best and most recommended is considered by our loyal clients, so cooperate with us you will not regrent."},
       {"txt": "We are independent which further foster our values that interests of our clients are always a priority."},
       {"txt": "We pride ourselves on being Technology Native and not being locked into certain technologies instead."}
+    ],
+    "SectionA3h":"Testimonials", 
+    "SectionA3hh":"What Our Clients Are Saying About US", 
+    "SectionA3p":"There are many variatious of passage of Lorem ipsum avabile, but the majority have suffered alternation in some from by injected humour.",  
+    
+    "SectionA3": [
+      {
+        "class1": "SectionA3bImg2", "class2": "SectionA3b-img2"
+      }, 
+      {
+        "class1": "SectionA3bImg3", "class2": "SectionA3b-img3"
+      },
+      {
+        "class1": "SectionA3bImg4", "class2": "SectionA3b-img4"
+      },
+      {
+        "class1": "SectionA3bImg5", "class2": "SectionA3b-img5"
+      }
     ]
   
+  },
+  "Team" : {
+    "BannerTh": "Team",
+    "BannerTp":"Here is all of KosovaOutsource's team, apply to our company and maybe you can be in our team",
+
+    "SectionT2":"Our team"
   }
-  
 }

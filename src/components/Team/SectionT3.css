@@ -1,0 +1,62 @@
+.SectionT3{
+    width: 100%;
+    background-color: #e7e7e7;
+}
+.team-c{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.team__left{
+    width: 48%;
+    padding: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputLabel{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inputLabel2{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    border-radius: 10px;
+}
+.inputTi{
+    background-color: white;
+    font-size: 30px;
+    padding-left: 3px;
+}
+.inputT{
+    padding: 12px;
+    border: none;
+    width: 80%;
+}
+.inputLabel2 textarea{
+    resize: none;
+}
+.inputTi2{
+    background-color: white;
+    font-size: 40px;
+    padding-top: 10px;
+}
+@media only screen and (max-width: 800px) {
+    .inputLabel, .inputLabel2{
+        width: 100%;
+    }
+}

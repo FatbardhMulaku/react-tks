@@ -9,11 +9,14 @@ function Teknologies() {
         <div  className="teknologies">
             <h1>{t("Home.SectionH3")}</h1>
             <div className="teknologies__logos">
-                <div className="tlogo logo-java"></div>
-                <div className="tlogo logo-html"></div>
-                <div className="tlogo logo-react"></div>
-                <div className="tlogo logo-wordpress"></div>
-                <div className="tlogo logo-php"></div>
+
+            {t("Home.SectionH3L").map((item, index) => {
+              return (
+                <div key={index}>
+                    <div className={item.tlogos}/>
+                </div>
+              );
+            })}
             </div>
         </div>
 

@@ -74,21 +74,6 @@
     font-weight: 600;
     margin-bottom: 50px;
 }
-
-.SectionCS3__RightC a{
-    transform: translateY(30%);
-    text-decoration: none;
-    color: white;
-    border: 1px solid #006FFF;
-    background-color: #006FFF;
-    border-radius: 20px;
-    padding: 12px 45px;
-}
-.SectionCS3__RightC a:hover{
-    color: #006FFF;
-    border: 1px solid #006FFF;
-    background-color: transparent;
-}
 .SectionCS3__RightC{
     height: 50%;
     padding:20px 50px;

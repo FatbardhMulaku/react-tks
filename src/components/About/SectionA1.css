@@ -45,6 +45,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 @media only screen and (max-width: 800px) {
     .SectionA1{
         height: 110vh

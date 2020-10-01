@@ -19,34 +19,13 @@
 }
 .banner__textBlog p {
     width: 70%;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 .div-banner-btnBlog{
     margin-top: 9vh;
 }
-.banner__textBlog a{
-    color: white;
-    margin-top: 100px;
-    text-decoration: none;
-    color: white;
-    background-color: #006FFF;
-    padding: 12px 45px;
-    border-radius: 50px;
-}
-.banner__textBlog a:hover{
-    color: white;
-    border: 1px solid white;
-    background-color: transparent;
-    border-radius: 50px;
-}
-
-
-/* @media only screen and (max-width: 1260px) {
-    .banner__textBlog h1{
-        font-size: 38px;
-        width: 80%;
-    }
-} */
-
 /* ======================== pjesa e banerit me foto ========================================= */
 .banner__imgBlog{
     margin-top: 5%;
@@ -135,6 +114,7 @@
     }
     .banner__textBlog p {
         width: 70%;
+        font-size: 18px;
     }
 }
 
@@ -158,9 +138,10 @@
         margin-top: 20%;
     }
     .banner__textBlog p {
-        width: 70%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
+        font-size: 15px;
     }
     .div-banner-btnBlog{
         margin-top: 4vh;

@@ -26,20 +26,8 @@
     font-size: 18px;
     color: #a19f9f;
     width: 70%;
-}
-.SectionCS2 a{
-    margin-top: 50px;
-    text-decoration: none;
-    color: white;
-    border: 1px solid #006FFF;
-    background-color: #006FFF;
-    border-radius: 20px;
-    padding: 12px 45px;
-}
-.SectionCS2 a:hover{
-    color: #006FFF;
-    border: 1px solid #006FFF;
-    background-color: transparent;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 /* ========================================= */
 .SectionCS2Right{
@@ -50,6 +38,27 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.SectionCS2Right:hover{
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 @media only screen and (max-width: 1150px) {
     .SectionCS2Left h1{

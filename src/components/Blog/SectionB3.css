@@ -38,12 +38,14 @@
     text-decoration: none;
     color: white;
     border-radius: 7px;
+    border: 2px solid transparent;
 }
 .Bsection3-btn:hover{
     color:  #006FFF;
     background-color: #f0f0f0;
     border: 2px solid #006FFF;
     font-weight: bold;
+    text-decoration: none;
 }
 .SectionB3__wrapper_c{
     background-color: #f0f0f0 !important;
@@ -166,6 +168,7 @@
 }
 .brcpxa {
     background-color: #005FDB !important;
+    box-shadow: 0 0 1px 3px rgb(3, 48, 100) !important;
 }
 
 @media only screen and (max-width: 1500px) {

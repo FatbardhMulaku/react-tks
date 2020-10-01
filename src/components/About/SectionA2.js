@@ -21,7 +21,7 @@ function SectionA2() {
                         </ul>
                     );
                     })}
-                     <LearnMore offset={-90} />
+                     <LearnMore link="SectionA3" offset={-90} /> 
             </div>
         </div>
     )

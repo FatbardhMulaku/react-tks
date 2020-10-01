@@ -21,24 +21,6 @@
     margin-bottom: 20px;
     width: 50%;
 }
-.BannerCS a{
-    margin-top: 30px;
-    text-decoration: none;
-    color: white;
-    border: 1px solid #006FFF;
-    background-color: #006FFF;
-    border-radius: 20px;
-    padding: 12px 45px;
-}
-.BannerCS a:hover{
-    color: white;
-    border: 1px solid white;
-    background-color: transparent;
-}
-.BannerCS-btn:hover{
-    color: white;
-    border-color: #006FFF ;
-}
 @media only screen and (max-width: 750px) {
     .BannerCS h1{
         text-align: center;

@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import "./SectionH4.css";
 import FormatQuoteIcon from '@material-ui/icons/FormatQuote';
 import {FaLongArrowAltLeft, FaLongArrowAltRight} from 'react-icons/fa'
 import AboutLogo1 from './../../assets/Home/lonaa.png';
 import AboutLogo2 from './../../assets/Home/ilir.png';
 import { useTranslation } from "react-i18next";
+import LearnMore from "./../UI/Button/LearnMore";
+import teamm from './../../pages/Team';
 
 function SectionH4() {
   const { t } = useTranslation();
@@ -17,12 +18,7 @@ function SectionH4() {
     <p>
     {t("Home.SectionH4LeftP")}
     </p>
-
-    <div className="team-btn-container">
-      <Link to="/" className="team-btn">
-      {t("Home.SectionH4LeftBtn")}
-      </Link>
-    </div>
+    <LearnMore component={teamm} offset={-90} /> 
   </div>
 
       

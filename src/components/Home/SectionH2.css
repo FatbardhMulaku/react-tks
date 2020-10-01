@@ -33,6 +33,10 @@
 .awssld__bullets--active{
     background-color: #006FFF !important;
 }
+.brcpxa {
+    background-color: #005FDB !important;
+    box-shadow: 0 0 1px 3px rgb(3, 48, 100) !important;
+}
 @media only screen and (max-width: 1520px) {
     .services{ 
         height: 67vh;

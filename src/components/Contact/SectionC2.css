@@ -9,6 +9,7 @@
     font-size: 40px;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .cInfo__contact{
@@ -56,6 +57,7 @@
 }
 .cinfo1 a:hover{
 border: 1px solid rgb(0, 0, 0);
+text-decoration: none;
 }
 .contact__icons{
     font-size: 30px;
