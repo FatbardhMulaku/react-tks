@@ -93,6 +93,17 @@
       ]
     }
   },
+  "seo": {
+    "section_1": {
+      "title": "Grow your business more with us",
+      "desc": "We have also Seo Analysis and you  can boost your business with us."
+    },
+    "section_2": {
+      "title": "Let's make your business something to show off",
+      "desc": "Our company has been successful with this for many years so feel safe for this thing"
+    },
+    "section_3": "Our latest projects"
+  },
   "faq": {
     "faqForm": {
       "name": "faq",

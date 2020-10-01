@@ -1,0 +1,15 @@
+.sectionSeo1 {
+  background-color: #71abf6;
+  padding: 12rem 0;
+}
+
+.sectionSeo1_img {
+  background-image: url("../../../assets/images/seo/Rectangle\ 141.jpg");
+  height: 450px;
+}
+
+@media (max-width: 992.98px) {
+  .sectionSeo1_row {
+    flex-wrap: wrap-reverse !important;
+  }
+}

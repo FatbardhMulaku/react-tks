@@ -1,0 +1,84 @@
+.slick-list {
+  margin: 0 2rem;
+}
+.slick-slider {
+  padding: 2rem 0;
+}
+
+svg {
+  padding: 5px;
+}
+
+.slick-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 25px;
+  height: 35px;
+}
+.slick-arrow::before {
+  content: none;
+}
+.slick-prev {
+  left: 3px;
+}
+
+.slick-next {
+  right: 3px;
+}
+
+.slick-prev polyline,
+.slick-prev polyline {
+  stroke-width: 2;
+}
+.slick-prev:hover polyline,
+.slick-prev:focus polyline {
+  stroke-width: 3;
+}
+
+.slick-prev:active polyline {
+  stroke-width: 6;
+  transition: all 100ms ease-in-out;
+}
+
+.slick-next:hover polyline,
+.slick-next:focus polyline {
+  stroke-width: 3;
+}
+
+.slick-next:active polyline {
+  stroke-width: 6;
+  transition: all 100ms ease-in-out;
+}
+
+polyline {
+  transition: all 250ms ease-in-out;
+}
+
+.slick-dots li {
+  width: auto;
+  height: auto;
+  padding: 3px;
+}
+.slick-dots li button::before {
+  content: none;
+}
+.slick-dots li button {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: #82b4f3;
+}
+
+.slick-dots li button:hover {
+  background-color: #006fff;
+}
+.slick-dots li.slick-active {
+  border: 1px solid #006fff;
+  border-radius: 50%;
+}
+.slick-dots li.slick-active button {
+  background-color: #006fff;
+}
