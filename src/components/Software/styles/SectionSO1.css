@@ -1,0 +1,73 @@
+.sectionSO1 {
+  background-color: #d0c694;
+}
+.sectionSO1 .container {
+  padding: 8rem 15px 8rem;
+}
+
+.sectionSO1_text > h1 {
+  font-size: 2.3rem;
+}
+.sectionSO1_text > p {
+  font-size: 1rem;
+}
+.sectionSO1_img {
+  background-image: url("../../../assets/images/software/Rectangle154.jpg");
+  height: 480px;
+  border-radius: 20px;
+  margin: 0 2rem;
+  background-size: cover;
+}
+.sectionSO1_shape {
+  position: absolute;
+  right: 80px;
+  margin-top: -65px;
+  width: 140px;
+  height: 120px;
+  border-radius: 20px 20px 20px 0px;
+  background-color: #006fff;
+}
+.sectionSO1_shape:after {
+  position: absolute;
+  content: "";
+  right: 95px;
+  bottom: -42px;
+  width: 94px;
+  height: 84px;
+  border-radius: 20px 20px 0px 20px;
+  background-color: #6ba8f8;
+  opacity: 0.6;
+}
+
+@media (max-width: 992px) {
+  .sectionSO1_img {
+    height: 600px;
+  }
+  .sectionSO1_text {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .sectionSO1_img {
+    height: 500px;
+    margin: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .sectionSO1_img {
+    height: 400px;
+  }
+}
+@media (max-width: 440px) {
+  .sectionSO1_img {
+    height: 300px;
+  }
+  .sectionSO1_shape {
+    right: 60px;
+    margin-top: -75px;
+  }
+  .sectionSO1_shape:after {
+    right: 95px;
+    bottom: -42px;
+  }
+}

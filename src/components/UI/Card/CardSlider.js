@@ -1,16 +1,20 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
+import "./index.css";
 
 const useStyles = makeStyles((theme) => ({
   paper: {
     display: "flex",
-    flexFlow: "column",
+    flexFlow: "row",
     alignItems: "center",
+    width: "330px",
+    height: "115px",
     justifyContent: "center",
     padding: "1rem",
     textAlign: "center",
-    borderRadius: "10px",
+    margin: "1rem 0",
+    borderRadius: 0,
     "&:hover": {
       boxShadow: "0 4px 7px rgba(0,0,0,0.3)",
     },
@@ -18,41 +22,32 @@ const useStyles = makeStyles((theme) => ({
     "& > p": {
       color: "#b2b2b2",
     },
-  },
-  paper1: {
-    "& > h4": {
-      fontWeight: "600",
-    },
-  },
-  paper2: {
-    width: "280px",
-    height: "280px",
-    margin: "1rem 0",
-    "& > h4": {
-      fontWeight: "500",
-    },
-    [theme.breakpoints.down("md")]: {
-      width: "60%",
+    [theme.breakpoints.between("md", "lg")]: {
+      width: "270px",
+      height: "120px",
     },
     [theme.breakpoints.down("sm")]: {
-      width: "100%",
+      width: "auto",
+      height: "120px",
+      margin: "1rem",
     },
   },
 }));
 
-const CardService = (props) => {
+const CardSlider = (props) => {
   const classes = useStyles();
-  let propsClass = classes[props.card];
 
   return (
-    <Paper elevation={1} className={`${classes.paper}  ${propsClass}`}>
-      <div className={props.cardCss}>
+    <Paper variant="outlined" className={classes.paper}>
+      <div className={props.cardImg}>
         <div className={`img_css ${props.img}`}> </div>
       </div>
-      <h4 className="font_helvetica col_black "> {props.title} </h4>
-      <p className="font-roboto"> {props.desc} </p>
+      <div className="cardText">
+        <h4 className="font_ubuntu col_black font-w-600"> {props.title} </h4>
+        <p className="font_ubuntu col_light"> {props.desc} </p>
+      </div>
     </Paper>
   );
 };
 
-export default CardService;
+export default CardSlider;

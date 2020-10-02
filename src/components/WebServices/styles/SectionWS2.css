@@ -15,28 +15,28 @@
 }
 
 .sectionWS2_icon1 {
-  background-image: url("../../../assets/images/webServices/phone.svg");
+  background-image: url("../../../assets/images/icons/phone.svg");
 }
 .sectionWS2_icon2 {
-  background-image: url("../../../assets/images/webServices/shapes.svg");
+  background-image: url("../../../assets/images/icons/shapes.svg");
 }
 .sectionWS2_icon3 {
-  background-image: url("../../../assets/images/webServices/data.svg");
+  background-image: url("../../../assets/images/icons/data.svg");
 }
 .sectionWS2_icon4 {
-  background-image: url("../../../assets/images/webServices/branding.svg");
+  background-image: url("../../../assets/images/icons/branding.svg");
 }
 .sectionWS2_icon5 {
-  background-image: url("../../../assets/images/webServices/coding.svg");
+  background-image: url("../../../assets/images/icons/coding.svg");
 }
 .sectionWS2_icon6 {
-  background-image: url("../../../assets/images/webServices/www.svg");
+  background-image: url("../../../assets/images/icons/www.svg");
 }
 .sectionWS2_icon7 {
-  background-image: url("../../../assets/images/webServices/desktop.svg");
+  background-image: url("../../../assets/images/icons/desktop.svg");
 }
 .sectionWS2_icon8 {
-  background-image: url("../../../assets/images/webServices/minus.svg");
+  background-image: url("../../../assets/images/icons/minus.svg");
 }
 
 @media (max-width: 992px) {

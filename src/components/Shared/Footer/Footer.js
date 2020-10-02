@@ -9,6 +9,7 @@ import ScrollTop from "../../UI/ScrollTop";
 import SocialMedia from "../../UI/SocialMedia/SocialMedia";
 import Subscribe from "./Subscribe";
 import { FaCopyright } from "react-icons/fa";
+
 function Footer(props) {
   const { t } = useTranslation();
 

@@ -17,11 +17,20 @@ const theme = createMuiTheme({
 
 const Header = () => {
   const [isToggled, setToggled] = useToggle(false);
+  const scrollToTop = (event) => {
+    const anchor = (event.target.ownerDocument || document).querySelector(
+      "#back-to-top-anchor"
+    );
+
+    if (anchor) {
+      anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  };
 
   return (
     <ThemeProvider theme={theme}>
       <Fragment>
-        <Toolbar drawerToggle={setToggled} />
+        <Toolbar drawerToggle={setToggled} scrollToTop={scrollToTop} />
         <MobileMenu drawerToggle={setToggled} isToggled={isToggled} />
       </Fragment>
     </ThemeProvider>

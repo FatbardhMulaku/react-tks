@@ -67,7 +67,7 @@ const Toolbar = (props) => {
           text={trigger ? "col_black" : "col_white"}
         />
         <div className="DesktopOnly col_black">
-          <NavList />
+          <NavList scrollToTop={props.scrollToTop} />
         </div>
         <div className="searchIcon">
           <SearchIcon toggleSearch={setisSearch} isSearch={isSearch} />

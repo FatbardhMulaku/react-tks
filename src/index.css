@@ -98,6 +98,9 @@ code {
 .font_helvetica {
   font-family: Helvetica, sans-serif;
 }
+.font_ubuntu {
+  font-family: "Ubuntu", sans-serif;
+}
 .font_p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Verdana, sans-serif;

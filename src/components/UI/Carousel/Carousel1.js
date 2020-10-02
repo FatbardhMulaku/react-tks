@@ -42,51 +42,15 @@ const PrevArrow = (props) => {
 };
 
 const Carousel1 = (props) => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    arrows: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    initialSlide: 0,
+  const { settingsProps } = props;
+
+  const arrows = {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-    responsive: [
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          initialSlide: 0,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 0,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 0,
-          arrows: false,
-          infinite: true,
-        },
-      },
-    ],
   };
   return (
-    <Slider {...settings}>
-      {props.images.map((item, index) => (
-        <div key={index} className={`img_css ${item}`}></div>
-      ))}
+    <Slider {...arrows} {...settingsProps}>
+      {props.children}
     </Slider>
   );
 };

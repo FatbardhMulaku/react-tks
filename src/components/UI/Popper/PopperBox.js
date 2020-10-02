@@ -100,7 +100,6 @@ const PopperBox = (props) => {
               onMouseLeave={handleClose}
             >
               <ClickAwayListener onClickAway={handleClose}>
-                {/* <Child handleClose={handleClose}>{props.children}</Child> */}
                 {props.children}
               </ClickAwayListener>
             </Paper>
