@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "transparent ",
     transition: "all 0.7s ease-out",
     padding: "0 0 18px",
-    top: "auto !important",
+    top: "auto",
   },
   box2: {
     boxShadow:
@@ -34,15 +34,17 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#fff !important ",
     transition: "all 0.5s ease-in",
     padding: "0 0 8px",
-    top: "auto !important",
+    top: "auto",
   },
   [theme.breakpoints.down("xs")]: {
+    box1: {
+      padding: "0 0 5px !important",
+    },
     box2: {
-      padding: "0",
+      padding: "0 !important",
     },
     appBar: {
-      padding: "2px",
-      paddingTop: "0",
+      padding: "3px 0",
     },
   },
 }));
@@ -67,7 +69,7 @@ const Toolbar = (props) => {
           text={trigger ? "col_black" : "col_white"}
         />
         <div className="DesktopOnly col_black">
-          <NavList scrollToTop={props.scrollToTop} />
+          <NavList />
         </div>
         <div className="searchIcon">
           <SearchIcon toggleSearch={setisSearch} isSearch={isSearch} />

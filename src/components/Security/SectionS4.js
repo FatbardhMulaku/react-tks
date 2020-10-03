@@ -6,8 +6,13 @@ import TextGrid from "../Shared/TextGrid/TextGrid";
 
 const SectionS4 = () => {
   return (
-    <LayoutGrid section="sectionS4 ">
-      <TextGrid textCss="section_4_text col_black" tr="security.section_4" />
+    <LayoutGrid section="sectionS4" id="security-4">
+      <TextGrid
+        textCss="section_4_text col_black"
+        tr="security.section_4"
+        linkBtn="/web-services"
+        offsetBtn={0}
+      />
       <ImgGrid img="section4_img" />
     </LayoutGrid>
   );

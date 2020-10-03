@@ -60,7 +60,7 @@ const Search = (props) => {
               borderBottom: "1px solid lightgray",
             }}
           >
-            <Container maxWidth="lg" className={classes.root}>
+            <Container maxWidth="xl" className={classes.root}>
               <Divider className={classes.divider} orientation="vertical" />
               <InputBase
                 value={value}

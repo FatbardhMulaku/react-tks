@@ -2,12 +2,13 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import CardService from "../UI/Card/CardService";
 import "./styles/SectionWS2.css";
+import LayoutContainer from "../Shared/LayoutContainer";
 
 const SectionWS2 = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="container my-4 sectionWS2">
+    <LayoutContainer section="sectionWS2" container="my-4 ">
       <h2 className="col_black font-roboto text-center">
         {t("webServices.section_2.title")}
       </h2>
@@ -24,7 +25,7 @@ const SectionWS2 = () => {
           </div>
         ))}
       </div>
-    </div>
+    </LayoutContainer>
   );
 };
 

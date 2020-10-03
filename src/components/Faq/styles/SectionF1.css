@@ -15,3 +15,8 @@
   background-image: url("../../../assets/images/faq/Rectangle\ 191.jpg");
   height: 520px;
 }
+
+.sectionF1_row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

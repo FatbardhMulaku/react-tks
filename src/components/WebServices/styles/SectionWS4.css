@@ -1,14 +1,14 @@
 .sectionWS4 {
   margin: 4rem 0;
 }
-.sectionWS4 > div:first-child {
+.sectionWS4 > .container > div:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
 }
 
-.sectionWS4 > div > h2:first-child {
+.sectionWS4 > .container > div > h2:first-child {
   line-height: 2.7rem;
 }
 .sectionWS4 > div > h2::after {

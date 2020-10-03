@@ -4,6 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import * as Scroll from "react-scroll";
+import { Link as LinkRouter } from "react-router-dom";
 
 const useStyles = makeStyles({
   btn: {
@@ -45,18 +46,26 @@ const useStyles = makeStyles({
 const LearnMore = (props) => {
   const { t } = useTranslation();
   const classes = useStyles();
-  let Link = Scroll.Link;
+  let ScrollLink = Scroll.Link;
+
+  const linkPath = props.link != null ? props.link : "";
+
+  const link = linkPath.includes("/");
+  const linkScroll = {
+    spy: true,
+    smooth: true,
+    offset: props.offset,
+    duration: 500,
+    isDynamic: true,
+  };
+
   return (
     <Button
       variant="contained"
-      component={Link}
+      component={link ? LinkRouter : ScrollLink}
       className={classes.btn}
-      to={props.link}
-      spy={true}
-      smooth={true}
-      offset={props.offset}
-      duration={500}
-      // isDynamic={true}
+      to={linkPath}
+      {...(!link && linkScroll)}
     >
       {t("learnMoreBtn")} <BsArrowRight className={classes.icon} />
     </Button>

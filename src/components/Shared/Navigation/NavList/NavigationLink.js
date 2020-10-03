@@ -10,8 +10,6 @@ const NavigationLink = (props) => {
         to={props.link}
         className={props.trigger ? "a_black" : "a_white"}
         activeClassName="active"
-        // onClick={props.clicked}
-        onClick={props.scrollToTop}
       >
         {props.children}
       </NavLink>

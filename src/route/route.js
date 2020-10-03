@@ -5,6 +5,7 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
+import ScrollToTop from "../components/Shared/ScrollToTop";
 import Layout from "../layout/DefaultLayout";
 import PageNotFound from "../pages/PageNotFound";
 import Home from "../pages/Home";
@@ -22,6 +23,7 @@ import Team from "../pages/Team";
 const route = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Layout>
         <Switch>
           <Route path="/" exact render={() => <Home />} />
@@ -34,7 +36,7 @@ const route = () => {
           <Route path="/web-services" exact render={() => <WebServices />} />
           <Route path="/who-we-are" exact render={() => <About />} />
           <Route path="/team" exact render={() => <Team />} />
-          <Route path="/our-agency" exact render={() => <Software />} />
+          <Route path="/portfolio" exact render={() => <Software />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
         </Switch>

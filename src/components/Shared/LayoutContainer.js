@@ -2,7 +2,10 @@ import React from "react";
 
 const LayoutContainer = (props) => {
   return (
-    <section className={`${props.section != null ? props.section : ""}`}>
+    <section
+      className={`fullBackground ${props.section != null ? props.section : ""}`}
+      id={props.id != null ? props.id : ""}
+    >
       <div
         className={`container ${
           props.container != null ? props.container : ""

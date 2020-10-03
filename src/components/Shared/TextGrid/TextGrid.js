@@ -11,7 +11,7 @@ const TextGrid = (props) => {
         {t(`${props.tr}.title`)}
       </h1>
       <p className="font_p my-4">{t(`${props.tr}.desc`)}</p>
-      <LearnMore link="section-Security-2" offset={-90} />
+      <LearnMore link={props.linkBtn} offset={props.offsetBtn} />
     </div>
   );
 };
