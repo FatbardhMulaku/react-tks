@@ -16,6 +16,7 @@ const useStyles = makeStyles({
 
 const MobileMenuItem = (props) => {
   const classes = useStyles();
+  const { drawerToggle } = props;
 
   return (
     <ListItem button className={classes.litsItem}>
@@ -25,7 +26,7 @@ const MobileMenuItem = (props) => {
           to={`/${props.link}`}
           className="link"
           activeClassName="activeMobile"
-          onClick={props.drawerToggle}
+          onClick={drawerToggle}
         >
           {props.name}
         </NavLink>

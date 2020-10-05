@@ -36,7 +36,7 @@ font-weight: 600;
 }
 
 .logo-java{
-    width: 15vw;
+    width: 120px;
     height: 120px;
     background-image: url(./../../assets/Home/java2.png);
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ font-weight: 600;
 
 }
 .logo-html{
-    width: 15vw;
+    width: 120px;
     height: 120px;
     background-image: url(./../../assets/Home/html.png);
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@ font-weight: 600;
 
 }
 .logo-react{
-    width: 15vw;
+    width: 120px;
     height: 120px;
     background-image: url(./../../assets/Home/react.png);
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ font-weight: 600;
     background-position:center;
 }
 .logo-wordpress{
-    width: 15vw;
+    width: 120px;
     height: 120px;
     background-image: url(./../../assets/Home/wordpress.png);
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@ font-weight: 600;
 }
 .logo-php{
     height: 120px;
-    width: 15vw;
+    width: 120px;
     background-image: url(./../../assets/Home/php.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,6 +85,7 @@ font-weight: 600;
 @media only screen and (max-width: 800px) {
     .logo-java, .logo-html, .logo-react, .logo-wordpress, .logo-php{
         height: 80px;
+        width: 80px;
     }
     .teknologies h1{
     text-align: center;
@@ -105,7 +106,8 @@ font-weight: 600;
         width: 95%;
     }
     .logo-java, .logo-html, .logo-react, .logo-wordpress, .logo-php{
-        height: 80px;
+        height: 60px;
+        width: 60px;
     }
     .teknologies h1{
     text-align: center;

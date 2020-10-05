@@ -1,0 +1,47 @@
+.sectionSO3 {
+  padding: 3rem 0;
+}
+
+.sectionSO2_icon1 {
+  background-image: url("../../../assets/images/icons/phone.svg");
+}
+.sectionSO2_icon2 {
+  background-image: url("../../../assets/images/icons/shapes.svg");
+}
+.sectionSO2_icon3 {
+  background-image: url("../../../assets/images/icons/data.svg");
+}
+.sectionSO2_icon4 {
+  background-image: url("../../../assets/images/icons/branding.svg");
+}
+.sectionSO2_icon5 {
+  background-image: url("../../../assets/images/icons/coding.svg");
+}
+.sectionSO2_icon6 {
+  background-image: url("../../../assets/images/icons/www.svg");
+}
+.sectionSO2_icon7 {
+  background-image: url("../../../assets/images/icons/desktop.svg");
+}
+.sectionSO2_icon8 {
+  background-image: url("../../../assets/images/icons/minus.svg");
+}
+.sectionSO2_icon9 {
+  background-image: url("../../../assets/images/icons/surface1.svg");
+}
+.sectionSO2_icon10 {
+  background-image: url("../../../assets/images/icons/alert.svg");
+}
+.sectionSO2_icon_box > div:first-child {
+  width: 30px;
+  height: 30px;
+}
+.sectionSO2_icon_box {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #006fff;
+  margin: 0.5rem 0;
+}
+.sectionSO3 > .slick-list {
+  margin: 0 1rem !important ;
+}

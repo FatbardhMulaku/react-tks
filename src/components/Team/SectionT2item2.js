@@ -21,13 +21,8 @@ txt:{
 media: {
 height: 430,
 width: 370
-},
-[theme.breakpoints.down('md')]: {
-media: {
-  height: 390,
-  width: 320
 }
-}}
+}
     
 ));
 

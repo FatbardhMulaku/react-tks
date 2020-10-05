@@ -24,12 +24,7 @@ function NavList(props) {
         <AboutDropdown trigger={trigger} />
         <CaseStudiesDropdown trigger={trigger} />
         {t("mainMenu").map(({ link, name }, index) => (
-          <NavigationLink
-            clicked={props.drawerToggle}
-            link={`/${link}`}
-            key={index}
-            trigger={trigger}
-          >
+          <NavigationLink link={`/${link}`} key={index} trigger={trigger}>
             {name}
           </NavigationLink>
         ))}

@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
-    { width: 650, itemsToShow: 2},
+    { width: 850, itemsToShow: 2},
     { width: 1200, itemsToShow: 3 },
   ];
 

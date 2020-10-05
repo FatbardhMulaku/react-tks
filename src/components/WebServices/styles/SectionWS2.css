@@ -1,0 +1,46 @@
+.sectionWS2 > .container > h2 {
+  width: 50%;
+  margin: 3rem auto;
+}
+
+.sectionWS2_icon_box > div:first-child {
+  width: 40px;
+  height: 40px;
+}
+.sectionWS2_icon_box {
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: #006fff;
+  margin: 1rem 0;
+}
+
+.sectionWS2_icon1 {
+  background-image: url("../../../assets/images/icons/phone.svg");
+}
+.sectionWS2_icon2 {
+  background-image: url("../../../assets/images/icons/shapes.svg");
+}
+.sectionWS2_icon3 {
+  background-image: url("../../../assets/images/icons/data.svg");
+}
+.sectionWS2_icon4 {
+  background-image: url("../../../assets/images/icons/branding.svg");
+}
+.sectionWS2_icon5 {
+  background-image: url("../../../assets/images/icons/coding.svg");
+}
+.sectionWS2_icon6 {
+  background-image: url("../../../assets/images/icons/www.svg");
+}
+.sectionWS2_icon7 {
+  background-image: url("../../../assets/images/icons/desktop.svg");
+}
+.sectionWS2_icon8 {
+  background-image: url("../../../assets/images/icons/minus.svg");
+}
+
+@media (max-width: 992px) {
+  .sectionWS2 > .container > h2 {
+    width: 100%;
+  }
+}

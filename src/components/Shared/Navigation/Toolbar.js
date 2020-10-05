@@ -10,7 +10,7 @@ import SearchIcon from "../../UI/SearchIcon/SearchIcon";
 import SearchInput from "../../UI/Input/Search/Search";
 import { useToggle } from "../../../Hooks/useToggle";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   appBar: {
     display: "flex",
     justifyContent: "space-between",
@@ -26,7 +26,7 @@ const useStyles = makeStyles({
     backgroundColor: "transparent ",
     transition: "all 0.7s ease-out",
     padding: "0 0 18px",
-    top: "auto !important",
+    top: "auto",
   },
   box2: {
     boxShadow:
@@ -34,9 +34,20 @@ const useStyles = makeStyles({
     backgroundColor: "#fff !important ",
     transition: "all 0.5s ease-in",
     padding: "0 0 8px",
-    top: "auto !important",
+    top: "auto",
   },
-});
+  [theme.breakpoints.down("xs")]: {
+    box1: {
+      padding: "0 0 5px !important",
+    },
+    box2: {
+      padding: "0 !important",
+    },
+    appBar: {
+      padding: "3px 0",
+    },
+  },
+}));
 
 const Toolbar = (props) => {
   const classes = useStyles();
@@ -52,7 +63,7 @@ const Toolbar = (props) => {
   return (
     <AppBar color="inherit" className={trigger ? classes.box2 : classes.box1}>
       <SearchInput isSearch={isSearch} />
-      <Container maxWidth="lg" className={classes.appBar}>
+      <Container maxWidth="xl" className={classes.appBar}>
         <Logo
           logo={trigger ? "black_logo" : "white_logo"}
           text={trigger ? "col_black" : "col_white"}

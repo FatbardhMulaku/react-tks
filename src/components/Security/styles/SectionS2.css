@@ -1,6 +1,6 @@
-.sectionS2 {
-  margin: 2rem 0;
-  padding: 2rem 0;
+.sectionS2 .container {
+  margin: 2rem auto;
+  padding: 2rem auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,12 +30,12 @@
   height: 50px;
   padding: 1rem;
 }
-.sectionS2 > div > h4 {
+.sectionS2 .container > div > h4 {
   color: #22273e;
 }
 
 @media (max-width: 992.98px) {
-  .sectionS2 {
+  .sectionS2 .container {
     flex-flow: column;
   }
 }

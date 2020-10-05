@@ -22,12 +22,7 @@ width: 370
 txt:{
   marginLeft: '10%'
 },
-[theme.breakpoints.down('sm')]: {
-media: {
-  height: 390,
-  width: 320
 }
-}}
     
 ));
 

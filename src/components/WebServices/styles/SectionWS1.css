@@ -1,22 +1,22 @@
-.sectionOA1 {
+.sectionWS1 {
   background-image: linear-gradient(
       0deg,
       rgba(34, 39, 62, 0.4),
       rgba(34, 39, 62, 0.4)
     ),
-    url("../../../assets/images/ouragency/Rectangle\ 165.jpg");
+    url("../../../assets/images/webServices/Rectangle\ 165.jpg");
 }
 
-.sectionOA1 > div:first-child {
+.sectionWS1 > div:first-child {
   padding: 11% 2%;
 }
 
-.img_ourAgency_1 {
-  background-image: url("../../../assets/images/ouragency/Image\ 4.jpg");
+.img_webServices_1 {
+  background-image: url("../../../assets/images/webServices/Image\ 4.jpg");
   height: 450px;
 }
 
-.sectionOA1_text > h1 {
+.sectionWS1_text > h1 {
   font-size: 2.2rem;
 }
 
@@ -53,22 +53,22 @@
   .chevron:after {
     width: 97%;
   }
-  .sectionOA1_text {
+  .sectionWS1_text {
     padding: 8% 5% 1% 5% !important;
   }
 }
 
 @media (max-width: 992px) {
-  .img_ourAgency_1 {
+  .img_webServices_1 {
     height: 350px;
   }
-  .sectionOA1 > div:first-child {
+  .sectionWS1 > div:first-child {
     padding: 8rem 2%;
   }
-  .sectionOA1_row {
+  .sectionWS1_row {
     flex-flow: wrap-reverse !important;
   }
-  .sectionOA1_text {
+  .sectionWS1_text {
     padding: 7% 12% 5% 1% !important;
   }
   .chevron {
@@ -94,7 +94,7 @@
   }
 }
 @media (max-width: 576px) {
-  .sectionOA1_text > h1 {
+  .sectionWS1_text > h1 {
     font-size: 1.6rem !important;
   }
 }
