@@ -1,6 +1,6 @@
 .sectionSeo1 {
   background-color: #71abf6;
-  padding: 12rem 0;
+  padding: 10rem 0;
 }
 
 .sectionSeo1_img {
@@ -11,5 +11,13 @@
 @media (max-width: 992.98px) {
   .sectionSeo1_row {
     flex-wrap: wrap-reverse !important;
+  }
+  .sectionSeo1 {
+    padding: 6rem 0;
+  }
+}
+@media (max-width: 768px) {
+  .sectionSeo1 {
+    padding: 4rem 0;
   }
 }

@@ -91,6 +91,9 @@ code {
 .col_light {
   color: #b2b2b2;
 }
+.col_primary {
+  color: #006fff;
+}
 
 .font-roboto {
   font-family: "Roboto", sans-serif;
@@ -106,6 +109,12 @@ code {
     "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
+.font-w-300 {
+  font-weight: 300;
+}
+.font-w-400 {
+  font-weight: 400;
+}
 .font-w-500 {
   font-weight: 500;
 }
@@ -120,6 +129,15 @@ code {
 }
 .font-w-900 {
   font-weight: 900;
+}
+.bg_black {
+  background-color: black;
+}
+.bg_white {
+  background-color: white;
+}
+.bg_primary {
+  background-color: #006fff;
 }
 
 .img_hover::before {

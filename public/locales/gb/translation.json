@@ -13,6 +13,17 @@
       "name": "contact us"
     }
   ],
+  "loginBtn": "log in",
+  "signupBtn": "sign up",
+  "login": {
+    "title": "welcome back",
+    "inputLabel": "Please enter your email and password",
+    "emailPlaceholder": "Enter your email address",
+    "passwordPlaceholder": "Enter your password",
+    "forget": "Forgot password ?",
+    "or": "or",
+    "btn": ["log in", "create an account", "Sign In With Facebook"]
+  },
   "learnMoreBtn": "learn more",
   "software": {
     "section_1": {

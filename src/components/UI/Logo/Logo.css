@@ -3,11 +3,18 @@
   margin: 0;
   text-decoration: none;
 }
+
+.logo_modal {
+  pointer-events: none;
+}
 .white_logo {
   background-image: url("../../../assets/images/logoLight.svg");
 }
 .black_logo {
   background-image: url("../../../assets/images/logoDark.svg");
+}
+.blue_logo {
+  background-image: url("../../../assets/images/logoBlue.svg");
 }
 .img_logo {
   width: 30px;

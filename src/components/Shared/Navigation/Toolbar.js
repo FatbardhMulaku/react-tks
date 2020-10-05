@@ -2,12 +2,13 @@ import React from "react";
 import { AppBar, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import NavList from "./NavList/NavList";
+import LoginNav from "./LoginNav/LoginNav";
 import Logo from "../../UI/Logo/Logo";
 import DrawerToggle from "../DrawerToggle";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import "./Toolbar.css";
 import SearchIcon from "../../UI/SearchIcon/SearchIcon";
-import SearchInput from "../../UI/Input/Search/Search";
+import SearchInput from "../../UI/Input/Search";
 import { useToggle } from "../../../Hooks/useToggle";
 
 const useStyles = makeStyles((theme) => ({
@@ -18,13 +19,10 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     paddingTop: "12px",
   },
-  fullList: {
-    width: "auto",
-  },
   box1: {
     boxShadow: "none ",
     backgroundColor: "transparent ",
-    transition: "all 0.7s ease-out",
+    transition: "all 0.6s ease-out",
     padding: "0 0 18px",
     top: "auto",
   },
@@ -32,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow:
       "0px 3px 5px -1px #00000033, 0px 6px 10px 0px #00000024, 0px 1px 18px 0px #0000001f ",
     backgroundColor: "#fff !important ",
-    transition: "all 0.5s ease-in",
+    transition: "all 0.4s ease-in",
     padding: "0 0 8px",
     top: "auto",
   },
@@ -61,7 +59,7 @@ const Toolbar = (props) => {
   });
 
   return (
-    <AppBar color="inherit" className={trigger ? classes.box2 : classes.box1}>
+    <AppBar className={trigger ? classes.box2 : classes.box1}>
       <SearchInput isSearch={isSearch} />
       <Container maxWidth="xl" className={classes.appBar}>
         <Logo
@@ -73,6 +71,9 @@ const Toolbar = (props) => {
         </div>
         <div className="searchIcon">
           <SearchIcon toggleSearch={setisSearch} isSearch={isSearch} />
+          <div className="d-login">
+            <LoginNav trigger={trigger} />
+          </div>
         </div>
         <div className="DrawerToggle">
           <DrawerToggle clicked={props.drawerToggle} />

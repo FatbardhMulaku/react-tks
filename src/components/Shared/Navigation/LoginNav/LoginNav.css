@@ -1,0 +1,47 @@
+.nav-login {
+  display: inline-flex;
+  flex-direction: row;
+  height: 100%;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
+.nav-login > hr {
+  height: auto;
+  align-self: stretch;
+  border: none;
+  width: 1px;
+  margin: 0;
+  flex-shrink: 0;
+}
+.nav-login > li > p {
+  font-size: 17px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  transition: all 0.45s ease-in-out;
+  line-height: 20px;
+  margin: 0;
+  padding: 0 4px;
+}
+
+.white-p,
+.black-p {
+  cursor: pointer;
+  padding: 2px 1px;
+}
+.white-p {
+  color: white;
+}
+.black-p {
+  color: black;
+}
+.black-p:hover {
+  background: #000;
+  color: white;
+}
+.white-p:hover {
+  background: white;
+  color: black;
+}
