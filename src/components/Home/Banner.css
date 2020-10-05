@@ -1,6 +1,6 @@
 .banner{
     width: 85%;
-    height: 90vh;
+    height: 1000px;
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -163,7 +163,7 @@
 
 @media only screen and (max-width: 800px) {
     .banner{
-        height: 110vh;
+        height: 1000px;
         width: 95%;
         display: flex;
         flex-direction: column;
@@ -239,10 +239,14 @@
         width: 90%;
         margin-top: 5px;
 }
+.banner{
+    height: 800px;
+    width: 95%;
+}
 }
 @media only screen and (max-width: 380px) {
     .banner{
-        height: 100vh;
+        height: 800px;
         width: 98%;
     }
     .banner__text{

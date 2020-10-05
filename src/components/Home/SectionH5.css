@@ -130,7 +130,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        height: 120vh;
+        height: 1250px;
     }
     .WorkSection h1 {
         font-size: 35px;
@@ -157,7 +157,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        height: 120vh;
+        height: 1100px;
     }
     .WorkSection h1 {
         font-size: 35px;
@@ -192,7 +192,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        height: 180vh;
+        height: 1950px;
     }
     .workLogo1, .workLogo2, .workLogo3, .workLogo4, .workLogo5, .workLogo6{
         width: 350px;
@@ -222,7 +222,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        height: 235vh;
+        height: 1740px;
     }
     .middle h2{
         font-size: 20px !important;
@@ -239,7 +239,7 @@
   }
   @media only screen and (max-width: 380px) {
     .WorkSection{
-        height: 260vh;
+        height: 1800px;
     }
     .WorkSection h1 {
         font-size: 25px;
@@ -248,7 +248,7 @@
   }
   @media only screen and (max-width: 346px) {
     .WorkSection{
-        height: 320vh;
+        height: 1800px;
     }
     .work_co{
         display: grid;

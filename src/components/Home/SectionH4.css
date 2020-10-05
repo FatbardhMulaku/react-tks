@@ -176,6 +176,9 @@
     }
 }
 @media only screen and (max-width: 1400px) {
+    .team{
+        height: 750px;
+    }
     .team__left h1{
         font-size: 35px;
         width: 80%;
@@ -195,6 +198,9 @@
     }
 }
 @media only screen and (max-width: 1080px) {
+    .team{
+        height: 720px;
+    }
     .team__left h1{
         font-size: 30px;
         width: 90%;
@@ -212,6 +218,9 @@
 
 }
 @media only screen and (max-width: 800px) {
+    .team{
+        height: 1050px;
+    }
     .team-c{
         width: 95%;
         display: flex;
@@ -240,7 +249,7 @@
 }   
 @media only screen and (max-width: 500px) {
     .team{
-        height: 125vh;
+        height: 900px;
     }
     .team-c{
         margin-top: 70px;
@@ -300,7 +309,7 @@
 }
 @media only screen and (max-width: 380px) {
     .team{
-        height: 145vh;
+        height: 950px;
     }
     .team__left h1{
         font-size: 25px;
@@ -322,7 +331,10 @@
 
 @media only screen and (max-width: 350px) {
     .team{
-        height: 150vh;
+        height: 750px;
+    }
+    .team__left{
+        padding: 10px;
     }
     .team__left h1{
         font-size: 21px;
@@ -331,6 +343,7 @@
     }
     .team__left p{
         font-size: 15px;
+        width: 100%;
     }
     .team-btn-container {
         margin-top: 20px;

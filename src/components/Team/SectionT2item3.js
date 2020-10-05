@@ -4,7 +4,7 @@ import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import Timg1 from './../../assets/Team/Team1.jpg';
+import Timg3 from './../../assets/Team/Team3.png';
  
 const useStyles = makeStyles((theme) => ({
   cont:{
@@ -15,14 +15,14 @@ const useStyles = makeStyles((theme) => ({
 root: {
 margin: 20
 },
+txt:{
+    marginLeft: '10%'
+  },
 media: {
 height: 430,
 width: 370
 },
-txt:{
-  marginLeft: '10%'
-},
-[theme.breakpoints.down('sm')]: {
+[theme.breakpoints.down('md')]: {
 media: {
   height: 390,
   width: 320
@@ -39,13 +39,13 @@ function SectionT2item() {
           <CardActionArea>
             <CardMedia
               className={classes.media}
-              image={Timg1}
+              image={Timg3}
               title="Team"
             />
             <CardContent>
               <hr />
-              <h3 className={classes.txt}>Eroll Ymeri</h3>
-              <p className={classes.txt}>Director</p>
+              <h3 className={classes.txt}>Genc Shatri</h3>
+              <p className={classes.txt}>Manager</p>
             </CardContent>
           </CardActionArea>
         </Card>

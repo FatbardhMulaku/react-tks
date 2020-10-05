@@ -255,39 +255,6 @@
   },
   "alRight": "2020 KosovaOutsource. All rights are reserved",
 
-  "SectionH5":[
-    {
-      "image": "./../../../src/assets/Home/galery1.png",
-      "title": "Web Design",
-      "btn": "View Project"
-    },
-    {
-      "image": "./../../../src/assets/Home/galery2.png",
-      "title": "Web Design",
-      "btn": "View Project"
-    },
-    {
-      "image": "./../../../src/assets/Home/galery3.png",
-      "title": "Web Design",
-      "btn": "View Project"
-    },
-    {
-      "image": "./../../../src/assets/Home/galery4.png",
-      "title": "Web Design",
-      "btn": "View Project"
-    },
-    {
-      "image": "./../../../src/assets/Home/galery5.png",
-      "title": "Web Design",
-      "btn": "View Project"
-    },
-    {
-      "image": "./../../../src/  assets/Home/galery6.png",
-      "title": "Web Design",
-      "btn": "View Project"
-    }
-  ],
-
   "Home":{
 		"BanerH1":"We are the best Software Company in Kosova.",
 		"BannerP":" We offer professional outsourcing, programming, managment, design or any visual or administration work. Contact us for more information",

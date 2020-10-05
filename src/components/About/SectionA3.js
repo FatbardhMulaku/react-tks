@@ -11,7 +11,7 @@ function SectionA3() {
                 <h5>{t("About.SectionA3h")}</h5>
                 <h1>{t("About.SectionA3hh")}</h1>
                 <p>{t("About.SectionA3p")}</p>
-                <LearnMore offset={-90} />
+                <LearnMore link="SectionA1" offset={-90} />
             </div>
             <div className="SectionA3b">
                 <div className="SectionA3b-rrethi">

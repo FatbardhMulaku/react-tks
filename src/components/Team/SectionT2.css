@@ -13,6 +13,12 @@
     background-color: #005FDB !important;
     box-shadow: 0 0 1px 3px rgb(9, 77, 155) !important;
 }
+.TeamSlider{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 @media only screen and (max-width: 500px) {
     .SectionT2{
         width: 98%;

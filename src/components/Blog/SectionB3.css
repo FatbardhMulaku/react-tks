@@ -1,5 +1,5 @@
 .SectionB3{
-    height: 100vh;
+    height: 950px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +48,7 @@
     text-decoration: none;
 }
 .SectionB3__wrapper_c{
+    margin-top: 50px;
     background-color: #f0f0f0 !important;
 }
 .slideriB3{
@@ -173,7 +174,7 @@
 
 @media only screen and (max-width: 1500px) {
     .SectionB3{
-        height: 80vh;
+        height: 830px;
     }
     .SectionB3__wrapper {
         width :100%;
@@ -227,14 +228,14 @@
 }
 @media only screen and (max-width: 1300px) {
     .SectionB3{
-        height: 105vh;
+        height: 1000px;
     }
     
 }
 
 @media only screen and (max-width: 866px) {
     .SectionB3{
-        height: 155vh;
+        height: 1650px;
     }
     .SectionB3__wrapper {
         width :100%;
@@ -289,7 +290,7 @@
 
 @media only screen and (max-width: 500px) {
     .SectionB3{
-        height: 200vh;
+        height: 1500px;
     }
     .SectionB3_container{
         width: 95%;
@@ -328,7 +329,7 @@
 }
 @media only screen and (max-width: 380px) {
     .SectionB3{
-        height: 220vh;
+        height: 1500px;
     }
     .boxB3 {
         height: 240px;
@@ -347,7 +348,7 @@
 }
 @media only screen and (max-width: 350px) {
     .SectionB3{
-        height: 250vh;
+        height: 1520px;
     }
     .SectionB3__title h1 {
         font-size: 22px;

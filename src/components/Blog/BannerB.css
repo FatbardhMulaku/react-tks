@@ -2,13 +2,13 @@
     width: 95%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
 }
 /* ======================== pjesa e banerit me text ========================================= */
 .banner__textBlog{
-    margin-top: 13%;
     width: 45%;
     color: white;
     text-align: left;
@@ -23,18 +23,15 @@
     margin-top: 30px;
     margin-bottom: 40px;
 }
-.div-banner-btnBlog{
-    margin-top: 9vh;
-}
+
 /* ======================== pjesa e banerit me foto ========================================= */
 .banner__imgBlog{
-    margin-top: 5%;
     width: 53%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 100%;
 }
 .banner__imgBlogLeft{
     width: 50%;
@@ -45,13 +42,13 @@
     padding: 20px;
     height: 100%;
 }
-.banner__imgBlogRight{
+/* .banner__imgBlogRight{
     width: 50%;
     height: 80vh;
     display: flex;
     flex-direction: column;
     align-content: space-between !important;
-}
+} */
 
 
 .banner-img1Blog{
@@ -61,7 +58,7 @@
     background-position: center !important;
     margin: 30px !important;
     width: 21vw;
-    height: 55vh;
+    height: 600px;
 }
 .banner-img1Blog:hover{
     -webkit-animation: swing 1s ease;
@@ -91,9 +88,9 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    margin-top: 23vh;
+    margin-top: 260px;
     width: 13vw;
-    height: 12vw;
+    height: 180px;
     margin-left: 3vw;
 }
 .banner-img4Blog:hover{
@@ -117,13 +114,23 @@
         font-size: 18px;
     }
 }
+@media only screen and (max-width: 1100px) {
+    
+    .banner-img1Blog{
+        height: 400px;
+}
+.banner-img3Blog{
+    height: 220px;
+}
+}
 
-@media only screen and (max-width: 750px) {
+
+@media only screen and (max-width: 800px) {
     .banner__textBlog h1{
         font-size: 28px;
         width: 100%;
     }.bannerBlog{
-        height: 110vh;
+        height: 1050px;
         width: 95%;
         display: flex;
         flex-direction: column;
@@ -151,29 +158,29 @@
         margin-top: -10px;
     }
     /* ===================== */
-    .banner__imgBlogRight{
-        width: 50%;
-        height: 50vh;
-    }
     .banner-img1Blog{
         margin: 10px !important;
         width: 40vw;
-        height: 35vh;
+        height: 450px;
+        margin-right: 20px;
     }
     .banner-img3Blog{
         width: 25vw;
         height: 280px;
         margin-bottom: 0px;
-        margin-left: 1vw;
+        margin-left: 3vw;
     }
     .banner-img4Blog{
-        margin-top: 12vh;
+        margin-top: 150px;
         width: 17vw;
-        height: 12vw;
-        margin-left: 3vw;
+        height: 150px;
+        margin-left: 5vw;
     }
 }
 @media only screen and (max-width: 500px) {
+    .banner__imgBlog {
+        margin-top: -200px;
+    }
     .bannerBlog {
        /*  height: 110vh; */
         width: 100%;
@@ -197,18 +204,18 @@
     .banner-img1Blog{
         margin: 10px !important;
         width: 40vw;
-        height: 30vh;
+        height: 300px;
     }
     .banner-img3Blog{
         width: 35vw;
-        height: 25vh;
+        height: 180px;
         margin-bottom: 0px;
         margin-left: 1vw;
     }
     .banner-img4Blog{
-        margin-top: 5vh;
+        margin-top: 100px;
         width: 23vw;
-        height: 17vw;
+        height: 130px;
         margin-left: 3vw;
     }
 }

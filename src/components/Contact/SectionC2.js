@@ -15,18 +15,18 @@ export default function SectionC2() {
             <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="cInfo__contact">
                 <div className="cinfo1">
                     <h2>{t("Contact.SectionB2p")}</h2>
-                    <Link><AiFillPhone className="contact__icons" to="tel: +3834445400400"/> +3834445400400</Link>
-                    <Link><AiFillPhone className="contact__icons" to="tel: +3834445400400"/> +3834445400400</Link>
+                    <Link to="/"><AiFillPhone className="contact__icons" to="tel: +3834445400400"/> +3834445400400</Link>
+                    <Link to="/"><AiFillPhone className="contact__icons" to="tel: +3834445400400"/> +3834445400400</Link>
                 </div>
                 <div className="cinfo1">
                     <h2>{t("Contact.SectionB2e")}</h2>
-                    <Link><AiOutlineMail className="contact__icons" to="mailto: info@KsOutsource.com"/> info@KsOutsource.com</Link>
-                    <Link><AiOutlineMail className="contact__icons" to="mailto: info@KsOutsource.com"/> info@KsOutsource.com</Link>
+                    <Link to="/"><AiOutlineMail className="contact__icons" to="mailto: info@KsOutsource.com"/> info@KsOutsource.com</Link>
+                    <Link to="/"><AiOutlineMail className="contact__icons" to="mailto: info@KsOutsource.com"/> info@KsOutsource.com</Link>
                 </div>
                 <div className="cinfo1">
                     <h2>{t("Contact.SectionB2sm")}</h2>
-                    <Link><AiFillFacebook className="contact__icons" to="#"/> {t("Contact.SectionB2Fb")}</Link>
-                    <Link><AiFillInstagram className="contact__icons" to="#"/>{t("Contact.SectionB2insta")}</Link>
+                    <Link to="/"><AiFillFacebook className="contact__icons" to="#"/> {t("Contact.SectionB2Fb")}</Link>
+                    <Link to="/"><AiFillInstagram className="contact__icons" to="#"/>{t("Contact.SectionB2insta")}</Link>
                 </div>
             </div>
         </div>
