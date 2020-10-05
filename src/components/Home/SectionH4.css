@@ -176,6 +176,9 @@
     }
 }
 @media only screen and (max-width: 1400px) {
+    .team{
+        height: 750px;
+    }
     .team__left h1{
         font-size: 35px;
         width: 80%;
@@ -195,6 +198,9 @@
     }
 }
 @media only screen and (max-width: 1080px) {
+    .team{
+        height: 700px;
+    }
     .team__left h1{
         font-size: 30px;
         width: 90%;
@@ -212,6 +218,9 @@
 
 }
 @media only screen and (max-width: 800px) {
+    .team{
+        height: 950px;
+    }
     .team-c{
         width: 95%;
         display: flex;
@@ -223,9 +232,10 @@
     .team__left{
         width: 100% !important;
         text-align: center !important;
+        padding: 0px !important;
     }
     .team__left h1{
-        font-size: 35px;
+        font-size: 30px;
         width: 100%;
         text-align: center;
     }
@@ -236,17 +246,19 @@
     }
     .team__Right{
         width: 100% !important;
+        margin-top: 40px;
     }
 }   
 @media only screen and (max-width: 500px) {
     .team{
-        height: 125vh;
+        height: 850px;
     }
     .team-c{
         margin-top: 70px;
     }
     .team__left{
         width: 100%;
+        padding: 5px !important;
         text-align: center;
     }
     .team__left h1{
@@ -256,14 +268,18 @@
     }
     .team__left p{
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
         text-align: center !important;
+    }
+    .team__left a{
+        text-align: center;
     }
     .team-btn-container{
         margin-top: 40px;
     }
     .team__Right{
         width: 100% !important;
+        margin-top: 30px;
     }
     .team__Right1-con, .team__Right1-con2   {
         padding: 10px;
@@ -300,7 +316,7 @@
 }
 @media only screen and (max-width: 380px) {
     .team{
-        height: 145vh;
+        height: 900px;
     }
     .team__left h1{
         font-size: 25px;
@@ -322,7 +338,10 @@
 
 @media only screen and (max-width: 350px) {
     .team{
-        height: 150vh;
+        height: 750px;
+    }
+    .team__left{
+        padding: 10px;
     }
     .team__left h1{
         font-size: 21px;
@@ -331,6 +350,7 @@
     }
     .team__left p{
         font-size: 15px;
+        width: 100%;
     }
     .team-btn-container {
         margin-top: 20px;

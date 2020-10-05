@@ -18,7 +18,7 @@ function SectionH4() {
     <p>
     {t("Home.SectionH4LeftP")}
     </p>
-    <LearnMore component={teamm} offset={-90} /> 
+    <LearnMore link="WorkSection" component={teamm} offset={-90} /> 
   </div>
 
       

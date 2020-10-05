@@ -1,6 +1,7 @@
 :root {
     --content-background-color: white !important;
   }
+
 .services{
     width: 75%;
     display: flex;
@@ -11,15 +12,12 @@
     margin-right: auto;
     margin-bottom: 50px; 
     padding-top: 100px;
-    height: 82vh;
+    height: 900px;
 }
 .services h1 {
     padding: 0 1em;
     margin: 60px 0px;
     font-size: 55px;
-  }
-  .awssld{
-      height: 70vh;
   }
 .slideri{
     background-color: white !important;
@@ -37,9 +35,14 @@
     background-color: #005FDB !important;
     box-shadow: 0 0 1px 3px rgb(3, 48, 100) !important;
 }
+/* @media screen and ( max-height: 699px ) {
+    .services{ 
+        height: 167vh;
+    } 
+} */
 @media only screen and (max-width: 1520px) {
     .services{ 
-        height: 67vh;
+        height: 750px;
         margin-top: 50px;
 
     } 
@@ -51,7 +54,7 @@
 }
 @media only screen and (max-width: 1474px) {
     .services{ 
-        height: 65vh;
+        height: 750px;
         margin-top: 50px;
 
     } 
@@ -64,14 +67,14 @@
 @media only screen and (max-width: 1394px) {
 
     .services{ 
-        height: 100vh;
+        height: 1050px;
 
     } 
 }
 
 @media only screen and (max-width: 836px) {
     .services{ 
-        height: 100vh;
+        height: 1000px;
         width: 95%;
         margin-top: 30px;
 
@@ -84,11 +87,11 @@
 }
 @media only screen and (max-width: 660px) {
     .services{ 
-        height: 190vh;}
+        height: 2000px;}
 }
 @media only screen and (max-width: 500px) {
     .services{ 
-        height: 250vh !important;
+        height: 1850px;
         width: 95%;
         margin-top: 40px;
 
@@ -106,17 +109,11 @@
 
     @media only screen and (max-width: 380px) {
         .services{
-            height: 250vh;
-        }
-        .awssld{
-            height: 250vh;
+            height: 1650px;
         }
       }
       @media only screen and (max-width: 348px) {
         .services{
-            height: 288vh;
-        }
-        .awssld{
-            height: 288vh;
+            height: 1600px;
         }
       }

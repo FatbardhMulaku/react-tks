@@ -1,6 +1,6 @@
 .SectionCS2{
     margin-top: 70px;
-    height: 90Vh;
+    height: 800px;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -61,6 +61,8 @@
 	}
 }
 @media only screen and (max-width: 1150px) {
+    .SectionCS2{
+        height: 700px;}
     .SectionCS2Left h1{
         width: 100%;
         font-size: 35px;

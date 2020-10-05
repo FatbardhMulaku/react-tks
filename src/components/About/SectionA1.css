@@ -1,6 +1,6 @@
 .SectionA1{
     width: 85%;
-    height: 80vh;
+    height: 800px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -39,7 +39,7 @@
 }
 .SectionA1-img{
     width: 50%;
-    height: 60vh;
+    height: 600px;
     background-image: url(./../../assets/About/section1.png);
     background-position: center;
     background-size: cover;
@@ -48,7 +48,7 @@
 
 @media only screen and (max-width: 800px) {
     .SectionA1{
-        height: 110vh
+        height: 1000px
     }
     .SectionA1-wapper{
         flex-direction: column;
@@ -71,6 +71,9 @@
     }
 }
 @media only screen and (max-width: 500px) {
+    .SectionA1{
+        height: 1050px
+    }
     .SectionA1-txt h1 {
         font-size: 25px;
         padding: 0;   

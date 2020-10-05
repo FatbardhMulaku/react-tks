@@ -1,6 +1,6 @@
 .BannerCS{
     width: 80%;
-    height: 80vh;
+    height: 950px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -22,6 +22,8 @@
     width: 50%;
 }
 @media only screen and (max-width: 750px) {
+    .BannerCS{
+        height: 750px;}
     .BannerCS h1{
         text-align: center;
         font-size: 45px;

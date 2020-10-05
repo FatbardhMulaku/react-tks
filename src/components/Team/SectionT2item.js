@@ -5,8 +5,6 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Timg1 from './../../assets/Team/Team1.jpg';
-import Timg2 from './../../assets/Team/Team2.jpg';
-import Timg3 from './../../assets/Team/Team3.png';
  
 const useStyles = makeStyles((theme) => ({
   cont:{
@@ -21,12 +19,10 @@ media: {
 height: 430,
 width: 370
 },
-[theme.breakpoints.down('md')]: {
-media: {
-  height: 390,
-  width: 320
+txt:{
+  marginLeft: '10%'
+},
 }
-}}
     
 ));
 
@@ -43,38 +39,8 @@ function SectionT2item() {
             />
             <CardContent>
               <hr />
-              <h3>Eroll Ymeri</h3>
-              <p>Director</p>
-            </CardContent>
-          </CardActionArea>
-        </Card>
-  
-        <Card className={classes.root}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              image={Timg2}
-              title="Team"
-            />
-            <CardContent>
-              <hr />
-              <h3> Eliza Salihu</h3>
-              <p>Secretary</p>
-            </CardContent>
-          </CardActionArea>
-        </Card>
-  
-        <Card className={classes.root}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              image={Timg3}
-              title="Team"
-            />
-            <CardContent>
-              <hr />
-              <h3>Genc Shatri</h3>
-              <p>Manager</p>
+              <h3 className={classes.txt}>Eroll Ymeri</h3>
+              <p className={classes.txt}>Director</p>
             </CardContent>
           </CardActionArea>
         </Card>

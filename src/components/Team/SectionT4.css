@@ -18,8 +18,8 @@
     background-image: url(./../../assets/Team/Section4.jpg);
     background-position: center;
     background-size: cover;
-    border-top-left-radius: 170px;
-    border-bottom-right-radius: 170px;
+    border-top-left-radius: 180px;
+    border-bottom-right-radius: 180px;
 }
 .SectionT4t{
     padding: 50px;
@@ -64,7 +64,17 @@
     border-radius: 50px;
     text-decoration: none;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1450px) {
+    .SectionT4t h1{
+        width: 100%;
+        font-size: 45px;
+    }
+    .SectionT4t p{
+        width: 100%;
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 1250px) {
     .SectionT4i{
         width: 45%;
     }
@@ -73,11 +83,11 @@
         margin: 10px;
     }
     .SectionT4t h1{
-        width: 90%;
-        font-size: 40px;
+        width: 100%;
+        font-size: 35px;
     }
     .SectionT4t p{
-        width: 90%;
+        width: 100%;
         font-size: 18px;
     }
       

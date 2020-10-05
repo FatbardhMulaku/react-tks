@@ -16,6 +16,6 @@
 }
 @media only screen and (max-width: 500px) {
     .SectionC1{
-        width: 100vw;
+        width: 100%;
     }
 }

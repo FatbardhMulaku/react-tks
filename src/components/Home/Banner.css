@@ -1,6 +1,6 @@
 .banner{
     width: 85%;
-    height: 90vh;
+    height: 1000px;
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -151,7 +151,9 @@
     .banner__text p {
         font-size: 16px;
     }
-
+    .banner{
+        height: 800px;
+    }
 }
 @media only screen and (max-width: 900px) {
     .banner__text h1{
@@ -163,7 +165,7 @@
 
 @media only screen and (max-width: 800px) {
     .banner{
-        height: 110vh;
+        height: 1000px !important;
         width: 95%;
         display: flex;
         flex-direction: column;
@@ -206,7 +208,7 @@
 }
 @media only screen and (max-width: 500px) {
     .banner__text{
-        margin-top: 10%;
+       
         width: 95%;
         color: white;
         text-align: center;
@@ -239,14 +241,18 @@
         width: 90%;
         margin-top: 5px;
 }
+.banner{
+    height: 800px;
+    width: 95%;
+}
 }
 @media only screen and (max-width: 380px) {
     .banner{
-        height: 100vh;
+        height: 600px;
         width: 98%;
     }
     .banner__text{
-        margin-top: 20%;
+        margin-top: -50%;
         width: 97%;
     }
     .banner__text h1{
@@ -277,4 +283,14 @@
     .banner__img {
         margin-top: 0px;
 }
+}
+@media only screen and (max-width: 340px) {
+    .banner{
+        height: 600px;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
