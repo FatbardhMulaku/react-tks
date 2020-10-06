@@ -6,7 +6,7 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Timg1 from './../../assets/Team/Team1.jpg';
 import Timg2 from './../../assets/Team/Team2.jpg';
-import Timg3 from './../../assets/Team/Team3.png';
+import Timg3 from './../../assets/Team/Team3.jpg';
 import Slider from "react-slick";
  
 const useStyles = makeStyles((theme) => ({

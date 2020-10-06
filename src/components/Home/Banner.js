@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import "./Banner.css";
-import logo1 from "./../../assets/Home/hero1.png";
+import logo1 from "./../../assets/Home/hero1.jpg";
 import logo2 from "./../../assets/Home/hero2.png";
-import logo3 from "./../../assets/Home/hero3.png";
+import logo3 from "./../../assets/Home/hero3.jpg";
 import LearnMore from "./../UI/Button/LearnMore";
 import { useTranslation } from "react-i18next";
 import AOS from "aos";
