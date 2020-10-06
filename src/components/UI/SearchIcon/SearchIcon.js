@@ -40,6 +40,14 @@ const SearchBtn = (props) => {
     target: window ? window() : undefined,
   });
 
+  // window.addEventListener("wheel", (event) => {
+  //   if (event.deltaY < 0) {
+  //     console.log("scrolling up");
+  //   } else if (event.deltaY > 0) {
+  //     console.log("scrolling down");
+  //   }
+  // });
+
   return (
     <IconButton className={classes.button} onClick={props.toggleSearch}>
       {props.isSearch ? (
