@@ -1,6 +1,6 @@
 .SectionB1{
     width: 100%;
-    background-image:linear-gradient(to right , rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(./../../assets/Blog/bannerBlog.png);
+    background-image:linear-gradient(to right , rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(./../../assets/Blog/bannerBlog.jpg);
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;

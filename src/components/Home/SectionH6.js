@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './SectionH6.css';
-import AboutLogo1 from './../../assets/Home/about1.png';
-import AboutLogo2 from './../../assets/Home/about2.png';
+import AboutLogo1 from './../../assets/Home/about1.jpg';
+import AboutLogo2 from './../../assets/Home/about2.jpg';
 import AboutLogo3 from './../../assets/Home/about3.png';
 import { useTranslation } from "react-i18next";
 
