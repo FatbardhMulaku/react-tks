@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
       outline: "none",
     },
     "& span > svg": {
-      fontSize: "1.8rem",
+      fontSize: "1.4rem",
     },
   },
   white: {
@@ -20,10 +20,10 @@ const useStyles = makeStyles((theme) => ({
   black: {
     color: "#000",
   },
-  [theme.breakpoints.down("xs")]: {
+  [theme.breakpoints.between("sm", "lg")]: {
     button: {
       "& span > svg": {
-        fontSize: "1.5rem",
+        fontSize: "1.6rem",
       },
     },
   },

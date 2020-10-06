@@ -6,9 +6,15 @@
   .DesktopOnly {
     display: none;
   }
+  .d-login {
+    display: none;
+  }
 }
 @media (min-width: 1200px) {
   .DrawerToggle {
     display: none;
+  }
+  .d-login {
+    display: inline-flex;
   }
 }

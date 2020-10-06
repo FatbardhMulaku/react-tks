@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import "./MobileMenu.css";
 import MobileMenuItem from "./MobileMenuItem";
 import DropItem from "./DropItem";
+import LoginNav from "../LoginNav/LoginNav";
 
 const useStyles = makeStyles((theme) => ({
   drawer: {
@@ -83,6 +84,8 @@ const MobileMenu = (props) => {
           );
         })}
       </List>
+      <Divider />
+      <LoginNav />
     </Drawer>
   );
 };

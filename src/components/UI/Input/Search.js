@@ -3,7 +3,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import { InputBase, Divider, IconButton, Container } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import { motion, AnimatePresence } from "framer-motion";
-import { useInput } from "../../../../Hooks/useInput";
+import { useInput } from "../../../Hooks/useInput";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     padding: "2px 4px",
