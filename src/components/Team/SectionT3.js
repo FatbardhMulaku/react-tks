@@ -1,15 +1,36 @@
-import React from "react";
+import React, { useRef } from "react";
+import { Slide } from "react-slideshow-image";
 import { Link } from "react-router-dom";
+import 'react-slideshow-image/dist/styles.css'
 import FormatQuoteIcon from "@material-ui/icons/FormatQuote";
 import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
 import {MdSubject} from 'react-icons/md';
 import {GoMail} from 'react-icons/go';
 import AboutLogo1 from "./../../assets/Home/lonaa.png";
 import AboutLogo2 from "./../../assets/Home/ilir.png";
+import AboutLogo3 from './../../assets/Home/rita.jpg';
 import { useTranslation } from "react-i18next";
 import "./SectionT3.css";
 
 function SectionT3() {
+  const slideRef = useRef();
+
+  const style = {
+    textAlign: "center",
+  };
+
+  const properties = {
+    autoplay: false,
+    arrows: false
+  };
+
+  const back = () => {
+    slideRef.current.goBack();
+  }
+
+  const next = () => {
+    slideRef.current.goNext();
+  }
   const { t } = useTranslation();
   return (
     <div className="SectionT3">
@@ -28,26 +49,49 @@ function SectionT3() {
         </div>
 
         <div className="team__Right">
-          <div className="team__Right1">
-            <div className="team__Right1-img">
-              <img src={AboutLogo1} className="team__Right1-imgA" alt="aa" />
-            </div>
-            <div className="team__Right1-con">
+        <div className="team__Right1">
+        <Slide ref={slideRef} {...properties}>
+          <div style={style}>
+          <div className="team__Right12">
+          <div className="team__Right1-img">
+              <img src={AboutLogo1} className="team__Right1-imgA" alt="aa"/>
+          </div>
+          <div className="team__Right1-con">
               <h1> {t("Home.SectionH4RightName1")}</h1>
               <p> {t("Home.SectionH4RightTitle1")}</p>
-              <hr />
+              <hr/>
               <p> {t("Home.SectionH4RightP1")}</p>
               <FormatQuoteIcon className="team__thojzat" />
-            </div>
-            <div className="shigjeta-c">
-              <div className="shigjeta-majt">
+          </div>
+{/* =========== */}
+      </div>
+          </div>
+          <div style={style}>
+          <div className="team__Right12">
+          <div className="team__Right1-img">
+              <img src={AboutLogo3} className="team__Right1-imgA" alt="aa"/>
+          </div>
+          <div className="team__Right1-con">
+              <h1> {t("Home.SectionH4RightName3")}</h1>
+              <p> {t("Home.SectionH4RightTitle3")}</p>
+              <hr/>
+              <p> {t("Home.SectionH4RightP3")}</p>
+              <FormatQuoteIcon className="team__thojzat" />
+          </div>
+      </div>
+          </div>
+
+        </Slide>
+        <div className="shigjeta-c">
+              <div className="shigjeta-majt" onClick={back}>
                 <FaLongArrowAltLeft className="shigjeta__icon" />
               </div>
-              <div className="shigjeta-djatht">
+              <div className="shigjeta-djatht" onClick={next}>
                 <FaLongArrowAltRight className="shigjeta__icon" />
               </div>
             </div>
-          </div>
+
+      </div>
 
           <div className="team__Right2">
             <div className="team__Right1-img">

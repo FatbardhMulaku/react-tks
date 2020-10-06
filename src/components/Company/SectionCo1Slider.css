@@ -1,0 +1,40 @@
+.SectionCo1Slider{
+    width: 55%;
+    padding: 100px;
+}
+.containeriCo img{
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 600px;
+}
+.ImgCompany{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .SectionCo1Slider{
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .SectionCo1Slider{
+        width: 90%;
+        padding: 20px;
+    }
+    .containeriCo img{
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .SectionCo1Slider{
+        width: 100%;
+        padding: 1px;
+    }
+    .containeriCo img{
+        height: 300px;
+    }
+}

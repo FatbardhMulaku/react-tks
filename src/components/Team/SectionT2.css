@@ -1,13 +1,12 @@
 .SectionT2{
     margin-top: 80px;
     margin-bottom: 50px;
-    width: 90%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 .SectionT2 h1{
     text-align: center;
-    margin-bottom: 20px;
 }
 .brcpxa {
     background-color: #005FDB !important;
@@ -19,7 +18,34 @@
     justify-content: space-evenly;
 }
 
+@media only screen and (min-width: 1500px) {
+    .SectionT2{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .SectionT2{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .SectionT2{
+        width: 70%;
+    }
+}
 @media only screen and (max-width: 500px) {
     .SectionT2{
-        width: 98%;
-}}
+        width: 100%;
+    }
+    .slick-slider {
+        padding: 0rem 0 !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .SectionT2{
+        width: 100%;
+    }
+    .slick-list {
+        margin: 0 0rem !important;
+    }
+}

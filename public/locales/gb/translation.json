@@ -359,6 +359,11 @@
       { "tlogos": "tlogo logo-html" },
       { "tlogos": "tlogo logo-react" },
       { "tlogos": "tlogo logo-wordpress" },
+      { "tlogos": "tlogo logo-php" },
+      { "tlogos": "tlogo logo-java" },
+      { "tlogos": "tlogo logo-html" },
+      { "tlogos": "tlogo logo-react" },
+      { "tlogos": "tlogo logo-wordpress" },
       { "tlogos": "tlogo logo-php" }
     ],
 
@@ -371,6 +376,9 @@
     "SectionH4RightName2": "Ilir Osmani",
     "SectionH4RightTitle2": "Web Designer",
     "SectionH4RightP2": "Hello I am Ilir Osmani web designer at KosovaOutsource, nice to meet you",
+    "SectionH4RightName3": "Rita Gashi",
+    "SectionH4RightTitle3": "Web Developer",
+    "SectionH4RightP3": "Hello I am Rita Gashi Web Developer at KosovaOutsource, nice to meet you",
 
     "SectionH5title": "Our Creative Works",
     "SectionH5Soft": "Software",

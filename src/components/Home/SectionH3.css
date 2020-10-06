@@ -14,27 +14,8 @@ font-weight: 600;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-bottom: 20px;
 }
-.tlogo:hover{
-        -webkit-animation: tzoom 1s ease;
-        animation: tzoom 1s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-}
-@keyframes tzoom {
-    0%{
-    transform: scale(1);
-    }
-    50%{
-        transform: scale(1.12);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-
 .logo-java{
     width: 120px;
     height: 120px;
@@ -57,6 +38,14 @@ font-weight: 600;
     background-size: cover;
     background-position:center;
 
+}
+.logo-css{
+    width: 120px;
+    height: 120px;
+    background-image: url(./../../assets/Home/css.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
 }
 .logo-react{
     width: 120px;
@@ -83,7 +72,7 @@ font-weight: 600;
     background-position:center;
 }
 @media only screen and (max-width: 800px) {
-    .logo-java, .logo-html, .logo-react, .logo-wordpress, .logo-php{
+    .logo-java, .logo-html, .logo-css, .logo-react, .logo-wordpress, .logo-php{
         height: 80px;
         width: 80px;
     }
@@ -105,7 +94,7 @@ font-weight: 600;
     .teknologies{
         width: 95%;
     }
-    .logo-java, .logo-html, .logo-react, .logo-wordpress, .logo-php{
+    .logo-java, .logo-html, .logo-css, .logo-react, .logo-wordpress, .logo-php{
         height: 60px;
         width: 60px;
     }

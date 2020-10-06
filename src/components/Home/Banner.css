@@ -173,7 +173,7 @@
         margin-right: auto;
     }
     .banner__text{
-        margin-top: 10%;
+        margin-top: -40px;
         width: 95%;
         color: white;
         text-align: center;
@@ -181,11 +181,11 @@
     .banner__text h1{
         margin-left: auto;
         margin-right: auto;
-        font-size: 40px;
+        font-size: 35px;
         width: 80%;
     }
     .banner__text p {
-        width: 70%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -208,8 +208,8 @@
 }
 @media only screen and (max-width: 500px) {
     .banner__text{
-       
-        width: 95%;
+        margin-top: -250px;
+        width: 96%;
         color: white;
         text-align: center;
     }
@@ -217,11 +217,11 @@
         margin-left: auto;
         margin-right: auto;
         font-size: 27px;
-        width: 80%;
+        width: 90%;
         font-weight: 600;
     }
     .banner__text p {
-        width: 70%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -252,17 +252,17 @@
         width: 98%;
     }
     .banner__text{
-        margin-top: -50%;
-        width: 97%;
+        margin-top: -350px;
+        width: 99%;
     }
     .banner__text h1{
         margin-left: auto;
         margin-right: auto;
         font-size: 20px;
-        width: 80%;
+        width: 90%;
     }
     .banner__text p {
-        width: 70%;
+        width: 95%;
         font-size: 14px;
         margin-left: auto;
         margin-right: auto;

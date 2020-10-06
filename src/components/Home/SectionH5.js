@@ -77,7 +77,7 @@ export class WorkSection extends Component {
         
         
         return (
-            <div className="WorkSection"> 
+            <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="WorkSection"> 
                 <h1>Our Creative Works</h1>
                 <div clasname="workUL">
                     <button className={classa} name='butoni1' onClick={this.handleClick.bind(this, 'Software')}>Software</button>

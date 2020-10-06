@@ -5,6 +5,9 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Timg1 from './../../assets/Team/Team1.jpg';
+import Timg2 from './../../assets/Team/Team2.jpg';
+import Timg3 from './../../assets/Team/Team3.jpg';
+import Slider from "react-slick";
  
 const useStyles = makeStyles((theme) => ({
   cont:{
@@ -17,19 +20,65 @@ margin: 20
 },
 media: {
 height: 430,
-width: 370
+width: '100%'
 },
 txt:{
   marginLeft: '10%'
 },
+[theme.breakpoints.down('sm')]: {
+  media: {
+    height: 370,
+    width: '100%'
+    }
+}
 }
     
 ));
 
+var settings = {
+  className: "center",
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  initialSlide: 0,
+  responsive: [
+    {
+      breakpoint: 1324,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+        arrows: true
+      }
+    },
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        initialSlide: 2
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        swipeToSlide: true
+      }
+    }
+  ]
+
+};
+
 function SectionT2item() {
     const classes = useStyles();    
     return (
-        <div className={classes.cont}>
+        <Slider {...settings}>
+          <div>
         <Card className={classes.root}>
           <CardActionArea>
             <CardMedia
@@ -44,8 +93,55 @@ function SectionT2item() {
             </CardContent>
           </CardActionArea>
         </Card>
+        </div ><div>
+        <Card className={classes.root}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={Timg2}
+              title="Team"
+            />
+            <CardContent>
+              <hr />
+              <h3 className={classes.txt}> Eliza Salihu</h3>
+              <p className={classes.txt}>Secretary</p>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+        </div><div>
+        <Card className={classes.root}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={Timg3}
+              title="Team"
+            />
+            <CardContent>
+              <hr />
+              <h3 className={classes.txt}>Genc Shatri</h3>
+              <p className={classes.txt}>Manager</p>
+            </CardContent>
+          </CardActionArea>
+        </Card>
         </div>
-    )
+        <div>
+        <Card className={classes.root}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={Timg2}
+              title="Team"
+            />
+            <CardContent>
+              <hr />
+              <h3 className={classes.txt}> Eliza Salihu</h3>
+              <p className={classes.txt}>Secretary</p>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+        </div>
+        </Slider>
+    );
 }
 
 export default SectionT2item

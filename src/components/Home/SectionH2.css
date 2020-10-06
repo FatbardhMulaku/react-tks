@@ -3,7 +3,7 @@
   }
 
 .services{
-    width: 75%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
     margin-right: auto;
     margin-bottom: 50px; 
     padding-top: 100px;
-    height: 900px;
+    height: 750px;
 }
 .services h1 {
     padding: 0 1em;
@@ -35,41 +35,31 @@
     background-color: #005FDB !important;
     box-shadow: 0 0 1px 3px rgb(3, 48, 100) !important;
 }
-/* @media screen and ( max-height: 699px ) {
+@media only screen and (max-width: 1607px) {
     .services{ 
-        height: 167vh;
+        width: 65%;
     } 
-} */
-@media only screen and (max-width: 1520px) {
+}
+@media only screen and (max-width: 1607px) {
     .services{ 
-        height: 750px;
-        margin-top: 50px;
-
+        width: 75%;
+    } 
+}
+@media only screen and (max-width: 1287px) {
+    .services{ 
+        width: 90%;
+    } 
+}
+@media only screen and (max-width: 1074px) {
+    .services{ 
+        height: 1000px;
+        margin-top: 30px;
     } 
     .services h1 {
         padding: 0 1em;
-        margin: 20px 0px;
-        font-size: 44px !important;
+        margin: 50px 0px;
+        font-size: 40px !important;
       }
-}
-@media only screen and (max-width: 1474px) {
-    .services{ 
-        height: 750px;
-        margin-top: 50px;
-
-    } 
-    .services h1 {
-        padding: 0 1em;
-        margin: 20px 0px;
-        font-size: 44px !important;
-      }
-}
-@media only screen and (max-width: 1394px) {
-
-    .services{ 
-        height: 1050px;
-
-    } 
 }
 
 @media only screen and (max-width: 836px) {
@@ -82,17 +72,17 @@
     .services h1 {
         padding: 0 1em;
         margin: 20px 0px;
-        font-size: 34px !important;
+        font-size: 35px !important;
       }
 }
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 681px) {
     .services{ 
-        height: 2000px;}
+        height: 1800px;}
 }
 @media only screen and (max-width: 500px) {
     .services{ 
-        height: 1850px;
-        width: 95%;
+        height: 1600px;
+        width: 98%;
         margin-top: 40px;
 
     } 
@@ -101,19 +91,10 @@
         margin: 20px 0px;
         font-size: 24px !important;
       }
-      .awssld{
-        height: 250vh;
     }
 
-    }
-
-    @media only screen and (max-width: 380px) {
-        .services{
-            height: 1650px;
-        }
-      }
       @media only screen and (max-width: 348px) {
         .services{
-            height: 1600px;
+            height: 1550px;
         }
       }
