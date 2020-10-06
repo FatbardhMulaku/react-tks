@@ -2,7 +2,7 @@ import React from "react";
 import { AppBar, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import NavList from "./NavList/NavList";
-import LoginNav from "./LoginNav/LoginNav";
+import LoginNav from "../LoginNav/LoginNav";
 import Logo from "../../UI/Logo/Logo";
 import DrawerToggle from "../DrawerToggle";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";

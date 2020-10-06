@@ -1,9 +1,9 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import FacebookIcon from "@material-ui/icons/Facebook";
+import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   btn: {
     backgroundColor: "#006fff",
     borderRadius: "10px",
@@ -20,9 +20,12 @@ const useStyles = makeStyles({
       backgroundColor: "#0468e9",
       color: "#fff",
     },
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "14px",
+      padding: "8px",
+    },
   },
-  icon: {},
-});
+}));
 
 const ModalLink = (props) => {
   const classes = useStyles();

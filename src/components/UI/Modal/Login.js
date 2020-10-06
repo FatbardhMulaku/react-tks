@@ -3,47 +3,54 @@ import "./Modal.css";
 import Modal from "./Modal";
 import ModalTitle from "./ModalTitle";
 import { useTranslation } from "react-i18next";
-import { DialogContent, Divider } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+import { DialogContent } from "@material-ui/core";
 import Email from "../../UI/Input/Email";
 import Password from "../../UI/Input/Password";
 import ModalButton from "../../UI/Button/ModalButton";
 import ModalLink from "../../UI/Button/ModalLink";
+import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    margin: 0,
-    padding: theme.spacing(2),
+  content: {
+    [theme.breakpoints.down("xs")]: {
+      padding: "8px 10px ",
+    },
   },
 }));
+
 const Login = (props) => {
-  const classes = useStyles();
-  const { open, handleClose } = props;
+  const { open, handleClose, handleToggle } = props;
   const { t } = useTranslation();
+  const classes = useStyles();
 
   return (
     <Modal open={open} handleClose={handleClose}>
       <ModalTitle title={t("login.title")} handleClose={handleClose} />
-      <DialogContent>
-        <form className="d-flex flex-column justify-content-center align-items-center px-4">
+      <DialogContent className={classes.content}>
+        <form className="form-modal">
           <p className="label_input font_ubuntu col_light text-center mb-2 font-w-300 ">
             {t("login.inputLabel")}
           </p>
           <Email placeholder={t("login.emailPlaceholder")} />
           <Password placeholder={t("login.passwordPlaceholder")} />
-          <ModalButton text="uppercase" name={t("login.btn")[0]} />
+          <ModalButton
+            type="submit"
+            text="uppercase"
+            name={t("login.btn")[0]}
+          />
           <a
             href="#/"
             className="forget_link font_ubuntu col_light text-center mb-2 font-w-300"
           >
             {t("login.forget")}
           </a>
-          <h2 className="or_divider d-flex flex-row w-100">
+          <h2 className="or_divider">
             <span>{t("login.or")}</span>
           </h2>
           <ModalButton
             text="capitalize"
-            clicked={props.handleClose}
+            type="button"
+            clicked={handleToggle}
             name={t("login.btn")[1]}
           />
           <ModalLink

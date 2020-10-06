@@ -7,6 +7,9 @@ import Logo from "../../UI/Logo/Logo";
 const useStyles = makeStyles((theme) => ({
   title: {
     padding: "24px 24px",
+    [theme.breakpoints.down("xs")]: {
+      padding: "24px 10px ",
+    },
   },
   closeButton: {
     position: "absolute",

@@ -45,3 +45,31 @@
   background: white;
   color: black;
 }
+
+@media (max-width: 992px) {
+  .nav-login {
+    width: 100%;
+    color: black !important;
+    flex-flow: column;
+    margin: 5px 0;
+  }
+  .nav-login > hr {
+    display: none;
+  }
+  .nav-login > li {
+    color: black !important;
+    width: 100%;
+    margin: 2px 0 !important ;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #b2b2b2;
+  }
+  .nav-login > li > p {
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  .nav-login > li:hover,
+  .nav-login > li:focus {
+    background-color: #cccccc;
+  }
+}
