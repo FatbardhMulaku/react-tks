@@ -1,19 +1,21 @@
 import React from 'react';
 import LearnMore from './../UI/Button/LearnMore';
 import SectionCo1Slider from './SectionCo1Slider';
+import { useTranslation } from "react-i18next";
 import './SectionCo1.css';
 
 function SectionCo1() {
+    const { t } = useTranslation();
     return (
         <div className="SectionCo1">
-            <div className="SectionCo1_left">
-                <h1>KosovaOutsource is very serious company with great services.</h1>
-                <p>We offer professional outsourcing, programming, 
-                    management, design or any visual or administration 
-                    work. Contact us for more  information.</p>
-                <LearnMore link="/" className="SectionCo1-Btn"/>
+        <div className="Co_wapper container row my-auto mx-auto align-items-center">
+            <div className="col-sm-12 col-lg-6 text-white SectionCo1_left">
+                <h1>{t("Company.Section1h")}</h1>
+                <p>{t("Company.Section1p")}</p>
+                <LearnMore link="SectionCo2" className="SectionCo1-Btn"/>
             </div>
             <SectionCo1Slider />
+        </div>
         </div>
     )
 }

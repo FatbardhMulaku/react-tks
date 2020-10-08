@@ -1,6 +1,5 @@
 .SectionCo1Slider{
     width: 55%;
-    padding: 100px;
 }
 .containeriCo img{
     background-position: center;
@@ -15,16 +14,8 @@
     height: 60%;
 }
 
-@media only screen and (max-width: 1200px) {
-    .SectionCo1Slider{
-        padding: 10px;
-    }
-}
-@media only screen and (max-width: 800px) {
-    .SectionCo1Slider{
-        width: 90%;
-        padding: 20px;
-    }
+
+@media only screen and (max-width: 992px) {
     .containeriCo img{
         height: 400px;
     }
@@ -37,4 +28,4 @@
     .containeriCo img{
         height: 300px;
     }
-}
+} 

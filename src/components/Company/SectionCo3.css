@@ -1,0 +1,43 @@
+.SectionCo3{
+    height: 800px;
+    margin: auto;
+
+}
+.c3img1{
+    background-image: url(./../../assets/Company/comp1.jpg);
+    background-position: center;
+    background-size: auto;
+    height: 300px;
+    
+}
+.c3img2{
+    background-image: url(./../../assets/Company/comp2.jpg);
+    background-position: center;
+    background-size: auto;
+    height: 300px;
+    margin-left: 20px;
+   
+}
+.c3img3{
+    background-image: url(./../../assets/Company/comp3.jpg);
+    background-position: center;
+    background-size: auto;
+    height: 300px;
+    margin-top: 20px;
+    width: 95%;
+}
+@media only screen and (max-width: 992px) {
+    .SectionCo3{
+        height: 1000px;
+    }
+    .SectionCo3-right{
+        margin-top: 100px;
+        margin-bottom: auto;
+    }
+    .c3img1, .c3img2, .c3img3{
+        height: 240px;
+    }
+    .SectionCo3-right > h1{
+        font-size: 30px;
+    }
+}

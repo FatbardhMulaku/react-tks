@@ -20,6 +20,7 @@ import About from "../pages/About";
 import Software from "../pages/Software";
 import Team from "../pages/Team";
 import Company from "../pages/Company";
+import Career from "../pages/Career";
 
 const route = () => {
   return (
@@ -38,6 +39,7 @@ const route = () => {
           <Route path="/who-we-are" exact render={() => <About />} />
           <Route path="/team" exact render={() => <Team />} />
           <Route path="/company" exact render={() => <Company />} />
+          <Route path="/career" exact render={() => <Career />} />
           <Route path="/portfolio" exact render={() => <Software />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
