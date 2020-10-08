@@ -1,6 +1,5 @@
 import React from "react";
 import { InputAdornment, FormControl, OutlinedInput } from "@material-ui/core";
-import PersonIcon from "@material-ui/icons/Person";
 import { makeStyles } from "@material-ui/core/styles";
 import { useInput } from "../../../Hooks/useInput";
 
@@ -8,10 +7,6 @@ const useStyles = makeStyles({
   formControl: {
     margin: "10px 0px",
     width: "100%",
-  },
-  icon: {
-    marginRight: "13px",
-    color: "#006fff",
   },
   inputOutline: {
     "&:hover .MuiOutlinedInput-notchedOutline": {
@@ -27,7 +22,7 @@ const useStyles = makeStyles({
   },
 });
 
-const EmailInput = (props) => {
+const InputLogin = (props) => {
   const classes = useStyles();
   const [value, setvalue] = useInput("");
   return (
@@ -35,13 +30,10 @@ const EmailInput = (props) => {
       <OutlinedInput
         className={classes.inputOutline}
         defaultValue={value}
-        type="email"
-        id="email-address"
+        type={props.type}
         onChange={setvalue}
         startAdornment={
-          <InputAdornment position="start">
-            <PersonIcon className={classes.icon} />
-          </InputAdornment>
+          <InputAdornment position="start">{props.icon}</InputAdornment>
         }
         placeholder={props.placeholder}
       />
@@ -49,4 +41,4 @@ const EmailInput = (props) => {
   );
 };
 
-export default EmailInput;
+export default InputLogin;

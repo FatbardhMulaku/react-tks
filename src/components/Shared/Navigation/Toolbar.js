@@ -49,14 +49,23 @@ const useStyles = makeStyles((theme) => ({
 
 const Toolbar = (props) => {
   const classes = useStyles();
+
   const { window } = props;
-  const [isSearch, setisSearch] = useToggle(false);
+  const [isSearch, setisSearch] = React.useState(false);
 
   const trigger = useScrollTrigger({
     disableHysteresis: true,
     threshold: 50,
     target: window ? window() : undefined,
   });
+
+  const toggleSearch = () => {
+    setisSearch(!isSearch);
+  };
+
+  const closeSearch = () => {
+    setisSearch(false);
+  };
 
   return (
     <AppBar className={trigger ? classes.box2 : classes.box1}>
@@ -70,7 +79,11 @@ const Toolbar = (props) => {
           <NavList />
         </div>
         <div className="searchIcon">
-          <SearchIcon toggleSearch={setisSearch} isSearch={isSearch} />
+          <SearchIcon
+            closeSearch={closeSearch}
+            toggleSearch={toggleSearch}
+            isSearch={isSearch}
+          />
           <div className="d-login">
             <LoginNav trigger={trigger} />
           </div>

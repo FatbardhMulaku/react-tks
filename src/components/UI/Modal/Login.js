@@ -4,11 +4,11 @@ import Modal from "./Modal";
 import ModalTitle from "./ModalTitle";
 import { useTranslation } from "react-i18next";
 import { DialogContent } from "@material-ui/core";
-import Email from "../../UI/Input/Email";
-import Password from "../../UI/Input/Password";
+import InputLogin from "../../UI/Input/InputLogin";
 import ModalButton from "../../UI/Button/ModalButton";
 import ModalLink from "../../UI/Button/ModalLink";
 import { makeStyles } from "@material-ui/core/styles";
+import { IoMdPerson, IoMdLock } from "react-icons/io";
 
 const useStyles = makeStyles((theme) => ({
   content: {
@@ -16,12 +16,19 @@ const useStyles = makeStyles((theme) => ({
       padding: "8px 10px ",
     },
   },
+  icon: {
+    fontSize: "17px",
+    color: "#006fff",
+  },
 }));
 
 const Login = (props) => {
   const { open, handleClose, handleToggle } = props;
   const { t } = useTranslation();
   const classes = useStyles();
+
+  const email = <IoMdPerson className={classes.icon} />;
+  const password = <IoMdLock className={classes.icon} />;
 
   return (
     <Modal open={open} handleClose={handleClose}>
@@ -31,8 +38,16 @@ const Login = (props) => {
           <p className="label_input font_ubuntu col_light text-center mb-2 font-w-300 ">
             {t("login.inputLabel")}
           </p>
-          <Email placeholder={t("login.emailPlaceholder")} />
-          <Password placeholder={t("login.passwordPlaceholder")} />
+          <InputLogin
+            type="email"
+            placeholder={t("login.emailPlaceholder")}
+            icon={email}
+          />
+          <InputLogin
+            type="password"
+            placeholder={t("login.passwordPlaceholder")}
+            icon={password}
+          />
           <ModalButton
             type="submit"
             text="uppercase"
