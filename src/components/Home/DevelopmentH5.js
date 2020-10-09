@@ -1,5 +1,5 @@
 import React from 'react';
-import './SectionH5.css';
+import './Style/SectionH5.css';
 import workLogo1 from "./../../assets/Home/galery1.png";
 import workLogo2 from "./../../assets/Home/galery2.png";
 import workLogo3 from "./../../assets/Home/galery3.png";
@@ -9,15 +9,15 @@ import workLogo6 from "./../../assets/Home/galery6.png";
 import { useTranslation } from "react-i18next";
 
 const workImages = [
-    workLogo2,
     workLogo6,
+    workLogo5,
     workLogo4,
     workLogo3,
-    workLogo5,
+    workLogo2,
     workLogo1,
   ];
 
-function Design() {
+function Development() {
     const { t } = useTranslation();
     return (
         <div className="work_co">
@@ -36,4 +36,4 @@ function Design() {
     );
 }
 
-export default Design;
+export default Development;

@@ -5,7 +5,7 @@ import GraphicEqOutlinedIcon from "@material-ui/icons/GraphicEqOutlined";
 import FilterDramaOutlinedIcon from "@material-ui/icons/FilterDramaOutlined";
 import DashboardOutlinedIcon from "@material-ui/icons/DashboardOutlined";
 import PhoneIphoneOutlinedIcon from "@material-ui/icons/PhoneIphoneOutlined";
-import "./SectionH2items.css";
+import "./Style/SectionH2items.css";
 import { useTranslation } from "react-i18next";
 
 export default function SectionH2items() {

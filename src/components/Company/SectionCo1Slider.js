@@ -1,5 +1,5 @@
 import React from 'react';
-import './SectionCo1Slider.css';
+import './Style/SectionCo1Slider.css';
 import WorkLogoC1 from './../../assets/Company/company1.jpg';
 import WorkLogoC2 from './../../assets/Company/company2.jpg';
 import Slider from "react-slick";

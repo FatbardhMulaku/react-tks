@@ -1,5 +1,5 @@
 import React from 'react';
-import './SectionC2.css';
+import './Style/SectionC2.css';
 import {AiFillPhone, AiOutlineMail, AiFillInstagram,AiFillFacebook } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";

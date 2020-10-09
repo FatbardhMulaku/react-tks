@@ -24,6 +24,18 @@
     "or": "or",
     "btn": ["log in", "create an account", "Sign In With Facebook"]
   },
+  "signup":{
+    "inputLabel": "Enter your details to join us",
+    "usernamePlaceholder": "Enter your username",
+    "username": "Username",
+    "emailPlaceholder": "Enter your email address",
+    "email": "Email Address",
+    "password" :"Password",
+    "confirmPassword":"Confirm Password",
+    "btn": "Sign Up",
+    "loginInfo":"Already have an Account? "
+  },
+
   "learnMoreBtn": "learn more",
   "software": {
     "section_1": {
@@ -315,7 +327,7 @@
     "aboutMenu": [
       { "link": "Team", "name": "Team" },
       { "link": "Our agency", "name": "Our agency" },
-      { "link": "Career", "name": "Career" },
+      { "link": "career", "name": "Career" },
       { "link": "Faq", "name": "Faq" },
       { "link": "Who we are", "name": "Who we are " },
       { "link": "What we do", "name": "What we do" }
@@ -478,7 +490,14 @@
     "BannerTh": "Team",
     "BannerTp": "Here is all of KosovaOutsource's team, apply to our company and maybe you can be in our team",
 
-    "SectionT2": "Our team"
+    "SectionT2": "Our team",
+    "Section2title1":"Director",
+    "Section2title2":"Secretary",
+    "Section2title3":"Manager",
+
+    "Section4h":"Is the team of KosovaOutsource very hardworking team?",
+    "Section4p": "Here is all of KosovaOutsource's team, apply to our company and maybe can be in our team. As a software company we have a very great and hardworking team.",
+    "send":"send"
   },
   "Company": {
     "Section1h": "KosovaOutsource is very serious company with great services.",
@@ -490,10 +509,16 @@
 
     "Section3h": "Is really KosovaOutsource very recommended to others and which is the reason?",
     "Section3p": "The that we are the best and most recommended is considered by our loyal clients, so cooperate with us you will not regret."
+  
+    
   },
 
   "Career": {
-    
+    "Section1h":"Hack your way to the dream job.",
+    "Section1p":"Get to know your natural talent to make it easier for you to continue your career at high level.",
+    "Section1Btn1":"Join Our team",
+    "Section1Btn2":"See available positions",
+    "or":"or",
 
     "Section2": [
       {"nr": "01","c1":"SectionCe2-Box", "c2":"SectionCe2-Box-l", "c3":"SectionCe2-Box-r", "title":"Discover", "txt":"Take our career assessment, Understand yourself, get started with Exploring Careers inlined with you interstes on our App."},

@@ -33,7 +33,7 @@
 .SectionA3b-img1{
     width: 200px;
     height: 200px;
-    background-image: url(./../../assets/About/section3a.jpg);
+    background-image: url(./../../../assets/About/section3a.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -49,16 +49,16 @@
     transform: scale(0.8);
 }
 .SectionA3b-img2{
-    background-image: url(./../../assets/About/section3b.png);
+    background-image: url(./../../../assets/About/section3b.png);
 }
 .SectionA3b-img3{
-    background-image: url(./../../assets/About/section3c.png);
+    background-image: url(./../../../assets/About/section3c.png);
 }
 .SectionA3b-img4{
-    background-image: url(./../../assets/About/section3d.png);
+    background-image: url(./../../../assets/About/section3d.png);
 }
 .SectionA3b-img5{
-    background-image: url(./../../assets/About/section3e.png);
+    background-image: url(./../../../assets/About/section3e.png);
 }
 .SectionA3bImg2, .SectionA3bImg3, .SectionA3bImg4,.SectionA3bImg5{
     width: 250px;

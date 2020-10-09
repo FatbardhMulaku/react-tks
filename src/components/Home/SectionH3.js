@@ -1,7 +1,7 @@
 import React from "react";
-import "./SectionH3.css";
+import "./Style/SectionH3.css";
 import { useTranslation } from "react-i18next";
-import AutoPlay from './AutoPlay';
+import SectionH3Slider from './SectionH3Slider';
 
 function Teknologies() {
     const { t } = useTranslation();
@@ -11,7 +11,7 @@ function Teknologies() {
             <h1>{t("Home.SectionH3")}</h1>
             <div className="teknologies__logos">
             </div>
-            <AutoPlay />
+            <SectionH3Slider />
            </div>
 
     )

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './SectionH5.css';
-import Software from './Software';
-import Development from './Development';
-import Design from './Design';
+import './Style/SectionH5.css';
+import SoftwareH5 from './SoftwareH5';
+import DevelopmentH5 from './DevelopmentH5';
+import DesignH5 from './DesignH5';
 import { withStyles } from '@material-ui/core/styles';
  
 
@@ -62,10 +62,10 @@ export class WorkSection extends Component {
     }
     _renderSubComp(){
         switch(this.state.render){
-            case 'Software': return <Software/>
-            case 'Development' : return <Development/>
-            case 'Design': return <Design/>
-            default: return <Software/>
+            case 'Software': return <SoftwareH5/>
+            case 'Development' : return <DevelopmentH5/>
+            case 'Design': return <DesignH5/>
+            default: return <SoftwareH5/>
         }
     }
 

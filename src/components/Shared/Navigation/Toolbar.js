@@ -9,7 +9,6 @@ import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import "./Toolbar.css";
 import SearchIcon from "../../UI/SearchIcon/SearchIcon";
 import SearchInput from "../../UI/Input/Search";
-import { useToggle } from "../../../Hooks/useToggle";
 
 const useStyles = makeStyles((theme) => ({
   appBar: {

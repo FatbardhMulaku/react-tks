@@ -73,42 +73,42 @@
   }
 
 .workLogo1{
-    background-image: url(./../../assets/Home/galery1.png);
+    background-image: url(./../../../assets/Home/galery1.png);
     background-position: center;
     background-size: cover;
     width: 450px;
     height: 400px;
 }
 .workLogo2{
-    background-image: url(./../../assets/Home/galery2.png);
+    background-image: url(./../../../assets/Home/galery2.png);
     background-position: center;
     background-size: cover;
     width: 450px;
     height: 400px;
 }
 .workLogo3{
-    background-image: url(./../../assets/Home/galery3.png);
+    background-image: url(./../../../assets/Home/galery3.png);
     background-position: center;
     background-size: cover;
     width: 450px;
     height: 400px;
 }
 .workLogo4{
-    background-image: url(./../../assets/Home/galery4.png);
+    background-image: url(./../../../assets/Home/galery4.png);
     background-position: center;
     background-size: cover;
     width: 450px;
     height: 400px;
 }
 .workLogo5{
-    background-image: url(./../../assets/Home/galery5.png);
+    background-image: url(./../../../assets/Home/galery5.png);
     background-position: center;
     background-size: cover;
     width: 450px;
     height: 400px;
 }
 .workLogo6{
-    background-image: url(./../../assets/Home/galery6.png);
+    background-image: url(./../../../assets/Home/galery6.png);
     background-position: center;
     background-size: cover;
     width: 450px;

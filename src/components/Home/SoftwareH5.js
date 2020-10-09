@@ -5,7 +5,7 @@ import workLogo3 from "./../../assets/Home/galery3.png";
 import workLogo4 from "./../../assets/Home/galery4.png";
 import workLogo5 from "./../../assets/Home/galery5.png";
 import workLogo6 from "./../../assets/Home/galery6.png";
-import "./SectionH5.css";
+import "./Style/SectionH5.css";
 import { useTranslation } from "react-i18next";
 
 const workImages = [

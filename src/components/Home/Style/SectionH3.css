@@ -19,7 +19,7 @@ font-weight: 600;
 .logo-java{
     width: 120px;
     height: 120px;
-    background-image: url(./../../assets/Home/java2.png);
+    background-image: url(./../../../assets/Home/java2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -33,7 +33,7 @@ font-weight: 600;
 .logo-html{
     width: 120px;
     height: 120px;
-    background-image: url(./../../assets/Home/html.png);
+    background-image: url(./../../../assets/Home/html.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -42,7 +42,7 @@ font-weight: 600;
 .logo-css{
     width: 120px;
     height: 120px;
-    background-image: url(./../../assets/Home/css.png);
+    background-image: url(./../../../assets/Home/css.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -50,7 +50,7 @@ font-weight: 600;
 .logo-react{
     width: 120px;
     height: 120px;
-    background-image: url(./../../assets/Home/react.png);
+    background-image: url(./../../../assets/Home/react.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -58,7 +58,7 @@ font-weight: 600;
 .logo-wordpress{
     width: 120px;
     height: 120px;
-    background-image: url(./../../assets/Home/wordpress.png);
+    background-image: url(./../../../assets/Home/wordpress.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -66,7 +66,7 @@ font-weight: 600;
 .logo-php{
     height: 120px;
     width: 120px;
-    background-image: url(./../../assets/Home/php.png);
+    background-image: url(./../../../assets/Home/php.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;

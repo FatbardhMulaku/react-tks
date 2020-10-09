@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import {FaLongArrowAltLeft, FaLongArrowAltRight} from 'react-icons/fa';
 import { Slide } from "react-slideshow-image";
 import 'react-slideshow-image/dist/styles.css'
-import './SectionCe3.css';
+import './Style/SectionCe3.css';
 import { useTranslation } from "react-i18next";
 
 function SectionCe3() {

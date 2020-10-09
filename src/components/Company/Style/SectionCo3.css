@@ -4,14 +4,14 @@
 
 }
 .c3img1{
-    background-image: url(./../../assets/Company/comp1.jpg);
+    background-image: url(./../../../assets/Company/comp1.jpg);
     background-position: center;
     background-size: auto;
     height: 300px;
     
 }
 .c3img2{
-    background-image: url(./../../assets/Company/comp2.jpg);
+    background-image: url(./../../../assets/Company/comp2.jpg);
     background-position: center;
     background-size: auto;
     height: 300px;
@@ -19,7 +19,7 @@
    
 }
 .c3img3{
-    background-image: url(./../../assets/Company/comp3.jpg);
+    background-image: url(./../../../assets/Company/comp3.jpg);
     background-position: center;
     background-size: auto;
     height: 300px;

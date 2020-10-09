@@ -24,7 +24,7 @@ const LoginNav = (props) => {
         </li>
         <hr className={props.trigger ? "bg_black" : "bg_white"} />
 
-        <li className={pHover}>
+        <li onClick={setsignOpen} className={pHover}>
           <p>{t("signupBtn")}</p>
         </li>
       </ul>

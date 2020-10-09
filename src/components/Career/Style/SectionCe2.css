@@ -38,7 +38,7 @@ margin-bottom: 100px;}
    width: 85%;
 }
 .SectionCe2-left{
-    background-image: url(./../../assets/Career/section2.jpg);
+    background-image: url(./../../../assets/Career/section2.jpg);
     background-position: center;
     background-size: cover;
     height: 465px;

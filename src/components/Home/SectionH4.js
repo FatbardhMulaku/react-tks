@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Slide } from "react-slideshow-image";
-import "./SectionH4.css";
+import "./Style/SectionH4.css";
 import FormatQuoteIcon from '@material-ui/icons/FormatQuote';
 import {FaLongArrowAltLeft, FaLongArrowAltRight} from 'react-icons/fa';
 import AboutLogo1 from './../../assets/Home/lonaa.png';

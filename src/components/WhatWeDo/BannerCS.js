@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import "./BannerCS.css";
+import "./Style/BannerCS.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useTranslation } from "react-i18next";

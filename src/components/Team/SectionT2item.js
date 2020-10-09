@@ -8,6 +8,7 @@ import Timg1 from './../../assets/Team/Team1.jpg';
 import Timg2 from './../../assets/Team/Team2.jpg';
 import Timg3 from './../../assets/Team/Team3.jpg';
 import Slider from "react-slick";
+import { useTranslation } from "react-i18next";
  
 const useStyles = makeStyles((theme) => ({
   cont:{
@@ -76,6 +77,7 @@ var settings = {
 
 function SectionT2item() {
     const classes = useStyles();    
+    const { t } = useTranslation();
     return (
         <Slider {...settings}>
           <div>
@@ -89,7 +91,7 @@ function SectionT2item() {
             <CardContent>
               <hr />
               <h3 className={classes.txt}>Eroll Ymeri</h3>
-              <p className={classes.txt}>Director</p>
+              <p className={classes.txt}>{t("Team.Section2title1")}</p>
             </CardContent>
           </CardActionArea>
         </Card>
@@ -104,7 +106,7 @@ function SectionT2item() {
             <CardContent>
               <hr />
               <h3 className={classes.txt}> Eliza Salihu</h3>
-              <p className={classes.txt}>Secretary</p>
+              <p className={classes.txt}>{t("Team.Section2title2")}</p>
             </CardContent>
           </CardActionArea>
         </Card>
@@ -119,7 +121,7 @@ function SectionT2item() {
             <CardContent>
               <hr />
               <h3 className={classes.txt}>Genc Shatri</h3>
-              <p className={classes.txt}>Manager</p>
+              <p className={classes.txt}>{t("Team.Section2title3")}</p>
             </CardContent>
           </CardActionArea>
         </Card>
@@ -135,7 +137,7 @@ function SectionT2item() {
             <CardContent>
               <hr />
               <h3 className={classes.txt}> Eliza Salihu</h3>
-              <p className={classes.txt}>Secretary</p>
+              <p className={classes.txt}>{t("Team.Section2title2")}</p>
             </CardContent>
           </CardActionArea>
         </Card>

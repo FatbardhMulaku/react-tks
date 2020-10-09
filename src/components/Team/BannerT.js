@@ -1,7 +1,7 @@
 import React from 'react';
 import LearnMore from "./../UI/Button/LearnMore";
 import { useTranslation } from "react-i18next";
-import './BannerT.css';
+import './Style/BannerT.css';
 
 function BannerT() {
     const { t } = useTranslation();

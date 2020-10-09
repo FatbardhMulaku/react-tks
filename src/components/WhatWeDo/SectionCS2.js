@@ -1,5 +1,5 @@
 import React from 'react';
-import './SectionCS2.css';
+import './Style/SectionCS2.css';
 import { useTranslation } from "react-i18next";
 import LearnMore from "./../UI/Button/LearnMore";
 

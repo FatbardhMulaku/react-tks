@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from "react-i18next";
-import './SectionA1.css';
+import './Style/SectionA1.css';
 
 function SectionA1() {
     const { t } = useTranslation();

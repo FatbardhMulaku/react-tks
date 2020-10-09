@@ -1,5 +1,5 @@
 import React from 'react';
-import './SectionT2.css';
+import './Style/SectionT2.css';
 import SectionT2item from './SectionT2item';
 import { useTranslation } from "react-i18next";
 

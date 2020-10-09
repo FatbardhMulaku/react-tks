@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './SectionH6.css';
+import './Style/SectionH6.css';
 import AboutLogo1 from './../../assets/Home/about1.jpg';
 import AboutLogo2 from './../../assets/Home/about2.jpg';
 import AboutLogo3 from './../../assets/Home/about3.jpg';

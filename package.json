@@ -17,7 +17,6 @@
     "i18next": "^19.7.0",
     "i18next-browser-languagedetector": "^6.0.1",
     "i18next-http-backend": "^1.0.20",
-    "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-flags-select": "^1.1.13",
@@ -32,7 +31,6 @@
     "react-slick": "^0.27.11",
     "react-slideshow-image": "^3.3.0",
     "react-swipeable-views": "^0.13.9",
-    "react-tabs": "^3.1.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.0",
     "yarn": "^1.22.5"

@@ -5,7 +5,7 @@ import DashboardIcon from '@material-ui/icons/Dashboard';
 import SettingsIcon from '@material-ui/icons/Settings';
 import {RiBankLine} from "react-icons/ri";
 import { useTranslation } from "react-i18next";
-import './SectionCo2.css';
+import './Style/SectionCo2.css';
 
 function SectionCo2() {
     const { t } = useTranslation();

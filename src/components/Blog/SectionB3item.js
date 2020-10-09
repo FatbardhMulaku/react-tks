@@ -1,5 +1,5 @@
 import React from 'react';
-import "./SectionB3.css";
+import "./Style/SectionB3.css";
 import { useTranslation } from "react-i18next";
 
 

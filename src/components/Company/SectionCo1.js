@@ -2,7 +2,7 @@ import React from 'react';
 import LearnMore from './../UI/Button/LearnMore';
 import SectionCo1Slider from './SectionCo1Slider';
 import { useTranslation } from "react-i18next";
-import './SectionCo1.css';
+import './Style/SectionCo1.css';
 
 function SectionCo1() {
     const { t } = useTranslation();

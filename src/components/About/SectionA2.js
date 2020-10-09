@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import {GoPrimitiveDot} from 'react-icons/go';
 import LearnMore from "./../UI/Button/LearnMore";
-import './SectionA2.css';
+import './Style/SectionA2.css';
 
 function SectionA2() {
     const { t } = useTranslation();

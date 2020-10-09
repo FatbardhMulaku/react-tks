@@ -1,5 +1,5 @@
 import React from 'react';
-import './SectionCe2.css';
+import './Style/SectionCe2.css';
 import { useTranslation } from "react-i18next";
 function SectionCe2() {
     const { t } = useTranslation();

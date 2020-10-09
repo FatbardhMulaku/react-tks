@@ -1,5 +1,5 @@
 import React from "react";
-import './SectionB1.css'
+import './Style/SectionB1.css'
 
 function SectionB1({children}) {
   return (

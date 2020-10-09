@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Sectionb3i from './SectionB3item';
-import "./SectionB3.css";
+import "./Style/SectionB3.css";
 import { useTranslation } from "react-i18next";
 
 function SectionB3() {

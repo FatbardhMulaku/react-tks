@@ -45,7 +45,7 @@
 .rightT1-nalt{
     width: 100%;
     height: 32vh;
-    background-image: url(./../../assets/Team/Banner1.jpg);
+    background-image: url(./../../../assets/Team/Banner1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
 .rightT1-posht{
     width: 100%;
     height: 32vh;
-    background-image: url(./../../assets/Team/Banner2.jpg);
+    background-image: url(./../../../assets/Team/Banner2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@
 .rightT2{
     width: 69%;
     height: 67vh;
-    background-image: url(./../../assets/Team/Banner3.jpg);
+    background-image: url(./../../../assets/Team/Banner3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./SectionH2.css";
+import "./Style/SectionH2.css";
 import SectionH2items from "./SectionH2items";
 
 import { useTranslation } from "react-i18next";

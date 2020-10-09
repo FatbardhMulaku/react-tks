@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import "./BannerB.css";
+import "./Style/BannerB.css";
 import AOS from 'aos';
 import { useTranslation } from "react-i18next";
 import LearnMore from "./../UI/Button/LearnMore";

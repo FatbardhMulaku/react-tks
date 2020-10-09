@@ -2,7 +2,7 @@
     margin-top: 20px;
     height: 900px;
     width: 100%;
-    background-image:linear-gradient(to right , rgba(255, 255, 255, 0.644), rgba(255, 255, 255, 0.644)), url(./../../assets/CaseStudies/bannerCS3.jpg);
+    background-image:linear-gradient(to right , rgba(255, 255, 255, 0.644), rgba(255, 255, 255, 0.644)), url(./../../../assets/CaseStudies/bannerCS3.jpg);
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
@@ -26,7 +26,7 @@
     padding: 30px 20px;
 }
 .SectionCS3__Left-img1{
-    background-image: url(./../../assets/CaseStudies/fotoCS1.png);
+    background-image: url(./../../../assets/CaseStudies/fotoCS1.png);
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
@@ -36,7 +36,7 @@
     border-radius: 20px;
 }
 .SectionCS3__Left-img2{
-    background-image: url(./../../assets/CaseStudies/fotoCS2.png);
+    background-image: url(./../../../assets/CaseStudies/fotoCS2.png);
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
@@ -46,7 +46,7 @@
     border-radius: 20px;
 }
 .SectionCS3__Left-img3{
-    background-image: url(./../../assets/CaseStudies/fotoCS3.png);
+    background-image: url(./../../../assets/CaseStudies/fotoCS3.png);
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;

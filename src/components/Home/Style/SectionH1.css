@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(./../../assets/Home/hero.jpg);
+    url(./../../../assets/Home/hero.jpg);
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;

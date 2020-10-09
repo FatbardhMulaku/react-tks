@@ -1,8 +1,7 @@
 import React from 'react';
-import './SectionCo3.css';
 import LearnMore from './../UI/Button/LearnMore';
 import { useTranslation } from "react-i18next";
-import './SectionCo3.css';
+import './Style/SectionCo3.css';
 
 function SectionCo3() {
     const { t } = useTranslation();

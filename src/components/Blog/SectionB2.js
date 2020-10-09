@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './SectionB2.css';
+import './Style/SectionB2.css';
 import { useTranslation } from "react-i18next";
 
 function SectionB2() {

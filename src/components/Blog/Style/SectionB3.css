@@ -111,7 +111,7 @@
 	}
 }
 .B3a{
-    background-image: url(./../../assets/Blog/inspirations1.jpg);
+    background-image: url(./../../../assets/Blog/inspirations1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,7 +124,7 @@
 }
 
 .B3b{
-    background-image: url(./../../assets/Blog/inspirations3.jpg);
+    background-image: url(./../../../assets/Blog/inspirations3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,7 +133,7 @@
     padding-left:50px ;
 }
 .B3c{
-    background-image: url(./../../assets/Blog/inspirations4.jpg);
+    background-image: url(./../../../assets/Blog/inspirations4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,7 +142,7 @@
     padding-left:50px ;
 }
 .B3d{
-    background-image: url(./../../assets/Blog/inspirations5.jpg);
+    background-image: url(./../../../assets/Blog/inspirations5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,7 +151,7 @@
     padding-left:50px ;
 }
 .B3e{
-    background-image: url(./../../assets/Blog/inspirations2.jpg);
+    background-image: url(./../../../assets/Blog/inspirations2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

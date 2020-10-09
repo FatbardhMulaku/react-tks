@@ -43,7 +43,7 @@
 .SectionA1-img{
     width: 50%;
     height: 600px;
-    background-image: url(./../../assets/About/section1.jpg);
+    background-image: url(./../../../assets/About/section1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

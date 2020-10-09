@@ -10,7 +10,7 @@ import AboutLogo1 from "./../../assets/Home/lonaa.png";
 import AboutLogo2 from "./../../assets/Home/ilir.png";
 import AboutLogo3 from './../../assets/Home/rita.jpg';
 import { useTranslation } from "react-i18next";
-import "./SectionT3.css";
+import "./Style/SectionT3.css";
 
 function SectionT3() {
   const slideRef = useRef();

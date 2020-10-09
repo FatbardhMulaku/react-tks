@@ -28,28 +28,28 @@
 .BlogArtickle__img1{
     height: 200px;
     width: 100%;
-    background-image: url(./../../assets/Blog/article1.png);
+    background-image: url(./../../../assets/Blog/article1.png);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 .BlogArtickle__img2{
     height: 200px;
     width: 100%;
-    background-image: url(./../../assets/Blog/article2.png);
+    background-image: url(./../../../assets/Blog/article2.png);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 .BlogArtickle__img3{
     height: 200px;
     width: 100%;
-    background-image: url(./../../assets/Blog/article3.png);
+    background-image: url(./../../../assets/Blog/article3.png);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 .BlogArtickle__img4{
     height: 200px;
     width: 100%;
-    background-image: url(./../../assets/Blog/article4.png);
+    background-image: url(./../../../assets/Blog/article4.png);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     
