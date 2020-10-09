@@ -1,93 +1,45 @@
-:root {
-    --content-background-color: white !important;
-  }
-
 .services{
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px; 
-    padding-top: 100px;
-    height: 750px;
+    height: 800px;
 }
-.services h1 {
+.services_wapper{
+    height: 800px;
+}
+.services_wapper h1 {
+    text-align: center;
     padding: 0 1em;
     margin: 60px 0px;
-    font-size: 55px;
-  }
-.slideri{
-    background-color: white !important;
-}
-.ngjyraBardh{
-    color: white;
-}
-.awssld__content{
-    background-color: #fff ;
-}
-.awssld__bullets--active{
-    background-color: #006FFF !important;
-}
-.brcpxa {
-    background-color: #005FDB !important;
-    box-shadow: 0 0 1px 3px rgb(3, 48, 100) !important;
-}
-@media only screen and (max-width: 1607px) {
-    .services{ 
-        width: 65%;
-    } 
-}
-@media only screen and (max-width: 1607px) {
-    .services{ 
-        width: 75%;
-    } 
-}
-@media only screen and (max-width: 1287px) {
-    .services{ 
-        width: 90%;
-    } 
-}
-@media only screen and (max-width: 1074px) {
-    .services{ 
-        height: 1000px;
-        margin-top: 30px;
-    } 
-    .services h1 {
-        padding: 0 1em;
-        margin: 50px 0px;
-        font-size: 40px !important;
-      }
+    font-size: 45px;
 }
 
-@media only screen and (max-width: 836px) {
+@media only screen and (max-width: 1200px) {
     .services{ 
-        height: 1000px;
-        width: 95%;
-        margin-top: 30px;
-
+        height: 1050px;
     } 
-    .services h1 {
+    .services_wapper h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .services{ 
+        height: 1900px;
+    }
+    .services_wapper h1 {
         padding: 0 1em;
-        margin: 20px 0px;
+        margin: 40px 0px;
         font-size: 35px !important;
       }
-}
-@media only screen and (max-width: 681px) {
-    .services{ 
-        height: 1800px;}
 }
 @media only screen and (max-width: 500px) {
     .services{ 
         height: 1600px;
-        width: 98%;
+        width: 100%;
         margin-top: 40px;
 
     } 
-    .services h1 {
-        padding: 0 1em;
+    .services_wapper h1 {
         margin: 20px 0px;
         font-size: 24px !important;
       }

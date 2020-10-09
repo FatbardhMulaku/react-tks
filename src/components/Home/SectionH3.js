@@ -7,10 +7,9 @@ function Teknologies() {
     const { t } = useTranslation();
     return (
 
-        <div  className="teknologies">
+        <div  className="teknologies container">
             <h1>{t("Home.SectionH3")}</h1>
-            <div className="teknologies__logos">
-            </div>
+            
             <SectionH3Slider />
            </div>
 

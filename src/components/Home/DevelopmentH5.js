@@ -26,7 +26,7 @@ function Development() {
             <div className="containeri" key={index}>
               <img src={item} alt="Avatar" className="Wimage w-100" />
               <div className="middle">
-                <h2>{t("Home.SectionH5Tabtitle")}</h2>
+                <h3>{t("Home.SectionH5Tabtitle")}</h3>
                 <div className="Wtext">{t("Home.SectionH5TabBtn")}</div>
               </div>
             </div>

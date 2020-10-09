@@ -7,28 +7,20 @@
 }
 .work_co{
     display: grid;
-    grid-template-columns: repeat(3,450px);  /* 3 columns */
-    grid-template-rows: repeat(2,400px); /* 3 rows  */
-    grid-gap:5px 20px;
+    grid-template-columns: repeat(3,350px);  /* 3 columns */
+    grid-template-rows: repeat(2,300px); /* 3 rows  */
+    grid-gap:20px 20px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
 
 .WorkSection h1 {
-    font-size: 50px;
+    font-size: 45px;
+    margin-bottom: 30px;
     font-weight: 500;
 }
 .workUL{
-    /* display: block; */
-    margin-top: 30px;
-}
-.workUL button{
-    background-color: #ffff00;
-    margin-top: 30px;
-}
-.workitem{
-    background-color: #ffff00;
     margin-top: 30px;
 }
 .containeri {
@@ -67,107 +59,59 @@
     background-color: black;
     color: white;
     font-size: 16px;
-    padding: 16px 32px;
+    padding: 10px 10px;
     cursor: pointer;
     border-radius: 10px;
   }
 
-.workLogo1{
-    background-image: url(./../../../assets/Home/galery1.png);
+.workLogo1, .workLogo2, .workLogo3, .workLogo4, .workLogo5, .workLogo6{
     background-position: center;
     background-size: cover;
-    width: 450px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
+  }
+
+.workLogo1{
+    background-image: url(./../../../assets/Home/galery1.png);
 }
 .workLogo2{
     background-image: url(./../../../assets/Home/galery2.png);
-    background-position: center;
-    background-size: cover;
-    width: 450px;
-    height: 400px;
 }
 .workLogo3{
     background-image: url(./../../../assets/Home/galery3.png);
-    background-position: center;
-    background-size: cover;
-    width: 450px;
-    height: 400px;
 }
 .workLogo4{
     background-image: url(./../../../assets/Home/galery4.png);
-    background-position: center;
-    background-size: cover;
-    width: 450px;
-    height: 400px;
 }
 .workLogo5{
     background-image: url(./../../../assets/Home/galery5.png);
-    background-position: center;
-    background-size: cover;
-    width: 450px;
-    height: 400px;
 }
 .workLogo6{
     background-image: url(./../../../assets/Home/galery6.png);
-    background-position: center;
-    background-size: cover;
-    width: 450px;
-    height: 400px;
 }
-@media only screen and (max-width: 1450px) {
-    .work_co{
-        display: grid;
-        grid-template-columns: repeat(2,400px);  /* 3 columns */
-        grid-template-rows: repeat(3,350px); /* 3 rows  */
-        grid-gap:10px 20px;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .WorkSection{
-        margin-top: 100px;
-        width:90%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        height: 1250px;
-    }
-    .WorkSection h1 {
-        font-size: 35px;
-        font-weight: 500;
-    }
-    .workLogo1, .workLogo2, .workLogo3, .workLogo4, .workLogo5, .workLogo6{
-        width: 400px;
-        height: 350px;
-    }
-}
+
 @media only screen and (max-width: 1100px) {
     .work_co{
         display: grid;
-        grid-template-columns: repeat(2,350px);  /* 3 columns */
-        grid-template-rows: repeat(3,300px); /* 3 rows  */
-        grid-gap:15px 20px;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
+        grid-template-columns: repeat(2,320px);  /* 3 columns */
+        grid-template-rows: repeat(3,280px); /* 3 rows  */
+        grid-gap:20px 20px;
     }
     .WorkSection{
         margin-top: 100px;
         width:90%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        height: 1100px;
+        height: 1200px;
     }
     .WorkSection h1 {
         font-size: 35px;
         font-weight: 500;
+        margin-top: 50px;
     }
     .workLogo1, .workLogo2, .workLogo3, .workLogo4, .workLogo5, .workLogo6{
-        width: 350px;
-        height: 300px;
+        width: 320px;
+        height: 280px;
     }
-    .middle h2{
+    .middle h3{
         font-size: 24px !important;
         margin-bottom: 15px;
     }
@@ -178,27 +122,18 @@
 }
 @media only screen and (max-width: 700px) {
     .work_co{
-        display: grid;
-        grid-template-columns: repeat(1,350px);  /* 3 columns */
-        grid-template-rows: repeat(6,300px); /* 3 rows  */
-        grid-gap:5px 20px;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
+        grid-template-columns: repeat(1,350px);  /* 1 columns */
+        grid-template-rows: repeat(6,300px); /* 6 rows  */
     }
     .WorkSection{
-        margin-top: 100px;
-        width:90%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        height: 1950px;
+        width:100%;
+        height: 2100px;
     }
     .workLogo1, .workLogo2, .workLogo3, .workLogo4, .workLogo5, .workLogo6{
         width: 350px;
         height: 300px;
     }
-    .middle h2{
+    .middle h3{
         font-size: 22px !important;
         margin-bottom: 15px;
     }
@@ -211,20 +146,14 @@
 
   @media only screen and (max-width: 500px) {    
     .work_co{
-        display: grid;
         grid-template-columns: repeat(1,300px);  /* 3 columns */
         grid-template-rows: repeat(6,260px); /* 3 rows  */
-        grid-gap:5px 150px;
     }
     .WorkSection{
-        margin-top: 100px;
         width:99%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        height: 1740px;
+        height: 1950px;
     }
-    .middle h2{
+    .middle h3{
         font-size: 20px !important;
         margin-bottom: 15px;
     }
@@ -237,18 +166,9 @@
         height: 260px;
     }
   }
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 382px) {
     .WorkSection{
-        height: 1800px;
-    }
-    .WorkSection h1 {
-        font-size: 25px;
-        font-weight: 500;
-    }
-  }
-  @media only screen and (max-width: 346px) {
-    .WorkSection{
-        height: 1800px;
+        height: 1850px;
     }
     .work_co{
         display: grid;
@@ -256,7 +176,7 @@
         grid-template-rows: repeat(6,250px); /* 3 rows  */
         grid-gap:5px 150px;
     }
-    .middle h2{
+    .middle h3{
         font-size: 20px;
     }
     .workLogo1, .workLogo2, .workLogo3, .workLogo4, .workLogo5, .workLogo6{

@@ -9,7 +9,7 @@ import { withStyles } from '@material-ui/core/styles';
 const styles = theme =>   ({
     butone: {
       border: '1px solid #d9d9d9',
-      padding: '30px 50px',
+      padding: '20px 50px',
       backgroundColor: '#fff',
       fontWeight: 'bold',
       marginLeft: '0px',
@@ -25,14 +25,12 @@ const styles = theme =>   ({
       [theme.breakpoints.down('sm')]: {
         padding: '10px 20px',
         fontSize: '13px',
-  },
+    },
       '&:hover': { backgroundColor: '#006FFF',
                     color: 'white',
      },
-
     },
     active:{
-        
         '&:focus':{
             backgroundColor: '#006FFF',
             outline: 'none',
@@ -47,7 +45,6 @@ const styles = theme =>   ({
         fontSize: '20px',
         padding: '5px 20px',
     }
-
 });
 
 export class WorkSection extends Component {
@@ -78,7 +75,7 @@ export class WorkSection extends Component {
         
         return (
             
-            <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="WorkSection"> 
+            <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="WorkSection container my-auto"> 
                 <h1>Our Creative Works</h1>
                 <div clasname="workUL">
                     <button className={classa} name='butoni1' onClick={this.handleClick.bind(this, 'Software')}>Software</button>

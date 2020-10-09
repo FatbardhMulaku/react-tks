@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 export default function About() {
     const { t } = useTranslation();
     return (
-        <div className="about">
+        <div className="about container">
             <div className="aboutLeft">
                 <div className="aboutText1">
                     <h1>{t("Home.SectionH6T1")}</h1>

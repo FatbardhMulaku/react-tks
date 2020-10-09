@@ -36,7 +36,7 @@ function SectionH4() {
 
   return (
   
-    <div className="team">
+    <div className="team container">
     <div className="team-c">
   <div className="team__left">
     <h1>{t("Home.SectionH4LeftTitle")}</h1>
@@ -56,7 +56,7 @@ function SectionH4() {
               <img src={AboutLogo1} className="team__Right1-imgA" alt="aa"/>
           </div>
           <div className="team__Right1-con">
-              <h1> {t("Home.SectionH4RightName1")}</h1>
+              <h2> {t("Home.SectionH4RightName1")}</h2>
               <p> {t("Home.SectionH4RightTitle1")}</p>
               <hr/>
               <p> {t("Home.SectionH4RightP1")}</p>
@@ -71,7 +71,7 @@ function SectionH4() {
               <img src={AboutLogo3} className="team__Right1-imgA" alt="aa"/>
           </div>
           <div className="team__Right1-con">
-              <h1> {t("Home.SectionH4RightName3")}</h1>
+              <h2> {t("Home.SectionH4RightName3")}</h2>
               <p> {t("Home.SectionH4RightTitle3")}</p>
               <hr/>
               <p> {t("Home.SectionH4RightP3")}</p>
@@ -97,7 +97,7 @@ function SectionH4() {
               <img src={AboutLogo2} className="team__Right1-imgA" alt="aa"/>
           </div>
           <div className="team__Right1-con2">
-              <h1>{t("Home.SectionH4RightName2")}</h1>
+              <h2>{t("Home.SectionH4RightName2")}</h2>
               <p>{t("Home.SectionH4RightTitle2")}</p>
               <hr/>
               <p>{t("Home.SectionH4RightP2")}</p>

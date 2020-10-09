@@ -1,75 +1,41 @@
 .teknologies{
-    width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 .teknologies h1{
     text-align: center;
-padding-top: 50px;
-font-size: 45px;
-font-weight: 600;
+    padding-top: 50px;
+    font-size: 45px;
+    font-weight: 600;
 }
-.teknologies__logos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-}
-.logo-java{
+
+.logo-java, .logo-html, .logo-css, .logo-react, .logo-wordpress, .logo-php{
     width: 120px;
     height: 120px;
-    background-image: url(./../../../assets/Home/java2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
 }
-.logo-java{
-    opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
 
+.logo-java{
+    background-image: url(./../../../assets/Home/java2.png);
 }
 .logo-html{
-    width: 120px;
-    height: 120px;
     background-image: url(./../../../assets/Home/html.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-
 }
 .logo-css{
-    width: 120px;
-    height: 120px;
     background-image: url(./../../../assets/Home/css.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
 }
 .logo-react{
-    width: 120px;
-    height: 120px;
     background-image: url(./../../../assets/Home/react.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
 }
 .logo-wordpress{
-    width: 120px;
-    height: 120px;
     background-image: url(./../../../assets/Home/wordpress.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
 }
 .logo-php{
-    height: 120px;
-    width: 120px;
     background-image: url(./../../../assets/Home/php.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
 }
 @media only screen and (max-width: 800px) {
     .logo-java, .logo-html, .logo-css, .logo-react, .logo-wordpress, .logo-php{
@@ -77,38 +43,15 @@ font-weight: 600;
         width: 80px;
     }
     .teknologies h1{
-    text-align: center;
-    padding-top: 50px;
-    font-size: 30px;
-    font-weight: 600;
-    }
-    .teknologies__logos{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        font-size: 30px;
     }
 }
 @media only screen and (max-width: 500px) {
-    .teknologies{
-        width: 95%;
-    }
     .logo-java, .logo-html, .logo-css, .logo-react, .logo-wordpress, .logo-php{
         height: 60px;
         width: 60px;
     }
     .teknologies h1{
-    text-align: center;
-    padding-top: 50px;
-    font-size: 30px;
-    font-weight: 700;
-    }
-    .teknologies__logos{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-top: 24px;
-        margin-bottom: 20px;
+        font-size: 28px;
     }
 }

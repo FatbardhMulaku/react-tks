@@ -7,9 +7,10 @@ import { useTranslation } from "react-i18next";
 function SectionH2() {
   const { t } = useTranslation();
   return (
-    <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="services">
-    <h1> {t("Home.SectionH2")} </h1>
-          <div className="slideri"><SectionH2items /></div>
+    <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="services container">
+         
+          <div className="services_wapper my-auto"><h1>{t("Home.SectionH2")}</h1>
+          <SectionH2items /></div>
           
   </div>
   )

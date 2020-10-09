@@ -1,9 +1,8 @@
 .team{
-    width: 100%;
     background-color: #f0f0f0;
 }
 .team-c{
-    width: 85%;
+    width: 100% !important;
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -19,44 +18,20 @@
     justify-content: center;
 }
 .team__left h1{
-    font-size: 45px;
-    width: 80%;
+    font-size: 40px;
+    width: 90%;
     text-align: left;
 }
 .team__left p{
-    width: 70%;
-    font-size: 22px;
+    width: 80%;
+    font-size: 18px;
     text-align: left !important;
-}
-.team-btn-container{
-    margin-top: 70px;
-}
-.team-btn-container a{
-    margin-top: 70px;
-    color: white;
-    margin-top: 100px;
-    text-decoration: none;
-    color: white;
-    background-color: #006FFF;
-    border: 2px solid transparent;
-    padding: 12px 45px;
-    border-radius: 50px;
-}
-.team-btn-container a:hover{
-    color: #006FFF;
-    font-weight: bold;
-    border: 2px solid #006FFF;
-    background-color: #f0f0f0;
-    border-radius: 50px;
-    text-decoration: none;
-}
-.team-btn{
-    margin-top: 70px;
+    margin-top: 20px;
 }
 /* ======================================================================= */
 
 .team__Right{
-    width: 51%;
+    width: 52%;
     display: flex;
     flex-direction: row;
     margin-top: 70px;
@@ -66,26 +41,19 @@
 .team__Right1{
     width: 50%;
 }
-.team__Right1-img{
+.team__Right1-img, .team__Right1-imgA{
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: center !important;
 }
 .team__Right1-imgA{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover !important;
-    background-position: center !important;
     margin: 0;
 }
-.team__Right1:hover{
-    animation: zoomi 1s ease-in-out;
-}
 
-.team__Right1-con{
+.team__Right1-con, .team__Right1-con2{
     background-color: #006FFF;
-    padding: 60px;
+    padding: 30px;
     margin-top: 0;
     color: #fff;
     margin-top: -4px;
@@ -93,19 +61,10 @@
 }
 .team__Right1-con2{
     background-color: #B2B2B2;
-    padding: 60px;
-    margin-top: 0;
-    color: #fff;
-    margin-top: -4px;
-    text-align: left;
 }
-.team__Right1-con p{
-    font-size: 20px;
-    margin-bottom: 40px;
-}
-.team__Right1-con2 p{
-    font-size: 20px;
-    margin-bottom: 40px;
+.team__Right1-con p, .team__Right1-con2 p{
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 /* ================= */
 .team__Right2{
@@ -114,13 +73,11 @@
 }
 
 .quotes{
+    margin-top: 15px;
     padding: 10px;
     border-radius: 50%;
     background-color: #fff;
     color: black;
-}
-.awssld__box, .awssld--active{
-    margin: 0 !important;
 }
 .team__thojzat{
     font-size: 40px !important; 
@@ -145,7 +102,7 @@
     padding: 0px 15px;
     background-color: black;
     color: white;
-    margin:20px;
+    margin:10px;
     cursor: pointer;
 }
 .shigjeta-djatht{
@@ -153,64 +110,20 @@
     padding: 0px 15px;
     background-color: black;
     color: white;
-    margin:20px;
+    margin:10px;
     cursor: pointer;
 }
 .shigjeta__icon{
-    padding: 0px 10px;
     background-color: black;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     border: none;
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 990px) {
     .team{
-        height: 750px;
-    }
-    .team__left h1{
-        font-size: 35px;
-        width: 80%;
-    }
-    .team__left p{
-        width: 70%;
-        font-size: 20px;
-    }
-    .team-btn-container{
-        margin-top: 60px;
-    }
-    .team__Right1-con, .team__Right1-con2{
-        padding: 40px 20px;
-    }
-    .team__Right1-con h1, .team__Right1-con2 h1{
-        font-size: 30px;
-    }
-}
-@media only screen and (max-width: 1080px) {
-    .team{
-        height: 700px;
-    }
-    .team__left h1{
-        font-size: 30px;
-        width: 90%;
-    }
-    .team__left p{
-        width: 80%;
-        font-size: 18px;
-    }
-    .team__Right1-con h1, .team__Right1-con2 h1{
-        font-size: 26px;
-    }
-    .team__Right1-con p, .team__Right1-con2 p{
-        font-size: 15px;
-    }
-
-}
-@media only screen and (max-width: 800px) {
-    .team{
-        height: 950px;
+        height: 1000px;
     }
     .team-c{
-        width: 95%;
         display: flex;
         flex-direction: column !important;
         margin-left: auto;
@@ -223,18 +136,24 @@
         padding: 0px !important;
     }
     .team__left h1{
-        font-size: 30px;
+        font-size: 32px;
         width: 100%;
         text-align: center;
     }
     .team__left p{
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center !important;
     }
     .team__Right{
         width: 100% !important;
         margin-top: 40px;
+    }
+    .team__Right1-con h2, .team__Right1-con2 h2{
+        font-size: 26px;
+    }
+    .team__Right1-con p, .team__Right1-con2 p{
+        font-size: 15px;
     }
 }   
 @media only screen and (max-width: 500px) {
@@ -244,37 +163,26 @@
     .team-c{
         margin-top: 70px;
     }
-    .team__left{
-        width: 100%;
-        padding: 5px !important;
-        text-align: center;
-    }
     .team__left h1{
-        font-size: 27px;
-        width: 100%;
-        text-align: center;
+        font-size: 30px;
+        width: 95%;
     }
     .team__left p{
-        width: 100%;
+        width: 95%;
         font-size: 16px;
-        text-align: center !important;
     }
     .team__left a{
         text-align: center;
-    }
-    .team-btn-container{
-        margin-top: 40px;
     }
     .team__Right{
         width: 100% !important;
         margin-top: 30px;
     }
     .team__Right1-con, .team__Right1-con2   {
-        padding: 10px;
+        padding: 15px;
     }
-    .team__Right1-con h1, .team__Right1-con2 h1{
-        padding: 10px;
-        font-size: 23px;
+    .team__Right1-con h2, .team__Right1-con2 h2{
+        font-size: 25px;
     }
     .team__Right1-con p, .team__Right1-con2 p{
         font-size: 18px;
@@ -291,7 +199,6 @@
         padding: 5px !important;
     }
     .shigjeta__icon{
-        padding: 0px 5px;
         background-color: black;
         color: white;
         font-size: 30px;
