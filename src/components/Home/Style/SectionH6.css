@@ -127,6 +127,9 @@
         font-size: 15px;
         padding-bottom: 0px;
 }
+.aboutText1 p{
+    margin-bottom: 30px;
+}
 .aboutRight{
     padding: 5px;
     margin-top: 0px;
