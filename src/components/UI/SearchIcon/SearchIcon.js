@@ -1,6 +1,5 @@
 import React from "react";
-import SearchIcon from "@material-ui/icons/Search";
-import CloseIcon from "@material-ui/icons/Close";
+import { MdClose, MdSearch } from "react-icons/md";
 import IconButton from "@material-ui/core/IconButton";
 import { makeStyles } from "@material-ui/core/styles";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
@@ -31,8 +30,7 @@ const useStyles = makeStyles((theme) => ({
 
 const SearchBtn = (props) => {
   const classes = useStyles();
-
-  const { window } = props;
+  const { window, isSearch } = props;
 
   const trigger = useScrollTrigger({
     disableHysteresis: true,
@@ -40,23 +38,15 @@ const SearchBtn = (props) => {
     target: window ? window() : undefined,
   });
 
-  // window.addEventListener("wheel", (event) => {
-  //   if (event.deltaY < 0) {
-  //     console.log("scrolling up");
-  //   } else if (event.deltaY > 0) {
-  //     console.log("scrolling down");
-  //   }
-  // });
-
   return (
     <IconButton className={classes.button} onClick={props.toggleSearch}>
-      {props.isSearch ? (
-        <CloseIcon
+      {isSearch ? (
+        <MdClose
           className={trigger ? classes.black : classes.white}
           fontSize="large"
         />
       ) : (
-        <SearchIcon
+        <MdSearch
           className={trigger ? classes.black : classes.white}
           fontSize="large"
         />
