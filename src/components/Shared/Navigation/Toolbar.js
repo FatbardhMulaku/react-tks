@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import { AppBar, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import NavList from "./NavList/NavList";
@@ -9,7 +9,6 @@ import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import "./Toolbar.css";
 import SearchIcon from "../../UI/SearchIcon/SearchIcon";
 import SearchInput from "../../UI/Input/Search";
-import { useToggle } from "../../../Hooks/useToggle";
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -49,14 +48,13 @@ const useStyles = makeStyles((theme) => ({
 
 const Toolbar = (props) => {
   const classes = useStyles();
-
-  const { window } = props;
-  const [isSearch, setisSearch] = React.useState(false);
+  const { windowp } = props;
+  const [isSearch, setisSearch] = useState(false);
 
   const trigger = useScrollTrigger({
     disableHysteresis: true,
     threshold: 50,
-    target: window ? window() : undefined,
+    target: windowp ? window() : undefined,
   });
 
   const toggleSearch = () => {
@@ -66,6 +64,20 @@ const Toolbar = (props) => {
   const closeSearch = () => {
     setisSearch(false);
   };
+
+  const handleScroll = useCallback((e) => {
+    closeSearch();
+  }, []);
+
+  useEffect(() => {
+    if (isSearch) {
+      window.addEventListener("scroll", (e) => handleScroll(e));
+
+      return () => {
+        window.removeEventListener("scroll", (e) => handleScroll(e));
+      };
+    }
+  }, [handleScroll, isSearch]);
 
   return (
     <AppBar className={trigger ? classes.box2 : classes.box1}>
@@ -80,9 +92,9 @@ const Toolbar = (props) => {
         </div>
         <div className="searchIcon">
           <SearchIcon
-            closeSearch={closeSearch}
             toggleSearch={toggleSearch}
             isSearch={isSearch}
+            closeSearch={closeSearch}
           />
           <div className="d-login">
             <LoginNav trigger={trigger} />
