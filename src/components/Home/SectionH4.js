@@ -2,13 +2,12 @@ import React, { useRef } from "react";
 import { Slide } from "react-slideshow-image";
 import "./SectionH4.css";
 import FormatQuoteIcon from '@material-ui/icons/FormatQuote';
-import {FaLongArrowAltLeft, FaLongArrowAltRight} from 'react-icons/fa'
+import {FaLongArrowAltLeft, FaLongArrowAltRight} from 'react-icons/fa';
 import AboutLogo1 from './../../assets/Home/lonaa.png';
 import AboutLogo2 from './../../assets/Home/ilir.png';
 import AboutLogo3 from './../../assets/Home/rita.jpg';
 import { useTranslation } from "react-i18next";
 import LearnMore from "./../UI/Button/LearnMore";
-import teamm from './../../pages/Team';
 import 'react-slideshow-image/dist/styles.css'
 
 
@@ -36,6 +35,7 @@ function SectionH4() {
   const { t } = useTranslation();
 
   return (
+  
     <div className="team">
     <div className="team-c">
   <div className="team__left">
@@ -43,7 +43,7 @@ function SectionH4() {
     <p>
     {t("Home.SectionH4LeftP")}
     </p>
-    <LearnMore link="WorkSection" component={teamm} offset={-90} /> 
+    <LearnMore link="BannerT" offset={-90} /> 
   </div>
 
       
@@ -108,6 +108,7 @@ function SectionH4() {
 
   </div>
 </div>
+
   );
 }
 

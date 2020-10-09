@@ -1,21 +1,31 @@
 import React from 'react';
 import './SectionCo1Slider.css';
-/* import WorkLogoC1 from './../../assets/Company/company1.jpg';
-import WorkLogoC2 from './../../assets/Company/company2.jpg'; */
-/* import Carousel from 'react-elastic-carousel'; */
+import WorkLogoC1 from './../../assets/Company/company1.jpg';
+import WorkLogoC2 from './../../assets/Company/company2.jpg';
+import Slider from "react-slick";
 
-/* const WorkImages = [
+const WorkImages = [
     WorkLogoC1,
     WorkLogoC2,
     WorkLogoC1,
     WorkLogoC2,
 
-  ]; */
+  ];
+
+  var settings = {
+    className: "center",
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+  };
 
 function SectionCo1Slider() {
     return (
-        <div className="SectionCo1Slider">
-            {/* <Carousel itemsToScroll={1} itemsToShow={1}>
+        <div className="col-sm-12 col-lg-6 SectionCo1Slider">
+            <Slider  {...settings}>
             {WorkImages.map((item, index) => {
                 return (
                 <div className="containeriCo" key={index}>
@@ -23,7 +33,7 @@ function SectionCo1Slider() {
                 </div>
                 );
             })}
-            </Carousel> */}
+            </Slider>
         </div>
     )
 }

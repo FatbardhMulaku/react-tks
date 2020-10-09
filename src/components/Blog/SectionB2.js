@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 function SectionB2() {
     const { t } = useTranslation();
     return (
-        <div data-aos="fade-up" data-aos-once="false" data-aos-duration="2500" className="SectionB2">
+        <div data-aos="fade-up" data-aos-once="false" data-aos-duration="2500" className="containeri1 SectionB2">
             <h1>{t("Blog.SectionB2h")}</h1>
             <div className="SectionB2_wrapper">
 

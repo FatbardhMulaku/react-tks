@@ -1,0 +1,126 @@
+.SectionCe3{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Ce3-btnC{
+    display: flex;
+    justify-content: flex-end !important;
+
+}
+.Ce3-btn{
+    background-color: #006FFF;
+    color: white;
+    padding: 8px 35px 8px 35px !important;
+    border-radius: 10px;
+}
+.Ce3-btn:hover{
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+.Ce3-btnC{
+    height: 45px;
+}
+.SectionCe3-top > h2{
+    margin-bottom: 50px;
+}
+.JobBox{
+    border: 1px solid rgb(165, 164, 164);
+    padding:30px;
+    margin: 20px !important;
+    display: flex;
+    flex-direction: row;
+}
+.applyBtnC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.applyBtn{
+    background-color: #006FFF;
+    color: white;
+    padding: 9px 25px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+.applyBtn:hover{
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+    -webkit-box-shadow: -1px 4px 13px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 13px -4px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 13px -4px rgba(0,0,0,0.75);
+}
+.applyBtnC{
+    width: 30%;
+    padding: 0px !important;
+}
+.jobDescription{
+    width: 70%;
+    padding-left: 10px;
+}
+.jobDescription > p{
+    font-size: 16px;
+   font-weight: 600;
+   color: rgb(160, 158, 158);
+   margin-top: 15px;
+}
+@media only screen and (max-width: 1199px) {
+    .applyBtn{
+        background-color: #006FFF;
+        color: white;
+        padding: 9px 20px;
+        border-radius: 15px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .SectionCe3{
+        height: 1200px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .SectionCe3-top > h2{
+        font-size: 30px;
+    }
+    /* .SectionCe3-top{
+        margin-top: 50px;
+    } */
+}
+@media only screen and (max-width: 470px) {
+    .SectionCe3-top > h2{
+        font-size: 23px;
+    }
+    .Ce3-btn{
+        padding: 9px 25px 0px 25px !important;
+
+    }
+    .jobDescription p{
+        font-size: 14px;
+    }
+    .JobBox{
+        flex-direction: column;
+    }
+    .applyBtnC{
+        width: 90%;
+        padding: 0px !important;
+    }
+    .jobDescription{
+        width: 95%;
+        padding-left: 10px;
+    }
+}
+.shigjetat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

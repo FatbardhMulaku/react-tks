@@ -1,0 +1,110 @@
+.SectionCe1{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.322),
+        rgba(255, 255, 255, 0.315)
+      ),
+      url(./../../assets/Career/BannerCe.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.SectionCe1_wapper{
+    height: 800px;
+}
+.SectionCe1-right{
+    background-image: url(./../../assets/Career/section1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+}
+.SectionCe1-left > h1, .SectionCe1-left > p {
+    width: 65%;
+}
+.SectionCe1-left > h1{
+    font-weight: bold;
+}
+.SectionCe1-left > p{
+    margin-bottom: 30px;
+}
+.Ce1-btn1{
+    color: white;
+    background-color: #006FFF;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.Ce1-btn2{
+    color:  #006FFF;
+}
+.Ce1-btn1:hover{
+    color: white;
+    text-decoration: none;
+    -webkit-box-shadow: 3px 6px 16px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 16px -8px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 16px -8px rgba(0,0,0,0.75);
+}
+.Ce-Box1, .Ce-Box2{
+    width: 100px;
+    height: 100px;
+    border: 15px solid white;
+}
+.Ce-Box1{
+    transform: translate(-35px, -20px);
+}
+.Ce-Box2{
+    transform: translate(440px, 200px);
+}
+.Ce-Box3{
+    width: 100px;
+    height: 100px;
+    background-image: url(./../../assets/Career/section22.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(455px, 115px);
+    position: absolute;
+}
+@media only screen and (max-width: 992px) {
+    .SectionCe1{
+        height: 900px;
+}
+    .SectionCe1_wapper{
+        height: 900px;
+    }
+    .SectionCe1-right{
+        margin-top: -20%;
+        width: 85% !important;
+    }
+    .SectionCe1-left{
+        margin-top: 5%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .SectionCe1-left > h1, .SectionCe1-left > p {
+        width: 95%;
+    }
+    .SectionCe1-left > h1{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 576px) {
+.Ce-Box3{
+    transform: translate(235px, 110px);
+    position: absolute;
+}
+.Ce-Box2{
+    transform: translate(225px, 200px);
+}
+}
+@media only screen and (max-width: 400px) {
+    .Ce-Box3{
+        transform: translate(188px, 110px);
+        position: absolute;
+    }
+    .Ce-Box2{
+        transform: translate(178px, 200px);
+    }
+    }

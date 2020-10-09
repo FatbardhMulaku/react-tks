@@ -77,6 +77,7 @@ export class WorkSection extends Component {
         
         
         return (
+            
             <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="WorkSection"> 
                 <h1>Our Creative Works</h1>
                 <div clasname="workUL">
@@ -87,6 +88,7 @@ export class WorkSection extends Component {
                 {this._renderSubComp()}
                 <div className={classes.seeall}>See all items</div>
             </div>
+            
         )
     }
 }

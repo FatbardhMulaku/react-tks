@@ -1,8 +1,76 @@
 .SectionCo2{
-    width: 85%;
-    height: 800px;
+    height: 600px;
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    margin: auto;
+
+}
+.SectionCo2 > h1{
+    margin-bottom: 60px;
+}
+.SectionCo2-icon{
+    width: 55px !important;
+    height: 55px !important;
+    color: white !important;
+    background-color: #006FFF;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SectionCo2-icon2{
+    color: white !important;
+}
+.SectionCo2-icon2 svg{
+    fill: white !important;
+    color: white !important;
+}
+.SectionCo2-icon svg{
+    fill: white !important;
+}
+.SectionCo2-left{
+    display: grid;
+    grid-gap: 25px 25px;
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 130px 130px;
+    padding: 10px;
+    justify-content: center;
+}
+.g-icon{
+    border: 1px solid rgba(194, 193, 193, 0.8);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+}
+.g-icon svg{
+    fill: white !important;
+}
+.g-icon:hover .SectionCo2-icon{
+    transform: translateY(-5px);
+}
+.SectionCo2-right{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media only screen and (max-width: 992px) {
+    .SectionCo2{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .SectionCo2-right{
+        margin-top: 50px;
+        margin-bottom: auto;
+    }
+    .SectionCo2-right > h1{
+        font-size: 30px;
+    }
 }

@@ -10,7 +10,7 @@ export default function SectionC2() {
     
     const { t } = useTranslation();
     return (
-        <div className="SectionC2">
+        <div className="container SectionC2">
             <h1>{t("Contact.SectionB2")}</h1>
             <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="cInfo__contact">
                 <div className="cinfo1">

@@ -479,5 +479,34 @@
     "BannerTp": "Here is all of KosovaOutsource's team, apply to our company and maybe you can be in our team",
 
     "SectionT2": "Our team"
+  },
+  "Company": {
+    "Section1h": "KosovaOutsource is very serious company with great services.",
+    "Section1p": "We offer professional outsourcing, programming, management, design or any visual or administration work. Contact us for more  information.",
+
+    "Section2": "Our Features",
+    "Section2h": "We are the best Software Company in Kosova",
+    "Section2p": "We offer professional outsourcing, programming, management, design or any visual or administration work. Contact us for more information",
+
+    "Section3h": "Is really KosovaOutsource very recommended to others and which is the reason?",
+    "Section3p": "The that we are the best and most recommended is considered by our loyal clients, so cooperate with us you will not regret."
+  },
+
+  "Career": {
+    
+
+    "Section2": [
+      {"nr": "01","c1":"SectionCe2-Box", "c2":"SectionCe2-Box-l", "c3":"SectionCe2-Box-r", "title":"Discover", "txt":"Take our career assessment, Understand yourself, get started with Exploring Careers inlined with you interstes on our App."},
+      {"nr": "02","c1":"SectionCe2-Box", "c2":"SectionCe2-Box-l", "c3":"SectionCe2-Box-r", "title":"Learn", "txt":"Keep exploring our existing stories and projects inlined with different careers over the duration of time."},
+      {"nr": "03","c1":"SectionCe2-Box", "c2":"SectionCe2-Box-l", "c3":"SectionCe2-Box-r", "title":"Experience", "txt":"Through our Live Pep talk (Coming soon), & then meet career specific proffesionals offline at our event named career day."}
+    ],
+
+    "Section3" :[
+      {"title": "Senior Graphic Designer", "apply":"Apply now", "txt":"We are looking for a Senior Graphic Designer to create and manage digital and print designs for our marketing needs."},
+      {"title": "Web Back-end",  "apply":"Apply now","txt":"We are looking for a Back-End Web Developer responsible for managing the interchange of data between the server and the users."},
+      {"title": "Web Designer",  "apply":"Apply now","txt":"We are looking for a Web Designer who will be responsible for creating great websites for our clients."},
+      {"title": "Low-code Developer",  "apply":"Apply now","txt":"A low-code system is designed to reduce the amount of time coding takes for development teams."}
+    ]
   }
+
 }
