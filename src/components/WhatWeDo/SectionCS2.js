@@ -7,7 +7,7 @@ function SectionCS2() {
     const { t } = useTranslation();
 
     return (
-        <div className="SectionCS2">
+        <div className="SectionCS2 container">
             <div className="SectionCS2Left">
                 <h1>{t("Blog.SectionCS2h")}</h1>
                 <p>{t("Blog.SectionCS2p")}</p>

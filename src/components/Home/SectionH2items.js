@@ -8,57 +8,31 @@ import PhoneIphoneOutlinedIcon from "@material-ui/icons/PhoneIphoneOutlined";
 import "./Style/SectionH2items.css";
 import { useTranslation } from "react-i18next";
 
+const icon1 = <PhoneIphoneOutlinedIcon fontSize={"large"} />;
+const icon2 = <DashboardOutlinedIcon fontSize={"large"} />;
+const icon3 = <FilterDramaOutlinedIcon fontSize={"large"} />;
+const icon4 = <GraphicEqOutlinedIcon fontSize={"large"} />;
+const icon5 = <SettingsApplicationsOutlinedIcon fontSize={"large"} />;
+const icon6 = <DescriptionOutlinedIcon fontSize={"large"} />;
+
+const workicons = [icon1,icon2,icon3,icon4,icon5,icon6];
+
 export default function SectionH2items() {
   const { t } = useTranslation();
   return (
     <div className="SectionH2_wrapper">
-      <div className="service">
-        <i className="service-icon">
-          <PhoneIphoneOutlinedIcon fontSize={"large"} />
-        </i>
-        <h3 className="service-title">{t("Home.SectionH2_TitleA")}</h3>
-        <p className="service-info">{t("Home.SectionH2_InfoA")}</p>
-      </div>
 
-      <div className="service">
-        <i className="service-icon">
-          <DashboardOutlinedIcon fontSize={"large"} />
-        </i>
-        <h3 className="service-title">{t("Home.SectionH2_TitleB")}</h3>
-        <p className="service-info">{t("Home.SectionH2_InfoB")}</p>
+      {t("Home.Section2").map((items, index) => {
+        return (
+          <div key={index} className="service">
+            <i className="service-icon">
+              {workicons[index]}
+            </i>
+            <h3 className="service-title">{items.SectionH2_Title}</h3>
+            <p className="service-info">{items.SectionH2_Info}</p>
       </div>
-
-      <div className="service">
-        <i className="service-icon">
-          <FilterDramaOutlinedIcon fontSize={"large"} />
-        </i>
-        <h3 className="service-title">{t("Home.SectionH2_TitleC")}</h3>
-        <p className="service-info">{t("Home.SectionH2_InfoC")}</p>
-      </div>
-
-      <div className="service">
-        <i className="service-icon">
-          <GraphicEqOutlinedIcon fontSize={"large"} />
-        </i>
-        <h3 className="service-title">{t("Home.SectionH2_TitleD")}</h3>
-        <p className="service-info">{t("Home.SectionH2_InfoD")}</p>
-      </div>
-
-      <div className="service">
-        <i className="service-icon">
-          <SettingsApplicationsOutlinedIcon fontSize={"large"} />
-        </i>
-        <h3 className="service-title"> {t("Home.SectionH2_TitleE")}</h3>
-        <p className="service-info"> {t("Home.SectionH2_InfoE")}</p>
-      </div>
-
-      <div className="service">
-        <i className="service-icon">
-          <DescriptionOutlinedIcon fontSize={"large"} />
-        </i>
-        <h3 className="service-title">{t("Home.SectionH2_TitleF")}</h3>
-        <p className="service-info">{t("Home.SectionH2_InfoF")}</p>
-      </div>
+        )
+      })}
     </div>
   );
 }

@@ -7,50 +7,34 @@ function SectionB3item() {
     const { t } = useTranslation();
     return (
         <div className="SectionB3__wrapper">
-            <div className="boxB3 B3a">
-              <div className="boxB3__content">
-                <h3>
-                {t("Blog.SectionB3i1")}
-                </h3>
-                <p>26.08.2020</p>
-              </div>
+
+            <div className="row1">
+            {t("Blog.SectionB3a").map((item, index) =>{
+                return (
+                  <div key={index} className={`boxB3a B3img${index+1}`}>
+                    <div className="boxB3a__content">
+                      <h4>{item.title}</h4>
+                      <p>{item.data}</p>
+                    </div>
+                </div>
+                )
+            })}
             </div>
 
-            <div className="boxB3 B3b">
-              <div className="boxB3__content">
-                <h3>
-                {t("Blog.SectionB3i2")}
-                </h3>
-                <p>20.07.2020</p>
-              </div>
+            <div className="row2">
+              {t("Blog.SectionB3b").map((item, index) =>{
+                const indexImg = 4;
+                  return (
+                    <div key={index} className={`boxB3b B3img${indexImg+index}`}>
+                      <div className="boxB3b__content">
+                        <h4>{item.title}</h4>
+                        <p>{item.data}</p>
+                      </div>
+                  </div>
+                  )
+              })}
             </div>
 
-            <div className="boxB3b B3c">
-              <div className="boxB3b__content">
-                <h3>
-                {t("Blog.SectionB3i3")}
-                </h3>
-                <p>04.06.2020</p>
-              </div>
-            </div>
-
-            <div className="boxB3b B3d">
-              <div className="boxB3b__content">
-                <h3>
-                {t("Blog.SectionB3i4")}
-                </h3>
-                <p>11.06.2020</p>
-              </div>
-            </div>
-
-            <div className="boxB3 B3e">
-              <div className="boxB3__content">
-                <h3>
-                {t("Blog.SectionB3i5")}
-                </h3>
-                <p>15.08.2020</p>
-              </div>
-            </div>
           </div>
     )
 }

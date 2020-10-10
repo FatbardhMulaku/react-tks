@@ -57,7 +57,28 @@
     font-size: 40px;
     padding-top: 10px;
 }
-@media only screen and (max-width: 800px) {
+.div-about-btn{
+    margin-top: 30px;
+}
+.div-about-btn a{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #006FFF;
+    padding: 12px 45px;
+    border-radius: 50px;
+}
+.div-about-btn a:hover{
+    color: #006FFF;
+    border: 1px solid #006FFF;
+    background-color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media only screen and (max-width: 992px) {
     .inputLabel, .inputLabel2{
         width: 100%;
     } 

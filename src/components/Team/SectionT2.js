@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 function SectionT2() {
     const { t } = useTranslation();
     return (
-        <div className="SectionT2">
+        <div className="SectionT2 container">
             <h1>{t("Team.BannerTh")}</h1>
             <SectionT2item />
         </div>

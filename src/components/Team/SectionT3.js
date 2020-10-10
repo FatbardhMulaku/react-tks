@@ -34,15 +34,15 @@ function SectionT3() {
   const { t } = useTranslation();
   return (
     <div className="SectionT3">
-      <div className="team-c">
+      <div className="team-c container">
         <div className="team__left">
           <h1>{t("Home.SectionH4LeftTitle")}</h1>
 
         <div className="inputLabel"><GoMail className="inputTi"/><input type="text" placeholder="Your email adress" className="inputT"/></div>
         <div className="inputLabel2"><MdSubject className="inputTi2"/><textarea rows="5" placeholder="Subject" className="inputT"></textarea></div>
 
-          <div className="team-btn-container">
-            <Link to="/" className="team-btn">
+          <div className="div-about-btn">
+            <Link to="/" className="about-btn">
               Send
             </Link>
           </div>
@@ -57,7 +57,7 @@ function SectionT3() {
               <img src={AboutLogo1} className="team__Right1-imgA" alt="aa"/>
           </div>
           <div className="team__Right1-con">
-              <h1> {t("Home.SectionH4RightName1")}</h1>
+              <h2> {t("Home.SectionH4RightName1")}</h2>
               <p> {t("Home.SectionH4RightTitle1")}</p>
               <hr/>
               <p> {t("Home.SectionH4RightP1")}</p>
@@ -72,7 +72,7 @@ function SectionT3() {
               <img src={AboutLogo3} className="team__Right1-imgA" alt="aa"/>
           </div>
           <div className="team__Right1-con">
-              <h1> {t("Home.SectionH4RightName3")}</h1>
+              <h2> {t("Home.SectionH4RightName3")}</h2>
               <p> {t("Home.SectionH4RightTitle3")}</p>
               <hr/>
               <p> {t("Home.SectionH4RightP3")}</p>
@@ -98,7 +98,7 @@ function SectionT3() {
               <img src={AboutLogo2} className="team__Right1-imgA" alt="aa" />
             </div>
             <div className="team__Right1-con2">
-              <h1>{t("Home.SectionH4RightName2")}</h1>
+              <h2>{t("Home.SectionH4RightName2")}</h2>
               <p>{t("Home.SectionH4RightTitle2")}</p>
               <hr />
               <p>{t("Home.SectionH4RightP2")}</p>

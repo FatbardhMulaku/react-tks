@@ -1,7 +1,5 @@
 .about{
     margin-top: 80px;
-    display: flex;
-    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     height: 1100px;
@@ -45,7 +43,21 @@
     margin-top: 80px;
 }
 .aboutLogo1{
-    width: 100% !important;
+    background-image: url(./../../../assets/Home/about1.jpg);
+    height: 500px;
+}
+.aboutLogo2{
+    background-image: url(./../../../assets/Home/about2.jpg);
+    height: 400px;
+    margin-top: 30px;
+}
+.aboutLogo3{
+    background-image: url(./../../../assets/Home/about3.jpg);
+    height: 500px;
+}
+.aboutLogo1, .aboutLogo2, .aboutLogo3{
+    background-position: center;
+    justify-content: center;
 }
 .aboutLogo1:hover, .aboutLogo2:hover, .aboutLogo3:hover{
     opacity: 1;
@@ -76,8 +88,6 @@
 @media only screen and (max-width: 992px) {
     .about{
         margin-top: 50px;
-        display: flex;
-        flex-direction: column;
         height: 2000px;
     }
     .aboutText1{
@@ -138,7 +148,7 @@
 
 @media only screen and (max-width: 768px) {
     .about{
-        height: 1600px;
+        height: 1900px;
     }
     .aboutLeft{
         text-align: center;

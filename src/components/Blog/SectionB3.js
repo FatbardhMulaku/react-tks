@@ -8,7 +8,7 @@ function SectionB3() {
   const { t } = useTranslation();
   return (
     <div className="SectionB3">
-    <div className="SectionB3_container">
+    <div className="SectionB3_container container">
       <div className="SectionB3__title">
         <h1>{t("Blog.SectionB3h")}</h1>
         <div className="SectionB3__title-btn">

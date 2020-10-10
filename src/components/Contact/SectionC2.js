@@ -4,7 +4,14 @@ import {AiFillPhone, AiOutlineMail, AiFillInstagram,AiFillFacebook } from 'react
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 
+const icon1 = <AiFillPhone className="contact__icons" />;
+const icon2 = <AiFillPhone className="contact__icons" />;
+const icon3 = <AiOutlineMail className="contact__icons" />;
+const icon4 = <AiOutlineMail className="contact__icons" />;
+const icon5 = <AiFillFacebook className="contact__icons" />;
+const icon6 = <AiFillInstagram className="contact__icons" />;
 
+const workicons = [icon1,icon2,icon3,icon4,icon5,icon6]
 
 export default function SectionC2() {
     
@@ -13,21 +20,16 @@ export default function SectionC2() {
         <div className="container SectionC2">
             <h1>{t("Contact.SectionB2")}</h1>
             <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="cInfo__contact">
-                <div className="cinfo1">
-                    <h2>{t("Contact.SectionB2p")}</h2>
-                    <Link to="/"><AiFillPhone className="contact__icons" to="tel: +3834445400400"/> +3834445400400</Link>
-                    <Link to="/"><AiFillPhone className="contact__icons" to="tel: +3834445400400"/> +3834445400400</Link>
-                </div>
-                <div className="cinfo1">
-                    <h2>{t("Contact.SectionB2e")}</h2>
-                    <Link to="/"><AiOutlineMail className="contact__icons" to="mailto: info@KsOutsource.com"/> info@KsOutsource.com</Link>
-                    <Link to="/"><AiOutlineMail className="contact__icons" to="mailto: info@KsOutsource.com"/> info@KsOutsource.com</Link>
-                </div>
-                <div className="cinfo1">
-                    <h2>{t("Contact.SectionB2sm")}</h2>
-                    <Link to="/"><AiFillFacebook className="contact__icons" to="#"/> {t("Contact.SectionB2Fb")}</Link>
-                    <Link to="/"><AiFillInstagram className="contact__icons" to="#"/>{t("Contact.SectionB2insta")}</Link>
-                </div>
+
+                {t("Contact.Section2").map((item, index) => {
+                    return (
+                        <div key={index} className="cinfo1">
+                            <h2>{item.title}</h2>
+                            <Link to={item.to}>{workicons[index+index]} {item.info1}</Link>
+                            <Link to={item.to}>{workicons[index+1+index++]} {item.info2}</Link>
+                        </div>
+                    )
+                })}
             </div>
         </div>
     )

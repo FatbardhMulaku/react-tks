@@ -1,5 +1,5 @@
 .bannerBlog{
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -9,24 +9,22 @@
 }
 /* ======================== pjesa e banerit me text ========================================= */
 .banner__textBlog{
-    width: 45%;
     color: white;
     text-align: left;
 }
 .banner__textBlog h1{
-    font-size: 48px;
-    width: 80%;
+    font-size: 40px;
+    width: 90%;
 }
 .banner__textBlog p {
-    width: 70%;
-    font-size: 22px;
+    width: 80%;
+    font-size: 20px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
 
 /* ======================== pjesa e banerit me foto ========================================= */
 .banner__imgBlog{
-    width: 53%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,7 +32,6 @@
     height: 100%;
 }
 .banner__imgBlogLeft{
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,151 +39,73 @@
     padding: 20px;
     height: 100%;
 }
-/* .banner__imgBlogRight{
-    width: 50%;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-content: space-between !important;
-} */
-
+.banner-img1Blog, .banner-img3Blog, .banner-img4Blog{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
 
 .banner-img1Blog{
     background-image: url(./../../../assets/Blog/blogBanner1.jpg);
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center !important;
-    margin: 30px !important;
-    width: 21vw;
-    height: 600px;
+    height: 400px;
 }
-.banner-img1Blog:hover{
-    -webkit-animation: swing 1s ease;
-        animation: swing 1s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-}
-
 .banner-img3Blog{
     background-image: url(./../../../assets/Blog/blogBanner2.jpg);
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center !important;
-    width: 18vw;
     height: 280px;
-    margin-bottom: 0px;
-    margin-left: 1vw;
-}
-.banner-img3Blog:hover{
-    -webkit-animation: swing 1s ease;
-        animation: swing 1s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
+
 }
 .banner-img4Blog{
     background-image: url(./../../../assets/Blog/blogBanner3.jpg);
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center !important;
-    margin-top: 260px;
-    width: 13vw;
+    margin-top: 100px;
+    width: 80%;
     height: 180px;
     margin-left: 3vw;
 }
-.banner-img4Blog:hover{
-    -webkit-animation: swing 1s ease;
-        animation: swing 1s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-}
-@media only screen and (max-width: 1600px) {
-    .banner__textBlog p {
-        width: 50%;
-    }
-}
-@media only screen and (max-width: 1400px) {
-    .banner__textBlog h1{
-        font-size: 38px;
-        width: 100%;
-    }
-    .banner__textBlog p {
-        width: 70%;
-        font-size: 18px;
-    }
-}
-@media only screen and (max-width: 1100px) {
-    
-    .banner-img1Blog{
-        height: 400px;
-}
-.banner-img3Blog{
-    height: 220px;
-}
-}
 
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
     .banner__textBlog h1{
-        font-size: 28px;
+        margin-top: 30px;
+        font-size: 29px;
         width: 100%;
-    }.bannerBlog{
-        height: 1050px;
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
         text-align: center;
     }
-    .banner__textBlog{
-        width: 85%;
-        text-align: center;
-        margin-top: 20%;
-    }
     .banner__textBlog p {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 15px;
+        width: 90%;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
     }
-    .div-banner-btnBlog{
-        margin-top: 4vh;
+    .BlogS1Btn{
+        text-align: center;
     }
-    .banner__imgBlog{
-        width: 90vw !important;
-        margin-top: -10px;
+    .banner__textBlog a{
+        text-align: center;
     }
-    /* ===================== */
     .banner-img1Blog{
-        margin: 10px !important;
-        width: 40vw;
-        height: 450px;
-        margin-right: 20px;
+        height: 300px;
     }
     .banner-img3Blog{
-        width: 25vw;
-        height: 280px;
-        margin-bottom: 0px;
-        margin-left: 3vw;
+        height: 220px;
+        margin-left: 10px;
     }
     .banner-img4Blog{
-        margin-top: 150px;
-        width: 17vw;
         height: 150px;
-        margin-left: 5vw;
+    }
+    .banner__imgLeftBlog{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .banner-img1Blog{
+        height: 380px;
     }
 }
+
+
+
 @media only screen and (max-width: 500px) {
-    .banner__imgBlog {
-        margin-top: -200px;
-    }
     .bannerBlog {
-       /*  height: 110vh; */
         width: 100%;
-    }
-    .banner__textBlog{
-        margin-top: 25%;
     }
     .banner__textBlog h1{
         font-size: 23px;
@@ -201,45 +120,18 @@
         padding: 10px 35px;
         border-radius: 50px;
     }
+    .banner__imgBlog{
+        margin-top: 30px;
+    }
     .banner-img1Blog{
-        margin: 10px !important;
-        width: 40vw;
         height: 300px;
     }
     .banner-img3Blog{
-        width: 35vw;
         height: 180px;
-        margin-bottom: 0px;
-        margin-left: 1vw;
     }
     .banner-img4Blog{
         margin-top: 100px;
-        width: 23vw;
         height: 130px;
         margin-left: 3vw;
-    }
-}
-@media only screen and (max-width: 380px) {
-    .banner__imgBlog{
-        margin-top: -17%;
-    }
-}
-@media only screen and (max-width: 350px) {
-    .banner__textBlog h1{
-        font-size: 20px;
-        margin-top: 0;
-        font-weight: 600;
-    }
-    .banner__textBlog p {
-        width: 100%;
-        font-size: 15px;
-    }
-    .banner__textBlog a{
-        padding: 8px 20px;
-        border-radius: 50px;
-        font-size: 15px;
-    }
-    .banner__imgBlog{
-        margin-top: -17%;
     }
 }

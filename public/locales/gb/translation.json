@@ -24,16 +24,16 @@
     "or": "or",
     "btn": ["log in", "create an account", "Sign In With Facebook"]
   },
-  "signup":{
+  "signup": {
     "inputLabel": "Enter your details to join us",
     "usernamePlaceholder": "Enter your username",
     "username": "Username",
     "emailPlaceholder": "Enter your email address",
     "email": "Email Address",
-    "password" :"Password",
-    "confirmPassword":"Confirm Password",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
     "btn": "Sign Up",
-    "loginInfo":"Already have an Account? "
+    "loginInfo": "Already have an Account? "
   },
 
   "learnMoreBtn": "learn more",
@@ -326,7 +326,7 @@
     "name": "about us",
     "aboutMenu": [
       { "link": "Team", "name": "Team" },
-      { "link": "Our agency", "name": "Our agency" },
+      { "link": "company", "name": "Our agency" },
       { "link": "career", "name": "Career" },
       { "link": "Faq", "name": "Faq" },
       { "link": "Who we are", "name": "Who we are " },
@@ -346,24 +346,38 @@
   },
   "alRight": "2020 KosovaOutsource. All rights are reserved",
 
-  "Home":{
-		"BanerH1":"We are the best Software Company in Kosova.",
-		"BannerP":" We offer professional outsourcing, programming, managment, design or any visual or administration work. Contact us for more information",
-		"BannerA":"Learn More",
+  "Home": {
+    "BanerH1": "We are the best Software Company in Kosova.",
+    "BannerP": " We offer professional outsourcing, programming, managment, design or any visual or administration work. Contact us for more information",
+    "BannerA": "Learn More",
 
-    "SectionH2": "Explore what we offer",
-    "SectionH2_TitleA": "Mobile design",
-    "SectionH2_InfoA": "Our mobile UI/UX design specialists create a conversion-driven mobile user experience that makes for high conversion and user retention.",
-    "SectionH2_TitleB": "Web Design",
-    "SectionH2_InfoB": "Web design services comprise the processes of user interface (UI) and user experience (UX) design of any web-based solution.",
-    "SectionH2_TitleC": "Cloud",
-    "SectionH2_InfoC": "Cloud infrastructure management services provide scalability to businesses. Where multiple users can share a common infrastructure.",
-    "SectionH2_TitleD": "Branding",
-    "SectionH2_InfoD": "We branding is mostly applied to intranets and portals, and it’s not just about improving the look and feel of a solution for the sake of it.",
-    "SectionH2_TitleE": "Web services",
-    "SectionH2_InfoE": "Web development services imply designing, building, integrating, scaling and maintaining dynamic software solutions that work via intranet or internet.",
-    "SectionH2_TitleF": "Managment",
-    "SectionH2_InfoF": "Management refers to the monitoring and administration of an organization’s information technology systems: hardware, software and networks.",
+    "SectionH2title": "Explore what we offer",
+    "Section2": [
+      {
+        "SectionH2_Title": "Mobile design",
+        "SectionH2_Info": "Our mobile UI/UX design specialists create a conversion-driven mobile user experience that makes for high conversion and user retention."
+      },
+      {
+        "SectionH2_Title": "Web Design",
+        "SectionH2_Info": "Web design services comprise the processes of user interface (UI) and user experience (UX) design of any web-based solution."
+      },
+      {
+        "SectionH2_Title": "Cloud",
+        "SectionH2_Info": "Cloud infrastructure management services provide scalability to businesses. Where multiple users can share a common infrastructure."
+      },
+      {
+        "SectionH2_Title": "Branding",
+        "SectionH2_Info": "We branding is mostly applied to intranets and portals, and it’s not just about improving the look and feel of a solution for the sake of it."
+      },
+      {
+        "SectionH2_Title": "Web services",
+        "SectionH2_Info": "Web development services imply designing, building, integrating, scaling and maintaining dynamic software solutions that work via intranet or internet."
+      },
+      {
+        "SectionH2_Title": "Managment",
+        "SectionH2_Info": "Management refers to the monitoring and administration of an organization’s information technology systems: hardware, software and networks."
+      }
+    ],
 
     "SectionH3": "Technologies that KosovaOutsource use",
     "SectionH3L": [
@@ -410,7 +424,33 @@
   "Contact": {
     "BannerB": "Contact us",
     "SectionB2": "Get in touch us",
-    "SectionB2p": "Phone",
+    "Section2": [
+      {
+        "title": "Phone",
+        "icon1": "<AiFillPhone className='contact__icons' />",
+        "icon2": "<AiFillPhone className='contact__icons' />",
+        "info1":"+3834445400400",
+        "info2":"+3834445400400",
+        "to":"tel: +3834445400400"
+      },
+      {
+        "title": "Email",
+        "icon1": "<AiFillPhone className='contact__icons' />",
+        "icon2": "<AiFillPhone className='contact__icons' />",
+        "info1": "info@KsOutsource.com",
+        "info2": "info@KsOutsource.com",
+        "to": "mailto: info@KsOutsource.com"
+      },
+      {
+        "title": "Social Media",
+        "icon1": "<AiFillPhone className='contact__icons' />",
+        "icon2": "<AiFillPhone className='contact__icons' />",
+        "info1":"Like our facebook page",
+        "info2": "Follow us on instagram",
+        "to":"#"
+      }
+    ],
+
     "SectionB2e": "Email",
     "SectionB2sm": "Social Media",
     "SectionB2Fb": "Like our facebook page",
@@ -423,19 +463,55 @@
     "BannerBbtn": "Learn More",
 
     "SectionB2h": "Top pick artickle",
-    "SectionB2a1": "Why KosovaOutsource is the best company in region",
-    "SectionB2a2": "Is KosovaOutsource the best company",
-    "SectionB2a3": "Are loyal costumers of KosovaOutsource",
-    "SectionB2a4": "How can I apply for a job at KosovaOutsource",
-    "SectionB2btn": "Read Story",
+    "SectionB2": [
+      {
+        "SectionB2txt": "Why KosovaOutsource is best company in region",
+        "klasa": "Bb",
+        "SectionB2btn": "Read Story"
+      },
+      {
+        "SectionB2txt": "Is KosovaOutsource the best company",
+        "klasa": "Bc",
+        "SectionB2btn": "Read Story"
+      },
+      {
+        "SectionB2txt": "Are loyal costumers of KosovaOutsource",
+        "klasa": "Bd",
+        "SectionB2btn": "Read Story"
+      },
+      {
+        "SectionB2txt": "How can I apply for a job at KosovaOutsource",
+        "klasa": "Be",
+        "SectionB2btn": "Read Story"
+      }
+    ],
 
     "SectionB3h": "Inspirations",
     "SectionB3btn": "View more",
-    "SectionB3i1": "Is everything always good at KosovaOutsource?",
-    "SectionB3i2": "KosovaOutsource works 8 hours per day always.",
-    "SectionB3i3": "KosovaOutsource is very recommanded to others!",
-    "SectionB3i4": "KosovaOutsource is very hardworking company.",
-    "SectionB3i5": "How many years experience has KosovaOutsource.",
+    "SectionB3a": [
+      {
+        "title": "Is everything always good at KosovaOutsource?",
+        "data": "26.08.2020"
+      },
+      {
+        "title": "KosovaOutsource works 8 hours per day always.",
+        "data": "15.08.2020"
+      },
+      {
+        "title": "KosovaOutsource is very recommanded to others!",
+        "data": "20.07.2020"
+      }
+    ],
+    "SectionB3b": [
+      {
+        "title": "KosovaOutsource is very hardworking company.",
+        "data": "04.06.2020"
+      },
+      {
+        "title": "How many years experience has KosovaOutsource.",
+        "data": "11.06.2020"
+      }
+    ],
 
     "SectionCS1h": "What we do",
     "SectionCS1p": "We offer professional outsourcing, programming, managment, design pr any visual or administration work. Contact us for more information.",
@@ -491,13 +567,13 @@
     "BannerTp": "Here is all of KosovaOutsource's team, apply to our company and maybe you can be in our team",
 
     "SectionT2": "Our team",
-    "Section2title1":"Director",
-    "Section2title2":"Secretary",
-    "Section2title3":"Manager",
+    "Section2title1": "Director",
+    "Section2title2": "Secretary",
+    "Section2title3": "Manager",
 
-    "Section4h":"Is the team of KosovaOutsource very hardworking team?",
+    "Section4h": "Is the team of KosovaOutsource very hardworking team?",
     "Section4p": "Here is all of KosovaOutsource's team, apply to our company and maybe can be in our team. As a software company we have a very great and hardworking team.",
-    "send":"send"
+    "send": "send"
   },
   "Company": {
     "Section1h": "KosovaOutsource is very serious company with great services.",
@@ -509,29 +585,63 @@
 
     "Section3h": "Is really KosovaOutsource very recommended to others and which is the reason?",
     "Section3p": "The that we are the best and most recommended is considered by our loyal clients, so cooperate with us you will not regret."
-  
-    
   },
 
   "Career": {
-    "Section1h":"Hack your way to the dream job.",
-    "Section1p":"Get to know your natural talent to make it easier for you to continue your career at high level.",
-    "Section1Btn1":"Join Our team",
-    "Section1Btn2":"See available positions",
-    "or":"or",
+    "Section1h": "Hack your way to the dream job.",
+    "Section1p": "Get to know your natural talent to make it easier for you to continue your career at high level.",
+    "Section1Btn1": "Join Our team",
+    "Section1Btn2": "See available positions",
+    "or": "or",
 
     "Section2": [
-      {"nr": "01","c1":"SectionCe2-Box", "c2":"SectionCe2-Box-l", "c3":"SectionCe2-Box-r", "title":"Discover", "txt":"Take our career assessment, Understand yourself, get started with Exploring Careers inlined with you interstes on our App."},
-      {"nr": "02","c1":"SectionCe2-Box", "c2":"SectionCe2-Box-l", "c3":"SectionCe2-Box-r", "title":"Learn", "txt":"Keep exploring our existing stories and projects inlined with different careers over the duration of time."},
-      {"nr": "03","c1":"SectionCe2-Box", "c2":"SectionCe2-Box-l", "c3":"SectionCe2-Box-r", "title":"Experience", "txt":"Through our Live Pep talk (Coming soon), & then meet career specific proffesionals offline at our event named career day."}
+      {
+        "nr": "01",
+        "c1": "SectionCe2-Box",
+        "c2": "SectionCe2-Box-l",
+        "c3": "SectionCe2-Box-r",
+        "title": "Discover",
+        "txt": "Take our career assessment, Understand yourself, get started with Exploring Careers inlined with you interstes on our App."
+      },
+      {
+        "nr": "02",
+        "c1": "SectionCe2-Box",
+        "c2": "SectionCe2-Box-l",
+        "c3": "SectionCe2-Box-r",
+        "title": "Learn",
+        "txt": "Keep exploring our existing stories and projects inlined with different careers over the duration of time."
+      },
+      {
+        "nr": "03",
+        "c1": "SectionCe2-Box",
+        "c2": "SectionCe2-Box-l",
+        "c3": "SectionCe2-Box-r",
+        "title": "Experience",
+        "txt": "Through our Live Pep talk (Coming soon), & then meet career specific proffesionals offline at our event named career day."
+      }
     ],
 
-    "Section3" :[
-      {"title": "Senior Graphic Designer", "apply":"Apply now", "txt":"We are looking for a Senior Graphic Designer to create and manage digital and print designs for our marketing needs."},
-      {"title": "Web Back-end",  "apply":"Apply now","txt":"We are looking for a Back-End Web Developer responsible for managing the interchange of data between the server and the users."},
-      {"title": "Web Designer",  "apply":"Apply now","txt":"We are looking for a Web Designer who will be responsible for creating great websites for our clients."},
-      {"title": "Low-code Developer",  "apply":"Apply now","txt":"A low-code system is designed to reduce the amount of time coding takes for development teams."}
+    "Section3": [
+      {
+        "title": "Senior Graphic Designer",
+        "apply": "Apply now",
+        "txt": "We are looking for a Senior Graphic Designer to create and manage digital and print designs for our marketing needs."
+      },
+      {
+        "title": "Web Back-end",
+        "apply": "Apply now",
+        "txt": "We are looking for a Back-End Web Developer responsible for managing the interchange of data between the server and the users."
+      },
+      {
+        "title": "Web Designer",
+        "apply": "Apply now",
+        "txt": "We are looking for a Web Designer who will be responsible for creating great websites for our clients."
+      },
+      {
+        "title": "Low-code Developer",
+        "apply": "Apply now",
+        "txt": "A low-code system is designed to reduce the amount of time coding takes for development teams."
+      }
     ]
   }
-
 }

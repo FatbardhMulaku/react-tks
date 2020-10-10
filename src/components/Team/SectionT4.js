@@ -6,7 +6,7 @@ import './Style/SectionT4.css';
 function SectionT4() {
     const { t } = useTranslation();
     return (
-        <div className="SectionT4">
+        <div className="SectionT4 container">
             <div className="SectionT4i"/>
             <div className="SectionT4t">
                 <h1>{t("Team.Section4h")}</h1>

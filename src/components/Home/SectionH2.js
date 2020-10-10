@@ -9,7 +9,7 @@ function SectionH2() {
   return (
     <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="services container">
          
-          <div className="services_wapper my-auto"><h1>{t("Home.SectionH2")}</h1>
+          <div className="services_wapper my-auto"><h1>{t("Home.SectionH2title")}</h1>
           <SectionH2items /></div>
           
   </div>
