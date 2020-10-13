@@ -7,6 +7,7 @@ import DashboardOutlinedIcon from "@material-ui/icons/DashboardOutlined";
 import PhoneIphoneOutlinedIcon from "@material-ui/icons/PhoneIphoneOutlined";
 import "./Style/SectionH2items.css";
 import { useTranslation } from "react-i18next";
+import Zoom from 'react-reveal/Zoom';
 
 const icon1 = <PhoneIphoneOutlinedIcon fontSize={"large"} />;
 const icon2 = <DashboardOutlinedIcon fontSize={"large"} />;
@@ -21,7 +22,7 @@ export default function SectionH2items() {
   const { t } = useTranslation();
   return (
     <div className="SectionH2_wrapper">
-
+      <Zoom>
       {t("Home.Section2").map((items, index) => {
         return (
           <div key={index} className="service">
@@ -33,6 +34,7 @@ export default function SectionH2items() {
       </div>
         )
       })}
+      </Zoom>
     </div>
   );
 }

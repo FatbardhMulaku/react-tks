@@ -3,51 +3,12 @@ import './Style/SectionH5.css';
 import SoftwareH5 from './SoftwareH5';
 import DevelopmentH5 from './DevelopmentH5';
 import DesignH5 from './DesignH5';
-import { withStyles } from '@material-ui/core/styles';
+import { withTranslation } from 'react-i18next';
+import hoistStatics from 'hoist-non-react-statics';
+import Zoom from 'react-reveal/Zoom';
  
 
-const styles = theme =>   ({
-    butone: {
-      border: '1px solid #d9d9d9',
-      padding: '20px 50px',
-      backgroundColor: '#fff',
-      fontWeight: 'bold',
-      marginLeft: '0px',
-      marginRight: '0px',
-      marginBottom: '40px',
-      color: 'black',
-      fontSize: '14px',
-      borderRadius: '10px',
-      cursor: 'pointer',
-      [theme.breakpoints.down('md')]: {
-            padding: '15px 25px',
-      },
-      [theme.breakpoints.down('sm')]: {
-        padding: '10px 20px',
-        fontSize: '13px',
-    },
-      '&:hover': { backgroundColor: '#006FFF',
-                    color: 'white',
-     },
-    },
-    active:{
-        '&:focus':{
-            backgroundColor: '#006FFF',
-            outline: 'none',
-            color: 'white'  
-        }
-    },
-    seeall:{
-        cursor: 'pointer',
-        textAlign: 'center',
-        textDecoration: 'underline',
-        color: 'black',
-        fontSize: '20px',
-        padding: '5px 20px',
-    }
-});
-
-export class WorkSection extends Component {
+class WorkSection extends Component {
     constructor(){
         super();
         this.state = {render:'Software', activeName: false}
@@ -68,26 +29,26 @@ export class WorkSection extends Component {
 
     
     render() {
-        const { classes } = this.props;
-        const classa = `${classes.butone} ${classes.active}`;
 
-        
+        const { t } = this.props;
         
         return (
-            
-            <div data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" className="WorkSection container my-auto"> 
-                <h1>Our Creative Works</h1>
+            /* data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" */
+            <div  className="WorkSection container my-auto"> 
+            <Zoom>
+                <h1>{t('Home.SectionH5title')}</h1>
                 <div clasname="workUL">
-                    <button className={classa} name='butoni1' onClick={this.handleClick.bind(this, 'Software')}>Software</button>
-                    <button className={classa} name='butoni1' onClick={this.handleClick.bind(this, 'Development')}>Development</button>
-                    <button className={classa} name='butoni1' onClick={this.handleClick.bind(this, 'Design')}>UI/UX Design</button>
+                    <button className="butone" name='butoni1' onClick={this.handleClick.bind(this, 'Software')}>{t('Home.SectionH5Soft')}</button>
+                    <button className="butone" name='butoni1' onClick={this.handleClick.bind(this, 'Development')}>{t('Home.SectionH5Deve')}</button>
+                    <button className="butone" name='butoni1' onClick={this.handleClick.bind(this, 'Design')}>{t('Home.SectionH5Design')}</button>
                 </div>
                 {this._renderSubComp()}
-                <div className={classes.seeall}>See all items</div>
+                <div className="seeall">{t('Home.SectionH5SeeAll')}</div>
+                </Zoom>
             </div>
             
         )
     }
 }
 
-export default withStyles(styles)(WorkSection);
+export default hoistStatics(withTranslation()(WorkSection), WorkSection);

@@ -3,16 +3,20 @@ import { useTranslation } from "react-i18next";
 import {GoPrimitiveDot} from 'react-icons/go';
 import LearnMore from "./../UI/Button/LearnMore";
 import './Style/SectionA2.css';
+import Zoom from 'react-reveal/Zoom';
 
 function SectionA2() {
     const { t } = useTranslation();
     return (
         <div className="SectionA2">
-            <div className="SectionA2a">
+            <div className="container contA2 row mx-auto align-items-center">
+            <Zoom left>
+            <div className="SectionA2a col-sm-12 col-lg-6 ">
                 <div className="SectionA2a-div"></div>
                 <div className="SectionA2a-img"></div>
-            </div>
-            <div className="SectionA2b">
+            </div></Zoom>
+            <Zoom right>
+            <div className="SectionA2b col-sm-12 col-lg-6">
                 <h1>{t("About.SectionA2h")}</h1>
                 {t("About.SectionA2").map((item, index) => {
                     return (
@@ -22,6 +26,7 @@ function SectionA2() {
                     );
                     })}
                      <LearnMore link="SectionA3" offset={-90} /> 
+            </div></Zoom>
             </div>
         </div>
     )

@@ -1,6 +1,639 @@
 {
-	"footer": {
-		"subscribe": "Abonnieren Sie unseren Newsletter!!"
+	"mainMenu": [
+	  {
+		"link": "",
+		"name": "home"
+	  },
+	  {
+		"link": "blog",
+		"name": "blog"
+	  },
+	  {
+		"link": "contact",
+		"name": "kontaktiere uns"
+	  }
+	],
+	"loginBtn": "Einloggen",
+	"signupBtn": "Anmelden",
+	"login": {
+	  "title": "willkommen zurück",
+	  "inputLabel": "Bitte geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein",
+	  "emailPlaceholder": "Geben sie ihre E-Mailadresse ein",
+	  "passwordPlaceholder": "Geben Sie Ihr Passwort ein",
+	  "forget": "Passwort vergessen ?",
+	  "or": "oder",
+	  "btn": ["Einloggen", "Ein Konto erstellen", "Mit Facebook anmelden"]
+	},
+	"signup": {
+	  "inputLabel": "Geben Sie Ihre Daten ein, um sich uns anzuschließen",
+	  "usernamePlaceholder": "Geben Sie Ihren Benutzernamen ein",
+	  "username": "Nutzername",
+	  "emailPlaceholder": "Geben sie ihre E-Mail-Adresse ein",
+	  "email": "E-Mail-Addresse",
+	  "password": "Passwort",
+	  "confirmPassword": "Passwort bestätigen",
+	  "btn": "Anmelden",
+	  "loginInfo": "Sie haben bereits ein Konto? "
+	},
+  
+	"learnMoreBtn": "Lern mehr",
+	"software": {
+	  "section_1": {
+		"title": "Unser Unternehmen entwickelt digitale Produkte für Ihren Erfolg",
+		"desc": "Qualitätskontrolle für Ihre Daten einschließlich Leselängenverteilung und Bewertung der Einheitlichkeit. Skalieren Sie Ihr Unternehmen mit Inbound-Service."
+	  },
+	  "section_2": {
+		"title": "Wir sind das beste Unternehmen im Kosovo. Liefern Sie immer mehr als erwartet.",
+		"list": [
+		  {
+			"title": "10K+",
+			"desc": "Projekt abgeschlossen"
+		  },
+		  {
+			"title": "275+",
+			"desc": "Support-Team exportieren"
+		  },
+		  {
+			"title": "200+",
+			"desc": "Kunden weltweit"
+		  }
+		]
+	  },
+	  "section_3": {
+		"title": "Unsere Funktionen",
+		"allServices": [
+		  {
+			"title": "Mobiles Design",
+			"desc": "Unsere Spezialisten für mobile UI/UX-Designs erstellen eine konvertierungsgesteuerte mobile Benutzererfahrung, die eine hohe Konvertierung und Benutzerbindung ermöglicht."
+		  },
+		  {
+			"title": "Web design",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Cloud",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Branding",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Web Front-end",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Web Back-end",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Desktop",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Serverless",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Quality",
+			"desc": "Our company gives to you best quality that you ever have."
+		  },
+		  {
+			"title": "Security",
+			"desc": "We support your projects with competence and experience."
+		  }
+		]
+	  }
+	},
+	"security": {
+	  "section_1": {
+		"title": "security",
+		"desc": "We offer professional outsourcing, programming, management, design or any visual or administration work. Contact us for more  information."
+	  },
+	  "section_2": ["Protected", "Codes", "Authentication"],
+	  "section_3": {
+		"title": "You are secured 100% with KosovaOutsource",
+		"desc": "As a great company, KosovaOutsource guarantees you that you are secured by cooperating with us"
+	  },
+	  "section_4": {
+		"title": "Grow your business more with KosovaOutsource",
+		"desc": "Here is all of KosovaOutsource's team, apply to our company and maybe can be in our team. Asa software company we have a very great and hard working team."
+	  }
+	},
+	"webServices": {
+	  "section_1": {
+		"title": "Services of our Company",
+		"desc": "If you want to see allof our services, you just have to scroll down  and you can see all of them. Thank you for visiting an hope you"
+	  },
+	  "section_2": {
+		"title": "Here are all of our Services that our Company offers.",
+		"allServices": [
+		  {
+			"title": "Mobile design",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Web design",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Wolke",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Branding",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Web Front-end",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Web Back-end",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Desktop",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  },
+		  {
+			"title": "Serverlos",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  }
+		]
+	  },
+	  "section_3": {
+		"title": "Wird KosovaOutsource wirklich anderen sehr empfohlen und was ist der Grund?",
+		"desc": "Das, was wir am besten und am meisten empfehlen, wird von unseren treuen Kunden berücksichtigt. Arbeiten Sie also mit uns zusammen, Sie werden es nicht bereuen"
+	  },
+	  "section_4": {
+		"title": "Unsere Funktionen",
+		"allServices": [
+		  {
+			"title": "Qualität",
+			"desc": "Unsere Firma bietet Ihnen die beste Qualität, die Sie jemals haben."
+		  },
+		  {
+			"title": "Sicherheit",
+			"desc": "Wir unterstützen Ihre Projekte mit Kompetenz und Erfahrung."
+		  },
+		  {
+			"title": "Netzwerkinfrastruktur",
+			"desc": "Wir erstellen ein schönes und funktionierendes Design für Ihre Idee."
+		  }
+		]
+	  }
+	},
+	"seo": {
+	  "section_1": {
+		"title": "Steigern Sie Ihr Geschäft mit uns",
+		"desc": "Wir haben auch SEO-Analyse und Sie können Ihr Geschäft mit uns steigern."
+	  },
+	  "section_2": {
+		"title": "Lassen Sie uns Ihr Geschäft zu etwas machen, das Sie zur Schau stellen können",
+		"desc": "Unser Unternehmen ist seit vielen Jahren damit erfolgreich. Fühlen Sie sich für diese Sache sicher"
+	  },
+	  "section_3": "Unsere neuesten Projekte"
+	},
+	"faq": {
+	  "faqForm": {
+		"name": "faq",
+		"input": "Stellen Sie uns eine Frage",
+		"btn": "Senden"
+	  },
+	  "questionsHeader": "Lesen Sie alle häufig gestellten Fragen von KosovaOutsource",
+	  "questions": [
+		{
+		  "question": "Warum ist KosovaOutsource das beste Unternehmen im Kosovo?",
+		  "answer": "Wir bieten professionelles Outsourcing, Programmierung, Management, Design oder jede visuelle oder administrative Arbeit."
+		},
+		{
+		  "question": "Ist in Ihrem Unternehmen immer alles gut?",
+		  "answer": "Unsere Kunden sagen immer, dass Kosova Outsource das beste Softwareunternehmen in Kosova ist, das es je gab."
+		},
+		{
+		  "question": "Wie kann ich mich bei Kosova Outsource bewerben?",
+		  "answer": "Wenn Sie gerne mit KosovaOutsource zusammenarbeiten, senden Sie uns bitte einen Lebenslauf per E-Mail. Vielleicht können wir mit Spaß zusammenarbeiten."
+		},
+		{
+		  "question": "Ist KosovaOutsource ein sehr fleißiges Unternehmen?",
+		  "answer": "Als Softwareunternehmen haben wir ein sehr gutes und fleißiges Team."
+		},
+		{
+		  "question": "Wie viele Jahre Erfahrung hat Ihr Unternehmen?",
+		  "answer": "Wir haben 10 Jahre Erfahrung mit mehr als 10k abgeschlossenen Projekten und mehr als 300 Kunden weltweit"
+		},
+		{
+		  "question": "Wie viele Stunden pro Tag arbeitet Kosova Outsource?",
+		  "answer": "Wir als Programmierunternehmen arbeiten durchschnittlich 8 Stunden am Tag"
+		}
+	  ]
+	},
+	"footerMenu": [
+	  {
+		"title": "Quicklinks",
+		"items": [
+		  {
+			"link": "/",
+			"name": "home"
+		  },
+		  {
+			"link": "/about",
+			"name": "Über uns"
+		  },
+  
+		  {
+			"link": "/blog",
+			"name": "blog"
+		  },
+		  {
+			"link": "/contact",
+			"name": "kontaktiere uns"
+		  },
+		  {
+			"link": "/news",
+			"name": "Nachrichten"
+		  }
+		]
+	  },
+	  {
+		"title": "Dienstleistungen",
+		"items": [
+		  {
+			"link": "/software-development",
+			"name": "Software-Entwicklung"
+		  },
+		  {
+			"link": "/callaboration",
+			"name": "Zusammenarbeit"
+		  },
+		  {
+			"link": "/nerwork-infrastructure",
+			"name": "Netzwerkinfrastruktur"
+		  },
+		  {
+			"link": "/administration",
+			"name": "Verwaltung"
+		  },
+		  {
+			"link": "/managment-services",
+			"name": "IT-Management-Dienstleistungen"
+		  }
+		]
+	  },
+	  {
+		"title": "Hilfezentrum",
+		"items": [
+		  {
+			"link": "/team-services",
+			"name": "Team von Dienstleistungen"
+		  },
+		  {
+			"link": "/privacy-policy",
+			"name": "Datenschutz-Bestimmungen"
+		  },
+		  {
+			"link": "/security",
+			"name": "Sicherheit"
+		  },
+		  {
+			"link": "/faq",
+			"name": "FAQs"
+		  }
+		]
+	  }
+	],
+	"industriesPopper": {
+	  "name": "Branchen",
+	  "industriesMenu": [
+		{ "link": "seo-analysis", "name": "SEO-Analyse" },
+		{ "link": "managment", "name": "Management" },
+		{ "link": "web-services", "name": "Internetdienste" },
+		{ "link": "portfolio", "name": "Portfolio" },
+		{ "link": "desktop", "name": "Desktop" },
+		{ "link": "mobile-design", "name": "Mobile design" },
+		{ "link": "cloud", "name": "Wolke" },
+		{ "link": "serverless", "name": "Serverlos" },
+		{ "link": "web-front-end", "name": "Web front-end" },
+		{ "link": "branding", "name": "Branding" },
+		{ "link": "web-design", "name": "Web design" },
+		{ "link": "web-back-end", "name": "Web back-end" }
+	  ],
+	  "industriesInfoName": "Unternehmen",
+	  "industriesInfoMenu": ["Nutzungsbedingungen", "Privatsphäre", "Sicherheit"]
+	},
+	"aboutPopper": {
+	  "name": "Über uns",
+	  "aboutMenu": [
+		{ "link": "Team", "name": "Mannschaft" },
+		{ "link": "company", "name": "Unsere Agentur" },
+		{ "link": "career", "name": "Career" },
+		{ "link": "Faq", "name": "Faq" },
+		{ "link": "Who we are", "name": "Wer wir sind " },
+		{ "link": "What we do", "name": "Was wir tun" }
+	  ]
+	},
+	"caseStudiesPopper": {
+	  "name": "Fallstudien",
+	  "caseStudiesMenu": [
+		{ "link": "Experience", "name": "Erfahrung" },
+		{ "link": "Stories", "name": "Geschichten" }
+	  ]
+	},
+	"location": "Str.Nene Tereza, No.18, Gjakove 50000, Kosovo",
+	"subscribe": {
+	  "name": "Abonniere unseren Newsletter!!"
+	},
+	"alRight": "2020 KosovaOutsource. Alle Rechte vorbehalten",
+  
+	"Home": {
+	  "BanerH1": "Wir sind das beste Softwareunternehmen im Kosovo.",
+	  "BannerP": " Wir bieten professionelles Outsourcing, Programmierung, Management, Design oder jede visuelle oder administrative Arbeit. Kontaktieren Sie uns für weitere Informationen",
+	  "BannerA": "Lern mehr",
+  
+	  "SectionH2title": "Entdecken Sie, was wir anbieten",
+	  "Section2": [
+		{
+		  "SectionH2_Title": "Mobile design",
+		  "SectionH2_Info": "Unsere Spezialisten für mobile UI / UX-Designs erstellen eine konvertierungsgesteuerte mobile Benutzererfahrung, die eine hohe Konvertierung und Benutzerbindung ermöglicht."
+		},
+		{
+		  "SectionH2_Title": "Web Design",
+		  "SectionH2_Info": "Webdesign-Services umfassen die Prozesse der Benutzeroberfläche (UI) und des User Experience (UX) -Designs jeder webbasierten Lösung."
+		},
+		{
+		  "SectionH2_Title": "Cloud",
+		  "SectionH2_Info": "Cloud-Infrastrukturverwaltungsdienste bieten Unternehmen Skalierbarkeit. Wo mehrere Benutzer eine gemeinsame Infrastruktur gemeinsam nutzen können."
+		},
+		{
+		  "SectionH2_Title": "Branding",
+		  "SectionH2_Info": "Unser Branding wird hauptsächlich auf Intranets und Portale angewendet, und es geht nicht nur darum, das Erscheinungsbild einer Lösung zu verbessern."
+		},
+		{
+		  "SectionH2_Title": "Internetdienste",
+		  "SectionH2_Info": "Webentwicklungsdienste umfassen das Entwerfen, Erstellen, Integrieren, Skalieren und Verwalten dynamischer Softwarelösungen, die über Intranet oder Internet funktionieren."
+		},
+		{
+		  "SectionH2_Title": "Management",
+		  "SectionH2_Info": "Management bezieht sich auf die Überwachung und Verwaltung der Informationstechnologiesysteme eines Unternehmens: Hardware, Software und Netzwerke."
+		}
+	  ],
+  
+	  "SectionH3": "Technologien, die KosovaOutsource verwendet",
+	  "SectionH3L": [
+		{ "tlogos": "tlogo logo-java" },
+		{ "tlogos": "tlogo logo-html" },
+		{ "tlogos": "tlogo logo-react" },
+		{ "tlogos": "tlogo logo-wordpress" },
+		{ "tlogos": "tlogo logo-php" },
+		{ "tlogos": "tlogo logo-java" },
+		{ "tlogos": "tlogo logo-html" },
+		{ "tlogos": "tlogo logo-react" },
+		{ "tlogos": "tlogo logo-wordpress" },
+		{ "tlogos": "tlogo logo-php" }
+	  ],
+  
+	  "SectionH4LeftTitle": "Wir sind vielleicht schon eine E-Mail von der Zusammenarbeit entfernt",
+	  "SectionH4LeftP": "Wenn Sie mit KosovaOutsource arbeiten möchten, senden Sie uns bitte einen Lebenslauf per E-Mail. Wir werden den Import von PropTypes aus 'Prop-Typen' überprüfen und vielleicht können wir mit Spaß zusammenarbeiten.",
+	  "SectionH4LeftBtn": "Lern mehr",
+	  "SectionH4RightName1": "Leona Zeqiri",
+	  "SectionH4RightTitle1": "Projektmanager",
+	  "SectionH4RightP1": "Hallo, ich bin Lona-Projektmanagerin bei KosovaOutsource. Schön, Sie kennenzulernen",
+	  "SectionH4RightName2": "Ilir Osmani",
+	  "SectionH4RightTitle2": "Webdesigner",
+	  "SectionH4RightP2": "Hallo, ich bin der Webdesigner von Ilir Osmani bei KosovaOutsource. Schön, Sie kennenzulernen",
+	  "SectionH4RightName3": "Rita Gashi",
+	  "SectionH4RightTitle3": "Web-Entwickler",
+	  "SectionH4RightP3": "Hallo, ich bin Rita Gashi Web Developer bei KosovaOutsource, schön Sie kennenzulernen",
+  
+	  "SectionH5title": "Unsere kreativen Arbeiten",
+	  "SectionH5Soft": "Software",
+	  "SectionH5Deve": "Entwicklung",
+	  "SectionH5Design": "UI/UX Design",
+	  "SectionH5SeeAll": "Alle Artikel anzeigen",
+	  "SectionH5Tabtitle": "Web-Design",
+	  "SectionH5TabBtn": "Projekt ansehen",
+  
+	  "SectionH6T1": "Für was wir stolz sind",
+	  "SectionH6P1": "Wir sind stolz darauf, Techonology Native zu sein und nicht an bestimmte Techonologies gebunden zu sein, sondern bieten die beste Lösung für unsere Kunden. Wir sind bestrebt, einen festen Satz von Dienstleistungen für einen Servicekatalog bereitzustellen.",
+	  "SectionH6Btn": "Senden",
+	  "SectionH6T2": "Wir fördern die Integrität",
+	  "SectionH6P2": "Wir sind unabhängig, was unsere Werte weiter fördert, dass die Interessen unserer Kunden immer Vorrang haben. Intergrität und Verantwortung gegenüber unseren Kunden und haben uns zum bevorzugten Partner in der Region für tausend nationale und internationale Kunden gemacht."
+	},
+  
+	"Contact": {
+	  "BannerB": "Kontaktiere uns",
+	  "SectionB2": "Kontaktieren Sie uns",
+	  "Section2": [
+		{
+		  "title": "Telefon",
+		  "info1":"+3834445400400",
+		  "info2":"+3834445400400",
+		  "to":"tel: +3834445400400"
+		},
+		{
+		  "title": "Email",
+		  "info1": "info@KsOutsource.com",
+		  "info2": "info@KsOutsource.com",
+		  "to": "mailto: info@KsOutsource.com"
+		},
+		{
+		  "title": "Sozialen Medien",
+		  "info1":"Wie unsere Facebook-Seite",
+		  "info2": "Folge uns auf Instagram",
+		  "to":"#"
+		}
+	  ]
+	},
+  
+	"Blog": {
+	  "BannerB1h": "Warum KosovaOutsource das beste Softwareunternehmen in der Region ist.",
+	  "BannerB1p": "Unsere Kunden sagen immer, dass Kosova Outsource das beste Softwareunternehmen in Kosova ist, das es je gab.",
+	  "BannerBbtn": "Lern mehr",
+  
+	  "SectionB2h": "Top Pick Artikel",
+	  "SectionB2": [
+		{
+		  "SectionB2txt": "Warum KosovaOutsource das beste Unternehmen in der Region ist",
+		  "klasa": "Bb",
+		  "SectionB2btn": "Geschichte lesen"
+		},
+		{
+		  "SectionB2txt": "Ist Kosovo Outsource das beste Unternehmen?",
+		  "klasa": "Bc",
+		  "SectionB2btn": "Geschichte lesen"
+		},
+		{
+		  "SectionB2txt": "Sind treue Kunden von Kosova Outsource",
+		  "klasa": "Bd",
+		  "SectionB2btn": "Geschichte lesen"
+		},
+		{
+		  "SectionB2txt": "Wie kann ich mich bei Kosova Outsource bewerben?",
+		  "klasa": "Be",
+		  "SectionB2btn": "Geschichte lesen"
+		}
+	  ],
+  
+	  "SectionB3h": "Inspirationen",
+	  "SectionB3btn": "Mehr sehen",
+	  "SectionB3a": [
+		{
+		  "title": "Ist bei Kosova Outsource immer alles gut?",
+		  "data": "26.08.2020"
+		},
+		{
+		  "title": "Kosova Outsource arbeitet immer 8 Stunden pro Tag.",
+		  "data": "15.08.2020"
+		},
+		{
+		  "title": "Kosova Outsource wird anderen sehr empfohlen!",
+		  "data": "20.07.2020"
+		}
+	  ],
+	  "SectionB3b": [
+		{
+		  "title": "KosovaOutsource ist ein sehr fleißiges Unternehmen.",
+		  "data": "04.06.2020"
+		},
+		{
+		  "title": "Wie viele Jahre Erfahrung hat KosovaOutsource.",
+		  "data": "11.06.2020"
+		}
+	  ],
+  
+	  "SectionCS1h": "Was wir tun",
+	  "SectionCS1p": "Wir bieten professionelles Outsourcing, Programmieren, Verwalten, Entwerfen für jede visuelle oder administrative Arbeit. Kontaktieren Sie uns für weitere Informationen.",
+	  "SectionCSbtn": "Mehr erfahren",
+	  "SectionCS2h": "Wir tun, was wir lieben, zum Besseren.",
+	  "SectionCS2p": "Um qualitativ hochwertige Softwareentwicklungsdienste anbieten zu können, müssen Sie die Technologie beherrschen. Um es erstklassig zu machen, müssen Sie die Interaktionen der Menschen beherrschen und das Team darüber hinausgehen lassen.",
+	  "SectionCS3h": "Kosova Outsource führt alle Arten von IT-Services mit Erfolg aus.",
+	  "SectionCS3p": "Hier ist das gesamte Team von KosovaOutsource für unser Unternehmen zu bewerben und kann möglicherweise in unserem Team sein. Als Softwareunternehmen haben wir ein sehr gutes und fleißiges Team."
+	},
+	"About": {
+	  "SectionA1h1": "Über uns",
+	  "SectionA1title": "Wir tun, was wir lieben, zum Besseren.",
+	  "SectionA1":[
+		{"SectionA1p": "Um qualitativ hochwertige Softwareentwicklungsdienste anbieten zu können, müssen Sie die Technologie beherrschen. Um es erstklassig zu machen, müssen Sie die Interaktionen der Menschen beherrschen und Ihr Team darüber hinausgehen lassen"},
+		{"SectionA1p": "das machen wir schon seit vielen jahren."}
+	  ],
+  
+	  "SectionA2h": "Einzigartige Lösungen für Ihr Unternehmen",
+	  "SectionA2": [
+		{
+		  "txt": "Dann werden wir von unseren treuen Kunden als die besten und am meisten empfohlenen angesehen. Arbeiten Sie also mit uns zusammen, und Sie werden es nicht bereuen."
+		},
+		{
+		  "txt": "Wir sind unabhängig, was unsere Werte weiter fördert, dass die Interessen unserer Kunden immer Vorrang haben."
+		},
+		{
+		  "txt": "Wir sind stolz darauf, Technologie-Native zu sein und nicht an bestimmte Technologien gebunden zu sein."
+		}
+	  ],
+	  "SectionA3h": "Referenzen",
+	  "SectionA3hh": "Was unsere Kunden über uns sagen",
+	  "SectionA3p": "Es gibt viele verschiedene Passagen von Lorem ipsum avabile, aber die Mehrheit hat in einigen Fällen durch injizierten Humor Abwechslung erlitten.",
+  
+	  "SectionA3": [
+		{
+		  "class1": "SectionA3bImg2",
+		  "class2": "SectionA3b-img2"
+		},
+		{
+		  "class1": "SectionA3bImg3",
+		  "class2": "SectionA3b-img3"
+		},
+		{
+		  "class1": "SectionA3bImg4",
+		  "class2": "SectionA3b-img4"
+		},
+		{
+		  "class1": "SectionA3bImg5",
+		  "class2": "SectionA3b-img5"
+		}
+	  ]
+	},
+	"Team": {
+	  "BannerTh": "Mannschaft",
+	  "BannerTp": "Hier ist das gesamte Team von KosovaOutsource, bewerben Sie sich bei unserem Unternehmen und vielleicht können Sie in unserem Team sein",
+  
+	  "SectionT2": "Unser Team",
+	  "Section2title1": "Direktor",
+	  "Section2title2": "Sekretärin",
+	  "Section2title3": "Manager",
+  
+	  "Section4h": "Ist das Team von KosovaOutsource ein sehr fleißiges Team?",
+	  "Section4p": "Hier ist das gesamte Team von KosovaOutsource, bewerben Sie sich bei unserem Unternehmen und können Sie vielleicht in unserem Team sein. Als Softwareunternehmen haben wir ein sehr gutes und fleißiges Team.",
+	  "send": "senden"
+	},
+	"Company": {
+	  "Section1h": "KosovaOutsource ist ein sehr seriöses Unternehmen mit hervorragenden Dienstleistungen.",
+	  "Section1p": "Wir bieten professionelles Outsourcing, Programmieren, Management, Design oder jede visuelle oder administrative Arbeit. Kontaktieren Sie uns für weitere Informationen.",
+  
+	  "Section2": "Unsere Funktionen",
+	  "Section2h": "Wir sind das beste Softwareunternehmen im Kosovo",
+	  "Section2p": "Wir bieten professionelles Outsourcing, Programmieren, Management, Design oder jede visuelle oder administrative Arbeit. Kontaktieren Sie uns für weitere Informationen",
+  
+	  "Section3h": "Wird KosovaOutsource wirklich anderen sehr empfohlen und was ist der Grund?",
+	  "Section3p": "Das, was wir am besten und am meisten empfehlen, wird von unseren treuen Kunden berücksichtigt. Arbeiten Sie also mit uns zusammen, Sie werden es nicht bereuen."
+	},
+  
+	"Career": {
+	  "Section1h": "Hacke deinen Weg zum Traumjob.",
+	  "Section1p": "Lernen Sie Ihr natürliches Talent kennen, um es Ihnen zu erleichtern, Ihre Karriere auf hohem Niveau fortzusetzen.",
+	  "Section1Btn1": "Trete unserem Team bei",
+	  "Section1Btn2": "Siehe verfügbare Positionen",
+	  "or": "oder",
+  
+	  "Section2": [
+		{
+		  "nr": "01",
+		  "c1": "SectionCe2-Box",
+		  "c2": "SectionCe2-Box-l",
+		  "c3": "SectionCe2-Box-r",
+		  "title": "Entdecken",
+		  "txt": "Nehmen Sie an unserer Karriereeinschätzung teil, verstehen Sie sich selbst und beginnen Sie mit der Erkundung von Karrieren, die mit Ihren Interessen in unserer App verknüpft sind."
+		},
+		{
+		  "nr": "02",
+		  "c1": "SectionCe2-Box",
+		  "c2": "SectionCe2-Box-l",
+		  "c3": "SectionCe2-Box-r",
+		  "title": "Lernen",
+		  "txt": "Erforschen Sie unsere bestehenden Geschichten und Projekte, die im Laufe der Zeit mit unterschiedlichen Karrieren verbunden sind."
+		},
+		{
+		  "nr": "03",
+		  "c1": "SectionCe2-Box",
+		  "c2": "SectionCe2-Box-l",
+		  "c3": "SectionCe2-Box-r",
+		  "title": "Erfahrung",
+		  "txt": "Durch unseren Live Pep-Vortrag (in Kürze) und treffen Sie dann karrierebezogene Fachleute offline bei unserer Veranstaltung namens Karrieretag."
+		}
+	  ],
+  
+	  "Section3": [
+		{
+		  "title": "Senior Grafikdesigner",
+		  "apply": "Jetzt bewerben",
+		  "txt": "Wir suchen einen Senior Graphic Designer, der Digital- und Druckdesigns für unsere Marketinganforderungen erstellt und verwaltet."
+		},
+		{
+		  "title": "Web-Backend",
+		  "apply": "Jetzt bewerben",
+		  "txt": "We are looking for a Back-End Web Developer responsible for managing the interchange of data between the server and the users."
+		},
+		{
+		  "title": "Webdesigner",
+		  "apply": "Jetzt bewerben",
+		  "txt": "Wir suchen einen Webdesigner, der für die Erstellung großartiger Websites für unsere Kunden verantwortlich ist."
+		},
+		{
+		  "title": "Low-code Developer",
+		  "apply": "Jetzt bewerben",
+		  "txt": "Ein Low-Code-System wurde entwickelt, um den Zeitaufwand für die Codierung von Entwicklungsteams zu verringern."
+		}
+	  ]
 	}
-	
-}
+  }
+  

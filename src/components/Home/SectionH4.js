@@ -9,6 +9,7 @@ import AboutLogo3 from './../../assets/Home/rita.jpg';
 import { useTranslation } from "react-i18next";
 import LearnMore from "./../UI/Button/LearnMore";
 import 'react-slideshow-image/dist/styles.css'
+import Fade from 'react-reveal/Fade';
 
 
 function SectionH4() {
@@ -37,7 +38,9 @@ function SectionH4() {
   return (
   
     <div className="team container">
+      <Fade>
     <div className="team-c">
+      
   <div className="team__left">
     <h1>{t("Home.SectionH4LeftTitle")}</h1>
     <p>
@@ -107,6 +110,7 @@ function SectionH4() {
   </div>
 
   </div>
+  </Fade>
 </div>
 
   );

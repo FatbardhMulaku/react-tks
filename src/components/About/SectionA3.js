@@ -2,14 +2,16 @@ import React from 'react';
 import './Style/SectionA3.css';
 import { useTranslation } from "react-i18next";
 import LearnMore from "./../UI/Button/LearnMore";
+import Slide from 'react-reveal/Slide';
 
 function SectionA3() {
     const { t } = useTranslation();
     return (
         <div className="SectionA3">
+             <Slide bottom>
             <div className="SectionA3a">
                 <h5>{t("About.SectionA3h")}</h5>
-                <h1>{t("About.SectionA3hh")}</h1>
+                <h2>{t("About.SectionA3hh")}</h2>
                 <p>{t("About.SectionA3p")}</p>
                 <LearnMore link="SectionA1" offset={-90} />
             </div>
@@ -27,6 +29,7 @@ function SectionA3() {
 
                 </div>
             </div>
+            </Slide>
         </div>
     )
 }

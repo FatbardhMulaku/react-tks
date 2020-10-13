@@ -1,21 +1,14 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import "./Style/Banner.css";
 import LearnMore from "./../UI/Button/LearnMore";
 import { useTranslation } from "react-i18next";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import Fade from 'react-reveal/Fade';
 
 function Banner() {
 
-  useEffect(() => {
-    AOS.init({
-      easing: "ease",
-      duration: 2000,
-    });
-  }, []);
-
   const { t } = useTranslation();
   return (
+    <Fade>
     <div className="banner">
 
     <div className="banner__text">
@@ -36,6 +29,7 @@ function Banner() {
       </div>
     </div>
   </div>
+  </Fade>
   )
 }
 

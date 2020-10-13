@@ -64,7 +64,7 @@
       "allServices": [
         {
           "title": "Mobile design",
-          "desc": "We will create a beautiful and working design for your idea."
+          "desc": "Our mobile UI/UX design specialists create a conversion-driven mobile user experience that makes for high conversion and user retention."
         },
         {
           "title": "Web design",
@@ -205,27 +205,27 @@
     "questions": [
       {
         "question": "Why KosovaOutsource is the best company in Kosovo?",
-        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+        "answer": "We offer professional outsourcing, programming, managment, design or any visual or administration work."
       },
       {
         "question": "Is everything good always at your company?",
-        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+        "answer": "Our costumers say always that KosovaOutsource is the best software company in Kosova ever."
       },
       {
         "question": "How can I apply for a job at KosovaOutsource?",
-        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+        "answer": "if you like to work with KosovaOutsource please send us a CV at our e-mail and maybe we can work with fun together."
       },
       {
         "question": "Is KosovaOutsource very hardworking company?",
-        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+        "answer": "As a software company we have a very great and hardworking team."
       },
       {
         "question": "How many years experience have your company?",
-        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+        "answer": "We have 10 years of experience with 10K+ completed projects and 300+ clients worldwide"
       },
       {
         "question": "How much hours per day KosovaOutsource works?",
-        "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary."
+        "answer": "We as a programming company work an average of 8 hours a day"
       }
     ]
   },
@@ -238,7 +238,7 @@
           "name": "home"
         },
         {
-          "link": "/about",
+          "link": "/who-we-are",
           "name": "about us"
         },
 
@@ -427,34 +427,23 @@
     "Section2": [
       {
         "title": "Phone",
-        "icon1": "<AiFillPhone className='contact__icons' />",
-        "icon2": "<AiFillPhone className='contact__icons' />",
         "info1":"+3834445400400",
         "info2":"+3834445400400",
         "to":"tel: +3834445400400"
       },
       {
         "title": "Email",
-        "icon1": "<AiFillPhone className='contact__icons' />",
-        "icon2": "<AiFillPhone className='contact__icons' />",
         "info1": "info@KsOutsource.com",
         "info2": "info@KsOutsource.com",
         "to": "mailto: info@KsOutsource.com"
       },
       {
         "title": "Social Media",
-        "icon1": "<AiFillPhone className='contact__icons' />",
-        "icon2": "<AiFillPhone className='contact__icons' />",
         "info1":"Like our facebook page",
         "info2": "Follow us on instagram",
         "to":"#"
       }
-    ],
-
-    "SectionB2e": "Email",
-    "SectionB2sm": "Social Media",
-    "SectionB2Fb": "Like our facebook page",
-    "SectionB2insta": "Follow us on instagram"
+    ]
   },
 
   "Blog": {
@@ -524,9 +513,11 @@
   "About": {
     "SectionA1h1": "About Us",
     "SectionA1title": "We do what we love for the better.",
-    "SectionA1p1": "To offer quality software development services, you need to master technology. To make it top-notch, you need to master people interactions an let your team go beyond",
-    "SectionA1p2": "we have been doing that for many years.",
-
+    "SectionA1":[
+      {"SectionA1p": "To offer quality software development services, you need to master technology. To make it top-notch, you need to master people interactions an let your team go beyond"},
+      {"SectionA1p": "we have been doing that for many years."}
+    ],
+    
     "SectionA2h": "Unique Solutions For Your Business",
     "SectionA2": [
       {

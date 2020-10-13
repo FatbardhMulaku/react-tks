@@ -3,13 +3,14 @@
     height: 850px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    flex-direction: row;
     background-color: rgb(235, 235, 235);
 }
-
+.contA2{
+    height: 850px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .SectionA2a{
-    width: 50vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,32 +19,30 @@
 }
 .SectionA2a-div{
     width: 15%;
-    height: 55%;
+    height: 400px;
     background-color: #85BBFF;
     clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
 }
 .SectionA2a-img{
-    width: 60%;
-    height: 90%;
+    width: 70%;
+    height: 550px;
     background-image: url(./../../../assets/About/section2.jpg);
     background-position: center;
     background-size: cover;
 }
 /* ============== */
 .SectionA2b{
-    width: 50vw;
-    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 100px 60px;
 }
 .SectionA2b h1{
-    width: 60%;
+    width: 90%;
     margin: 20px;
 }
 .SectionA2b ul{
-    width: 80%;
+    width: 90%;
     font-size: 18px;
     list-style: none;
     position: relative;
@@ -56,13 +55,22 @@
     transform: translate(0%,-50%);
     font-weight: bold;
 }
-@media only screen and (max-width: 900px) {
-    
-    .SectionA2a-img{
-        width: 80%;
+@media only screen and (max-width: 992px) {
+    .SectionA2{
+        height: 1050px;
     }
+    .contA2{
+        height: 950px;
+    }
+    .SectionA2a{
+        padding: 20px;
+    }
+    .SectionA2a-img{
+        height: 400px;}
+    .SectionA2a-div{
+        height: 300px;}
     .SectionA2b{
-        padding: 100px 10px;
+        padding: 10px 10px;
     }
     .SectionA2b h1{
         width: 80%;

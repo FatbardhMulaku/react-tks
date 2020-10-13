@@ -1,6 +1,638 @@
 {
-	"footer": {
-		"subscribe": "Abonohuni në gazetën tonë !!"
+	"mainMenu": [
+	  {
+		"link": "",
+		"name": "home"
+	  },
+	  {
+		"link": "blog",
+		"name": "blog"
+	  },
+	  {
+		"link": "contact",
+		"name": "Kontakto"
+	  }
+	],
+	"loginBtn": "Hyni",
+	"signupBtn": "Regjistrohu",
+	"login": {
+	  "title": "Mirëse u ktheve",
+	  "inputLabel": "Ju lutemi shkruani emailin dhe fjalëkalimin tuaj",
+	  "emailPlaceholder": "Vendosni adresën tuaj të postës elektronike",
+	  "passwordPlaceholder": "Vendosni fjalëkalimin tuaj",
+	  "forget": "Keni harruar fjalëkalimin ?",
+	  "or": "ose",
+	  "btn": ["Hyni", "Krijo nje llogari", "Hyni me Facebook"]
+	},
+	"signup": {
+	  "inputLabel": "Futni detajet tuaja për t'u bashkuar me ne",
+	  "usernamePlaceholder": "Vendosni emrin tuaj të përdoruesit",
+	  "username": "Emri i përdoruesit",
+	  "emailPlaceholder": "Vendosni adresën tuaj të postës elektronike",
+	  "email": "Adresa e emailit",
+	  "password": "Fjalëkalimi",
+	  "confirmPassword": "Konfirmo fjalëkalimin",
+	  "btn": "Regjistrohuni",
+	  "loginInfo": "Posedoni një llogari? "
+	},
+  
+	"learnMoreBtn": "Mëso më shumë",
+	"software": {
+	  "section_1": {
+		"title": "Kompania jonë ndërton produkte dixhitale për suksesin tuaj",
+		"desc": "Kontrolli i cilësisë për të dhënat tuaja duke përfshirë shpërndarjen e gjatësisë së leximit dhe vlerësimin tuaj të uniformitetit. Shkallëzoni biznesin tuaj me shërbimin përbrenda."
+	  },
+	  "section_2": {
+		"title": "Ne jemi kompania më e mirë në Kosovë. gjithnjë ofrojm më shumë sesa pritet.",
+		"list": [
+		  {
+			"title": "10K+",
+			"desc": "projektet e përfunduara"
+		  },
+		  {
+			"title": "275+",
+			"desc": "Ekipi mbështetës i eksportit"
+		  },
+		  {
+			"title": "200+",
+			"desc": "Klientë në të gjithë botën"
+		  }
+		]
+	  },
+	  "section_3": {
+		"title": "Karakteristikat tona",
+		"allServices": [
+		  {
+			"title": "Dizajni Mobile",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Web design",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Cloud",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Branding",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Web Front-end",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Web Back-end",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Desktop",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Serverless",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Quality",
+			"desc": "Kompania jonë ju jep cilësinë më të mirë që keni ndonjëherë."
+		  },
+		  {
+			"title": "Security",
+			"desc": "Ne mbështesim projektet tuaja me kompetencë dhe përvojë."
+		  }
+		]
+	  }
+	},
+	"security": {
+	  "section_1": {
+		"title": "Siguria",
+		"desc": "Ne ofrojmë kontraktim profesional, programim, menaxhim, dizajn ose çfarëdo pune vizuale ose administrimi. Na kontaktoni për më shumë informacion."
+	  },
+	  "section_2": ["Të mbrojtura", "Kodet", "Vërtetimi"],
+	  "section_3": {
+		"title": "Ju jeni siguruar 100% me KosovaOutsource",
+		"desc": "Si një kompani e shkëlqyer, KosovaOutsource ju garanton se jeni të siguruar duke bashkëpunuar me ne"
+	  },
+	  "section_4": {
+		"title": "Rritni biznesin tuaj më shumë me Outsource të Kosovës",
+		"desc": "Këtu është i gjithë ekipi i KosovaOutsource, aplikoni në kompaninë tonë dhe mbase mund të jeni në ekipin tonë. Një kompani softuerësh ne kemi një ekip shumë të shkëlqyeshëm dhe shumë punues."
+	  }
+	},
+	"webServices": {
+	  "section_1": {
+		"title": "Shërbimet e Kompanisë sonë",
+		"desc": "Nëse dëshironi të shihni të gjitha shërbimet tona, ju thjesht duhet të lëvizni poshtë dhe mund t'i shihni të gjitha ato. Faleminderit që vizituat"
+	  },
+	  "section_2": {
+		"title": "Këtu janë të gjitha Shërbimet tona që Kompania jonë ofron.",
+		"allServices": [
+		  {
+			"title": "Mobile design",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Dizajnimi i webfaqes",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Cloud",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Brende",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Web Front-end",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Web Back-end",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Desktop",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  },
+		  {
+			"title": "Serverless",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  }
+		]
+	  },
+	  "section_3": {
+		"title": "A është me të vërtetë KosovaOutsource shumë i rekomanduar për të tjerët dhe cila është arsyeja?",
+		"desc": "Se ne jemi më të mirët dhe më të rekomanduarit konsiderohet nga klientët tanë besnikë, kështu që bashkëpunoni me ne nuk do të pendoheni"
+	  },
+	  "section_4": {
+		"title": "Karakteristikat tona",
+		"allServices": [
+		  {
+			"title": "Cilësia",
+			"desc": "Kompania jonë ju jep cilësinë më të mirë që keni ndonjëherë."
+		  },
+		  {
+			"title": "Security",
+			"desc": "Ne mbështesim projektet tuaja me kompetencë dhe përvojë."
+		  },
+		  {
+			"title": "Network Infrastrucrure",
+			"desc": "Ne do të krijojmë një dizajn të bukur dhe punues për idenë tuaj."
+		  }
+		]
+	  }
+	},
+	"seo": {
+	  "section_1": {
+		"title": "Rritni biznesin tuaj më shumë me ne",
+		"desc": "Ne kemi gjithashtu Analizë të SEO dhe ju mund të rrisni biznesin tuaj me ne."
+	  },
+	  "section_2": {
+		"title": "Le ta bëjmë biznesin tuaj diçka për të treguar",
+		"desc": "Kompania jonë ka qenë e suksesshme me këtë për shumë vite, prandaj ndjehuni të sigurt për këtë gjë"
+	  },
+	  "section_3": "Projektet tona më të fundit"
+	},
+	"faq": {
+	  "faqForm": {
+		"name": "faqet e internetit",
+		"input": "Na bëni një pyetje",
+		"btn": "Dërgo"
+	  },
+	  "questionsHeader": "Lexoni të gjitha pyetjet e bëra më shpesh të KosovaOutsource",
+	  "questions": [
+		{
+		  "question": "Pse KosovaOutsource është kompania më e mirë në Kosovë?",
+		  "answer": "Ne ofrojmë kontraktim profesional, programim, menaxhim, dizajn ose çfarëdo pune vizuale ose administrimi."
+		},
+		{
+		  "question": "A është gjithçka mirë gjithmonë në kompaninë tuaj?",
+		  "answer": "Klientët tanë thonë gjithmonë se Kosova Outsource është kompania më e mirë e programeve kompjuterikë në Kosovë ndonjëherë."
+		},
+		{
+		  "question": "Si mund të aplikoj për një vend pune në KosovaOutsource?",
+		  "answer": "nëse dëshironi të punoni me KosovaOutsource ju lutemi na dërgoni një CV në e-mailin tonë dhe mbase ne mund të punojmë së bashku."
+		},
+		{
+		  "question": "A është KosovaOutsource kompani shumë punëtore?",
+		  "answer": "Si kompani softuerësh kemi një ekip shumë të shkëlqyeshëm dhe punëtor."
+		},
+		{
+		  "question": "Sa vjet përvojë ka kompania juaj?",
+		  "answer": "Ne kemi eksperiencë 10 vjeqare me 10K+ projektet e përfunduara dhe 300+ klientë në të gjithë botën"
+		},
+		{
+		  "question": "Sa orë në ditë KosovaOutsource punon?",
+		  "answer": "Ne si kompani programuese punojmë mesatarisht 8 orë në ditë"
+		}
+	  ]
+	},
+	"footerMenu": [
+	  {
+		"title": "Lidhjet e Shpejta",
+		"items": [
+		  {
+			"link": "/",
+			"name": "home"
+		  },
+		  {
+			"link": "/about",
+			"name": "Rreth nesh"
+		  },
+  
+		  {
+			"link": "/blog",
+			"name": "Blog"
+		  },
+		  {
+			"link": "/contact",
+			"name": "Na kontaktoni"
+		  },
+		  {
+			"link": "/news",
+			"name": "Lajme"
+		  }
+		]
+	  },
+	  {
+		"title": "Shërbimet",
+		"items": [
+		  {
+			"link": "/software-development",
+			"name": "Zhvillimi i softverit"
+		  },
+		  {
+			"link": "/callaboration",
+			"name": "Bashkëpunimi"
+		  },
+		  {
+			"link": "/nerwork-infrastructure",
+			"name": "Infrastruktura e rrjetit"
+		  },
+		  {
+			"link": "/administration",
+			"name": "Administrata"
+		  },
+		  {
+			"link": "/managment-services",
+			"name": "Shërbimet e menaxhimit"
+		  }
+		]
+	  },
+	  {
+		"title": "Qendra e ndihmes",
+		"items": [
+		  {
+			"link": "/team-services",
+			"name": "Ekipi i shërbimeve"
+		  },
+		  {
+			"link": "/privacy-policy",
+			"name": "Politika e privatësisë"
+		  },
+		  {
+			"link": "/security",
+			"name": "Siguria"
+		  },
+		  {
+			"link": "/faq",
+			"name": "Pyetjet e shpeshta"
+		  }
+		]
+	  }
+	],
+	"industriesPopper": {
+	  "name": "industritë",
+	  "industriesMenu": [
+		{ "link": "seo-analysis", "name": "Analiza e SEO" },
+		{ "link": "managment", "name": "Menaxhimi" },
+		{ "link": "web-services", "name": "Shërbime në internet" },
+		{ "link": "portfolio", "name": "Portofol" },
+		{ "link": "desktop", "name": "Desktop" },
+		{ "link": "mobile-design", "name": "Dizajni Mobil" },
+		{ "link": "cloud", "name": "Cloud" },
+		{ "link": "serverless", "name": "Serverless" },
+		{ "link": "web-front-end", "name": "Web front-end" },
+		{ "link": "branding", "name": "Brende" },
+		{ "link": "web-design", "name": "Dizajnimi i web-faqeve" },
+		{ "link": "web-back-end", "name": "Web back-end" }
+	  ],
+	  "industriesInfoName": "Kompania",
+	  "industriesInfoMenu": ["Kushtet e Përdorimit", "Privatësia", "Siguria"]
+	},
+	"aboutPopper": {
+	  "name": "Rreth nesh",
+	  "aboutMenu": [
+		{ "link": "Team", "name": "Ekipa" },
+		{ "link": "company", "name": "Agjencia jonë" },
+		{ "link": "career", "name": "Karriera" },
+		{ "link": "Faq", "name": "Pyetjet të shpeshta" },
+		{ "link": "Who we are", "name": "Kush jemi " },
+		{ "link": "What we do", "name": "Çfarë bëjmë ne" }
+	  ]
+	},
+	"caseStudiesPopper": {
+	  "name": "studime të rastit",
+	  "caseStudiesMenu": [
+		{ "link": "Experience", "name": "Përvoja" },
+		{ "link": "Stories", "name": "Tregime" }
+	  ]
+	},
+	"location": "Str.Nene Tereza, No.18, Gjakove 50000, Kosovo",
+	"subscribe": {
+	  "name": "Abonohuni për ofertat e fundit!!"
+	},
+	"alRight": "2020 KosovaOutsource. Të gjitha të drejtat janë të rezervuara",
+  
+	"Home": {
+	  "BanerH1": "Ne jemi Kompania më e mirë e programuese në Kosovë.",
+	  "BannerP": "Ne ofrojmë kontraktim profesional, programim, menaxhim, dizajn ose çfarëdo pune vizuale ose administrimi. Na kontaktoni për më shumë informacion",
+	  "BannerA": "Learn More",
+  
+	  "SectionH2title": "Eksploroni atë që ne ofrojmë",
+	  "Section2": [
+		{
+		  "SectionH2_Title": "Dizajn Mobil",
+		  "SectionH2_Info": "Specialistët Mobil tanë të dizajnit UI/UX krijojnë një përvojë të përdoruesit celular të drejtuar nga konvertimi që bën konvertim të lartë dhe mbajtje të përdoruesit."
+		},
+		{
+		  "SectionH2_Title": "Projektim Uebi",
+		  "SectionH2_Info": "Shërbimet e dizajnimit të uebit përfshijnë proceset e ndërfaqes së përdoruesit (UI) dhe përvojës së përdoruesit (UX) të dizajnit të çdo zgjidhjeje të bazuar në ueb."
+		},
+		{
+		  "SectionH2_Title": "Cloud",
+		  "SectionH2_Info": "Shërbimet e menaxhimit të infrastrukturës së Cloud sigurojnë shkallëzim për bizneset. Ku përdoruesit e shumtë mund të ndajnë një infrastrukturë të përbashkët."
+		},
+		{
+		  "SectionH2_Title": "Brende",
+		  "SectionH2_Info": "Ne Brende aplikohen kryesisht në intranet dhe portale, dhe nuk ka të bëjë vetëm me përmirësimin e pamjes dhe ndjesisë së një zgjidhjeje për hir të saj."
+		},
+		{
+		  "SectionH2_Title": "Shërbime në internet",
+		  "SectionH2_Info": "Shërbimet e zhvillimit të uebit nënkuptojnë dizajnimin, ndërtimin, integrimin, shkallëzimin dhe mirëmbajtjen e zgjidhjeve dinamike të programeve që funksionojnë përmes intranetit ose internetit."
+		},
+		{
+		  "SectionH2_Title": "Menaxhimi",
+		  "SectionH2_Info": "Menaxhimi i referohet monitorimit dhe administrimit të sistemeve të teknologjisë së informacionit të një organizate: hardueri, softueri dhe rrjetet."
+		}
+	  ],
+  
+	  "SectionH3": "Teknologjitë që përdor KosovaOutsource",
+	  "SectionH3L": [
+		{ "tlogos": "tlogo logo-java" },
+		{ "tlogos": "tlogo logo-html" },
+		{ "tlogos": "tlogo logo-react" },
+		{ "tlogos": "tlogo logo-wordpress" },
+		{ "tlogos": "tlogo logo-php" },
+		{ "tlogos": "tlogo logo-java" },
+		{ "tlogos": "tlogo logo-html" },
+		{ "tlogos": "tlogo logo-react" },
+		{ "tlogos": "tlogo logo-wordpress" },
+		{ "tlogos": "tlogo logo-php" }
+	  ],
+  
+	  "SectionH4LeftTitle": "Ne mund të jemi ndoshta vetëm një email larg për të punuar së bashku",
+	  "SectionH4LeftP": "nëse dëshironi të punoni me KosovaOutsource ju lutemi na dërgoni një CV në e-mailin tonë dhe ne do të rishikojmë PropTypes të importit nga 'prop-types' dhe mbase mund të punojmë së bashku.",
+	  "SectionH4LeftBtn": "Mëso më shumë",
+	  "SectionH4RightName1": "Leona Zeqiri",
+	  "SectionH4RightTitle1": "Menaxher i Projektit",
+	  "SectionH4RightP1": "Përshëndetje, unë jam menaxher i projektit Lona në KosovaOutsource, mirë që u njoha",
+	  "SectionH4RightName2": "Ilir Osmani",
+	  "SectionH4RightTitle2": "Dizajner i Uebit",
+	  "SectionH4RightP2": "Përshëndetje Unë jam Ilir Osmani dizajner uebi në KosovaOutsource, mirë që u njoha",
+	  "SectionH4RightName3": "Rita Gashi",
+	  "SectionH4RightTitle3": "Zhvilluesi i uebit",
+	  "SectionH4RightP3": "Përshëndetje Unë jam Rita Gashi Zhvilluese e Uebit në KosovaOutsource, mirë që u njoha",
+  
+	  "SectionH5title": "Punimet tona",
+	  "SectionH5Soft": "Softveri",
+	  "SectionH5Deve": "Zhvillimet",
+	  "SectionH5Design": "Projekte UI/UX",
+	  "SectionH5SeeAll": "Shihni të gjitha artikujt",
+	  "SectionH5Tabtitle": "Dizajn i Uebit",
+	  "SectionH5TabBtn": "Shikoni projektin",
+  
+	  "SectionH6T1": "Për atë që jemi krenarë",
+	  "SectionH6P1": "Ne krenohemi që jemi Techonology Native dhe nuk jemi bllokuar në Techonologies të caktuara, në vend të kësaj ofrojmë zgjidhjen më të mirë për klientët tanë. Ne synojmë të ofrojmë një seri fikse shërbimesh me një katalog shërbimesh.",
+	  "SectionH6Btn": "Dergo",
+	  "SectionH6T2": "Ne promovojmë integritetin",
+	  "SectionH6P2": "Ne jemi të pavarur që nxit më tej vlerat tona që interesat e klientëve tanë janë gjithmonë një përparësi. Integriteti dhe përgjegjësia ndaj klientëve tanë dhe na bëri partnerin e zgjedhur në rajon për mijëra klientë vendas dhe ndërkombëtarë."
+	},
+  
+	"Contact": {
+	  "BannerB": "Na kontaktoni",
+	  "SectionB2": "Na merrni ne një prekje",
+	  "Section2": [
+		{
+		  "title": "Telefoni",
+		  "info1":"+3834445400400",
+		  "info2":"+3834445400400",
+		  "to":"tel: +3834445400400"
+		},
+		{
+		  "title": "Email",
+		  "info1": "info@KsOutsource.com",
+		  "info2": "info@KsOutsource.com",
+		  "to": "mailto: info@KsOutsource.com"
+		},
+		{
+		  "title": "Social Media",
+		  "info1":"Pëlqejeni faqen tonë në FB",
+		  "info2": "Na ndiqni në instagram",
+		  "to":"#"
+		}
+	  ]
+	},
+  
+	"Blog": {
+	  "BannerB1h": "Pse KosovaOutsource është kompania më e mirë e programimit në rajon.",
+	  "BannerB1p": "Klientët tanë thonë gjithmonë se Kosova Outsource është kompania më e mirë e programimit në Kosovë ndonjëherë.",
+  
+	  "SectionB2h": "Artikujt kryesor",
+	  "SectionB2": [
+		{
+		  "SectionB2txt": "Pse KosovaOutsource është kompania më e mirë në rajon",
+		  "klasa": "Bb",
+		  "SectionB2btn": "Lexoni"
+		},
+		{
+		  "SectionB2txt": "A është KosovaOutsource kompania më e mire",
+		  "klasa": "Bc",
+		  "SectionB2btn": "Lexoni"
+		},
+		{
+		  "SectionB2txt": "A janë klientë besnikë të KosovaOutsource",
+		  "klasa": "Bd",
+		  "SectionB2btn": "Lexoni"
+		},
+		{
+		  "SectionB2txt": "Si mund të aplikoj për një vend pune në Kosova Outsource",
+		  "klasa": "Be",
+		  "SectionB2btn": "Lexoni"
+		}
+	  ],
+  
+	  "SectionB3h": "Frymëzime",
+	  "SectionB3btn": "Shikoni më shumë",
+	  "SectionB3a": [
+		{
+		  "title": "A është gjithçka mirë në KosovaOutsource?",
+		  "data": "26.08.2020"
+		},
+		{
+		  "title": "KosovaOutsource punon 8 orë në ditë gjithmonë.",
+		  "data": "15.08.2020"
+		},
+		{
+		  "title": "KosovaOutsource u rekomandohet shumë të tjerëve!",
+		  "data": "20.07.2020"
+		}
+	  ],
+	  "SectionB3b": [
+		{
+		  "title": "KosovaOutsource është kompani shumë punëtore.",
+		  "data": "04.06.2020"
+		},
+		{
+		  "title": "Sa vite përvojë ka KosovaOutsource.",
+		  "data": "11.06.2020"
+		}
+	  ],
+  
+	  "SectionCS1h": "Çfarë bëjmë ne",
+	  "SectionCS1p": "Ne ofrojmë kontraktim profesional, programim, menaxhim, dizajn ose çfarëdo pune vizuale ose administrimi. Na kontaktoni për më shumë informacion.",
+	  "SectionCSbtn": "Mëso më shumë",
+	  "SectionCS2h": "Ne bëjmë atë që duam për më mirë.",
+	  "SectionCS2p": "Për të ofruar shërbime cilësore të zhvillimit të softuerit, duhet të zotëroni teknologjinë. Për ta bërë atë të nivelit të lartë, duhet të zotëroni ndërveprimet e njerëzve dhe ta lini ekipin të shkojë përtej.",
+	  "SectionCS3h": "KosovaOutsource drejton me sukses të gjitha llojet e Shërbimeve të TI-së.",
+	  "SectionCS3p": "Këtu është e gjithë ekipi i KosovaOutsource që aplikojnë në kompaninë tonë dhe ndoshta mund të jenë në ekipin tonë. Si kompani softuerësh kemi një ekip shumë të shkëlqyeshëm dhe punëtor."
+	},
+	"About": {
+	  "SectionA1h1": "Rreth Nesh",
+	  "SectionA1title": "Ne bëjmë atë që duam për më mirë.",
+	  "SectionA1":[
+		{"SectionA1p": "Për të ofruar shërbime cilësore të zhvillimit të softuerit, duhet të zotëroni teknologjinë. Për ta bërë atë të nivelit të lartë, duhet të zotëroni ndërveprimet e njerëzve dhe ta lini ekipin tuaj të shkojë përtej"},
+		{"SectionA1p": "ne e kemi bërë atë për shumë vite."}
+	  ],
+	  
+	  "SectionA2h": "Zgjidhje unike për biznesin tuaj",
+	  "SectionA2": [
+		{
+		  "txt": "Atëherë që ne jemi më të mirët dhe më të rekomanduarit konsiderohet nga klientët tanë besnikë, kështu që bashkëpunoni me ne nuk do të pendoheni."
+		},
+		{
+		  "txt": "Ne jemi të pavarur, të cilat nxisin më tej vlerat tona që interesat e klientëve tanë janë gjithmonë një përparësi."
+		},
+		{
+		  "txt": "Ne krenohemi me faktin se jemi Technology Native dhe nuk jemi bllokuar në disa teknologji në vend."
+		}
+	  ],
+	  "SectionA3h": "Dëshmi",
+	  "SectionA3hh": "Çfarë po thonë klientët tanë për ne",
+	  "SectionA3p": "Ekzistojnë shumë variacione të pasazheve të Lorem ipsum në dispozicion, por shumica kanë pësuar alternime në disa nga nga humori i injektuar.",
+  
+	  "SectionA3": [
+		{
+		  "class1": "SectionA3bImg2",
+		  "class2": "SectionA3b-img2"
+		},
+		{
+		  "class1": "SectionA3bImg3",
+		  "class2": "SectionA3b-img3"
+		},
+		{
+		  "class1": "SectionA3bImg4",
+		  "class2": "SectionA3b-img4"
+		},
+		{
+		  "class1": "SectionA3bImg5",
+		  "class2": "SectionA3b-img5"
+		}
+	  ]
+	},
+	"Team": {
+	  "BannerTh": "Ekipa",
+	  "BannerTp": "Këtu është i gjithë ekipi i KosovaOutsource, aplikoni në kompaninë tonë dhe mbase mund të jeni në ekipin tonë",
+  
+	  "SectionT2": "Ekipi ynë",
+	  "Section2title1": "Drejtori",
+	  "Section2title2": "Sekretar",
+	  "Section2title3": "Menaxher",
+  
+	  "Section4h": "A është ekipi i KosovaOutsource ekip shumë punëtor?",
+	  "Section4p": "Këtu është i gjithë ekipi i KosovaOutsource, aplikoni në kompaninë tonë dhe mbase mund të jeni në ekipin tonë. Si kompani softuerësh kemi një ekip shumë të shkëlqyeshëm dhe punëtor.",
+	  "send": "Dergo"
+	},
+	"Company": {
+	  "Section1h": "KosovaOutsource është kompani shumë serioze me shërbime të shkëlqyera.",
+	  "Section1p": "Ne ofrojmë kontraktim profesional, programim, menaxhim, dizajn ose çfarëdo pune vizuale ose administrimi. Na kontaktoni për më shumë informacion.",
+  
+	  "Section2": "Karakteristikat tona",
+	  "Section2h": "Ne jemi ndërmarrja më e mirë e programeve kompjuterikë në Kosovë",
+	  "Section2p": "Ne ofrojmë kontraktim profesional, programim, menaxhim, dizajn ose çfarëdo pune vizuale ose administrimi. Na kontaktoni për më shumë informacion",
+  
+	  "Section3h": "A është me të vërtetë KosovaOutsource shumë i rekomanduar për të tjerët dhe cila është arsyeja?",
+	  "Section3p": "Se ne jemi më të mirët dhe më të rekomanduarit konsiderohet nga klientët tanë besnikë, kështu që bashkëpunoni me ne nuk do të pendoheni."
+	},
+  
+	"Career": {
+	  "Section1h": "Gjeje rrugën tuaj për punën e ëndrrave.",
+	  "Section1p": "Njihuni me talentin tuaj natyror për ta bërë më të lehtë për ju që të vazhdoni karrierën tuaj në një nivel të lartë.",
+	  "Section1Btn1": "Bashkohuni me ekipin tonë",
+	  "Section1Btn2": "Shihni pozicionet në dispozicion",
+	  "or": "or",
+  
+	  "Section2": [
+		{
+		  "nr": "01",
+		  "c1": "SectionCe2-Box",
+		  "c2": "SectionCe2-Box-l",
+		  "c3": "SectionCe2-Box-r",
+		  "title": "Zbuloni",
+		  "txt": "Merrni vlerësimin tonë të karrierës, Kuptoni veten, filloni me Eksplorimi i Karrierës, i radhitur me ju ndërfaqet në Aplikacionin tonë."
+		},
+		{
+		  "nr": "02",
+		  "c1": "SectionCe2-Box",
+		  "c2": "SectionCe2-Box-l",
+		  "c3": "SectionCe2-Box-r",
+		  "title": "Meso",
+		  "txt": "Vazhdoni të eksploroni historitë dhe projektet tona ekzistuese, të përfshira në karriera të ndryshme gjatë kohëzgjatjes së kohës."
+		},
+		{
+		  "nr": "03",
+		  "c1": "SectionCe2-Box",
+		  "c2": "SectionCe2-Box-l",
+		  "c3": "SectionCe2-Box-r",
+		  "title": "Përvoja",
+		  "txt": "Përmes bisedës tonë Live Pep (Së shpejti), dhe më pas takoni profesionistë të veçantë të karrierës jashtë linje në ngjarjen tonë me emrin dita e karrierës."
+		}
+	  ],
+  
+	  "Section3": [
+		{
+		  "title": "Projektues i Lartë Grafik",
+		  "apply": "Apliko tani",
+		  "txt": "Ne jemi duke kërkuar një Designer të Lartë Grafik për të krijuar dhe menaxhuar dizajne dixhitale dhe të shtypura për nevojat tona të marketingut."
+		},
+		{
+		  "title": "Web Back-end",
+		  "apply": "Apliko tani",
+		  "txt": "Ne jemi duke kërkuar për një Zhvillues të Uebit Back-End përgjegjës për menaxhimin e shkëmbimit të të dhënave midis serverit dhe përdoruesve."
+		},
+		{
+		  "title": "Web Designer",
+		  "apply": "Apliko tani",
+		  "txt": "Ne jemi duke kërkuar një Web Designer i cili do të jetë përgjegjës për krijimin e faqeve të internetit të shkëlqyera për klientët tanë."
+		},
+		{
+		  "title": "Low-code Developer",
+		  "apply": "Apliko tani",
+		  "txt": "Një sistem me kod të ulët është krijuar për të zvogëluar sasinë e kohës që duhet për kodimin për ekipet e zhvillimit."
+		}
+	  ]
 	}
-	
-}
+  }
+  
