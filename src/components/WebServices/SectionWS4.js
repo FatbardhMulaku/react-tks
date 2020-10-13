@@ -3,12 +3,14 @@ import { useTranslation } from "react-i18next";
 import CardService from "../UI/Card/CardService";
 import "./styles/SectionWS4.css";
 import LayoutContainer from "../Shared/LayoutContainer";
+import Fade from 'react-reveal/Fade';
 
 const SectionWS4 = () => {
   const { t } = useTranslation();
 
   return (
     <LayoutContainer section="sectionWS4">
+      <Fade bottom>
       <div>
         <h2 className="col_black font-roboto text-center">
           {t("webServices.section_4.title")}
@@ -25,7 +27,7 @@ const SectionWS4 = () => {
             img={`sectionWS4_icon${index + 1}`}
           />
         ))}
-      </div>
+      </div></Fade>
     </LayoutContainer>
   );
 };

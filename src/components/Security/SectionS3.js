@@ -3,9 +3,9 @@ import LayoutGrid from "../Shared/LayoutGrid";
 import ImgGrid from "../Shared/ImgGrid";
 import TextGrid from "../Shared/TextGrid/TextGrid";
 import "./styles/SectionS3.css";
-
+import Fade from 'react-reveal/Fade';
 const SectionS3 = () => {
-  return (
+  return (  <Fade bottom>
     <LayoutGrid section="sectionS3 " row="sectionS3_row">
       <ImgGrid img="section3_img img_hover" />
       <TextGrid
@@ -14,7 +14,7 @@ const SectionS3 = () => {
         linkBtn="security-4"
         offsetBtn={-50}
       />
-    </LayoutGrid>
+    </LayoutGrid></Fade>
   );
 };
 

@@ -584,7 +584,9 @@
 	  "Section1Btn1": "Trete unserem Team bei",
 	  "Section1Btn2": "Siehe verfügbare Positionen",
 	  "or": "oder",
-  
+		
+	  "Section2h4":"Wie es funktioniert?",
+      "Section2h2":"Schritte zur richtigen Berufswahl",
 	  "Section2": [
 		{
 		  "nr": "01",
@@ -611,7 +613,9 @@
 		  "txt": "Durch unseren Live Pep-Vortrag (in Kürze) und treffen Sie dann karrierebezogene Fachleute offline bei unserer Veranstaltung namens Karrieretag."
 		}
 	  ],
-  
+	  
+	  "Section3h" :"Unsere freien Stellen",
+      "Section3p" :"Alle ansehen",
 	  "Section3": [
 		{
 		  "title": "Senior Grafikdesigner",

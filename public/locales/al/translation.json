@@ -516,7 +516,7 @@
 		{"SectionA1p": "Për të ofruar shërbime cilësore të zhvillimit të softuerit, duhet të zotëroni teknologjinë. Për ta bërë atë të nivelit të lartë, duhet të zotëroni ndërveprimet e njerëzve dhe ta lini ekipin tuaj të shkojë përtej"},
 		{"SectionA1p": "ne e kemi bërë atë për shumë vite."}
 	  ],
-	  
+
 	  "SectionA2h": "Zgjidhje unike për biznesin tuaj",
 	  "SectionA2": [
 		{
@@ -583,7 +583,9 @@
 	  "Section1Btn1": "Bashkohuni me ekipin tonë",
 	  "Section1Btn2": "Shihni pozicionet në dispozicion",
 	  "or": "or",
-  
+		
+	  "Section2h4":"Si punon?",
+      "Section2h2":"Hapat drejt bërjes së një zgjedhjeje të duhur në karrierë",
 	  "Section2": [
 		{
 		  "nr": "01",
@@ -610,7 +612,9 @@
 		  "txt": "Përmes bisedës tonë Live Pep (Së shpejti), dhe më pas takoni profesionistë të veçantë të karrierës jashtë linje në ngjarjen tonë me emrin dita e karrierës."
 		}
 	  ],
-  
+	  
+	  "Section3h" :"Pozitat e tona të lira",
+      "Section3p" :"Shiko te gjitha",
 	  "Section3": [
 		{
 		  "title": "Projektues i Lartë Grafik",

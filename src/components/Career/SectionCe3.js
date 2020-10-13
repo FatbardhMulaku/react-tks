@@ -5,60 +5,30 @@ import { Slide } from "react-slideshow-image";
 import 'react-slideshow-image/dist/styles.css'
 import './Style/SectionCe3.css';
 import { useTranslation } from "react-i18next";
+import Sec3items from './SectionCe3items';
 
 function SectionCe3() {
     const slideRef = useRef();
-
     const properties = {
       autoplay: false,
       arrows: false
     };
-  
     const back = () => {
       slideRef.current.goBack();
     }
-  
     const next = () => {
       slideRef.current.goNext();
     }
-  
-  
     const { t } = useTranslation();
     return (
         <div className="container mx-auto SectionCe3">
             <div className="SectionCe3-top row">
-                <h2 className="col-7">Our Free Positions </h2>
-                <div className="col-5 Ce3-btnC"><Link to="/career" className="Ce3-btn">View all</Link></div>
+                <h2 className="col-7">{t("Career.Section3h")}</h2>
+                <div className="col-5 Ce3-btnC"><Link to="/career" className="Ce3-btn">{t("Career.Section3p")}</Link></div>
             </div>
-
             <Slide ref={slideRef} {...properties}>
-            <div className="SectionCe3-bottom row justify-content-center">
-            {t("Career.Section3").map((item, index) => {
-                    return(
-                        <div key={index} className="col-sm-11 col-lg-5 JobBox">
-                            <div className="jobDescription">
-                                <h4>{item.title}</h4>
-                                <p>{item.txt}</p>
-                            </div>
-                            <div className="applyBtnC"><Link to="/career" className="applyBtn">{item.apply}</Link></div>
-                        </div>
-                    );
-                })}
-            </div>
-
-            <div className="SectionCe3-bottom row justify-content-center">
-            {t("Career.Section3").map((item, index) => {
-                    return(
-                        <div key={index} className="col-sm-11 col-lg-5 JobBox">
-                            <div className="jobDescription">
-                                <h4>{item.title}</h4>
-                                <p>{item.txt}</p>
-                            </div>
-                            <div className="applyBtnC"><Link to="/career" className="applyBtn">{item.apply}</Link></div>
-                        </div>
-                    );
-                })}
-            </div>
+                <Sec3items />
+                <Sec3items />
             </Slide>
 
             <div className="shigjetat">

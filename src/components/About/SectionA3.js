@@ -7,8 +7,9 @@ import Slide from 'react-reveal/Slide';
 function SectionA3() {
     const { t } = useTranslation();
     return (
+        <Slide bottom>
         <div className="SectionA3">
-             <Slide bottom>
+            
             <div className="SectionA3a">
                 <h5>{t("About.SectionA3h")}</h5>
                 <h2>{t("About.SectionA3hh")}</h2>
@@ -29,8 +30,9 @@ function SectionA3() {
 
                 </div>
             </div>
-            </Slide>
+            
         </div>
+        </Slide>
     )
 }
 

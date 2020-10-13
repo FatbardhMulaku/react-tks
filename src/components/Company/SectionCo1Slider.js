@@ -3,6 +3,7 @@ import './Style/SectionCo1Slider.css';
 import WorkLogoC1 from './../../assets/Company/company1.jpg';
 import WorkLogoC2 from './../../assets/Company/company2.jpg';
 import Slider from "react-slick";
+import Fade from 'react-reveal/Fade';
 
 const WorkImages = [
     WorkLogoC1,
@@ -24,12 +25,13 @@ const WorkImages = [
 
 function SectionCo1Slider() {
     return (
+        
         <div className="col-sm-12 col-lg-6 SectionCo1Slider">
             <Slider  {...settings}>
             {WorkImages.map((item, index) => {
                 return (
                 <div className="containeriCo" key={index}>
-                    <img src={item} alt="CompanyImg" className="ImgCompany w-100" />
+                   <Fade><img src={item} alt="CompanyImg" className="ImgCompany w-100" /></Fade>
                 </div>
                 );
             })}

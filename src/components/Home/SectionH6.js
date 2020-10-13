@@ -27,9 +27,7 @@ export default function About() {
             </div>
                 
             <div className="col-sm-12 col-lg-6 aboutRight">
-                <div className="aboutLogo3" alt="Image"/>
-                <div className="aboutLogo2" alt="Image"/>
-                
+                <div className="aboutLogo3" alt="Image"/><div className="aboutLogo2" alt="Image"/>
             </div>
             </Slide>
         </div>

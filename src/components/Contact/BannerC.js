@@ -1,23 +1,14 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import "./Style/BannerC.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
+import Fade from 'react-reveal/Fade';
 
 function BannerC() {
-  useEffect(() => {
-    AOS.init({
-      easing: "ease",
-      duration: 2000,
-    });
-  }, []);
-
   const { t } = useTranslation();
-  return (
-    <div data-aos="fade-right" data-aos-delay="400" className="BannerC">
-    <h1>{t("Contact.BannerB")}</h1>
-  </div>
-  )
+    return (
+      <div className="BannerC">
+           <Fade top big cascade><h1>{t("Contact.BannerB")}</h1></Fade>
+      </div>
+    );
 }
-
-export default BannerC
+export default BannerC;

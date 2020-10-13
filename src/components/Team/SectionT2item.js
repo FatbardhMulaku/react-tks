@@ -9,6 +9,7 @@ import Timg2 from './../../assets/Team/Team2.jpg';
 import Timg3 from './../../assets/Team/Team3.jpg';
 import Slider from "react-slick";
 import { useTranslation } from "react-i18next";
+import Fade from 'react-reveal/Fade';
  
 const useStyles = makeStyles((theme) => ({
   cont:{
@@ -78,8 +79,9 @@ var settings = {
 function SectionT2item() {
     const classes = useStyles();    
     const { t } = useTranslation();
-    return (
+    return (<Fade bottom >
         <Slider {...settings}>
+          
           <div>
         <Card className={classes.root}>
           <CardActionArea>
@@ -142,7 +144,7 @@ function SectionT2item() {
           </CardActionArea>
         </Card>
         </div>
-        </Slider>
+        </Slider></Fade>
     );
 }
 

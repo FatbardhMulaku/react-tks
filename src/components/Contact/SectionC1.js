@@ -5,7 +5,6 @@ function SectionC1({children}) {
   return (
     <div className="SectionC1">
         <div className="SectionC1c">{children}</div>
-            
     </div>
   );
 }

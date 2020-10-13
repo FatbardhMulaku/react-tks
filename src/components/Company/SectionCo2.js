@@ -6,6 +6,7 @@ import SettingsIcon from '@material-ui/icons/Settings';
 import {RiBankLine} from "react-icons/ri";
 import { useTranslation } from "react-i18next";
 import './Style/SectionCo2.css';
+import Fade from 'react-reveal/Fade';
 
 function SectionCo2() {
     const { t } = useTranslation();
@@ -17,6 +18,7 @@ function SectionCo2() {
     const workIcon = [icon1, icon2 ,icon3, icon4];
     return (
         <div className="container SectionCo2">
+            <Fade cascade>
             <h1>{t("Company.Section2")}</h1>
             <div className="row SectionCo2-wapper">
                 <div className="SectionCo2-left col-sm-12 col-lg-6">
@@ -27,12 +29,11 @@ function SectionCo2() {
                         })}
                 </div>
                 <div className="SectionCo2-right col-sm-12 col-lg-6">
-                <h1>{t("Company.Section2h")}</h1>
-                <p>{t("Company.Section2p")}</p>
+                <h1>{t("Company.Section2h")}</h1><p>{t("Company.Section2p")}</p>
                     <LearnMore link="SectionCo3" className="SectionCo2-Btn"/>
                 </div>
             </div>
-            
+            </Fade>
         </div>
     )
 }

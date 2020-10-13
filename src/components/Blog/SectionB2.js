@@ -2,14 +2,16 @@ import React from 'react';
 import './Style/SectionB2.css';
 import { useTranslation } from "react-i18next";
 import Button from '@material-ui/core/Button';
+import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 function SectionB2() {
     const { t } = useTranslation();
     return (
-        <div data-aos="fade-up" data-aos-once="false" data-aos-duration="2500" className="containeri1 SectionB2 container">
-            <h1>{t("Blog.SectionB2h")}</h1>
+        <div className="containeri1 SectionB2 container">
+            <Fade top big cascade><h1>{t("Blog.SectionB2h")}</h1></Fade>
+            <Slide bottom cascade>
             <div className="SectionB2_wrapper">
-
                 {t("Blog.SectionB2").map((item, index) => {
                     return (
                         <div key={index} className={`Bbox ${item.klasa}`}>
@@ -19,9 +21,8 @@ function SectionB2() {
                         </div>
                     )
                 })}
-
             </div>
-
+            </Slide>
         </div>
     )
 }

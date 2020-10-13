@@ -13,9 +13,7 @@ function SectionH2() {
            <Fade top big><h1>{t("Home.SectionH2title")}</h1></Fade>
           <SectionH2items />
           </div>
-          
   </div>
   )
 }
-/* data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000"*/
 export default SectionH2

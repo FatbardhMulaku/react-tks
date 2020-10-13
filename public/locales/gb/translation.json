@@ -517,7 +517,7 @@
       {"SectionA1p": "To offer quality software development services, you need to master technology. To make it top-notch, you need to master people interactions an let your team go beyond"},
       {"SectionA1p": "we have been doing that for many years."}
     ],
-    
+
     "SectionA2h": "Unique Solutions For Your Business",
     "SectionA2": [
       {
@@ -585,6 +585,8 @@
     "Section1Btn2": "See available positions",
     "or": "or",
 
+    "Section2h4":"How it works?",
+    "Section2h2":"Steps towards making a right career choice",
     "Section2": [
       {
         "nr": "01",
@@ -612,6 +614,8 @@
       }
     ],
 
+    "Section3h" :"Our Free Positions",
+    "Section3p" :"View all",
     "Section3": [
       {
         "title": "Senior Graphic Designer",

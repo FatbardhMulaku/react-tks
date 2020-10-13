@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import CardService from "../UI/Card/CardService";
 import "./styles/SectionWS2.css";
 import LayoutContainer from "../Shared/LayoutContainer";
+import Fade from 'react-reveal/Fade';
 
 const SectionWS2 = () => {
   const { t } = useTranslation();
@@ -13,6 +14,7 @@ const SectionWS2 = () => {
         {t("webServices.section_2.title")}
       </h2>
       <div className="row">
+      <Fade bottom> 
         {t("webServices.section_2.allServices").map((item, index) => (
           <div className="col-sm-12 col-md-6 col-lg-3 my-3" key={index}>
             <CardService
@@ -23,7 +25,7 @@ const SectionWS2 = () => {
               img={`sectionWS2_icon${index + 1}`}
             />
           </div>
-        ))}
+        ))}</Fade>
       </div>
     </LayoutContainer>
   );

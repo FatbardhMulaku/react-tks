@@ -1,13 +1,13 @@
 import React from 'react';
 import "./Style/SectionB3.css";
 import { useTranslation } from "react-i18next";
-
+import Slide from 'react-reveal/Slide';
 
 function SectionB3item() {
     const { t } = useTranslation();
     return (
         <div className="SectionB3__wrapper">
-
+            <Slide bottom cascade>
             <div className="row1">
             {t("Blog.SectionB3a").map((item, index) =>{
                 return (
@@ -34,7 +34,7 @@ function SectionB3item() {
                   )
               })}
             </div>
-
+            </Slide>
           </div>
     )
 }

@@ -9,7 +9,7 @@ function Teknologies() {
     return (
 
         <div  className="teknologies container">
-             <Fade top big>
+             <Fade top big cascade>
             <h1>{t("Home.SectionH3")}</h1>
             </Fade>
             

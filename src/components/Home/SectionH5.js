@@ -7,7 +7,6 @@ import { withTranslation } from 'react-i18next';
 import hoistStatics from 'hoist-non-react-statics';
 import Zoom from 'react-reveal/Zoom';
  
-
 class WorkSection extends Component {
     constructor(){
         super();
@@ -26,14 +25,9 @@ class WorkSection extends Component {
             default: return <SoftwareH5/>
         }
     }
-
-    
     render() {
-
         const { t } = this.props;
-        
         return (
-            /* data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="2000" */
             <div  className="WorkSection container my-auto"> 
             <Zoom>
                 <h1>{t('Home.SectionH5title')}</h1>
