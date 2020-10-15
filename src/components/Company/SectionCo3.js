@@ -16,7 +16,7 @@ function SectionCo3() {
             <div className="col-sm-12 col-lg-6 SectionCo3-right my-auto">
                 <h1>{t("Company.Section3h")}</h1>
                 <p>{t("Company.Section3p")}</p>
-                <LearnMore link="SectionCo1" className="SectionCo3-Btn"/>
+                <LearnMore link="SectionCo1" />
             </div>
         </div></Fade>
     )

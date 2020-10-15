@@ -78,6 +78,24 @@
     text-decoration: none;
     font-weight: bold;
 }
+.fade{
+    animation-name: shigheta;
+    animation-duration: 2s;
+}
+@keyframes shigheta{
+    0%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
+    }
+    85%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 @media only screen and (max-width: 992px) {
     .inputLabel, .inputLabel2{
         width: 100%;

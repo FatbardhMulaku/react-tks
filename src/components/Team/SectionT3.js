@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState} from "react";
 import { Slide } from "react-slideshow-image";
 import { Link } from "react-router-dom";
 import 'react-slideshow-image/dist/styles.css'
@@ -10,15 +10,10 @@ import "./Style/SectionT3.css";
 import Zoom from 'react-reveal/Zoom';
 import SectionT3item1 from "./SectionT3item1";
 import SectionT3item2 from "./SectionT3item2";
-import SectionT3item3 from "./SectionT3item3";
 
 function SectionT3() {
   const slideRef = useRef();
-
-  const style = {
-    textAlign: "center",
-  };
-
+  const [isActive, setActive] = useState(false);
   const properties = {
     autoplay: false,
     arrows: false
@@ -26,10 +21,17 @@ function SectionT3() {
 
   const back = () => {
     slideRef.current.goBack();
+      setActive(!isActive);
+      setTimeout(function() {
+        setActive(false);
+       }, 1000);
   }
-
   const next = () => {
+    setActive(true);
     slideRef.current.goNext();
+    setTimeout(function() {
+      setActive(false);
+     }, 1000);
   }
   const { t } = useTranslation();
   return (
@@ -48,27 +50,22 @@ function SectionT3() {
         </div>
         </Zoom>
         <div className="team__Right">
-        <div className="team__Right1">
         <Slide ref={slideRef} {...properties}>
-          <div style={style}>
-              <SectionT3item1 />
-          </div>
-          <div style={style}>
-              <SectionT3item3 />
-          </div>
+            <SectionT3item1 />
+            <SectionT3item2 />
         </Slide>
-        <div className="shigjeta-c">
-              <div className="shigjeta-majt" onClick={back}>
+           
+       
+        <div className="shigjeta-c" >
+              <div className={isActive ? 'fade shigjeta-majt': "shigjeta-majt"} onClick={back}>
                 <FaLongArrowAltLeft className="shigjeta__icon" />
               </div>
-              <div className="shigjeta-djatht" onClick={next}>
+              <div className={isActive ? 'fade shigjeta-djatht': "shigjeta-majt"} onClick={next}>
                 <FaLongArrowAltRight className="shigjeta__icon" />
               </div>
             </div>
 
-      </div>
      
-        <SectionT3item2 />
         </div>
       </div>
     </div>

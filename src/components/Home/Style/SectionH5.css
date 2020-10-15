@@ -104,7 +104,7 @@
 }
 .butone:hover{ 
     background-color: #006FFF;
-    color: white,
+    color: white !important;
 }
 .butone:focus{
     background-color: #006FFF;

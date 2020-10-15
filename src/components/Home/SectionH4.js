@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef , useState } from "react";
 import { Slide } from "react-slideshow-image";
 import "./Style/SectionH4.css";
 import {FaLongArrowAltLeft, FaLongArrowAltRight} from 'react-icons/fa';
@@ -8,22 +8,27 @@ import 'react-slideshow-image/dist/styles.css'
 import Fade from 'react-reveal/Fade';
 import SectionT3item1 from "./../Team/SectionT3item1"
 import SectionT3item2 from "./../Team/SectionT3item2"
-import SectionT3item3 from "./../Team/SectionT3item3"
 
 function SectionH4() {
   const slideRef = useRef();
-  const style = {
-    textAlign: "center",
-  };
+  const [isActive, setActive] = useState(false);
   const properties = {
     autoplay: false,
     arrows: false
   };
   const back = () => {
     slideRef.current.goBack();
+      setActive(!isActive);
+      setTimeout(function() {
+        setActive(false);
+       }, 1000);
   }
   const next = () => {
+    setActive(true);
     slideRef.current.goNext();
+    setTimeout(function() {
+      setActive(false);
+     }, 1000);
   }
   const { t } = useTranslation();
   return (
@@ -39,27 +44,20 @@ function SectionH4() {
       </div>
       
   <div className="team__Right">
-      <div className="team__Right1">
         <Slide ref={slideRef} {...properties}>
-        <div style={style}>
-              <SectionT3item1 />
-          </div>
-          <div style={style}>
-              <SectionT3item3 />
-          </div>
+            <SectionT3item1 />
+            <SectionT3item2 />
         </Slide>
+           
         <div className="shigjeta-c">
-              <div className="shigjeta-majt" onClick={back}>
+              <div className={isActive ? 'fade shigjeta-majt': "shigjeta-majt"} onClick={back}>
                 <FaLongArrowAltLeft className="shigjeta__icon" />
               </div>
-              <div className="shigjeta-djatht" onClick={next}>
+              <div className={isActive ? 'fade shigjeta-majt': "shigjeta-majt"} onClick={next}>
                 <FaLongArrowAltRight className="shigjeta__icon" />
               </div>
             </div>
       </div>
-
-      <SectionT3item2 />
-  </div>
   </div>
   </Fade>
 </div>
