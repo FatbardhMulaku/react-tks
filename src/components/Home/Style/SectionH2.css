@@ -15,7 +15,7 @@
 
 @media only screen and (max-width: 1200px) {
     .services{ 
-        height: 1050px;
+        height: 1080px;
     } 
     .services_wapper h1 {
         font-size: 40px;
@@ -24,7 +24,7 @@
 
 @media only screen and (max-width: 768px) {
     .services{ 
-        height: 1900px;
+        height: 1980px;
     }
     .services_wapper h1 {
         padding: 0 1em;
@@ -34,7 +34,7 @@
 }
 @media only screen and (max-width: 500px) {
     .services{ 
-        height: 1600px;
+        height: 1690px;
         width: 100%;
         margin-top: 40px;
 
@@ -47,6 +47,6 @@
 
       @media only screen and (max-width: 348px) {
         .services{
-            height: 1550px;
+            height: 1800px;
         }
       }

@@ -32,7 +32,7 @@
     "email": "Email Address",
     "password": "Password",
     "confirmPassword": "Confirm Password",
-    "btn": "Sign Up",
+    "btn": "Log in",
     "loginInfo": "Already have an Account? "
   },
 

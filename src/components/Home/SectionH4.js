@@ -32,9 +32,9 @@ function SectionH4() {
   }
   const { t } = useTranslation();
   return (
-    <div className="team container">
+    <div className="team">
       <Fade>
-    <div className="team-c">
+    <div className="team-c container">
       <div className="team__left"><Fade left cascade>
         <h1>{t("Home.SectionH4LeftTitle")}</h1>
         <p>

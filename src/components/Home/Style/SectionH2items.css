@@ -7,22 +7,21 @@
     justify-content: space-around;
 }
 .service{
-    width: 300px;
-    height: 280px;
+    width: 315px;
+    height: 295px;
     border: 1px solid rgb(199, 199, 199);
     padding: 20px 30px 20px 30px;
     border-radius: 30px;
-    min-width: 270px;
-    min-height: 240px;
     margin: 10px;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
 }
 .service:hover{
-    transform: translateY(-10px) !important;
     border-color: rgb(170, 170, 170);
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 11px 23px -4px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px #000000, 1px 11px 23px -4px rgba(0,0,0,0);
     border: 1px solid  #838383;
-
+    transform: translateY(-6px) !important;
 }
 .service-icon{
     /* transform: translateX(45%); */
@@ -44,6 +43,7 @@
 } */
 .service:hover .service-info{
     color: #000000 ;
+    transition: all 0.6s ease;
 }
 .service-title{
     font-size: 20px;
@@ -73,7 +73,7 @@
 }
 @media only screen and (max-width: 500px) {
     .SectionH2_wrapper{ 
-        height: 1580px;
+        height: 1600px;
 
     } 
     .service-icon{
@@ -87,8 +87,8 @@
         font-size: 14px;
     }
     .service{
-        width: 270px;
-        height: 230px;
+        width: 285px;
+        height: 260px;
     }
 }
   @media only screen and (max-width: 348px) {
@@ -97,8 +97,8 @@
     }
     .service{
         margin-top: 15px;
-        width: 270px;
-        height: 240px;
+        width: 280px;
+        height: 270px;
         padding: 22px 30px;
     }
     .service-info{

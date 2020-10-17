@@ -30,6 +30,7 @@ const useStyles = makeStyles({
   },
   icon: {
     color: "#006fff",
+    fontSize: '20px'
   },
   customHoverFocus: {
     "&:focus, &.Mui-focusVisible": {

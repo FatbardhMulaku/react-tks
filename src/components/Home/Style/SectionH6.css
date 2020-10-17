@@ -37,6 +37,8 @@
 }
 .aboutLeft{
     padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }  
 .aboutRight{
     padding: 20px;
@@ -83,6 +85,15 @@
 .aboutLogo2, .aboutLogo3{
     padding-top: 20px;
     width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+    .aboutText1 h1, .aboutText2 h1{
+        font-size: 35px;
+        width: 100%;
+    }
+    .aboutText1 p, .aboutText2 p{
+        width: 95%;
+}
 }
 
 @media only screen and (max-width: 992px) {
@@ -204,7 +215,8 @@
 }
 @media only screen and (max-width: 570px) {
     .about {
-        margin-top: 0px;}
+        margin-top: 0px;
+        height: 1800px;}
         .aboutLeft{
             width: 100%;
             padding: 0px;

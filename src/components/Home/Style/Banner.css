@@ -115,6 +115,11 @@
     }
 
 }
+@media only screen and (max-width: 992px) {
+    .banner__text h1{
+        width: 80%;
+    }
+}
 
 @media only screen and (max-width: 800px) {
     .banner{

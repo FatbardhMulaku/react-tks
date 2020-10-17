@@ -12,7 +12,7 @@ const About = (props) => {
     <PopperBox
       name={t("aboutPopper.name")}
       trigger={props.trigger}
-      width="430px"
+      width="500px"
     >
       <div className="about_popper_container">
         <ul className="about_popper_list">

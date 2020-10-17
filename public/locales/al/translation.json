@@ -32,7 +32,7 @@
 	  "email": "Adresa e emailit",
 	  "password": "Fjalëkalimi",
 	  "confirmPassword": "Konfirmo fjalëkalimin",
-	  "btn": "Regjistrohuni",
+	  "btn": "Hyni",
 	  "loginInfo": "Posedoni një llogari? "
 	},
   
@@ -347,7 +347,7 @@
 	"alRight": "2020 KosovaOutsource. Të gjitha të drejtat janë të rezervuara",
   
 	"Home": {
-	  "BanerH1": "Ne jemi Kompania më e mirë e programuese në Kosovë.",
+	  "BanerH1": "Ne jemi Kompania më e mirë programuese në Kosovë.",
 	  "BannerP": "Ne ofrojmë kontraktim profesional, programim, menaxhim, dizajn ose çfarëdo pune vizuale ose administrimi. Na kontaktoni për më shumë informacion",
 	  "BannerA": "Learn More",
   

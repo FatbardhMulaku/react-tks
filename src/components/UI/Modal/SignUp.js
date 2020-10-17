@@ -7,9 +7,9 @@ import { useTranslation } from "react-i18next";
 import InputLogin from "../../UI/Input/InputLogin";
 import ModalButton from "../../UI/Button/ModalButton";
 import { IoMdPerson } from "react-icons/io";
-import {RiLockPasswordLine} from "react-icons/ri"
 import {HiOutlineMail} from "react-icons/hi"
 import { makeStyles } from "@material-ui/core/styles";
+import PasswordInput from './../Input/Password'
 import "./SignUp.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   icon: {
-    fontSize: "25px",
+    fontSize: "20px",
     color: "#006fff",
   },
 }));
@@ -29,7 +29,6 @@ const SignUp = (props) => {
   const classes = useStyles();
   const email = <HiOutlineMail className={classes.icon} />;
   const username = <IoMdPerson className={classes.icon} />;
-  const password = <RiLockPasswordLine className={classes.icon} />;
   const { t } = useTranslation();
   return (
     <Modal open={open} handleClose={handleClose}>
@@ -63,19 +62,15 @@ const SignUp = (props) => {
           <p className="usernameSu d-flex justify-content-start font-weight-bold text-left font-w-400 ">
             {t("signup.password")}
           </p>
-          <InputLogin
-            type="password"
+          <PasswordInput
             placeholder={t("login.passwordPlaceholder")}
-            icon={password}
           /></div>
           <div className="col-12 col-sm-6">
           <p className="usernameSu d-flex justify-content-start font-weight-bold text-left font-w-400 ">
             {t("signup.confirmPassword")}
           </p>
-          <InputLogin
-            type="password"
+          <PasswordInput
             placeholder={t("login.passwordPlaceholder")}
-            icon={password}
           /></div>
           </div>
 

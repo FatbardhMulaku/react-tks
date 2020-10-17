@@ -6,7 +6,7 @@ import SignUpModal from "../../UI/Modal/SignUp";
 import { useToggle } from "../../../Hooks/useToggle";
 import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
     klasa1:{
       backgroundColor: 'white',
       padding: '4px 10px',
@@ -25,8 +25,12 @@ const useStyles = makeStyles({
       cursor:'pointer',
       borderRadius: '6px',
       border: '1px solid #006FFF'
-    }
-});
+    },
+    [theme.breakpoints.down('md')]: {
+      backgroundColor: 'red',
+      border: 'none'
+    },
+}));
 
 const LoginNav = (props) => {
   const { t } = useTranslation();

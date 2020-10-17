@@ -6,11 +6,11 @@ import Button from "@material-ui/core/Button";
 import * as Scroll from "react-scroll";
 import { Link as LinkRouter } from "react-router-dom";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   btn: {
     backgroundColor: "#006fff",
     borderRadius: "40px",
-    width: "180px",
+    width: "200px",
     padding: "10px 15px",
     margin: "10px 0",
     "& > .MuiButton-label": {
@@ -26,6 +26,9 @@ const useStyles = makeStyles({
         animation: `$icone-effect 0.8s ease-in-out infinite`,
       },
     },
+    [theme.breakpoints.down('sm')]: {
+      padding: "8px 12px",
+    }
   },
   icon: {
     width: " 22px",
@@ -41,7 +44,7 @@ const useStyles = makeStyles({
       transform: "translate(5px, 0)",
     },
   },
-});
+}));
 
 const LearnMore = (props) => {
   const { t } = useTranslation();
