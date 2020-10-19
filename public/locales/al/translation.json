@@ -193,7 +193,18 @@
 		"title": "Le ta bëjmë biznesin tuaj diçka për të treguar",
 		"desc": "Kompania jonë ka qenë e suksesshme me këtë për shumë vite, prandaj ndjehuni të sigurt për këtë gjë"
 	  },
-	  "section_3": "Projektet tona më të fundit"
+	  "section3title": "Below are some of the many vital tasks that are at the core of our SEO Strategy.",
+	  "section3": [
+		{"img": "SeoS3-img1", "title":"Website Audit & SEO Assessment", "txt":"A critical analysis from the ground up from design infrastructure & content to link profile & brand strength. "},
+		{"img": "SeoS3-img2", "title":"Detailed Back-link Audit", "txt":"We look at ALL links generated for a website in order to determine their value and remove spammy links."},
+		{"img": "SeoS3-img3", "title":"Business Profile Listings", "txt":"These are influential, industry based directories that every business should target to gain traction in Local SEO."},
+		{"img": "SeoS3-img4", "title":"SEO Competitor Analysis", "txt":"We conduct an exhaustive study of competitors in order to identify new link building & marketing opportunities."},
+		{"img": "SeoS3-img5", "title":"Content Creation & Marketing", "txt":"High-quality, SEO optimized content (articles, blogs, press releases, social media posts & guest posts) that establishes Google rankings."},
+		{"img": "SeoS3-img6", "title":"Video/Infographics", "txt":"Give your content an engaging twist! Our designers and video editors craft promotional infographics and videos that get more conversions."},
+		{"img": "SeoS3-img7", "title":"Extensive Keyword Research", "txt":"The most important step in SEO, our keyword research is exhaustive and focuses on 'conversion keywords' that bring leads."},
+		{"img": "SeoS3-img8", "title":"Link-building Services", "txt":"We build links on authoritative sites that ultimately link back to your website, leveraging their credibility and improving SEO."}
+	  ],
+	  "section_5": "Our latest projects"
 	},
 	"faq": {
 	  "faqForm": {

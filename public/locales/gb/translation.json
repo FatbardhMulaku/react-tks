@@ -193,7 +193,31 @@
       "title": "Let's make your business something to show off",
       "desc": "Our company has been successful with this for many years so feel safe for this thing"
     },
-    "section_3": "Our latest projects"
+    "section3title": "Below are some of the many vital tasks that are at the core of our SEO Strategy.",
+    "section3": [
+      {"img": "SeoS3-img1", "title":"Website Audit & SEO Assessment", "txt":"A critical analysis from the ground up from design infrastructure & content to link profile & brand strength. "},
+      {"img": "SeoS3-img2", "title":"Detailed Back-link Audit", "txt":"We look at ALL links generated for a website in order to determine their value and remove spammy links."},
+      {"img": "SeoS3-img3", "title":"Business Profile Listings", "txt":"These are influential, industry based directories that every business should target to gain traction in Local SEO."},
+      {"img": "SeoS3-img4", "title":"SEO Competitor Analysis", "txt":"We conduct an exhaustive study of competitors in order to identify new link building & marketing opportunities."},
+      {"img": "SeoS3-img5", "title":"Content Creation & Marketing", "txt":"High-quality, SEO optimized content (articles, blogs, press releases, social media posts & guest posts) that establishes Google rankings."},
+      {"img": "SeoS3-img6", "title":"Video/Infographics", "txt":"Give your content an engaging twist! Our designers and video editors craft promotional infographics and videos that get more conversions."},
+      {"img": "SeoS3-img7", "title":"Extensive Keyword Research", "txt":"The most important step in SEO, our keyword research is exhaustive and focuses on 'conversion keywords' that bring leads."},
+      {"img": "SeoS3-img8", "title":"Link-building Services", "txt":"We build links on authoritative sites that ultimately link back to your website, leveraging their credibility and improving SEO."}
+    ],
+    "section_4title": "See Our SEO Process!",
+    "section_4p": "Below is a typical task timeline of an SEO project.",
+    "section_4mid":[
+      { "img":"Seo4-CssImg1","txt": "1. Keyword Research Document", "color": "SeoS3-color1"},
+      { "img":"Seo4-CssImg2","txt": "2. Website Audit", "color": "SeoS3-color2"},
+      { "img":"Seo4-CssImg3","txt": "3. Content Plan", "color": "SeoS3-color3"}
+    ],
+    "section_4Box":[
+      {"img": "SeoS4-img1","title":"Keyword Research Document", "txt":"We identify important keyword terms relevant to your industry, service, region, target audience and competitors to optimize your website for traffic and rankings."},
+      {"img": "SeoS4-img2","title":"Website Audit", "txt":"Here, an extensive analysis is performed that puts your site through multiple tests, identifying shortcomings and outlining results along with recommendations."},
+      {"img": "SeoS4-img3","title":"Content Plan", "txt":"Our team of content marketing experts suggest engaging, keyword-rich topics, keeping in mind your marketing objectives, brand voice and target market."}
+    ],
+
+    "section_5": "Our latest projects"
   },
   "faq": {
     "faqForm": {

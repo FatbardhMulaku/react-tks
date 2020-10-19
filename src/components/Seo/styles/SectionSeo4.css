@@ -1,0 +1,110 @@
+.SectionSeo4{
+    height: 800px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.SectionSeo4 > h3 {
+    margin-top: 100px;
+}
+.SeoS4-hr{
+    text-align: center;
+    border: 0;
+    height: 3px;
+    background-color: #0461D8;
+    width: 15%;
+}
+.SeoS4-mid{
+    margin-top: 90px;
+}
+.SeoS4-img{
+    background-image: url(./../../../assets/images/seo/image-seo.jpg);
+    height: 245px;
+    width: 50% !important;
+    background-position: center;
+    background-size: cover;
+}
+.SeoS4-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Seo4-CssImg1{
+    background-color: #a692c7;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+}
+.Seo4-CssImg2{
+    clip-path: polygon(0 50%, 100% 100%, 100% 0);
+    background-color: #e78ab2;
+}
+.Seo4-CssImg3{
+    background-color: #f0bc84;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
+.SeoS3-color1{
+    background-color: #8873A9;
+}
+.SeoS3-color2{
+    background-color: #F162A1;
+}
+.SeoS3-color3{
+    background-color: #F2A24C;
+}
+.SeoMidRow{
+    height: 60px;
+}
+.SeoS4-mid-txt{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.SeoS4-img1, .SeoS4-img2, .SeoS4-img3{
+    height: 35px;
+    width: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+
+.SeoS4-img1{
+    background-image: url(./../../../assets/images/seo/S3icon1.jpg);
+}
+.SeoS4-img2{
+    background-image: url(./../../../assets/images/seo/S3icon2.jpg);
+    height: 40px;
+    width: 31px;
+}    
+.SeoS4-img3{
+    background-image: url(./../../../assets/images/seo/S3icon3.jpg);
+}
+.Seo4Boxtitle{
+    margin: 20px 0px;
+}
+.SeoBoxS4 > p{
+    font-size: 13px;
+    color: rgb(61, 61, 61);
+    line-height: 1.7;
+}
+.SeoS4-footer{
+    margin-top: 100px;
+}
+@media only screen and (max-width: 992px) {
+    .SectionSeo4{
+        height: 1150px;
+    }
+    .SeoS4-footer{
+        margin-top: 50px;
+    }
+    .SeoS4-mid{
+        margin-top: 50px;
+    }
+    .SectionSeo4 > h3 {
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .SectionSeo4{
+        height: 1400px;
+    }
+}
