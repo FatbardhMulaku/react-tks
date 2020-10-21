@@ -21,6 +21,7 @@ import Software from "../pages/Software";
 import Team from "../pages/Team";
 import Company from "../pages/Company";
 import Career from "../pages/Career";
+import WebDesign from "../pages/Services/WebDesign"
 
 const route = () => {
   return (
@@ -41,6 +42,7 @@ const route = () => {
           <Route path="/company" exact render={() => <Company />} />
           <Route path="/career" exact render={() => <Career />} />
           <Route path="/portfolio" exact render={() => <Software />} />
+          <Route path="/webdesign" exact render={() => <WebDesign />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
         </Switch>

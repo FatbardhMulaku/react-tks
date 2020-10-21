@@ -340,7 +340,7 @@
       { "link": "serverless", "name": "Serverless" },
       { "link": "web-front-end", "name": "Web front-end" },
       { "link": "branding", "name": "Branding" },
-      { "link": "web-design", "name": "Web design" },
+      { "link": "webdesign", "name": "Web design" },
       { "link": "web-back-end", "name": "Web back-end" }
     ],
     "industriesInfoName": "Company",
@@ -661,6 +661,38 @@
         "apply": "Apply now",
         "txt": "A low-code system is designed to reduce the amount of time coding takes for development teams."
       }
+    ]
+  },
+  "webdesign": {
+    "section_1": {
+      "title": "Web Design Services",
+      "desc": "Web design services comprise the processes of user interface (UI) and user experience (UX) design of any web-based solution. In each of its web design projects, ScienceSoft shrewdly balances the technology, visual aesthetics and business objectives, bringing you fast-loading, impactful and high-converting online experiences."
+    },
+    "section_2":{
+      "title":"Want a Web Design That Powers Up Your Business?",
+      "desc":"KosovaOutSource creates vibrant and intuitive web designs that ensure brand excellence, user engagement and satisfaction, all resulting in a high conversion rate."
+    },
+    "section_3title":"Why KosovaOutSource",
+    "section_3":[
+      {"txt":"8 years in digital design."},
+      {"txt":"UI and UX design teams with years of practical experience."},
+      {"txt":"Responsive and performance-driven design."},
+      {"txt":"Focus on conversions."},
+      {"txt":"Adherence to SEO and, if requested, WCAG2 regulations."},
+      {"txt":"Well-established agile processes."}
+    ],
+    "section4title":"Perks of Web Design with KosovaOutsource",
+    "section_4":[
+      {"icon":"WDsection4_icon1", "title":"Competitive design ", "txt":"We combine your brand style and the latest web design trends, relying on the data gathered through rival company analysis, market studies and user research. This approach allows us to deliver one-of-a-kind and highly competitive designs that strengthen your brand identity, reflect brand’s values and support your marketing goals."},
+      {"icon":"WDsection4_icon2", "title":"Focus on your business objectives", "txt":"When working on a design of a website or web portal, our team always targets your specific marketing and customer service objectives. We establish productive cooperation with the stakeholders to understand your business processes and deliver a design that will empower your individual conversion strategy."},
+      {"icon":"WDsection4_icon3", "title":"Tailored to your target audience", "txt":"We perform in-depth analysis of your users' expectations at the very start of the project. The data we use for tailoring your visuals is gained from usability studies (in case of a web solution in development) or comprehensive UX and UI audit (in case of an already developed web solution)."}
+    ],
+    "section5_title":"Our Web Design Service Options",
+    "section5_desc":"While providing the option of one-off web design, we also suggest continuous design support services that enable non-stop evolution of your ever-growing web solution. Working in close cooperation with your team, we gradually introduce improvements and changes based on regular user surveys and A/B testing, thus ensuring superior user experience.",
+    "section_5":[
+      {"title": "Ecommerce website design", "desc": "Fresh and elegant ecommerce design to drive your store’s customer lifetime value and facilitate up/cross selling.", "btn":"Get my ecommerce design"},
+      {"title": " Website / portal design", "desc": "Customer-centric design that makes for higher dwell time and a lower user error rate as well as enhances user engagement.", "btn":"Get my website"},
+      {"title": "Website / portal design", "desc": "Industry-specific design to increase the frequency of email subscriptions, pre-registrations for future services, and quote/demo requests.", "btn":"Get my ecommerce design"}
     ]
   }
 }

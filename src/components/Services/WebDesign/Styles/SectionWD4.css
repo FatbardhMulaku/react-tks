@@ -1,0 +1,53 @@
+.SectionWD4{
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.SectionWD4 > h3 {
+    margin-bottom: 20px;
+}
+.WDsection4_icon1, .WDsection4_icon2, .WDsection4_icon3{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px !important;
+}
+.WDsection4_icon1{
+    background-image: url(./../../../../assets/Services/WebDesign/section4_1.jpg);
+}
+.WDsection4_icon2{
+    background-image: url(./../../../../assets/Services/WebDesign/section4_2.jpg);
+}
+.WDsection4_icon3{
+    background-image: url(./../../../../assets/Services/WebDesign/section4_3.jpg);
+}
+@media only screen and (max-width: 992px) {
+    .SectionWD4{
+        height: 800px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .SectionWD4{
+        height: 800px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .SectionWD4{
+        height: 700px;
+    }
+    .SectionWD4 p {
+        font-size: 14px;
+    }
+    .SectionWD4 h4 {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 476px) {
+    .SectionWD4{
+        height: 1000px;
+    }
+}

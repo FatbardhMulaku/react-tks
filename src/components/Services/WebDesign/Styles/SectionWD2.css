@@ -1,0 +1,30 @@
+.SectionWD2{
+    background-image:linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ), url(./../../../../assets/Services/WebDesign/Section2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.SectionWD2_wapper{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SectionWD2_wapper > h3 {
+    margin: 40px 0px;
+}
+.SectionWD2_wapper > p {
+    font-size: 13px;
+}
+@media only screen and (max-width: 500px) {
+    .SectionWD2_wapper > h3 {
+        margin: 20px 0px;
+        font-size: 25px;
+    }
+}
