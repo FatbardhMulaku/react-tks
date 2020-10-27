@@ -15,13 +15,13 @@ const theme = createMuiTheme({
   },
 });
 
-const Header = () => {
+const Header = (props) => {
   const [isToggled, setToggled] = useToggle(false);
 
   return (
     <Fragment>
       <ThemeProvider theme={theme}>
-        <Toolbar drawerToggle={setToggled} />
+        <Toolbar drawerToggle={setToggled} Bcolor={props.BC}/>
         <MobileMenu drawerToggle={setToggled} isToggled={isToggled} />
       </ThemeProvider>
     </Fragment>

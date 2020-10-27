@@ -1,0 +1,36 @@
+.SectionM7{
+	margin-top: 50px;
+}
+.SectionM7 p{
+	font-size: 13px;
+}
+.SectionM7 h2{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.SecM7_img1, .SecM7_img2, .SecM7_img3{
+	height: 80px;
+	width: 80px !important;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.SecM7_img1{
+	background-image: url(./../../../../assets/Services/Management/section7_1.jpg);
+}
+.SecM7_img2{
+	background-image: url(./../../../../assets/Services/Management/section7_2.jpg);
+}
+.SecM7_img3{
+	background-image: url(./../../../../assets/Services/Management/section7_3.jpg);
+}
+@media only screen and (max-width: 768px) {
+	.SectionM7 p{
+		font-size: 12px;
+	}
+	.SectionM7 h2{
+		font-size: 22px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+}

@@ -1,0 +1,56 @@
+.SectionM2 > p{
+	color: rgb(126, 126, 126);
+	font-size: 14px;
+	line-height: 1.7;
+	margin-bottom: 40px;
+}
+.ManagementS2_icon1, .ManagementS2_icon2, .ManagementS2_icon3,.ManagementS2_icon4, .ManagementS2_icon5, .ManagementS2_icon6{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 70px;
+}
+.ManagementS2_icon1{
+	background-image: url(./../../../../assets/Services/Management/section2_1.jpg);
+}
+.ManagementS2_icon2{
+	background-image: url(./../../../../assets/Services/Management/section2_2.jpg);
+}
+.ManagementS2_icon3{
+	background-image: url(./../../../../assets/Services/Management/section2_3.jpg);
+}
+.ManagementS2_icon4{
+	background-image: url(./../../../../assets/Services/Management/section2_4.jpg);
+}
+.ManagementS2_icon5{
+	background-image: url(./../../../../assets/Services/Management/section2_5.jpg);
+}
+.ManagementS2_icon6{
+	background-image: url(./../../../../assets/Services/Management/section2_6.png);
+}
+.ManagementBox{
+	padding: 20px 50px !important;
+}
+.ManagementBox > h6{
+	text-align: center;
+	margin: 25px 0;
+	font-size: 14px;
+}
+.ManagementBox > p{
+	color: rgb(126, 126, 126);
+	font-size: 12px;
+	line-height: 1.7;
+}
+@media only screen and (max-width: 992px) {
+	.ManagementBox{
+		padding: 20px 30px !important;
+	}
+	.ManagementBox > h6{
+		margin: 20px 0;
+	}
+	.SectionM2 > p{
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+}

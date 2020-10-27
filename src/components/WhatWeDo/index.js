@@ -1,0 +1,34 @@
+import React from "react";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import BannerCS from "../WhatWeDo/BannerCS";
+import SectionOne from "../WhatWeDo/SectionCS1";
+import SectionTwo from "../WhatWeDo/SectionCS2";
+import SectionThree from "../WhatWeDo/SectionCS3";
+
+const theme = createMuiTheme({
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 576,
+      md: 768,
+      lg: 992,
+      xl: 1200,
+    },
+  },
+});
+
+const index = () => {
+  return (
+    <div>
+      <ThemeProvider theme={theme}>
+		<SectionOne> 
+			<BannerCS />
+		</SectionOne>
+		<SectionTwo />
+		<SectionThree />
+      </ThemeProvider>
+    </div>
+  );
+};
+
+export default index;

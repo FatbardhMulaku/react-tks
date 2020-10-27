@@ -1,16 +1,12 @@
-import React, { Fragment } from "react";
-import BannerC from "./../components/Contact/BannerC";
-import SectionOne from "./../components/Contact/SectionC1";
-import SectionTwo from "./../components/Contact/SectionC2";
+import React from "react";
+import ContactComponents from "./../components/Contact/index";
+import Header from "./../components/Shared/Header";
 
 const Contact = () => {
   return (
-    <Fragment>
-      <SectionOne>
-        <BannerC />
-      </SectionOne>
-      <SectionTwo />
-    </Fragment>
-  );
+    <>
+        <Header BC="transparent"/>
+        <ContactComponents />;
+    </>)   
 };
 export default Contact;

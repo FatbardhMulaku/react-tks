@@ -1,0 +1,46 @@
+.SectionM1{
+    height: 700px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.SectionM1_text{
+    padding: 10px !important;
+}
+.SectionWD1 > h1 {
+    font-size: 20px !important;
+}
+.sectionM1_img {
+    background-image: url(./../../../../assets/Services/Management/section_1.jpg);
+    height: 260px;
+    border-radius: 20px;
+    margin: 0 2rem;
+    background-size: cover;
+  }
+  .sectionM1_shape {
+    position: absolute;
+    right: 80px;
+    margin-top: 15px;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px 10px 10px 0px;
+    background-color: #006fff;
+  }
+  .sectionM1_shape:after {
+    position: absolute;
+    content: "";
+    right: 75px;
+    bottom: -22px;
+    width: 64px;
+    height: 54px;
+    border-radius: 10px 10px 0px 10px;
+    background-color: #6ba8f8;
+    opacity: 0.6;
+  }
+  @media only screen and (max-width: 992px) {
+    .SectionM1{
+        height: 1100px;
+    }
+}
+  

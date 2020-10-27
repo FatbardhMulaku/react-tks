@@ -1,16 +1,13 @@
-import React, { Fragment } from 'react';
-import SectionOne from './../components/Company/SectionCo1';
-import SectionTwo from './../components/Company/SectionCo2';
-import SectionThree from './../components/Company/SectionCo3';
+import React from "react";
+import CompanyComponents from "./../components/Company/index";
+import Header from "./../components/Shared/Header"
 
-function Company() {
+const Company = () => {
     return (
-        <Fragment>
-            <SectionOne/>
-            <SectionTwo />
-            <SectionThree />
-        </Fragment> 
-    );
-}
+      <>
+          <Header BC="transparent"/>
+          <CompanyComponents />;
+      </>)   
+  };
 
 export default Company

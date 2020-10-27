@@ -1,0 +1,71 @@
+
+.SectionM4{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.sectionM4_imgB{
+    background-image: url(./../../../../assets/Services/Management/section_4.jpg);
+    height: 200px;
+    border-radius: 20px !important;
+}
+.sectionM4_shape{
+    position: absolute;
+    right: 130px;
+    margin-top: -30px;
+    width: 60px;
+    height: 50px;
+    border-radius: 8px 8px 8px 0px;
+	background-color: #006fff;
+	transform: translate(70px, 0px);
+}
+.sectionM4_shape:after {
+    position: absolute;
+    content: "";
+    right: 45px;
+    bottom: -20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px 8px 0px 8px;
+    background-color: #6ba8f8;
+    opacity: 0.6;
+  }
+  .M4-txt p:nth-child(1){
+	  font-size: 25px;
+	  font-weight: bold;
+	  margin-top: 10px;
+  }
+  .M4-txt p:nth-child(2){
+	font-size: 13px;
+	color: rgb(107, 107, 107);
+	margin: 30px 0;
+}
+.M4-txt p:nth-child(3)::before{
+    background-color: #006FFF;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    height: 10px;
+    width: 10px;
+}
+.M4-txt p:nth-child(4)::before{
+    background-color: #006FFF;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    height: 10px;
+    width: 10px;
+}
+@media only screen and (max-width: 768px) {
+	.M4-txt p:nth-child(1){
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 60px;
+	}
+	.SectionM4{
+		margin-top: 100px;
+	}
+}

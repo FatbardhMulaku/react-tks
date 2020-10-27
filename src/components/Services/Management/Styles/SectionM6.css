@@ -1,0 +1,57 @@
+
+
+.BackEnd_icon{
+	display: flex !important;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.BackEnd1, .BackEnd2, .BackEnd3,.BackEnd4,.BackEnd5,.BackEnd6{
+	background-position: center;
+	background-size: cover;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.BackEnd1{
+	background-image: url(./../../../../assets/Services/Management/section6_icon1.jpg);
+}
+.BackEnd2{
+	background-image: url(./../../../../assets/Services/Management/section6_icon2.jpg);
+}
+.BackEnd3{
+	background-image: url(./../../../../assets/Services/Management/section6_icon3.jpg);
+}
+.BackEnd4{
+	background-image: url(./../../../../assets/Services/Management/section6_icon4.jpg);
+}
+.BackEnd5{
+	background-image: url(./../../../../assets/Services/Management/section6_icon5.jpg);
+}
+.BackEnd6{
+	background-image: url(./../../../../assets/Services/Management/section6_icon6.jpg);
+}
+.BackEnd_info{
+	padding: 40px 100px 0 20px;
+}
+.BackEnd_info p::before{
+    background-color: #006FFF;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    height: 10px;
+    width: 10px;
+}
+@media only screen and (max-width: 768px) {
+	.BackEnd1, .BackEnd2, .BackEnd3,.BackEnd4,.BackEnd5,.BackEnd6{
+		width: 40px;
+		height: 40px;
+	}
+	.BackEnd_info{
+		padding: 40px 0 20px 0 ;
+	}
+	.BackEnd p {
+		font-size: 12px;
+	}
+}

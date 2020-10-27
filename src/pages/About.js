@@ -1,16 +1,13 @@
-import React, { Fragment } from 'react';
-import SectionOne from './../components/About/SectionA1';
-import SectionTwo from './../components/About/SectionA2';
-import SectionThree from './../components/About/SectionA3';
+import React from "react";
+import AboutComponents from "./../components/About/index";
+import Header from "./../components/Shared/Header"
 
-function About() {
+const About = () => {
     return (
-        <Fragment>
-            <SectionOne />
-            <SectionTwo/>
-            <SectionThree />
-        </Fragment>
-    )
-}
+        <>
+            <Header BC="#006FFF"/>
+            <AboutComponents />;
+        </>)       
+  };
 
 export default About

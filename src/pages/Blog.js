@@ -1,18 +1,12 @@
-import React, { Fragment } from "react";
-import BannerB from "./../components/Blog/BannerB";
-import SectionOne from "./../components/Blog/SectionB1";
-import SectionTwo from "./../components/Blog/SectionB2";
-import SectionThree from "./../components/Blog/SectionB3";
+import React from "react";
+import BlogComponents from "./../components/Blog/index";
+import Header from "./../components/Shared/Header"
 
 const Blog = () => {
   return (
-    <Fragment>
-      <SectionOne>
-        <BannerB />
-      </SectionOne>
-      <SectionTwo />
-      <SectionThree />
-    </Fragment>
-  );
+    <>
+        <Header BC="transparent"/>
+        <BlogComponents />;
+    </>)   
 };
 export default Blog;

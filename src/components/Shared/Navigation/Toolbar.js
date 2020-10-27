@@ -17,13 +17,15 @@ const useStyles = makeStyles((theme) => ({
     padding: "5px",
     alignItems: "center",
     paddingTop: "12px",
+    color:'black'
   },
   box1: {
     boxShadow: "none ",
-    backgroundColor: "transparent ",
+    backgroundColor:(props) => props.Bcolor,
     transition: "all 0.6s ease-out",
     padding: "0 0 18px",
     top: "auto",
+    color:"black"
   },
   box2: {
     boxShadow:
@@ -47,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Toolbar = (props) => {
-  const classes = useStyles();
+  const classes = useStyles(props);
   const { windowp } = props;
   const [isSearch, setisSearch] = useState(false);
 
