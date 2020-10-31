@@ -1,0 +1,43 @@
+.SectionCL3{
+	margin-top: 100px;
+}
+.SectionCL3 >p{
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.SectionCL3_left > p{
+	font-size: 14px;
+	color: rgb(105, 105, 105);
+	line-height: 1.7;
+}
+.SectionCL3_right{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.SectionCL3--Box{
+	display: flex !important;
+	flex-direction: row;
+}
+.SectionCL3--hr{
+	width: 20%;
+    border: 0;
+    height: 3px;
+	background: #006FFF;
+	text-align: left;
+	margin-left: 0px !important;
+}
+
+.SectionCL3__img{
+	background-image:url(./../../../../assets/Services/Cloud/section3_img.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 260px;
+	width: 300px;
+}
+@media only screen and (max-width: 992px) {
+	.SectionCL3__img{
+		margin-top: 20px;
+	}
+}

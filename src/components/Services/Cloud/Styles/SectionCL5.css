@@ -1,0 +1,44 @@
+.SectionCL5{
+	background-image: url(./../../../../assets/Services/Cloud/section5_Bimg.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	margin-top: 100px;
+}
+.SectionCL5__wawpper{
+	height: 300px;
+}
+.SectionCL5__left > p{
+	margin-top: 30px;
+	font-size: 14px;
+}
+.SectionCL5__right{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.SectionCL5__img{
+	background-image: url(./../../../../assets/Services/Cloud/section5.png);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+}
+@media only screen and (max-width: 992px) {
+	.SectionCL5{
+		height: 450px;
+	}
+	.SectionCL5__wawpper{
+		height: 450px;
+	}
+	.SectionCL5__left > h3{
+		font-size: 22px;
+		align-items: center !important;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.SectionCL5__img{
+		width: 250px;
+		height: 160px;
+	}
+}

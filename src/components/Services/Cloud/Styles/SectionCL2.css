@@ -1,0 +1,146 @@
+
+.SectionCL2 > p{
+	color: rgb(134, 134, 134);
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+.SectionCL2__head{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.SectionCL2__head > h3{ 
+	margin-left: 30px;
+}
+.SectionCL2__head--img{
+	background-image: url(./../../../../assets/Services/Cloud/S2_img.jpg);
+	height: 55px;
+	background-position: center;
+	background-size: cover;
+	width: 80px;
+}
+.SectionCL2_grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.SectionCL2_grid p{
+	font-weight: bold;
+	margin-top: 10px;
+}
+.Cloud-S2_icon-b{
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Cloud-S2_Bimg1, .Cloud-S2_Bimg2, .Cloud-S2_Bimg3, .Cloud-S2_Bimg4, .Cloud-S2_Bimg5, .Cloud-S2_Bimg6, .Cloud-S2_Bimg7, .Cloud-S2_Bimg8{
+	background-position: center;
+	background-size: cover;
+	border-radius: 25px 25px 25px 0px;
+	height: 220px;
+	width: 240px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.Cloud-S2_Bimg1{
+	background-image:linear-gradient(to right,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./../../../../assets/Services/Cloud/S2_Bimg1.jpg);
+}
+.Cloud-S2_Bimg2{
+	background-image:linear-gradient(to right,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./../../../../assets/Services/Cloud/S2_Bimg2.jpg);
+}
+.Cloud-S2_Bimg3{
+	background-image:linear-gradient(to right,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./../../../../assets/Services/Cloud/S2_Bimg3.jpg);
+}
+.Cloud-S2_Bimg4{
+	background-image:linear-gradient(to right,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./../../../../assets/Services/Cloud/S2_Bimg4.jpg);
+}
+.Cloud-S2_Bimg5{
+	background-image:linear-gradient(to right,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./../../../../assets/Services/Cloud/S2_Bimg5.jpg);
+}
+.Cloud-S2_Bimg6{
+	background-image:linear-gradient(to right,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./../../../../assets/Services/Cloud/S2_Bimg6.jpg);
+}
+.Cloud-S2_Bimg7{
+	background-image:linear-gradient(to right,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./../../../../assets/Services/Cloud/S2_Bimg7.jpg);
+}
+.Cloud-S2_Bimg8{
+	background-image:linear-gradient(to right,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./../../../../assets/Services/Cloud/S2_Bimg8.jpg);
+}
+.Cloud-S2_Bimg1:hover, .Cloud-S2_Bimg2:hover, .Cloud-S2_Bimg3:hover, .Cloud-S2_Bimg4:hover, .Cloud-S2_Bimg5:hover, .Cloud-S2_Bimg6:hover, .Cloud-S2_Bimg7:hover, .Cloud-S2_Bimg8:hover{
+    opacity: 1;
+	-webkit-animation: flash 1s;
+	animation: flash 1s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.Cloud-S2_icon1,.Cloud-S2_icon2,.Cloud-S2_icon3,.Cloud-S2_icon4,.Cloud-S2_icon5,.Cloud-S2_icon6,.Cloud-S2_icon7,.Cloud-S2_icon8{
+	background-position: center;
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 15px !important;
+}
+.Cloud-S2_icon1{
+	background-image: url(./../../../../assets/Services/Cloud/S2_icon1.jpg);
+	border-radius: 20%;
+}
+.Cloud-S2_icon2{
+	background-image: url(./../../../../assets/Services/Cloud/S2_icon2.jpg);
+}
+.Cloud-S2_icon3{
+	background-image: url(./../../../../assets/Services/Cloud/S2_icon3.jpg);
+	width: 33px;
+	height: 33px;
+	border-radius: 10%;
+}
+.Cloud-S2_icon4{
+	background-image: url(./../../../../assets/Services/Cloud/S2_icon4.jpg);
+}
+.Cloud-S2_icon5{
+	background-image: url(./../../../../assets/Services/Cloud/S2_icon5.jpg);
+}
+.Cloud-S2_icon6{
+	background-image: url(./../../../../assets/Services/Cloud/S2_icon6.jpg);
+	border-radius: 10%;
+}
+.Cloud-S2_icon7{
+	background-image: url(./../../../../assets/Services/Cloud/S2_icon7.jpg);
+	border-radius: 10%;
+}
+.Cloud-S2_icon8{
+	background-image: url(./../../../../assets/Services/Cloud/S2_icon8.jpg);
+	width: 30px;
+}
+@media only screen and (max-width: 765px) {
+	.SectionCL2__head{
+		flex-direction: column;
+	}
+	.SectionCL2__head > h3{ 
+		margin-top: 15px;
+		font-size: 20px;
+	}
+}

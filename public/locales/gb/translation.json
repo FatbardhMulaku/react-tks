@@ -742,5 +742,32 @@
       {"title":"Need for prompt updates vs. application stability.", "desc":" We eagerly employ modern practices including DevOps/Continuous Delivery, containerization that allow for painless and streamlined ongoing application changes."},
       {"title":"Untapped potential.", "desc":" Offering application optimization services, we strive to reveal the hidden potential of your applications to make them support your business to the fullest."}
     ]
+  },
+  "Cloud":{
+    "section_1": {
+      "title": "Cloud computing?",
+      "desc": "Simply put, cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale. You typically pay only for cloud services you use, helping you lower your operating costs, run your infrastructure more efficiently, and scale as your business needs change."
+    },
+    "section2_title":"Top benefits of cloud computing for YOU!",
+    "section2_desc":"Cloud computing is a big shift from the traditional way businesses think about IT resources. Here are seven common reasons organizations are turning to cloud computing services:",
+    "section_2":[
+      {"info": "Cost"},{"info": "Global Scale"},{"info": "Speed"},{"info": "Productivity"},{"info": "Performace"},{"info": "Reliability"},{"info": "Security"},{"info": "Public Cloud"}
+    ],
+    "section3_title":"Types of cloud computing",
+    "section3_desc":"Not all clouds are the same and not one type of cloud computing is right for everyone. Several different models, types, and services have evolved to help offer the right solution for your needs.",
+    "section3_slider":[
+      {"title":"Private cloud", "desc":"A private cloud refers to cloud computing resources used exclusively by a single business or organization. A private cloud can be physically located on the company’s on-site datacenter. Some companies also pay third-party service providers to host their private cloud. A private cloud is one in which the services and infrastructure are maintained on a private network."},
+      {"title":"Private cloud", "desc":"A private cloud refers to cloud computing resources used exclusively by a single business or organization. A private cloud can be physically located on the company’s on-site datacenter. Some companies also pay third-party service providers to host their private cloud. A private cloud is one in which the services and infrastructure are maintained on a private network."},
+      {"title":"Private cloud", "desc":"A private cloud refers to cloud computing resources used exclusively by a single business or organization. A private cloud can be physically located on the company’s on-site datacenter. Some companies also pay third-party service providers to host their private cloud. A private cloud is one in which the services and infrastructure are maintained on a private network."}
+    ],
+    "section4_title":"Uses of cloud computing",
+    "section_4":[
+      {"title":"Create cloud-native applications", "desc":"Quickly build, deploy, and scale applications—web, mobile, and API. Take advantage of cloud-native technologies and approaches, such as containers, Kubernetes, microservices architecture, API-driven communication, and DevOps.", "klasa":""},
+      {"title":"Store, back up, and recover data", "desc":"Protect your data more cost-efficiently—and at massive scale—by transferring your data over the Internet to an offsite cloud storage system that’s accessible from any location and any device.", "klasa":"col-lg-5"},
+      {"title":"Analyze data", "desc":"Unify your data across teams, divisions, and locations in the cloud. Then use cloud services, such as machine learning and artificial intelligence, to uncover insights for more informed decisions.", "klasa":""},
+      {"title":"Embed intelligence", "desc":"Use intelligent models to help engage customers and provide valuable insights from the data captured.", "klasa":"col-lg-5"}
+    ],
+    "section5_title":"Microsoft and cloud computing",
+    "section5_desc":"Microsoft is a leading global provider of cloud computing services for businesses of all sizes."
   }
 }

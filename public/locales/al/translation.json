@@ -680,6 +680,54 @@
 		  {"title": " Website / portal design", "desc": "Customer-centric design that makes for higher dwell time and a lower user error rate as well as enhances user engagement.", "btn":"Get my website"},
 		  {"title": "Website / portal design", "desc": "Industry-specific design to increase the frequency of email subscriptions, pre-registrations for future services, and quote/demo requests.", "btn":"Get my ecommerce design"}
 		]
+	},
+	"Management":{
+		"section_1":{
+		  "title":"Application Management Services Monitoring, Troubleshooting, Enhancement, Optimization",
+		  "desc": "According to recent Computer Economics surveys, application management is one of the most attractive and convenient IT functions for outsourcing. Answering the needs of modern enterprises, we’ve focused on the creation of a comprehensive offering to keep your applications relevant, available and running smoothly. "
+		},
+		"section_2title":"Our Application Management Services",
+		"section_2desc":"We keep the processes completely visible and continuously update you on the current state of your applications, providing detailed reports on implementation plans, activities performed and measures introduced.",
+		"section_2":[
+		  {"title":"Application monitoring and performance management","desc":"We can help you maintain the right performance of the applications critical to your enterprise. With thorough monitoring activities, our team proactively diagnoses and fixes evolving slowdowns and failures before they get detected by end users."},
+		  {"title":"Application troubleshooting","desc":"We resolve occurring issues in your critical applications related to specific misbehaviors, slow request handling, runtime errors, component unavailability and poor data quality."},
+		  {"title":"Application enhancements","desc":"We manage requests for minor and more substantial app changes, as well as assist with releases of updated application versions."},
+		  {"title":"Application optimization","desc":"We help to ensure you applications stay current with changing business needs and goals. Our consultants conduct a detailed review of your applications and relevant business processes to modify applications (introducing automation and integrations."},
+		  {"title":"Change management and training services ","desc":"To provide a smooth switch to upgraded systems, we deliver a comprehensive change management plan (including full test coverage, risk analysis and after-launch review), review and training services."},
+		  {"title":"Training services application","desc":"We closely work with your IT team to help them to prepare for the management of updated applications. Also, providing step-by-step guides, onsite training and workshops, we ensure that your end users feel confident."}
+		],
+		"section_3title": "Application Management Backed By Help Desk Services ",
+		"section_3desc": "We complement our management services with comprehensive help desk support. The help desk is represented by a multi-language 24/7 team with appropriate technical expertise. They become a single point of entry for all service requests and incident reports facilitating and streamlining their resolution as well as improving user satisfaction by:  ",
+		"section_3":[
+		  {"title": "Prioritizing and categorizing incidents", "desc":"reported by users (via e-mail, phone, chat, a ticket management system) or identified by monitoring systems."},
+		  {"title": "Providing an immediate solution", "desc":"for general or repeatable issues upon instruction and escalating more complex cases to technical experts."},
+		  {"title": "Informing users", "desc":"on the status of their requests."},
+		  {"title": "Expanding a knowledge base and an FAQ section", "desc":"for users’ self-help."},
+		  {"title": "Gathering users’ feedback", "desc":"for users’ self-help."}
+		],
+		"section_4":[
+		  {"txt": "Applications We Manage"},
+		  {"txt": "We offer professional application management services for a wide range of applications:"},
+		  {"txt": "Custom enterprise applications (written on Java, PHP, .NET, Python, C++, etc.)."},
+		  {"txt": "Customized third-party applications (including SharePoint, Salesforce, Dynamics 365, Magento)."}
+		],
+		"section_5":[
+		  {"txt": "Get Your Applications Managed Efficiently "},
+		  {"txt": "Let’s team up to run your business applications fast, efficiently and cost-effectively for you to increase the satisfaction of your employees, business partners, and clients with smooth business processes. "},
+		  {"txt":"Contact us"}
+		],
+		"section_6":{
+		  "Back_endDesc":"Click on the technology to learn about our capabilities in it.",
+		  "Back_end":[
+			{"items": "Node.js"}, {"items": "Java"}, {"items": "Python"}, {"items": "C++"}, {"items": "PHP"}, {"items": ".NET"}
+		  ]
+		},
+		"section7_title":"Challenges We Solve",
+		"section_7":[
+		  {"title":"High application TCO (total cost of ownership)", "desc":"We always take time to assess and analyze systems we serve, make value engineering recommendations and offer possible options of operational cost savings. Depending on your current business needs and IT strategy, we can suggest application re-architecting, migration, upgrade, the introduction of the Continuous Delivery pipeline, and more."},
+		  {"title":"Need for prompt updates vs. application stability.", "desc":" We eagerly employ modern practices including DevOps/Continuous Delivery, containerization that allow for painless and streamlined ongoing application changes."},
+		  {"title":"Untapped potential.", "desc":" Offering application optimization services, we strive to reveal the hidden potential of your applications to make them support your business to the fullest."}
+		]
 	  }
   }
   

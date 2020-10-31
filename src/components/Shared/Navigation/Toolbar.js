@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "none ",
     backgroundColor:(props) => props.Bcolor,
     transition: "all 0.6s ease-out",
-    padding: "0 0 18px",
+    padding: "0 0 10px",
     top: "auto",
     color:"black"
   },

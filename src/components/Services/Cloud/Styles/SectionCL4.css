@@ -1,0 +1,103 @@
+.SectionCL4{
+	margin-top: 100px;
+}
+.SectionCL4 > h2 {
+	text-align: center;
+}
+.SectionCL4__box1{
+	margin-top: 40px;
+}
+.SectionCL4__box1 p{
+	margin-top: 20px;
+	color: rgb(122, 122, 122);
+	font-size: 14px;
+}
+.SectionCL4_img1{
+	background-image: url(./../../../../assets/Services/Cloud/section4_img1.jpg);
+	height: 200px;
+	border-radius: 20px;
+}
+.SectionCL4_img2{
+	background-image: url(./../../../../assets/Services/Cloud/section4_img2.jpg);
+	height: 200px;
+	border-radius: 20px;
+}
+.SectionCL4_img3{
+	background-image: url(./../../../../assets/Services/Cloud/section4_img3.jpg);
+	height: 200px;
+	border-radius: 20px;
+}
+.SectionCL4_img4{
+	background-image: url(./../../../../assets/Services/Cloud/section4_img4.jpg);
+	height: 200px;
+	border-radius: 20px;
+}
+.sectionCL4_shape{
+    position: absolute;
+    right: 40px;
+    margin-top: 10px;
+    width: 60px;
+    height: 50px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #006fff;
+}
+.sectionCL4_shape {
+    transform: translate(-15px, -50px);
+  }
+.sectionCL4_shape:after {
+    position: absolute;
+    content: "";
+    right: 45px;
+    bottom: -20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px 8px 0px 8px;
+    background-color: #6ba8f8;
+    opacity: 0.6;
+  }
+
+  .SectionCL4__box1 h6{
+	  padding-top: 20px;
+    font-family: Arial;
+}
+.SectionCL4__box1 h6::before{
+    background-color: #006FFF;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    height: 10px;
+    width: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+	.SectionCL4__box1 h6{
+		margin-top: 50px;
+		text-align: center;
+	}
+	.SectionCL4__box1 p{
+		margin-top: 20px;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.sectionCL4_shape{
+        right: 260px;
+    }
+}
+@media only screen and (max-width: 768px) {
+	.SectionCL4__box1 p{
+		margin-top: 20px;
+		width: 100%;
+	}
+	.sectionCL4_shape{
+        right: 170px;
+    }
+}
+@media only screen and (max-width: 388px) {
+	.sectionCL4_shape{
+        right: 110px;
+    }
+}
