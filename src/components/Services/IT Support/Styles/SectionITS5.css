@@ -1,0 +1,33 @@
+.SectionITS5{
+	margin-top: 80px;
+}
+.SectionITS5_right{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.SectionITS5_right a{
+ border: 1px solid rgb(129, 129, 129);
+ padding: 5px 15px;
+ border-radius: 15px;
+ color: rgb(128, 128, 128);
+}
+.SectionITS5_right a:hover{
+	text-decoration: none;
+	color: black;
+	border-color: black;
+	background-color: rgb(221, 221, 221);
+}
+.SectionITS5__img{
+	background-image:url(./../../../../assets/Services/IT-Support/section_4.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	width: 350px;
+}
+@media only screen and (max-width: 992px) {
+	.SectionITS5__img{
+		margin-top: 20px;
+	}
+}

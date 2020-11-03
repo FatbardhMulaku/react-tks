@@ -1,0 +1,26 @@
+.SectionITS1{
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sectionITS1_img{
+	background-image: url(./../../../../assets/Services/IT-Support/section_1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media only screen and (max-width: 992px) {
+	.SectionITS1{
+		height: 700px;
+	}
+}
+@media only screen and (max-width: 567px){
+	.sectionITS1_img{
+		height: 120px;
+		width: 100%;
+	}
+}

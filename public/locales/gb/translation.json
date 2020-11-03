@@ -335,7 +335,7 @@
       { "link": "web-services", "name": "Web services" },
       { "link": "portfolio", "name": "Portfolio" },
       { "link": "desktop", "name": "Desktop" },
-      { "link": "mobile-design", "name": "Mobile design" },
+      { "link": "it-support", "name": "IT Support" },
       { "link": "cloud", "name": "Cloud" },
       { "link": "serverless", "name": "Serverless" },
       { "link": "web-front-end", "name": "Web front-end" },
@@ -769,5 +769,54 @@
     ],
     "section5_title":"Microsoft and cloud computing",
     "section5_desc":"Microsoft is a leading global provider of cloud computing services for businesses of all sizes."
+  },
+  "IT-Support":{
+    "section_1":{
+      "title":"IT Support Services: Smooth IT Workflows Satisfied Users",
+      "desc":"IT support comprises procedures intended to maintain failsafe IT workflows and reduce IT costs."
+    },
+    "section_2":{
+      "title":"What You Get with IT Support Services",
+      "list":[
+        {"title": "Multi-tier incident resolution pipeline: ", "desc":"L1. A user support team. L2. A technical support team. L3. A team of software engineers."},
+        {"title": "Detailed descriptions of the IT infrastructure and operating procedures: ", "desc":"SOPs for ticket resolution, change and incident management, CI/CD flows. Network maps. Configuration management database."},
+        {"title": "Self-service training materials for users: ", "desc":"Knowledge base articles. FAQs. User manuals."},
+        {"title": "User satisfaction and adoption improvements: ", "desc":"UX testing/monitoring. Surveys and user experience studies with CSAT improvement plans based on their results"},
+        {"title": "Regulatory compliance assessments. ", "desc":"IT environment benchmarking against PCI DSS, HIPAA, etc. Compliance gap mitigation plans."},
+        {"title": "Regular and transparent reporting: ", "desc":"Service level reports. Maintenance reports. Health check reports."}
+      ]
+    },
+    "section_3":"Scope of IT Components We Tackle",
+    "section_3list":[ "Cybersecurity tools (SIEM, IAM, Firewalls, etc)",
+      "Websites and web portales", "Applications, application integration and app infrastructures", "Networks", "Databases, data warehouses, data lakes",
+      "Desktops, llaptops, mobile devices; Windows, MAC and Linux operating systems.", "Cloud Services(laaS, PaaS, SaaS)", "On-premises data centers",
+      "Development infrastructures (CI/CD, development and testing environment)"
+    ],
+    "section_4":{
+      "title":"Competitive Traits of KosovaOutSource's IT Support Services",
+      "box":[
+        {"title":"Feasibility analysis of IT support projects", "desc":"Before we take up your app or infrastructure support, we analyze TCO and ROI of supported assets and assess how far these financial estimates will be improved after we commence the support."},
+        {"title":"Result-oriented service and transparent reporting", "desc":"Our IT support activities and service quality are reflected in regular reports with clear metrics for strict compliance with service level objectives."},
+        {"title":"Long-term  collaboration", "desc":"We believe that long-term IT support is mutually beneficial for a customer and a service provider, as a longer service term means fewer transition periods and integration phases for the customer and well-tailored working routines for the support team."}
+      ]
+    },
+    "section_5":{
+      "title":"Our Hallmark IT Support Projects",
+      "list":[
+        {"title": "Structured Data Capture Application Support for a UK Software Company", "desc":"In terms of the ongoing project, KosovaOutsource's support engineers have been providing the Customer with monitoring and multi-tier (L1 – L3) support. In terms of L1 solution support, our team registers, prioritizes and escalates (if needed) the issues reported by the platform end users via the ticketing system KosovaOutsource provides."},
+        {"title": "Structured Data Capture Application Support for a UK Software Company", "desc":"In terms of the ongoing project, KosovaOutsource's support engineers have been providing the Customer with monitoring and multi-tier (L1 – L3) support. In terms of L1 solution support, our team registers, prioritizes and escalates (if needed) the issues reported by the platform end users via the ticketing system KosovaOutsource provides."},
+        {"title": "Structured Data Capture Application Support for a UK Software Company", "desc":"In terms of the ongoing project, KosovaOutsource's support engineers have been providing the Customer with monitoring and multi-tier (L1 – L3) support. In terms of L1 solution support, our team registers, prioritizes and escalates (if needed) the issues reported by the platform end users via the ticketing system KosovaOutsource provides."}
+      ]
+    },
+    "section_6":{
+      "title":"Why KosovaOutsource’s IT Support Matters",
+      "list":[
+        {"desc":"-50%", "info":"IT support costs"},
+        {"desc":"-20%", "info":"cloud costs"},
+        {"desc":"99.96-99.99%", "info":"app availability"},
+        {"desc":"+20-40%", "info":"user satisfaction"},
+        {"desc":"-10%", "info":"app issues"}
+      ]
+    }
   }
 }

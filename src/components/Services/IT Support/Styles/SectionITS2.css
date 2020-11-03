@@ -1,0 +1,18 @@
+
+
+.IT-Support2-Box{
+	padding: 30px 50px !important;
+	border: 1px solid transparent;
+}
+.IT-Support2-Box > h6{
+	font-size: 14px;
+}
+.IT-Support2-Box > p{
+	color: rgb(126, 126, 126);
+	font-size: 14px;
+	line-height: 1.8;
+}
+.IT-Support2-Box:hover{
+	border: 1px solid #006FFF;
+	border-radius: 25px;
+}
