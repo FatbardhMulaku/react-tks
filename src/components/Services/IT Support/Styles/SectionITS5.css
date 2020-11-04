@@ -23,6 +23,7 @@
 	background-image:url(./../../../../assets/Services/IT-Support/section_4.jpg);
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
 	height: 250px;
 	width: 350px;
 }

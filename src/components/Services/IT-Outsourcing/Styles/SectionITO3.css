@@ -1,0 +1,20 @@
+
+.SectionITO3 > h3 {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.SectionITO3_icon1, .SectionITO3_icon2{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 60px;
+}
+.SectionITO3_icon1{
+	background-image: url(./../../../../assets/Services/IT-Outsourcing/section_3img_1.jpg);
+}
+.SectionITO3_icon2{
+	background-image: url(./../../../../assets/Services/IT-Outsourcing/section_3img_2.jpg);
+}

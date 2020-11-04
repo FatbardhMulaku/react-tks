@@ -1,0 +1,65 @@
+.SectionITO4{
+	transform: translateY(150px);
+	position: relative;
+	z-index: 100;
+	margin-top: -80px;
+}
+.SectionITO4 > h3{
+	text-align: center;
+	margin-bottom: 30px;
+} 
+.SectionITO4_wapper{
+	background-color: white;
+}
+.slick-dots {
+    background-color: white;
+	padding-bottom: 10px;
+}
+.SectionITO4_left > h5{
+	margin-bottom: 20px;
+}
+.SectionITO4_left > p{
+	line-height: 1.8;
+	color: rgb(133, 133, 133);
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+.SectionITS5_right{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.SectionITS5_right a{
+ border: 1px solid rgb(129, 129, 129);
+ padding: 5px 15px;
+ border-radius: 15px;
+ color: rgb(128, 128, 128);
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.SectionITS5_right a:hover{
+	text-decoration: none;
+	color: black;
+	border-color: black;
+	background-color: rgb(221, 221, 221);
+}
+.SectionITO4__img{
+	background-image:url(./../../../../assets/Services/IT-Outsourcing/section_4.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 230px;
+	width: 350px;
+}
+@media only screen and (max-width: 992px) {
+	.SectionITO4__img{
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.SectionITO4__img{
+		height: 190px;
+		width: 280px;
+	}
+}

@@ -332,10 +332,11 @@
     "industriesMenu": [
       { "link": "seo-analysis", "name": "Seo analysis" },
       { "link": "management", "name": "Management" },
+      { "link": "it-outsourcing", "name": "IT Outsourcing" },
       { "link": "web-services", "name": "Web services" },
       { "link": "portfolio", "name": "Portfolio" },
-      { "link": "desktop", "name": "Desktop" },
       { "link": "it-support", "name": "IT Support" },
+      { "link": "desktop", "name": "Desktop" },
       { "link": "cloud", "name": "Cloud" },
       { "link": "serverless", "name": "Serverless" },
       { "link": "web-front-end", "name": "Web front-end" },
@@ -816,6 +817,63 @@
         {"desc":"99.96-99.99%", "info":"app availability"},
         {"desc":"+20-40%", "info":"user satisfaction"},
         {"desc":"-10%", "info":"app issues"}
+      ]
+    }
+  },
+  "IT-Outsourcing":{
+    "section_1":{
+      "title": "IT Outsourcing Services ",
+      "desc": "Within IT outsourcing, a vendor takes responsibility for 30-100% of your IT landscape covering such areas as IT service planning and management, IT evolution and managed IT services."
+    },
+    "section_2":[
+      {"txt": "Do IT Operations Drain Your Resources?"},
+      {"txt": "Let us reverse the situation! From the support of daily operations to the assistance in digital transformation and implementation of novel technology, our IT outsourcing services are a cost-effective way of increasing business performance. "},
+      {"txt":"Discuss my outsourcing options"}
+    ],
+    "section_3":{
+      "title":"Benefits of IT Outsourcing with KosovaOutSourcing",
+      "list":[
+        {"title":"Tailored pricing plan ","desc":"We calculate custom-made pricing plans to meet your expectations and adjust pricing if your requirements change during our cooperation."},
+        {"title":"Transparency of service results ","desc":"We adhere to a tangible KPI system that can include the increase of IT components’ ROI and TCO reduction. We provide regular reports on the work accomplished, as well as results of security and performance audits. You also have constant access to our task tracking system and knowledge base, where we document all our processes."}
+      ]
+    },
+    "section_4":{
+      "title":"Selected IT Outsourcing Projects",
+      "list":[
+        {"title" :"24/7 Linux Administration by DevOps Team for a US Hosting Provider", "desc":"KosovaOutSourcing has assigned a team of five DevOps engineers who have competences not only in configuration management but also in development, which implies that they can also write scripts and code as well as optimize system configurations. "},
+        {"title" :"24/7 Linux Administration by DevOps Team for a US Hosting Provider", "desc":"KosovaOutSourcing has assigned a team of five DevOps engineers who have competences not only in configuration management but also in development, which implies that they can also write scripts and code as well as optimize system configurations. "},
+        {"title" :"24/7 Linux Administration by DevOps Team for a US Hosting Provider", "desc":"KosovaOutSourcing has assigned a team of five DevOps engineers who have competences not only in configuration management but also in development, which implies that they can also write scripts and code as well as optimize system configurations. "}
+      ]
+    },
+    "section_5":{
+      "title":"Choose Your Service Option",
+      "list":[
+        {"title": "Full-service IT outsourcing", "desc":"Outsource your entire IT landscape, including IT service planning and management, to achieve greater business performance with IT ROI boosted by 50-300%. ", "btn":"Outsource 100% of IT"},
+        {"title": "Co-sourcing with an in-house IT team", "desc":"Delegate your daily IT operations and execution of new IT-related business initiatives to optimize IT TCO and stability, and focus on IT strategy, planning and design.", "btn":"Outsource 70-90% of IT"},
+        {"title": "Co-sourcing with other vendors", "desc":"Strengthen your IT vendor ecosystem  with ScienceSoft as a managed service provider for a specific part of your IT environment. ", "btn":"Outsource 30-40% of IT"}
+      ]
+    },
+    "section_6":{
+      "title":"How we help reshape your business with IT Outsourcing",
+      "list":[
+        {"title":"Optimizing the quality and cost-effectiveness of IT operations  ","desc":" Efficient infrastructure support. Quality assurance and cybersecurity services to guarantee operational stability. Migrating on-premises applications to the cloud and developing new scalable cloud applications."},
+        {"title":"Supporting business operations ","desc":" Enterprise applications support and steady evolution. User support and system adoption improvement via help desk services. New software development. Fast feature delivery backed up by test automation where reasonable. Managed analytics and BI to support fast and informed decision making."},
+        {"title":"Planning and implementing digital transformation initiatives  ","desc":"Consulting on how to improve business operations with IT or digitally transform them. Creating an IT roadmap that aligns IT with new business initiatives and leverages technology for business outcomes at the right time. Designing and implementing new platform-based solutions appropriate to the improved business processes."}
+      ]
+    },
+    "section_7":{
+      "title":"MAKE IT EMPOWER YOUR BUSINESS",
+      "desc":"High IT spending with low value affects the entire business – its advance slows down, and the business risks falling behind top competitors in 3-5 years. With timely transformations, the same IT landscape can become a source of sustainable business growth – and that’s what ScienceSoft helps achieve within the IT outsourcing services. Here’re some results on both business and IT levels that you can expect.",
+      "items1_title":"Business-level gains:",
+      "items1":[
+        {"desc":"+10-200%", "info":"to revenue from new IT-based business initiatives"},{"desc":"+30-200%", "info":"to process automation"},
+        {"desc":"+15-30%", "info":"to sales via marketing and sales automation"},{"desc":"~98%", "info":"focus on core business activities due to freed resources"}
+      ],
+      "items2_title":"IT-level gains:",
+      "items2":[
+        {"desc":"x1.5-2.5", "info":"IT cost reduction"},{"desc":"x1.5-3", "info":"increase in software development speed"},
+        {"desc":"100%", "info":"regulatory compliance of the IT infrastructure"},{"desc":"~99.99%", "info":"applications availability"}
+        
       ]
     }
   }

@@ -1,39 +1,38 @@
-.SectionM5{
+.SectionITO2 {
 	background-image:linear-gradient(
 		to right,
-		rgba(28, 53, 107, 0.7),
-		rgba(28, 53, 107, 0.7)
-	  ), url(./../../../../assets/Services/Management/section_5.jpg);
+		rgba(211, 211, 211, 0.4),
+		rgba(219, 219, 219, 0.4)
+	), url(./../../../../assets/Services/IT-Outsourcing/section_2bg.jpg);
 	width: 100%;
 	background-position: center;
 	background-size: cover;
 	padding: 50px 0;
 }
-.SectionM5 p{
-	color: white;
-}
-.SectionM5 p:nth-child(1){
+.SectionITO2 p:nth-child(1){
 	font-size: 25px;
 	font-weight: bold;
 	text-align: center;
 }
-.SectionM5 p:nth-child(2){
+.SectionITO2 p:nth-child(2){
 	font-size: 12px;
 	text-align: center;
+	color: rgb(143, 143, 143);
 }
-.SectionM5 p:nth-child(3){
+.SectionITO2 p:nth-child(3){
 	font-size: 14px;
 	text-align: center;
 	background-color: #006FFF;
-	width: 130px;
-	padding: 8px 0;
+	width: 220px;
+	padding: 8px 10px;
 	margin-top: 30px;
 	border-radius: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	cursor: pointer;
+	color: white;
 }
-.SectionM5 p:nth-child(3):hover{
+.SectionITO2 p:nth-child(3):hover{
 	transform: translateY(-3px);
 	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.39);
 }

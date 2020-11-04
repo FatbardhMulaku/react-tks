@@ -1,0 +1,22 @@
+.SectionITO1_img{
+	background-image: url(./../../../../assets/Services/IT-Outsourcing/section_1.jpg);
+	height: 250px;
+}
+.SectionITO1 {
+	padding: 8rem 0;
+  }
+  
+  
+  @media (max-width: 992.98px) {
+	.sectionSeo1_row {
+	  flex-wrap: wrap !important;
+	}
+	.SectionITO1 {
+	  padding: 6rem 0;
+	}
+  }
+  @media (max-width: 768px) {
+	.SectionITO1 {
+	  padding: 4rem 0;
+	}
+  }

@@ -25,6 +25,7 @@ import WebDesign from "../pages/Services/WebDesign";
 import Management from "../pages/Services/Management";
 import Cloud from "../pages/Services/Cloud";
 import ItSupport from "../pages/Services/IT_Support"
+import ItOutsourcing from "../pages/Services/IT_Outsourcing";
 
 const route = () => {
   return (
@@ -49,6 +50,7 @@ const route = () => {
           <Route path="/management" exact render={() => <Management />} />
           <Route path="/cloud" exact render={() => <Cloud />} />
           <Route path="/it-support" exact render={() => <ItSupport />} />
+          <Route path="/it-outsourcing" exact render={() => <ItOutsourcing />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
         </Switch>
