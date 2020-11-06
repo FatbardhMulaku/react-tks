@@ -334,7 +334,7 @@
       { "link": "management", "name": "Management" },
       { "link": "it-outsourcing", "name": "IT Outsourcing" },
       { "link": "application", "name": "Application" },
-      { "link": "portfolio", "name": "Portfolio" },
+      { "link": "it-consulting", "name": "IT-Consulting" },
       { "link": "it-support", "name": "IT Support" },
       { "link": "desktop", "name": "Desktop" },
       { "link": "cloud", "name": "Cloud" },
@@ -343,7 +343,8 @@
       { "link": "branding", "name": "Branding" },
       { "link": "webdesign", "name": "Web design" },
       { "link": "web-back-end", "name": "Web back-end" },
-      { "link": "web-services", "name": "Web services" }
+      { "link": "web-services", "name": "Web services" },
+      { "link": "portfolio", "name": "Portfolio" }
     ],
     "industriesInfoName": "Company",
     "industriesInfoMenu": ["Terms of Use", "Privacy", "Security"]
@@ -922,5 +923,51 @@
       {"txt": "Leverage our professional assistance in application development, upgrade and support to make the digital transformation successful, improve application profitability and reduce their operational costs.  "},
       {"txt":"Contact us"}
     ]
+  },
+  "IT-Consulting":{
+    "section_1":{
+      "title":"Information Technology Consulting",
+      "desc":"Within IT outsourcing, a vendor takes responsibility for 30-100% of your IT landscape covering such areas as IT service planning and management, IT evolution and managed IT services."
+    },
+    "section_2":{
+      "title":"KosovaOutsource Approach To IT Consulting",
+      "items":[
+        {"title":"Doing the right IT","desc":"We don’t introduce new technologies just to make your company “modern”: the primary aim is to bring noticeable business outcomes with IT."},
+        {"title":"Doing the right IT", "desc":"We optimize IT services to make them more reliable and cost-effective and help introduce new IT services fast."}
+      ]
+    },
+    "section_3":{
+      "title":"IT Consulting Services We Offer",
+      "items":[
+        {"title":"Digital strategy consulting (for CEO) ", "desc":"We consult on turning IT into a major contributor to a business performance increase with: A value-driving business-IT strategy. A plan on IT service delivery optimization."},
+        {"title":"IT strategy consulting (for CIO) ", "desc":"We create a strategy that would bring together a diversified IT landscape and make it work towards supporting existing business processes and driving new business initiatives."},
+        {"title":"Solution consulting ", "desc":"We analyze your business needs and help you make strategic decisions on the fast and successful implementation of business-critical solutions."},
+        {"title":"Technology consulting ", "desc":"We analyze the existing state of the technology area of your interest and assist in its steady evolution to make it play a more prominent role in your business growth."}
+      ]
+    },
+    "section_4":{
+      "title":"Industries We Serve ",
+      "desc":"We have expertise in 23 domains, including experience in information technology consulting for: ",
+      "items":[
+        "Professional services", "Manufacturing", "Retail", "Logistics", "Telecommunications"
+      ]
+    },
+    "section_5":{
+      "title":"Selected IT Outsourcing Projects",
+      "items":[
+        {"title":"IT Consulting for Enterprise Application Integration for a Multi-Industry Corporation" , "desc":"KosovaOutSourcing has assigned a team of five DevOps engineers who have competences not only in configuration management but also in development, which implies that they can also write scripts and code as well as optimize system configurations. "},
+        {"title":"IT Consulting for Enterprise Application Integration for a Multi-Industry Corporation" , "desc":"KosovaOutSourcing has assigned a team of five DevOps engineers who have competences not only in configuration management but also in development, which implies that they can also write scripts and code as well as optimize system configurations. "},
+        {"title":"IT Consulting for Enterprise Application Integration for a Multi-Industry Corporation" , "desc":"KosovaOutSourcing has assigned a team of five DevOps engineers who have competences not only in configuration management but also in development, which implies that they can also write scripts and code as well as optimize system configurations. "}
+      ]
+    },
+    "section_6":{
+      "title":"Benefits Of IT Consulting with KosovaOutSource",
+      "items":[
+        {"title":"More than just consultants", "desc":"KosovaOutSource  is a full-service IT company with 700+ employees on board. We can combine IT consulting with end-to-end IT services: implementation, support, managed services."},
+        {"title":"Fast service results", "desc":"We advocate incremental and steady changes to help you get the first positive outcomes within 2-6 months and continue increasing them further."},
+        {"title":"Cost-effective IT optimization", "desc":"We apply our 31-year experience in information technology to achieve substantial results for your business at a reasonable budget."},
+        {"title":"Balanced approach to changes", "desc":"We explore interdependencies between your IT systems and analyze the impact of potential changes for each platform, service, application."}
+      ]
+    }
   }
 }

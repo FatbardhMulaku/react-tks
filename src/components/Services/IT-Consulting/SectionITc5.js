@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Styles/SectionITS5.css";
+import "./Styles/SectionITc5.css";
 import Slider from "react-slick";
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
@@ -12,32 +12,31 @@ const settings = {
 	slidesToScroll: 1
   };
 
-
-function SectionITS5() {
+function SectionITc5() {
 	const { t } = useTranslation();
 	return (
-		<div className="SectionITS5 container">
-			<h3>{t("IT-Support.section_5.title")}</h3>
-			<hr className="SectionCL3--hr"/>
+		<div className="SectionITc5 container">
+			<h3>{t("IT-Consulting.section_5.title")}</h3>
 
 			<Slider {...settings}>
-				{t("IT-Support.section_5.list").map((item, index) => {
+				{t("IT-Consulting.section_5.items").map((item, index) => {
 					return(
 						<div key={index} className="SectionCL3--Box row justify-content-center">
 							<div className="SectionCL3_left col-sm-11 col-lg-6">
-								<h3>{item.title}</h3>
+								<h4>{item.title}</h4>
 								<p>{item.desc}</p>
 							</div>
 							<div className="SectionITS5_right col-sm-11 col-lg-5">
-								<div className="SectionITS5__img"/>
+								<div className="SectionITc5__img"/>
 								<Link to="/">Project Detalis</Link>
 							</div>
 						</div>
 					);
 				})}
 			</Slider>
+
 		</div>
 	)
 }
 
-export default SectionITS5
+export default SectionITc5

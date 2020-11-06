@@ -2,7 +2,7 @@ import React from "react";
 import ItOutsourcingComponents from "../../components/Services/IT-Outsourcing/index";
 import Header from "./../../components/Shared/Header";
 
-const Management = () => {
+const Outsourcing = () => {
   return (
     <>
      <Header BC="#006FFF"/>
@@ -11,4 +11,4 @@ const Management = () => {
      )
 };
 
-export default Management;
+export default Outsourcing;

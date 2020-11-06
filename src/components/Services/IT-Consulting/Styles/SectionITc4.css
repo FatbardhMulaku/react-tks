@@ -1,0 +1,30 @@
+.SectionITc4{
+	background-image: linear-gradient(
+		rgba(72, 121, 166, 1),
+		rgba(12, 31, 49, 1)
+	  ), url(./../../../../assets/Services/IT-Consulting/section_4bg.jpg);
+	background-position: center;
+	background-size: cover;
+	clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+	padding-top: 100px;
+	padding-bottom: 30px;
+	margin-top: -10px;
+}
+.SectionITc4_wapper{
+	text-align: center;
+	color: white;
+}
+.SectionITc4_wapper > p{
+	margin: 35px 0;
+}
+.ITc4__box p{
+	background-color: white;
+	color: black !important;
+	padding: 10px 5px;
+	border-radius: 10px;
+	margin: 10px;
+	transition-duration: 0.5s;
+}
+.ITc4__box p:hover{
+	transform: translateY(-15px);
+}

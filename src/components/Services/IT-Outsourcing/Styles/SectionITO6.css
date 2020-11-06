@@ -13,9 +13,6 @@
 	border-radius: 50%;
 	border: 1px solid rgb(233, 233, 233);
 }
-.ManagementBox p:hover{
-	color: black;
-}
 .SectionITO6_icon1{
 	background-image: url(./../../../../assets/Services/IT-Outsourcing/section_6img_1.jpg);
 }

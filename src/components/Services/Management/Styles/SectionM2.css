@@ -31,10 +31,15 @@
 }
 .ManagementBox{
 	padding: 20px 50px !important;
+	border-radius: 20px;
 }
-.ManagementBox:hover .ManagementS2_icon1,.ManagementBox:hover .ManagementS2_icon2,.ManagementBox:hover .ManagementS2_icon3,.ManagementBox:hover .ManagementS2_icon4,.ManagementBox:hover .ManagementS2_icon5,.ManagementBox:hover .ManagementS2_icon6{
-	transform: scale(1.05);
+.ManagementBox:hover{
+	transform: translateY(-2px);
 	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.39);
+	border-bottom: 1px solid rgb(128, 128, 128);
+}
+.ManagementBox:hover p{
+	color: #000;
 }
 .ManagementBox > h6{
 	text-align: center;
