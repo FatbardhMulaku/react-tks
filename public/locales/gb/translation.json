@@ -333,7 +333,7 @@
       { "link": "seo-analysis", "name": "Seo analysis" },
       { "link": "management", "name": "Management" },
       { "link": "it-outsourcing", "name": "IT Outsourcing" },
-      { "link": "web-services", "name": "Web services" },
+      { "link": "application", "name": "Application" },
       { "link": "portfolio", "name": "Portfolio" },
       { "link": "it-support", "name": "IT Support" },
       { "link": "desktop", "name": "Desktop" },
@@ -342,7 +342,8 @@
       { "link": "web-front-end", "name": "Web front-end" },
       { "link": "branding", "name": "Branding" },
       { "link": "webdesign", "name": "Web design" },
-      { "link": "web-back-end", "name": "Web back-end" }
+      { "link": "web-back-end", "name": "Web back-end" },
+      { "link": "web-services", "name": "Web services" }
     ],
     "industriesInfoName": "Company",
     "industriesInfoMenu": ["Terms of Use", "Privacy", "Security"]
@@ -873,8 +874,53 @@
       "items2":[
         {"desc":"x1.5-2.5", "info":"IT cost reduction"},{"desc":"x1.5-3", "info":"increase in software development speed"},
         {"desc":"100%", "info":"regulatory compliance of the IT infrastructure"},{"desc":"~99.99%", "info":"applications availability"}
-        
       ]
     }
+  },
+  "Application":{
+    "section_1":{
+      "title":"End-to-end Application Services. Your Journey to Digital Transformation and Optimized TCO ",
+      "desc":"We combine innovative minds and the in-depth knowledge of a wide technology spectrum with the aspiration to provide solutions for complex enterprise-level challenges in a wide range of industries, including manufacturing, healthcare, banking, retail, telecommunications, travel&hospitality, entertainment, and more.  "
+    },
+    "section_2":{
+      "title":"Application Services We Offer",
+      "desc":"KosovaOutsource offers the following set of application services for midsized and big enterprises:",
+      "items":[
+        "Application development","Application managment","Application modernization","Application integration","Application security services",
+        "Application testing"
+      ]
+    },
+    "section_3":{
+      "title":"Application development",
+      "desc":"We design and deliver web, mobile and cloud business applications of different complexity and for various needs. In the process, we pay special attention to their flexibility, security, speed and integration potential.",
+      "subtitle":"The success of our software comes from:",
+      "items":[
+        {"title":"The actual value to business" , "desc":"We thoroughly study all critical business needs and the future application context, make appropriate architecture and technology choices to build the solution that answers the specific requirements of your business."},
+        {"title":"Stable work and undemanding support" , "desc":"We write loose-coupled and readable code to keep it easy to test, maintain, and upgrade."},
+        {"title":"High quality and timely releases" , "desc":"We have developed a clearly defined and battle-tested software development process, which allows us to provide high-quality and reliable solutions within the established deadline."},
+        {"title":"Agile delivery of new features" , "desc":"We employ DevOps, Continuous Delivery and Continuous Integration practices, automated testing and deployment tools. Thus, we ensure constant delivery of releasable solution (implementing new features as often as 1-2 times a week), without system freezes and with reduced code errors."}
+      ]
+    },
+    "section_4":{
+      "title":"Application management ","desc":"We can take responsibility for the management of your applications ensuring its increased business flexibility and optimized IT costs. With latest process management practices, our team will maintain and monitor your application servers and databases taking care of their enhanced performance, sustainability, stability and keepin them in sync with current business needs.",
+      "subtitle":"The list of our application management services includes but is not limited to:",
+      "items":[
+        {"title":"Remote application monitoring and performance management", "desc":"We take over the continuous remote diagnostics of your critical applications. We identify problems, share with you the detailed info on the causes of found issues and provide recommendations on the needed improvements. We track application performance, transaction integrity, data consistency, message queue exceeds, server failures."},
+        {"title":"Remote application support", "desc":"We help you to treat a wide spectrum of problems and incidents, manage modifications (from minor enhancements to app changes) and configurations, and advise you on beneficial app optimization activities to address new evolving needs."},
+        {"title":"Help Desk ", "desc":"Our 24/7 help desk can become a single point of contact for application users, the help desk agents will receive all inbound service requests and incident reports through any preferred communication channel (e-mail, phone, chat, a ticket management system, and more)"},
+        {"title":"Design and implementation of the Continuous Delivery (CD) pipeline", "desc":"We design and implement the CD pipeline to connect development, testing and deployment of your application and automate them. This enables you to leverage multiple DevOps/CD values and deliver new app features quickly and efficiently."}
+      ]
+    },
+    "section_5":{
+      "title":"Application testing",
+      "desc":"We perform comprehensive manual and automated testing (vital for Continuous Delivery) for every stage of the application life cycle (implementation, deployment, support and evolution) to timely identify potential risks and verify that your enterprise solutions work correctly and correspond to the established quality requirements. ",
+      "subtitle":"We ensure comprehensive checking of your application with multiple types of testing, including:",
+      "icon1":"Functional Testing", "icon2":"Performance Testing", "icon3":"Usability Testing", "icon4":"Integration Testing"
+    },
+    "section_6":[
+      {"txt": "Level Up Your Enterprise Software "},
+      {"txt": "Leverage our professional assistance in application development, upgrade and support to make the digital transformation successful, improve application profitability and reduce their operational costs.  "},
+      {"txt":"Contact us"}
+    ]
   }
 }

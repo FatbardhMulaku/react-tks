@@ -1,0 +1,76 @@
+
+
+.SectionSA4{
+	margin-top: -50px;
+	background-color: #0059AF ;
+	background-image: linear-gradient(#0059AF, #01172B);
+	clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+	padding-bottom: 30px;
+}
+.SectionSA4__wapper > h1{
+	padding-top: 150px;
+	color: white;
+	text-align: center;
+}
+.SectionSA4__wapper > p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 13px;
+	color: rgb(221, 221, 221);
+}
+.SectionSA4__wapper > h5{
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: 500 !important;
+	color: white;
+}
+.SectionSA4__box{
+	padding: 20px 20px;
+}
+.SectionSA4__box > h5{
+	margin: 20px 0;
+	font-size: 16px;
+	color: white;
+}
+.SectionSA4__box > p{
+	color: rgb(226, 226, 226);
+	font-size: 14px;
+}
+.SectionSA4__box:hover .SectionSA4_icon1,.SectionSA4__box:hover .SectionSA4_icon2,.SectionSA4__box:hover .SectionSA4_icon3,.SectionSA4__box:hover .SectionSA4_icon4{
+	transform: scale(1.2);
+	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.39);
+}
+.SectionSA4_icon1, .SectionSA4_icon2, .SectionSA4_icon3, .SectionSA4_icon4{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	transition-duration: 0.5s;
+}
+.SectionSA4_icon1{
+	background-image: url(./../../../../assets/Services/Application/section4_icon1.svg);
+}
+.SectionSA4_icon2{
+	background-image: url(./../../../../assets/Services/Application/section4_icon2.svg);
+}
+.SectionSA4_icon3{
+	background-image: url(./../../../../assets/Services/Application/section4_icon3.svg);
+}
+.SectionSA4_icon4{
+	background-image: url(./../../../../assets/Services/Application/section4_icon4.svg);
+}
+@media only screen and (max-width: 992px) {
+	.SectionSA4{
+		margin-top: -50px;
+		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+	}
+	
+}
+@media only screen and (max-width: 578px) {
+	.SectionSA4__wapper > h1{
+		font-size: 23px;
+	}
+}

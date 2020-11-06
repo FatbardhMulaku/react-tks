@@ -1,0 +1,39 @@
+.SectionSA6{
+	background-image:linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0.8),
+		rgba(0, 0, 0, 0.8)
+	  ), url(./../../../../assets/Services/Application/section_6.jpg);
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	padding: 50px 0;
+}
+.SectionSA6 p{
+	color: white;
+}
+.SectionSA6 p:nth-child(1){
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.SectionSA6 p:nth-child(2){
+	font-size: 12px;
+	text-align: center;
+}
+.SectionSA6 p:nth-child(3){
+	font-size: 14px;
+	text-align: center;
+	background-color: #006FFF;
+	width: 130px;
+	padding: 8px 0;
+	margin-top: 30px;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+.SectionSA6 p:nth-child(3):hover{
+	transform: translateY(-3px);
+	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.39);
+}

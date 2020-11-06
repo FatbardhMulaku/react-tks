@@ -1,0 +1,58 @@
+
+.SectionSA3 > h1{
+	margin-top: 80px;
+	text-align: center;
+}
+.SectionSA3 > p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 13px;
+	color: rgb(148, 148, 148);
+}
+.SectionSA3 > h6{
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: 500 !important;
+}
+.SectionSA3__box{
+	padding: 20px 20px;
+}
+.SectionSA3__box > h6{
+	margin: 20px 0;
+	font-size: 14px;
+}
+.SectionSA3__box > p{
+	color: rgb(145, 145, 145);
+	font-size: 14px;
+}
+.SectionSA3__box:hover .SectionSA3_icon1,.SectionSA3__box:hover .SectionSA3_icon2,.SectionSA3__box:hover .SectionSA3_icon3,.SectionSA3__box:hover .SectionSA3_icon4{
+	transform: scale(1.2);
+	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.39);
+}
+.SectionSA3_icon1, .SectionSA3_icon2, .SectionSA3_icon3, .SectionSA3_icon4{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	transition-duration: 0.5s;
+}
+.SectionSA3_icon1{
+	background-image: url(./../../../../assets/Services/Application/section3img1.jpg);
+}
+.SectionSA3_icon2{
+	background-image: url(./../../../../assets/Services/Application/section3img2.jpg);
+}
+.SectionSA3_icon3{
+	background-image: url(./../../../../assets/Services/Application/section3img3.jpg);
+}
+.SectionSA3_icon4{
+	background-image: url(./../../../../assets/Services/Application/section3img4.jpg);
+}
+@media only screen and (max-width: 578px) {
+	.SectionSA3 > h1{
+		font-size: 24px;
+	}
+}
