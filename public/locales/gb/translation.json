@@ -1064,5 +1064,40 @@
         {"title":"Phase 2 IBM Security QRadar SIEM Implementation","desc":"KosovaOutsources team took the following steps to further adjust QRadar to the Customer’s network environment:"}
       ]
     }
+  },
+  "Ecommerce":{
+    "section_1":{
+      "title":"Ecommerce Services ","desc":"Offering a comprehensive set of ecommerce services from business consulting and website design and development to digital marketing automation, we secure a possibility to enter the collaboration at any stage of a business life cycle."
+    },
+    "section_2":{
+      "title":"3 Steps Towards Your Ecommerce Success",
+      "desc":"We test functional and non-functional software features to make sure it complies with the requirements specification and offers outstanding user experience: ",
+      "items":[
+        {"title":"Ecommerce consulting", "desc":"The success of an ecommerce business starts with the right strategy. For the effective launch, we assist in understanding buying personas, designing typical customer journeys, defining promising sales and marketing channels, deciding on the complexity of an ecommerce solution that will deliver on your requirements without being excessive and cost-ineffective for your business. When developing an optimization strategy, we can analyze separate aspects of your ecommerce solution and suggest reasonable improvements if needed. It may happen that a single poorly designed business process hinders your team’s performance or a single navigation hassle becomes the reason for a high bounce rate."},
+        {"title":"Ecommerce implementation", "desc":"One step is not yet the movement in the right direction. After you have started your way to success with an effective strategy developed for your company, it’s time to put it into action and see the outcomes. Our team has the technical competence to implement planned solutions on time and without a hitch. We offer a full range of implementation services and ensure smooth project communication along the way. While we focused on approach and strategy design during the consulting stage, now we talk about solution development"},
+        {"title":"Ecommerce support", "desc":"The third step has no upper time limits – from the moment of launch, your ecommerce solution will need ongoing support. For the software component, we will employ solution maintenance services for its flawless functioning and solid security. Besides, your business will evolve when some ideas fail to work out and new ones come to your mind instead."}
+      ]
+    },
+    "section_3":[
+      {"txt":"Ready to Start? "},
+      {"txt":"The general outline of services is never enough for a company to decide upon a partner. Let’s start a focused dialogue for a more informed decision. "},
+      {"txt":"Discuss your ecommerce needs"}
+    ],
+    "section_4":{
+      "title":"Our strengths",
+      "items":[
+        {"title":"Our approach", "desc":"We are competent in what we do and will provide our expert take on any project-related questions or walk you through technicalities. And yet, we are a good team player and never force our vision or see it as the only one that counts. "},
+        {"title":"Our expertise", "desc":"The ecommerce experience is all the more valuable when it comes from the diversity of implemented projects. We understand how different product lines call for different approaches."},
+        {"title":"Our team", "desc":"Business analysts and project managers take a strategic look at your business to set short- and long-term goals, outline your roadmap and prototype your ecommerce solution. "}
+      ]
+    },
+    "section_5":{
+      "title":"Selected Projects",
+      "items":[
+        {"title":"Magento Implementation with Enhanced Product and Content Management for a Fashion Retailer","desc":"KosovaOutsource  has implemented a large-scale project of cross-business integration. Its ecommerce component resulted in the creation of an online store and its integration with Pimcore (a CMS) and Akeneo (a PIM) to meet the Customer’s functional requirements."},
+        {"title":"Ecommerce Solution Implementation for Company ","desc":"A modern and convenient e-commerce website for a chain of gas stations and cafés, gardening centers, retail and wholesale shops. Ultimate client experience is the cornerstone of the Company’s philosophy and the solution helps keep pace with increasingly mobile shoppers. "},
+        {"title":"Evolution and Ongoing Support for a Magento Multi-Store","desc":"The Magento team of KosovaOutsource takes on expert support of a Magento multi-store for a US restaurant supplier. "}
+      ]
+    }
   }
 }

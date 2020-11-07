@@ -1,0 +1,23 @@
+.SectionEC1_img{
+	background-image: url(./../../../../assets/Services/Ecommerce/section_1.png);
+	background-position: center;
+	background-size: cover;
+	height: 210px;
+}
+.SectionCBS1{
+	height: 600px;
+	padding-top: 50px;
+}
+@media only screen and (max-width: 992px) {
+	.SectionDA1{
+		height: 700px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.SectionEC1_img{
+		height: 130px;
+	}
+	.SectionCBS1{
+		height: 550px;
+	}
+}

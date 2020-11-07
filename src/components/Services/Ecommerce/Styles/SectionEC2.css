@@ -1,0 +1,67 @@
+.SectionEC2{
+	margin-top: 50px;
+}
+.SectionEC2 > h3{
+	text-align: center;
+	padding-top: 50px;
+}
+.SectionEC2 > p{
+	color: rgb(146, 146, 146);
+	text-align: center;
+	font-size: 14px;
+	margin: 30px 0;
+	margin-bottom: 80px;
+}
+.SectionSA5__mid_box{
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.39);
+}
+.SectionSA5__mid_box > p{
+	margin-top: auto !important;
+	margin-bottom: auto !important;
+	color: #006FFF;
+}
+.SectionEC2__content > p{
+	font-size: 12px;
+	color: rgb(145, 145, 145);
+}
+
+.SectionEC2__img1, .SectionEC2__img3, .SectionEC2__img2{
+	background-position: center;
+	background-size: cover;
+	width: 75px;
+	height: 85px;
+	transform: translateY(0px);
+	float: right;
+}
+.SectionEC2__img1{
+	background-image: url(./../../../../assets/Services/Ecommerce/section_2img1.jpg);
+}
+.SectionEC2__img2{
+	background-image: url(./../../../../assets/Services/Ecommerce/section_2img2.jpg);
+}
+.SectionEC2__img3{
+	background-image: url(./../../../../assets/Services/Ecommerce/section_2img3.jpg);
+}
+
+@media only screen and (max-width: 768px) {
+	.SectionSA5__mid_box{
+		width: 30px;
+		height: 30px;
+	}
+	.SectionSA5__mid_box p{
+		font-size: 13px;
+	}
+	.SectionSA5__img1, .SectionSA5__img3, .SectionSA5__img2{
+		width: 110px;
+		height: 70px;
+		border-radius: 12px;
+		transform: translateY(-32px);
+		margin: 15px 0;
+	}
+}

@@ -1,0 +1,58 @@
+.SectionEC4 {
+	padding-top: 100px;
+}
+
+.SectionEC4 > h3{
+	font-weight: bold;
+	text-align: center;
+}
+
+.SectionEC4_icon1, .SectionEC4_icon2, .SectionEC4_icon3{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 55px;
+	width: 55px;
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 50%;
+}
+.SectionCBS2__Box:hover .SectionEC4_icon1,.SectionCBS2__Box:hover .SectionEC4_icon2,.SectionCBS2__Box:hover .SectionEC4_icon3{
+	transform: scale(1.15);
+}
+.SectionCBS2__Box:hover p{
+	color: black;
+}
+.SectionEC4_icon1{
+	background-image: url(./../../../../assets/Services/Ecommerce/section_4icon1.jpg);
+}
+.SectionEC4_icon2{
+	background-image: url(./../../../../assets/Services/Ecommerce/section_4icon2.jpg);
+}
+.SectionEC4_icon3{
+	background-image: url(./../../../../assets/Services/Ecommerce/section_4icon3.jpg);
+}
+.SectionCBS2__Box{
+	padding: 20px 20px !important;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	width: 300px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid transparent;
+}
+.SectionCBS2__Box:hover,.SectionCBS2__Box:hover,.SectionCBS2__Box:hover,.SectionCBS2__Box:hover{
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.39);
+	border-bottom: 1px solid rgb(128, 128, 128);
+}
+.SectionCBS2__Box > h6{
+	text-align: center;
+	margin: 15px 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+	.SectionEC4 > h3{
+		margin-top: 60px;
+		font-size: 23px;
+		margin-bottom: 20px;
+	}
+}

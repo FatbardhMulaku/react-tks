@@ -1,0 +1,38 @@
+
+.SectionEC5{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.SectionCBS6_img1{
+    background-image: url(./../../../../assets/Services/Ecommerce/section_5img1.jpg);
+    height: 240px;
+}
+.SectionCBS6_img2{
+    background-image: url(./../../../../assets/Services/Ecommerce/section_5img2.jpg);
+    height: 240px;
+}
+.SectionCBS6_img3{
+    background-image: url(./../../../../assets/Services/Ecommerce/section_5img3.jpg);
+    height: 240px;
+}
+.SectionCBS6__link {
+	display: flex;
+    justify-content: flex-end;
+}
+@media only screen and (max-width: 992px) {
+	.SectionCBS6-txt p{
+		font-size: 14px;
+	}
+	.SectionCBS6-txt a{
+		font-size: 12px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.SectionCBS6-txt{
+		margin-top: 20px;
+	}
+	.SectionCBS6__link {
+		display: flex;
+		justify-content: center;
+	}
+}

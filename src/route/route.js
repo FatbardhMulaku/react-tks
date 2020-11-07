@@ -30,6 +30,7 @@ import Application from "../pages/Services/Application";
 import ItConsulting from "../pages/Services/IT_Consulting";
 import DataAnalytics from "../pages/Services/DataAnalytics";
 import Cybersecurity from "../pages/Services/Cybersecurity";
+import Ecommerce from "../pages/Services/Ecommerce";
 
 const route = () => {
   return (
@@ -59,6 +60,7 @@ const route = () => {
           <Route path="/it-consulting" exact render={() => <ItConsulting />} />
           <Route path="/data-analytics" exact render={() => <DataAnalytics />} />
           <Route path="/cybersecurity" exact render={() => <Cybersecurity />} />
+          <Route path="/ecommerce" exact render={() => <Ecommerce />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
         </Switch>
