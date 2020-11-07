@@ -342,8 +342,8 @@
       { "link": "web-front-end", "name": "Web front-end" },
       { "link": "branding", "name": "Branding" },
       { "link": "webdesign", "name": "Web design" },
-      { "link": "web-back-end", "name": "Web back-end" },
       { "link": "web-services", "name": "Web services" },
+      { "link": "ecommerce", "name": "Ecommerce" },
       { "link": "portfolio", "name": "Portfolio" }
     ],
     "industriesInfoName": "Company",
