@@ -1,0 +1,23 @@
+.SectionCBS1_img{
+	background-image: url(./../../../../assets/Services/Cybersecurity/section_1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 270px;
+}
+.SectionCBS1{
+	height: 600px;
+	padding-top: 50px;
+}
+@media only screen and (max-width: 992px) {
+	.SectionDA1{
+		height: 700px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.SectionCBS1_img{
+		height: 160px;
+	}
+	.SectionCBS1{
+		height: 550px;
+	}
+}

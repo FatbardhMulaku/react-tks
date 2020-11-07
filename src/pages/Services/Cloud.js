@@ -2,7 +2,7 @@ import React from "react";
 import CloudComponents from "../../components/Services/Cloud/index";
 import Header from "./../../components/Shared/Header";
 
-const Management = () => {
+const Cloud = () => {
   return (
     <>
      <Header BC="#006FFF"/>
@@ -11,4 +11,4 @@ const Management = () => {
      )
 };
 
-export default Management;
+export default Cloud;

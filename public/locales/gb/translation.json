@@ -338,7 +338,7 @@
       { "link": "it-support", "name": "IT Support" },
       { "link": "cloud", "name": "Cloud" },
       { "link": "data-analytics", "name": "Data Analytics" },
-      { "link": "serverless", "name": "Serverless" },
+      { "link": "cybersecurity", "name": "Cybersecurity" },
       { "link": "web-front-end", "name": "Web front-end" },
       { "link": "branding", "name": "Branding" },
       { "link": "webdesign", "name": "Web design" },
@@ -1016,6 +1016,52 @@
         {"desc":"20%", "info":"revenue increase"},
         {"desc":"80%", "info":"reduction of operational costs"},
         {"desc":"25%", "info":"reduction ofchurn rate"}
+      ]
+    }
+  },
+  "Cybersecurity":{
+    "section_1":{
+      "title":"Cybersecurity Services – Protect Your Applications and Network",
+      "desc":"KosovaOutsource offers a variety of services from information security consulting to assessing, testing and improving the protection of applications and networks for companies operating in healthcare, manufacturing, banking, retail, telecommunications, and other industries."
+    },
+    "section_2":{
+      "title":"Cybersecurity Services by KosovaOutsource",
+      "desc":"We offer our customers a variety of cybersecurity services to: Significantly reduce the number of security weaknesses in web, mobile, and desktop applications, as well as in our clients’ networks. Ensure their constant compliance with appropriate regulations and standards (PCI DSS, GDPR, HIPAA).",
+      "items":[
+        {"title":"Security assessment and planning","desc":"Information security consulting Security testing of IT infrastructures and its components Stress testing: emulation of DDoS / DoS attacks"},
+        {"title":"Application security","desc":"Security code review Mobile device management and mobile application management Cloud security Web application security"},
+        {"title":"Network protection","desc":"SIEM DDoS protection Email security Firewalls, IDS / IPS, DLP implementation and setting Antivirus protection"}
+      ]
+    },
+    "section_3":{
+      "title":"Security assessment and planning ",
+      "desc":"KosovaOutsource delivers full-scale security assessment and planning services for the components of IT infrastructures: ",
+      "icon1":"Web mobile, desktop applications", "icon2":"Network Services", "icon3":"Remote access software", "icon4":"IoT devices"
+    },
+    "section_4":{
+      "title":"Application security",
+      "items":[
+        {"title":"Security code review", "desc":"Each programming language has its quirks that may cause security flaws during the development phase. Kosovaoutsource’s security experts detect existing loopholes before your applications ‘go live.’"},
+        {"title":"Mobile device management and mobile application management", "desc":"With the proliferation of mobile devices, mobile applications and programs used within corporate networks, enterprises face the need to manage and secure their usage. KosovaOutsource offers their expertise in applying the appropriate device management policies and implementing control measures to the installation of new mobile apps."},
+        {"title":"Cloud security", "desc":"KosovaOutsource helps their customers to secure their cloud solutions. Being a Gold Microsoft Business Partner, we have the necessary experience to tune special security components, such as Azure Security Center, allowing security management and threat protection across cloud workloads."},
+        {"title":"Web application security", "desc":"KosovaOutsource’s security experts ensure proper protection of a website, a web app, or web services. Our security testing team carries out vulnerability assessment to check whether the proper encryption, authentication and other security measures are applied in a web app, a web service or a website."}
+      ]
+    },
+    "section_5":{
+      "title":"Cooperation Models",
+      "desc":"We’re ready to provide you with cybersecurity services according to a cooperation model you choose.",
+      "items":[
+        {"title":"One-time services", "desc":"KosovaOutsource delivers one-time services to assess, test and improve the protection level of your network, application or another component of the IT environment. This cooperation model may help you to form an opinion on the vendor and decide whether to cooperate with them afterwards."},
+        {"title":"Managed services", "desc":"Opting for specialized managed services (managed vulnerability assessment, managed email security, managed cloud security) means building long-term relationships with one vendor. Once we gather the information on your IT infrastructure in the course of the first project, we can subsequently assess."},
+        {"title":"One-time services", "desc":"Kosovaoutsource  provides security services as part of our comprehensive managed IT services for complex IT systems on a remote basis to ensure that our customers stay technologically advanced and protected at the same time. We offer integration, maintenance and ensuring the security on LANs and VPNs, IDSs/IPSs and firewalls, antivirus protection."}
+      ]
+    },
+    "section_6":{
+      "title":"Selected Projects",
+      "items":[
+        {"title":"IBM Security QRadar SIEM Implementation for a European Bank","desc":"A success story of helping a bank with $13.3 bn in total assets monitor and analyze over 1,000 security events per second throughout multiple bank's systems. ScienceSoft team of information security experts extended the out-of-the-box."},
+        {"title":"Implementation of QLean for QRadar for a Major N.A Bank","desc":"KosovaOutsource implemented its proprietary QRadar tool QLean for a bank with 15+ mln clients and an extensive IT network."},
+        {"title":"Phase 2 IBM Security QRadar SIEM Implementation","desc":"KosovaOutsources team took the following steps to further adjust QRadar to the Customer’s network environment:"}
       ]
     }
   }

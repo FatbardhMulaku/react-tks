@@ -1,0 +1,97 @@
+.SectionCBS4{
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.7),
+		rgba(0, 0, 0, 0.7)
+	  ), url(./../../../../assets/Services/Cybersecurity/section_4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+	padding-bottom: 150px;
+	margin-top: -30px;
+}
+
+.SectionCBS4__wapper > h2{
+	text-align: center;
+	margin-bottom: 40px;
+	padding-top: 180px;
+	color: white;
+} 
+
+.SectionCBS4_icon1, .SectionCBS4_icon2, .SectionCBS4_icon3, .SectionCBS4_icon4{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 50%;
+}
+.ManagementBox p:hover{
+	color: black;
+}
+.SectionCBS4_icon1{
+	background-image: url(./../../../../assets/Services/Cybersecurity/section_4img1.jpg);
+}
+.SectionCBS4_icon2{
+	background-image: url(./../../../../assets/Services/Cybersecurity/section_4img2.jpg);
+}
+.SectionCBS4_icon3{
+	background-image: url(./../../../../assets/Services/Cybersecurity/section_4img3.jpg);
+}
+.SectionCBS4_icon4{
+	background-image: url(./../../../../assets/Services/Cybersecurity/section_4img4.jpg);
+}
+.SectionITc6__Box{
+	padding: 20px 20px !important;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid transparent;
+}
+.SectionITc6__Box:hover,.SectionITc6__Box:hover,.SectionITc6__Box:hover,.SectionITc6__Box:hover{
+	transform: translateY(-2px);
+	box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.39);
+	border-bottom: 1px solid rgb(128, 128, 128);
+}
+.SectionITc6__Box > h6{
+	text-align: center;
+	margin: 25px 0;
+	font-size: 15px;
+	color: white;
+}
+.SectionITc6__Box > p{
+	color: rgb(228, 228, 228);
+	font-size: 12px;
+	line-height: 1.7;
+}
+@media only screen and (max-width: 992px) {
+	.SectionCBS4{
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		padding-bottom: 100px;
+		margin-top: -30px;
+		background-size: 370%;
+	}
+	.SectionCBS4__wapper > h2{
+		padding-top: 100px;
+	} 
+	.SectionITc6__Box > h6{
+		margin: 15px 0;
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.SectionCBS4__wapper > h2{
+		margin-top: 60px;
+		font-size: 23px;
+		margin-bottom: 20px;
+	}
+	.SectionCBS4{
+		background-size: 800%;
+	}
+}
+@media only screen and (max-width: 520px) {
+	.SectionCBS4{
+		clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+		background-size: 1500%;
+	}
+}

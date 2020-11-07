@@ -29,6 +29,7 @@ import ItOutsourcing from "../pages/Services/IT_Outsourcing";
 import Application from "../pages/Services/Application";
 import ItConsulting from "../pages/Services/IT_Consulting";
 import DataAnalytics from "../pages/Services/DataAnalytics";
+import Cybersecurity from "../pages/Services/Cybersecurity";
 
 const route = () => {
   return (
@@ -57,6 +58,7 @@ const route = () => {
           <Route path="/application" exact render={() => <Application />} />
           <Route path="/it-consulting" exact render={() => <ItConsulting />} />
           <Route path="/data-analytics" exact render={() => <DataAnalytics />} />
+          <Route path="/cybersecurity" exact render={() => <Cybersecurity />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
         </Switch>
