@@ -5,7 +5,7 @@ import Header from "./../components/Shared/Header"
 const Company = () => {
     return (
       <>
-          <Header BC="transparent"/>
+          <Header BC="#006FFF"/>
           <CompanyComponents />;
       </>)   
   };

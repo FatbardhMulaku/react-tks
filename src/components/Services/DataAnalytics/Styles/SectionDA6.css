@@ -1,0 +1,36 @@
+.SectionDA6{
+	padding: 90px 0;
+}
+.SectionDA6 h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.SectionDA6__Box{
+	padding: 20px 30px;
+	width: 350px;
+}
+.SectionDA6__Box > h6{
+	width: 100%;
+	border-radius: 15px;
+	padding: 8px 2px;
+	color: white;
+	text-align: center;
+	transition-duration: 0.5s;
+}
+.SectionDA6__Box > p{
+	font-size: 14px;
+	line-height: 1.7;
+	color: rgb(131, 131, 131);
+}
+.SectionDA6__Box:hover h6{
+	transform: scale(1.09);
+}
+.SectionDA6__BGcolor1{
+	background-color: #71ABF6;
+}
+.SectionDA6__BGcolor2{
+	background-color: #F67171;
+}
+.SectionDA6__BGcolor3{
+	background-color: #48B359;
+}

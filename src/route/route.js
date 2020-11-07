@@ -27,7 +27,8 @@ import Cloud from "../pages/Services/Cloud";
 import ItSupport from "../pages/Services/IT_Support"
 import ItOutsourcing from "../pages/Services/IT_Outsourcing";
 import Application from "../pages/Services/Application";
-import ItConsulting from "../pages/Services/IT_Consulting"
+import ItConsulting from "../pages/Services/IT_Consulting";
+import DataAnalytics from "../pages/Services/DataAnalytics";
 
 const route = () => {
   return (
@@ -55,6 +56,7 @@ const route = () => {
           <Route path="/it-outsourcing" exact render={() => <ItOutsourcing />} />
           <Route path="/application" exact render={() => <Application />} />
           <Route path="/it-consulting" exact render={() => <ItConsulting />} />
+          <Route path="/data-analytics" exact render={() => <DataAnalytics />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
         </Switch>

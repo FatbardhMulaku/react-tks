@@ -1,0 +1,121 @@
+.SectionDA3{
+	margin-top: 50px;
+}
+.SectionDA3 > h3{
+	padding-top: 40px;
+	text-align: center;
+}
+.SectionDA3 > p{
+	text-align: center;
+	font-size: 14px;
+	color: rgb(145, 145, 145);
+	margin: 20px 0;
+}
+.SectionDA3__box{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 140px;
+	height: 140px;
+	margin: 20px 10px;
+	border-bottom: 1px solid rgb(161, 161, 161);
+	border-radius: 15px;
+	padding-top: 20px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.SectionDA3__box:hover{
+	transform: translateY(-1px);
+	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.39);
+}
+.SectionDA3__box > p {
+	font-size: 13px;
+	margin-top: 10px;
+}
+.SectionSA2__img1, .SectionSA2__img2, .SectionSA2__img3,.SectionSA2__img4, .SectionSA2__img5, .SectionSA2__img6, .SectionSA2__img7{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.SectionDA3__box:hover .SectionSA2__img1, .SectionDA3__box:hover .SectionSA2__img2, .SectionDA3__box:hover .SectionSA2__img3, .SectionDA3__box:hover .SectionSA2__img4, .SectionDA3__box:hover .SectionSA2__img5, .SectionDA3__box:hover .SectionSA2__img6,.SectionDA3__box:hover .SectionSA2__img7{
+	transform: scale(1.05);
+}
+.SectionSA2__img1{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3icon1.jpg);
+}
+.SectionSA2__img2{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3icon2.jpg);
+}
+.SectionSA2__img3{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3icon3.jpg);
+}
+.SectionSA2__img4{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3icon4.jpg);
+}
+.SectionSA2__img5{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3icon5.jpg);
+}
+.SectionSA2__img6{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3icon6.jpg);
+}
+.SectionSA2__img7{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3icon7.jpg);
+}
+
+.SectionSA2__imgB1, .SectionSA2__imgB2, .SectionSA2__imgB3,.SectionSA2__imgB4, .SectionSA2__imgB5, .SectionSA2__imgB6, .SectionSA2__imgB7{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 55px;
+	height: 55px;
+	border-radius: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.SectionSA2__imgB1{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3iconB1.jpg);
+}
+.SectionSA2__imgB2{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3iconB2.jpg);
+}
+.SectionSA2__imgB3{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3iconB3.jpg);
+}
+.SectionSA2__imgB4{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3iconB4.jpg);
+}
+.SectionSA2__imgB5{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3iconB5.jpg);
+}
+.SectionSA2__imgB6{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3iconB6.jpg);
+}
+.SectionSA2__imgB7{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_3iconB7.jpg);
+}
+
+.SectionDA3__box:hover .SectionSA2__imgB1, .SectionDA3__box:hover .SectionSA2__imgB2, .SectionDA3__box:hover .SectionSA2__imgB3, .SectionDA3__box:hover .SectionSA2__imgB4, .SectionDA3__box:hover .SectionSA2__imgB5, .SectionDA3__box:hover .SectionSA2__imgB6,.SectionDA3__box:hover .SectionSA2__imgB7{
+	transform: scale(1.05);
+}
+@media only screen and (max-width: 992px) {
+	.SectionSA2{
+		margin-top: 50px;
+	}
+}
+@media only screen and (max-width: 578px) {
+	.SectionDA3__box{
+		margin-bottom: 12px;
+	}
+	.SectionDA3__box > p {
+		text-align: center;
+	}
+	.SectionSA2_wapper > h3{
+		font-size: 20px;
+	}
+}

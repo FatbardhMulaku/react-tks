@@ -1,0 +1,98 @@
+.teknologies{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+	margin-bottom: 50px;
+}
+.teknologies h2{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+.teknologies >p {
+	font-size: 14px;
+	color: rgb(136, 136, 136);
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-mainfest, .logo-microsoft, .logo-aws, .logo-oracle, .logo-data{
+    width: 190px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position:center;
+	margin: 0 20px;
+}
+
+.logo-mainfest{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_4icon1.jpg);
+}
+.logo-microsoft{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_4icon2.jpg);
+	height: 70px;
+	transform: translateY(30%);
+}
+.logo-aws{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_4icon3.jpg);
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo-oracle{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_4icon4.jpg);
+	height: 30px;
+	width: 200px;
+	transform: translateY(120%);
+}
+.logo-data{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_4icon5.jpg);
+	width: 160px;
+    height: 100px;
+}
+@media only screen and (max-width: 800px) {
+    .logo-mainfest{
+		width: 135px;
+		height: 90px;
+	}
+	.logo-microsoft{
+		width: 135px;
+		height: 53px;
+	}
+	.logo-aws{
+		background-image: url(./../../../../assets/Services/DataAnalytics/section_4icon3.jpg);
+		width: 120px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.logo-oracle{
+		background-image: url(./../../../../assets/Services/DataAnalytics/section_4icon4.jpg);
+		height: 30px;
+		width: 200px;
+		transform: translateY(120%);
+	}
+	.logo-data{
+		background-image: url(./../../../../assets/Services/DataAnalytics/section_4icon5.jpg);
+		width: 160px;
+		height: 100px;
+	}
+    .teknologies h2{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .logo-mainfest, .logo-microsoft, .logo-aws, .logo-oracle, .logo-data{
+        height: 60px;
+        width: 60px;
+    }
+    .teknologies h2{
+        font-size: 23px;
+	}
+	.teknologies >p {
+		width: 100%;
+	}
+}

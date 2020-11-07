@@ -336,8 +336,8 @@
       { "link": "application", "name": "Application" },
       { "link": "it-consulting", "name": "IT-Consulting" },
       { "link": "it-support", "name": "IT Support" },
-      { "link": "desktop", "name": "Desktop" },
       { "link": "cloud", "name": "Cloud" },
+      { "link": "data-analytics", "name": "Data Analytics" },
       { "link": "serverless", "name": "Serverless" },
       { "link": "web-front-end", "name": "Web front-end" },
       { "link": "branding", "name": "Branding" },
@@ -967,6 +967,55 @@
         {"title":"Fast service results", "desc":"We advocate incremental and steady changes to help you get the first positive outcomes within 2-6 months and continue increasing them further."},
         {"title":"Cost-effective IT optimization", "desc":"We apply our 31-year experience in information technology to achieve substantial results for your business at a reasonable budget."},
         {"title":"Balanced approach to changes", "desc":"We explore interdependencies between your IT systems and analyze the impact of potential changes for each platform, service, application."}
+      ]
+    }
+  },
+  "DataAnalytics":{
+    "section_1":{
+      "title":"Data Analytics Services ",
+      "desc":"Data analytics helps businesses convert their raw business data into actionable insights. "
+    },
+    "section_2":[
+      {"txt": "Tired of Time-Consuming Instinct-Based Decisions? "},
+      {"txt": "Within a reasonable time, KosovaOutsource will help you defeat fragmented and inaccurate analytics and reporting by implementing data analytics best practices for improved decision quality and speed. "},
+      {"txt":"Consult now with us"}
+    ],
+    "section_3":{
+      "title":"What you get with data analytics services ",
+      "desc":"We are ready to implement our best data analytics practices to empower companies with informed decision-making in the following business areas:",
+      "items":[
+        "Financial analytics","Costumer analytics","Marketing and sales analytics","Supply chain analytics Vendors","Asset analytics",
+        "Manufacturing/ Services delivery analytics","HR analytics"
+      ],
+      "desc2":"For you to ensure full-fledged data analytics, KosovaOutsource covers the following technical components:",
+      "items2":[
+        "INVENTORY","DATA WAREHOUSE", "BIG DATA", "DATA SCIENCE", "SELF-SERVICE BI", "DATA VISUALIZATION", "LOGISTICS"
+      ]
+    },
+    "section_4":{
+      "title":"Why choose KosovaOutsource as your data analytics service provider",
+      "desc":"31 years in data analytics and data science. 15 years of experience in rendering data warehouse services, designing and implementing business intelligence solutions."
+    },
+    "section_5":{
+      "title":"Doubt That Data Analytics Can Solve Your Specific Business Problems?",
+      "desc":"KosovaOutsource's experts are ready to conduct a situation analysis and prepare a tailored data analytics solution aligned with your current business needs."
+    },
+    "section_6":{
+      "title":"Choose your data analytics service option",
+      "items":[
+        {"title":"Data analytics as a service", "desc":"With AaaS, you can derive first meaningful insights out of your raw data in 1 day and avoid the time and cost burden for developing and managing a full-scale analytical solution."},
+        {"title":"Data analytics implementation", "desc":"KosovaOutsource is ready to deliver a time-effective solution fully compliant with your business objectives, if you consider implementing a data analytics solution."},
+        {"title":"Data analytics support and evolution","desc":"KosovaOutsource is ready to tune your existing analytical solution within days or even hours by analyzing the as-is analytical environment."}
+      ]
+    },
+    "section_7":{
+      "title":"Why our customers think that data analytics is worth investing in",
+      "desc":"Customized analytical solutions we design and implement allow our customers to achieve up to:",
+      "items":[
+        {"desc":"100%", "info":"times faster data analysis and reporting"},
+        {"desc":"20%", "info":"revenue increase"},
+        {"desc":"80%", "info":"reduction of operational costs"},
+        {"desc":"25%", "info":"reduction ofchurn rate"}
       ]
     }
   }

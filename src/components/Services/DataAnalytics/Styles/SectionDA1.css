@@ -1,0 +1,23 @@
+.SectionDA1_img{
+	background-image: url(./../../../../assets/Services/DataAnalytics/section_1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 210px;
+}
+.SectionDA1{
+	height: 500px;
+	padding-top: 100px;
+}
+@media only screen and (max-width: 992px) {
+	.SectionDA1{
+		height: 700px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.SectionDA1_img{
+		height: 130px;
+	}
+	.SectionDA1{
+		height: 550px;
+	}
+}
