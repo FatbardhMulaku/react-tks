@@ -1,0 +1,96 @@
+.SectionIA3{
+	padding: 50px 0;
+}
+.SectionIA3 > h3 {
+    text-align: left;
+}
+.SectionIA3-mid{
+    margin-top: 50px;
+}
+.SectionIA3-img{
+    background-image: url(./../../../../assets/Services/ImageAnalysis/section_3.jpg);
+    height: 150px;
+    width: 50% !important;
+    background-position: center;
+    background-size: cover;
+}
+.SectionIA3-CssImg1{
+    background-color: #7DC87D;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+}
+.SectionIA3-CssImg2{
+    clip-path: polygon(0 50%, 100% 100%, 100% 0);
+    background-color: #8BC7E8;
+}
+.SectionIA3-CssImg3{
+    background-color: #F5B570;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
+.SectionIA3-color1{
+    background-color: #71BE71;
+}
+.SectionIA3-color2{
+    background-color: #47A1D5;
+}
+.SectionIA3-color3{
+    background-color: #F2A24C;
+}
+.SectionIA3__iconl1, .SectionIA3__iconl2, .SectionIA3__iconl3,.SectionIA3__icon1,.SectionIA3__icon2,.SectionIA3__icon3{
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 35px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.SectionIA3__iconl1{
+    background-image: url(../../../../assets/Services/ImageAnalysis/section_3icon1l.svg);
+}
+.SectionIA3__iconl2{
+    background-image: url(../../../../assets/Services/ImageAnalysis/section_3icon2l.svg);
+    width: 45px;
+    height: 43px;
+}
+.SectionIA3__iconl3{
+    background-image: url(../../../../assets/Services/ImageAnalysis/section_3icon3l.svg);
+    width: 50px;
+    height: 30px;
+}
+.SectionIA3__icon1{
+    background-image: url(../../../../assets/Services/ImageAnalysis/section_3icon1.jpg);
+}
+.SectionIA3__icon2{
+    background-image: url(../../../../assets/Services/ImageAnalysis/section_3icon2.jpg);
+    width: 45px;
+    height: 43px;
+}
+.SectionIA3__icon3{
+    background-image: url(../../../../assets/Services/ImageAnalysis/section_3icon3.jpg);
+    width: 50px;
+    height: 30px;
+}
+.SectionIA3__btn{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.SectionIA3__btn a{
+	font-size: 14px;
+	text-align: center;
+    background-color: #006FFF;
+    color: white;
+	width: 130px;
+	padding: 8px 0;
+	margin-top: 30px;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+.SectionIA3__btn a:hover{
+	transform: translateY(-3px);
+    box-shadow: 0px 2px 7px 3px rgba(0,0,0,0.39);
+    color: white;
+    text-decoration: none;
+}

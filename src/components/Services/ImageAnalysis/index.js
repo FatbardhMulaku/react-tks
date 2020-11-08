@@ -1,10 +1,11 @@
 import React from "react";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
-import SectionEC1 from "./SectionEC1";
-import SectionEC2 from "./SectionEC2";
-import SectionEC3 from "./SectionEC3";
-import SectionEC4 from "./SectionEC4";
-import SectionEC5 from "./SectionEC5";
+import SectionIA1 from "./SectionIA1";
+import SectionIA2 from "./SectionIA2";
+import SectionIA3 from "./SectionIA3";
+import SectionIA4 from "./SectionIA4";
+import SectionIA5 from "./SectionIA5";
+
 
 const theme = createMuiTheme({
   breakpoints: {
@@ -22,11 +23,11 @@ const index = () => {
   return (
     <div>
       <ThemeProvider theme={theme}>
-        <SectionEC1 />
-        <SectionEC2 />
-        <SectionEC3 />
-        <SectionEC4 />
-        <SectionEC5 />
+        <SectionIA1 />
+        <SectionIA2 />
+        <SectionIA3 />
+        <SectionIA4 />
+        <SectionIA5 />
       </ThemeProvider>
     </div>
   );

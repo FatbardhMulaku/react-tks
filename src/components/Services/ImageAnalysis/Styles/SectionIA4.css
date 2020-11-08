@@ -1,0 +1,84 @@
+.SectionIA4{
+	background-image: linear-gradient(
+		rgba(39, 90, 139, 0.8),
+		rgba(39, 90, 139, 0.8)
+	  ), url(./../../../../assets/Services/ImageAnalysis/section_4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+	padding-bottom: 150px;
+	margin-top: -30px;
+}
+
+.SectionIA4__wapper > h2{
+	text-align: center;
+	margin-bottom: 40px;
+	padding-top: 180px;
+	color: white;
+}
+.SectionIA4_icon1, .SectionIA4_icon2, .SectionIA4_icon3, .SectionIA4_icon4, .SectionIA4_icon5,.SectionIA4_icon6,.SectionIA4_icon7,.SectionIA4_icon8{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 50%;
+}
+.SectionIA4_icon1{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section4_icon1.jpg);
+}
+.SectionIA4_icon2{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section4_icon2.jpg);
+}
+.SectionIA4_icon3{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section4_icon3.jpg);
+}
+.SectionIA4_icon4{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section4_icon4.jpg);
+}
+.SectionIA4_icon5{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section4_icon1.jpg);
+}
+.SectionIA4_icon6{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section4_icon2.jpg);
+}
+.SectionIA4_icon7{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section4_icon3.jpg);
+}
+.SectionIA4_icon8{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section4_icon4.jpg);
+}
+
+@media only screen and (max-width: 992px) {
+	.SectionIA4{
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		padding-bottom: 100px;
+		margin-top: -30px;
+		background-size: 370%;
+	}
+	.SectionIA4__wapper > h2{
+		padding-top: 100px;
+	} 
+	.SectionITc6__Box > h6{
+		margin: 15px 0;
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.SectionIA4__wapper > h2{
+		margin-top: 60px;
+		font-size: 23px;
+		margin-bottom: 20px;
+	}
+	.SectionIA4{
+		background-size: 800%;
+	}
+}
+@media only screen and (max-width: 520px) {
+	.SectionIA4{
+		clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+		background-size: 1500%;
+	}
+}

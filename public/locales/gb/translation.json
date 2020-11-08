@@ -339,7 +339,7 @@
       { "link": "cloud", "name": "Cloud" },
       { "link": "data-analytics", "name": "Data Analytics" },
       { "link": "cybersecurity", "name": "Cybersecurity" },
-      { "link": "web-front-end", "name": "Web front-end" },
+      { "link": "image-analysis", "name": "Image Analysis" },
       { "link": "branding", "name": "Branding" },
       { "link": "webdesign", "name": "Web design" },
       { "link": "web-services", "name": "Web services" },
@@ -1098,6 +1098,48 @@
         {"title":"Ecommerce Solution Implementation for Company ","desc":"A modern and convenient e-commerce website for a chain of gas stations and cafés, gardening centers, retail and wholesale shops. Ultimate client experience is the cornerstone of the Company’s philosophy and the solution helps keep pace with increasingly mobile shoppers. "},
         {"title":"Evolution and Ongoing Support for a Magento Multi-Store","desc":"The Magento team of KosovaOutsource takes on expert support of a Magento multi-store for a US restaurant supplier. "}
       ]
+    }
+  },
+  "Image-Analysis":{
+    "section_1":{
+      "title":"Custom Software for Image Analysis ","desc":"Image Analysis with our software its the best with KosovaOutSourcing"
+    },
+    "section_2":{
+      "title":"Solutions",
+      "desc1":"Various industries apply image analysis software to identify people and objects, assess quality and possible damage, grade and sort products and derive other meaningful information from images and videos.",
+      "desc2":"We develop custom image analysis solutions tailored to specific needs of our customers and address a wide range of image processing tasks in manufacturing, healthcare, retail, etc."
+    },
+    "section_3":{
+      "title": "See Our SEO Process!",
+      "btn":"Get a Quote",
+      "mid":[
+        { "txt": "Detection"},
+        { "txt": "Recognition"},
+        { "txt": "Identification"}
+      ],
+      "Box":[
+        {"title":"Detection", "txt":"We consult on turning IT into a major contributor to a business performance increase with: A value-driving business-IT strategy. A plan on IT service delivery optimization."},
+        {"title":"Recognition", "txt":"We create a strategy that would bring together a diversified IT landscape and make it work towards supporting existing business processes and driving new business initiatives."},
+        {"title":"Identification", "txt":"We analyze your business needs and help you make strategic decisions on the fast and successful implementation of business-critical solutions."}
+      ]
+    },
+    "section_4":{
+      "title":"Practical applications",
+      "items":[
+        {"title":"Facial recognition", "desc":"Identifying a specific person’s face. Facial recognition has a variety of applications, from retailers recognizing their customers in order to provide them exclusive services to high-level security systems identifying suspects and trespassers."},
+        {"title":"Emotion recognition", "desc":"Application examples include assessing the level of a customer’s satisfaction, allowing a smart camera to shoot a photo at the right moment, etc."},
+        {"title":"Quality control (QC)", "desc":"Checking for surface defects, foreign materials, discoloration, absence of components, etc. See our automated visual inspection page to find out more details."},
+        {"title":"Grading and sorting", "desc":"Classifying objects according to their quality (e.g., grading fruits and vegetables) and then sorting them accordingly."},
+        {"title":"Counting", "desc":"Using an optical system to count similar objects on the production line or in a warehouse."},
+        {"title":"Damage assessment", "desc":"Identifying damage issues in complex electronic devices, vehicles, etc."},
+        {"title":"3D reconstruction", "desc":"Producing 3D models from 2D data (e.g., medical scans)"},
+        {"title":"Organizing visual information", "desc":"Indexing visual databases."}
+      ]
+    },
+    "section_5":{
+      "title":"Approaches",
+      "desc":"Depending on our customer’s specific problem, our consultants will suggest the most appropriate solution based on one of the following approaches or their combination.",
+      "item1":"Rule-based analysis", "item2":"Machine lerarning analysis"
     }
   }
 }

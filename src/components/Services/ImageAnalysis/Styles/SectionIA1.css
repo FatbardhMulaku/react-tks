@@ -1,0 +1,23 @@
+.SectionIA1_img{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section_1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 210px;
+}
+.SectionIA1{
+	height: 500px;
+	padding-top: 80px;
+}
+@media only screen and (max-width: 992px) {
+	.SectionIA1{
+		height: 700px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.SectionIA1_img{
+		height: 120px;
+	}
+	.SectionIA1{
+		height: 500px;
+	}
+}

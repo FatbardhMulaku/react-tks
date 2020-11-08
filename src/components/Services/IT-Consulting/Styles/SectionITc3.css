@@ -31,6 +31,7 @@
 	padding: 20px 20px !important;
 	border-radius: 20px;
 	margin-bottom: 20px;
+	border-bottom: 1px solid transparent;
 }
 .SectionITc3__Box:hover,.SectionITc3__Box:hover,.SectionITc3__Box:hover,.SectionITc3__Box:hover{
 	transform: translateY(-2px);
