@@ -1,0 +1,26 @@
+.SectionWPD4{
+	padding: 50px 0;
+}
+.SectionWPD4__txt p {
+	color: rgb(141, 141, 141);
+	font-size: 14px;
+}
+.SectionWPD4__txt p span {
+	color: black !important;
+	font-size: 15px;
+}
+.SectionWPD4__img{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 160px !important;
+	background-image: url(../../../../assets/Services/WebPortalDevelopment/section_4.jpg);
+}
+
+@media only screen and (max-width: 992px) {
+	.SectionWPD4__img{
+		height: 240px;
+		width: 310px !important;
+	}
+}

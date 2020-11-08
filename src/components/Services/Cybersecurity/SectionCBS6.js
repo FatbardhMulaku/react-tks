@@ -13,7 +13,7 @@ function SectionCBS6() {
 			
 				{t("Cybersecurity.section_6.items").map((item, index) => {
 					return(
-						<div key={index} className="row my-5">
+						<div key={index} className="row my-3 SectionCBS6__box">
 							<div className="col-10 col-md-4 col-lg-3 mx-auto">
 								<div className={`img_css SectionCBS6_img${index+1}`}></div></div>
 							

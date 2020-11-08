@@ -1,0 +1,46 @@
+.SectionIA5{
+	padding-bottom: 50px;
+}
+.SectionIA5 > p{
+	color: rgb(163, 163, 163);
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.SectionIA5__img1, .SectionIA5__img2, .SectionIA5__img3{
+	background-position: center;
+	background-size: cover;
+	width: 60px;
+	height: 60px;
+}
+.SectionIA5__img1{
+	background-image: url(../../../../assets/Services/ImageAnalysis/section5_icon1.jpg);
+}
+.SectionIA5__img2{
+	background-image: url(../../../../assets/Services/ImageAnalysis/section5_icon2.jpg);
+}
+.SectionIA5__img3{
+	background-image: url(../../../../assets/Services/ImageAnalysis/section5_icon3.jpg);
+}
+.SectionIA5__box1{
+	background-color: #005EB8;
+	clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+	padding-left: 30px;
+}
+.SectionIA5__box2{
+	background-color: #71ABF6;
+	clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
+}
+.SectionIA5__box1 p {
+	margin-right: 10px;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: white;
+}
+.SectionIA5__box2 p {
+	margin-left: 10px;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: white;
+}

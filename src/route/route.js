@@ -31,7 +31,8 @@ import ItConsulting from "../pages/Services/IT_Consulting";
 import DataAnalytics from "../pages/Services/DataAnalytics";
 import Cybersecurity from "../pages/Services/Cybersecurity";
 import Ecommerce from "../pages/Services/Ecommerce";
-import ImageAnalysis from "../pages/Services/ImageAnalysis"
+import ImageAnalysis from "../pages/Services/ImageAnalysis";
+import WebPortalDevelopment from "../pages/Services/WebPortalDevelopment";
 
 const route = () => {
   return (
@@ -63,6 +64,7 @@ const route = () => {
           <Route path="/cybersecurity" exact render={() => <Cybersecurity />} />
           <Route path="/ecommerce" exact render={() => <Ecommerce />} />
           <Route path="/image-analysis" exact render={() => <ImageAnalysis />} />
+          <Route path="/web-portal-development" exact render={() => <WebPortalDevelopment />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
         </Switch>

@@ -340,8 +340,8 @@
       { "link": "data-analytics", "name": "Data Analytics" },
       { "link": "cybersecurity", "name": "Cybersecurity" },
       { "link": "image-analysis", "name": "Image Analysis" },
-      { "link": "branding", "name": "Branding" },
       { "link": "webdesign", "name": "Web design" },
+      { "link": "web-portal-development", "name": "Web Portal Dev" },
       { "link": "web-services", "name": "Web services" },
       { "link": "ecommerce", "name": "Ecommerce" },
       { "link": "portfolio", "name": "Portfolio" }
@@ -1140,6 +1140,83 @@
       "title":"Approaches",
       "desc":"Depending on our customer’s specific problem, our consultants will suggest the most appropriate solution based on one of the following approaches or their combination.",
       "item1":"Rule-based analysis", "item2":"Machine lerarning analysis"
+    },
+    "section_6":{
+      "title":"Rule-based",
+      "desc":"This approach will be a perfect choice if it’s possible to determine a limited set of strict rules. Usually, this would be the case when the visual data amount is small and their variability is low, for example, when the task is to detect and read a barcode stripe pattern.",
+      "items":[
+        {"title":"Advantages", "desc":"Shows excellent performance within a narrow domain. Doesn’t require big datasets. Performance can be easily validated. Explicability – we can clearly see every decision step right in our code. Easy debugging."},
+        {"title":"Disadvantages ", "desc":"Requires explicit knowledge about all possible appearances of objects to analyze. Poor generalization: rules should be highly specific in each particular case. Labor-intensive development: each rule should be programmed explicitly, which takes time and effort."}
+      ]
+    },
+    "section_7":{
+      "title":"Machine learning",
+      "desc":"Machine learning is particularly good at analyzing big and unstructured data, because it doesn’t need any explicit rules to be programmed. Instead, it uses big datasets to derive all the rules on its own.",
+      "items":[
+        {"title":"Advantages", "desc":"Deals better with complex objects and tasks. Doesn’t require explicit knowledge. Easier scalability. Lower operational cost. ","id":"10"},
+        {"title":"Disadvantages ", "desc":"Requires large image datasets. Implementation can be more complicated. ‘Black-box’ problem – all the rules are hidden in the complex inner structure of an algorithm (e.g., deep neural network) and are difficult to extract.","id":"11"}
+      ]
+    },
+    "section_8":{
+      "title":"Image Analysis Consulting",
+      "desc":"We look at a problem as a whole, considering all the nuances that might affect an image analysis system’s performance. Our experts will be eager to help you choose the most appropriate solution and avoid possible pitfalls to achieve the best results.",
+      "subtitle":"A consultation will cover:",
+      "items":[
+        {"title":"Camera and lighting selection"},
+        {"title":"Process optimization"},
+        {"title":"Integration with other IT systems (ERP, POS, etc.)"}
+      ]
+    }
+  },
+  "Web-Portal":{
+    "section_1":{
+      "title":"Web Portal Development ",
+      "desc":"Web portal development implies engineering access to a variety of data and services via a single web interface."
+    },
+    "section_2":{
+      "title":"Our web portal portfolio",
+      "desc":"Portal and Mobile App for Foreign Language Learners and Avid Travelers"
+    },
+    "section_3":{
+      "title":"Web portals we deliver",
+      "items":[
+        {"title":"B2C customer portal ", "desc":"Either for selling consumer goods or providing services, a self-service portal comes as just the right tool for establishing long-term relations with customers. Taking usability parameters (navigation, response time, credibility, reliability, and content) as a minimum requirement, we ensure your portal’s convenience in a range of functions"},
+        {"title":"B2B customer portal ", "desc":"Only by providing comprehensive customer self-service, a B2B customer portal will fuel customer satisfaction, streamline online sales and save costs. Therefore, our B2B portals include powerful tools for every member of a customer’s buying center (allowing multiple logins for each company)"},
+        {"title":"Partner portal ", "desc":"Created to empower partners, achieve competitive advantages and boost sales, 80% of partner portals end up unpopular with the channel partners. We know how to reverse this trend and are ready to nurture the partner portal till it starts engaging users."},
+        {"title":"Community portal  ", "desc":"We can help you build a gateway in the e-world of your community. With the user-friendly interface and strong capabilities, including chat, forums, blogs, events, media files support and more, our portals connect community members to encourage collaboration and build relationships, as well as fuel experience and idea exchange."}
+      ]
+    },
+    "section_4":{
+      "title":"All-Round Web Portal Development",
+      "items":[
+        {"title":"Portal website design: ", "desc":"modern, responsive user interface to offer ultimate user experience in any browser and on all mobile screens"},
+        {"title":"Web portal development: ", "desc":"an end-to-end solution from defining the requirements to implementation and quality assurance"},
+        {"title":"Mobile app development ", "desc":""},
+        {"title":"Migration: ", "desc":"creating a new web portal that would fit your emerging needs and seamlessly inherit data (including content, interface, metadata and users) from the legacy system"},
+        {"title":"Security audit, including ", "desc":"penetration testing, and updates to validate existing security measures, detect and eliminate vulnerabilities"}
+      ]
+    },
+    "section_5":{
+      "title":"Our Approach to Web Portal Development ",
+      "items":[
+        {"title":"User engagement", "desc":"Mobile-friendly, adaptive design with a unified look-and-feel across all screens Interactive tools like feedback forms, calculators, personal cabinets and so on Content personalization based on the users’ roles and interaction history Media-rich pages displaying embedded media, uploaded directly or hosted via YouTube, Vimeo and other websites"},
+        {"title":"Reliability", "desc":"Scalability to handle the growing number of users and data High performance to ensure users can access the content and tools quickly nformation security: we bring in a 17-year experience in security intelligence."},
+        {"title":"Easy content management", "desc":"Non-technical users can update the content easily and regularly Unified content publishing styles to bring order to information and ensure integrity during the portal updates."},
+        {"title":"Integration", "desc":"Automated integration with other business systems such as ERP, CRM, HRM, e-commerce solutions and others API development to guarantee tight integration with your customers’ / vendors’ ERP systems, if needed"}
+      ]
+    },
+    "section_6":[
+      {"txt":"Setting Out "},
+      {"txt":"We value cooperation with our customers and are eager to rise to your business challenge to create the best portal solution. Just drop us a line and get a free consultation on how to implement your ideas into a robust web portal solution. "},
+      {"txt":"Contact Us"}
+    ],
+    "section_7":{
+      "title":"Selected Projects",
+      "items":[
+        {"title":"Viber Application Development Outsourcing","desc":"The success story of 5+ years of cooperation with the Viber startup resulted in the release and evolution of Android and desktop app versions of Viber, a feature-rich VoIP and instant messenger with over a billion registered users."},
+        {"title":"Portal Development for a Media Publisher","desc":"A Twitter-like microblogging website with categorized multimedia content shared by registered contributors. A Pimcore publishing solution for an online magazine."},
+        {"title":"Online Analytical Application Development ","desc":"KosovaOutSource's delivered a website for an education provider, which helped to reduce duplicated data by 5 times and improve the data system’s overall performance and stability."}
+      ]
     }
   }
 }

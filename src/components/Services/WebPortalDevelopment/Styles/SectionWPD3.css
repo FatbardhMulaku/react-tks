@@ -1,0 +1,62 @@
+.SectionWPD3{
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+	  ), url(./../../../../assets/Services/WebPortalDevelopment/sectiom_3bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin-top: 80px;
+	padding: 60px 0;
+}
+.SectionWPD3__wapper > h2{
+	padding-top: 10px;
+	color: white;
+} 
+
+.SectionWPD3_icon1, .SectionWPD3_icon2, .SectionWPD3_icon3, .SectionWPD3_icon4{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	border: 1px solid rgb(233, 233, 233);
+	border-radius: 50%;
+}
+.ManagementBox p:hover{
+	color: black;
+}
+.SectionWPD3_icon1{
+	background-image: url(./../../../../assets/Services/WebPortalDevelopment/sectiom3_icon1.jpg);
+}
+.SectionWPD3_icon2{
+	background-image: url(./../../../../assets/Services/WebPortalDevelopment/sectiom3_icon2.jpg);
+}
+.SectionWPD3_icon3{
+	background-image: url(./../../../../assets/Services/WebPortalDevelopment/sectiom3_icon3.jpg);
+}
+.SectionWPD3_icon4{
+	background-image: url(./../../../../assets/Services/WebPortalDevelopment/sectiom3_icon4.jpg);
+}
+@media only screen and (max-width: 992px) {
+	.SectionWPD3{
+		background-size: 370%;
+	}
+	.SectionITc6__Box > h6{
+		margin: 15px 0;
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.SectionWPD3__wapper > h2{
+		font-size: 23px;
+	}
+	.SectionWPD3{
+		background-size: 800%;
+	}
+}
+@media only screen and (max-width: 520px) {
+	.SectionWPD3{
+		background-size: 1500%;
+	}
+}

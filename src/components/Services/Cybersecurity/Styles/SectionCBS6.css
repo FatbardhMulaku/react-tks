@@ -19,6 +19,13 @@
 	display: flex;
     justify-content: flex-end;
 }
+.SectionCBS6__box{
+	padding: 15px 0;
+}
+.SectionCBS6__box:hover{
+	background-color: rgb(230, 227, 227);
+	border-radius: 20px;
+}
 @media only screen and (max-width: 992px) {
 	.SectionCBS6-txt p{
 		font-size: 14px;

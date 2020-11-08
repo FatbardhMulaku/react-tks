@@ -1,0 +1,39 @@
+.SectionWPD2 > h5{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.SectionWPD2__img1,.SectionWPD2__img2,.SectionWPD2__img3{
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	width: 600px;
+}
+.SectionWPD2__img1{
+	background-image: url(../../../../assets/Services/WebPortalDevelopment/sectiom_2.jpg);
+}
+.SectionWPD2__img2{
+	background-image: url(../../../../assets/Services/WebPortalDevelopment/sectiom_2.jpg);
+}
+.SectionWPD2__img3{
+	background-image: url(../../../../assets/Services/WebPortalDevelopment/sectiom_2.jpg);
+}
+.SectionWPD2_img{
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (max-width: 768px) {
+	.SectionWPD2__img1,.SectionWPD2__img2,.SectionWPD2__img3{
+		height: 250px;
+		width: 500px;
+	}
+}
+@media only screen and (max-width: 528px) {
+	.SectionWPD2__img1,.SectionWPD2__img2,.SectionWPD2__img3{
+		height: 170px;
+		width: 300px;
+	}
+}

@@ -1,0 +1,37 @@
+.SectionIA8 {
+	padding-top: 100px;
+}
+
+.SectionIA8 > h3{
+	font-weight: bold;
+}
+.SectionIA8 > p{
+	color: rgb(134, 134, 134);
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+.SectionIA8_icon1, .SectionIA8_icon2, .SectionIA8_icon3{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 60px;
+	border: 1px solid rgb(233, 233, 233);
+}
+.SectionIA8_icon1{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section7_icon1.jpg);
+}
+.SectionIA8_icon2{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section7_icon2.jpg);
+}
+.SectionIA8_icon3{
+	background-image: url(./../../../../assets/Services/ImageAnalysis/section7_icon3.jpg);
+}
+
+@media only screen and (max-width: 768px) {
+	.SectionIA8 > h3{
+		margin-top: 60px;
+		font-size: 23px;
+		margin-bottom: 20px;
+	}
+}
