@@ -33,6 +33,7 @@ import Cybersecurity from "../pages/Services/Cybersecurity";
 import Ecommerce from "../pages/Services/Ecommerce";
 import ImageAnalysis from "../pages/Services/ImageAnalysis";
 import WebPortalDevelopment from "../pages/Services/WebPortalDevelopment";
+import TestingQa from "../pages/Services/Testing_Qa";
 
 const route = () => {
   return (
@@ -65,6 +66,7 @@ const route = () => {
           <Route path="/ecommerce" exact render={() => <Ecommerce />} />
           <Route path="/image-analysis" exact render={() => <ImageAnalysis />} />
           <Route path="/web-portal-development" exact render={() => <WebPortalDevelopment />} />
+          <Route path="/testing-qa" exact render={() => <TestingQa />} />
           <Route path="/404" render={() => <PageNotFound />} />
           <Redirect to="/404" />
         </Switch>

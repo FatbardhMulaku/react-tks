@@ -1,0 +1,75 @@
+.SectionTQ5{
+	padding: 60px 0;
+}
+.SectionTQ5 p:nth-child(1){
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+}
+.SectionTQ5 p:nth-child(2){
+	font-size: 14px;
+	text-align: center;
+	margin: 30px 0;
+	color: rgb(119, 119, 119);
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.SectionTQ5 p:nth-child(3){
+	font-size: 14px;
+	text-align: left;
+	margin: 30px 0;
+	color: rgb(119, 119, 119);
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.SectionTQ5 p:nth-child(4){
+	font-size: 14px;
+	text-align: left;
+	margin: 30px 0;
+	color: rgb(119, 119, 119);
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.SectionTQ5__Box{
+	padding: 20px 20px !important;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	width: 500px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid transparent;
+}
+.SectionTQ5__Box:hover,.SectionTQ5__Box:hover,.SectionTQ5__Box:hover,.SectionTQ5__Box:hover{
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.39);
+	border-bottom: 1px solid rgb(128, 128, 128);
+}
+.SectionTQ5__Box > h6{
+	text-align: center;
+	margin: 30px 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+.SectionTQ5_icon1, .SectionTQ5_icon2, .SectionTQ5_icon3, .SectionTQ5_icon4{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 55px;
+	width: 55px;
+	border: 1px solid rgb(233, 233, 233);
+}
+.SectionTQ5_icon1{
+	background-image: url(./../../../../assets/Services/Testing&Qa/section5_icon1.jpg);
+}
+.SectionTQ5_icon2{
+	background-image: url(./../../../../assets/Services/Testing&Qa/section5_icon2.jpg);
+}
+.SectionTQ5_icon3{
+	background-image: url(./../../../../assets/Services/Testing&Qa/section5_icon3.jpg);
+	height: 48px;
+	width: 60px;
+}
+.SectionTQ5_icon4{
+	background-image: url(./../../../../assets/Services/Testing&Qa/section5_icon4.jpg);
+}

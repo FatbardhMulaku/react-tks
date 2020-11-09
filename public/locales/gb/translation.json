@@ -342,9 +342,9 @@
       { "link": "image-analysis", "name": "Image Analysis" },
       { "link": "webdesign", "name": "Web design" },
       { "link": "web-portal-development", "name": "Web Portal Dev" },
-      { "link": "web-services", "name": "Web services" },
+      { "link": "testing-qa", "name": "Testing QA" },
       { "link": "ecommerce", "name": "Ecommerce" },
-      { "link": "portfolio", "name": "Portfolio" }
+      { "link": "web-services", "name": "Web services" }
     ],
     "industriesInfoName": "Company",
     "industriesInfoMenu": ["Terms of Use", "Privacy", "Security"]
@@ -363,7 +363,7 @@
   "caseStudiesPopper": {
     "name": "case studies",
     "caseStudiesMenu": [
-      { "link": "Experience", "name": "Experience" },
+      { "link": "portfolio", "name": "Experience" },
       { "link": "Stories", "name": "Stories" }
     ]
   },
@@ -1216,6 +1216,53 @@
         {"title":"Viber Application Development Outsourcing","desc":"The success story of 5+ years of cooperation with the Viber startup resulted in the release and evolution of Android and desktop app versions of Viber, a feature-rich VoIP and instant messenger with over a billion registered users."},
         {"title":"Portal Development for a Media Publisher","desc":"A Twitter-like microblogging website with categorized multimedia content shared by registered contributors. A Pimcore publishing solution for an online magazine."},
         {"title":"Online Analytical Application Development ","desc":"KosovaOutSource's delivered a website for an education provider, which helped to reduce duplicated data by 5 times and improve the data system’s overall performance and stability."}
+      ]
+    }
+  },
+  "Testing-Qa":{
+    "section_1":{
+      "title":"Software Testing and QA Services ",
+      "desc":"Software testing services help companies to ensure that their software is fully functional, reliable, secure, and user-friendly."
+    },
+    "section_2":[
+      {"txt":"Testing Has Become a Source of Troubles? "},
+      {"txt":"KosovaOutsource QA and software testing services will help you make testing a strong arm supporting your business growth. "},
+      {"txt":"Put an end to testing problems"}
+    ],
+    "section_3":{
+      "title":"Our Offer",
+      "items":[
+        {"title":"QA outsourcing " ,"desc":"A dedicated team of domain-qualified QA engineers takes charge of your quality assurance process, being responsible for the QA process management. We perform end-to-end testing throughout the software development life cycle to ensure that all the modules of your solution function as designed from start to finish."},
+        {"title":"Managed testing services" ,"desc":"KosovaOutSource dedicated test team takes over a part or the whole scope of your testing activities on a pay-per-unit basis, taking full responsibility for the test process management and the quality of software under test."},
+        {"title":"Project-specific testing " ,"desc":"Depending on the specifics of your company, project and software, we perform independent 3rd-paty testing and execute any required testing type or their combination for you to get unbiased feedback on the quality of your application."},
+        {"title":"QA consulting " ,"desc":"We help you reveal the root causes of your quality problems and address them by performing a QA process audit and planning required QA process improvements. If you just initiate a project, we can also design an optimal QA strategy for you. In addition, we assist in passing product and process certification."}
+      ]
+    },
+    "section_4":{
+      "title":"Every Aspect of your Software, validated",
+      "desc":"We test functional and non-functional software features to make sure it complies with the requirements specification and offers outstanding user experience: ",
+      "icon1":"Functional Testing", "icon2":"Performance Testing", "icon3":"Usability Testing", "icon4":"Compatibility testing"
+    },
+    "section_5":{
+      "txt":[
+        {"desc":"Test automation for better quality outcomes"},
+        {"desc":"We combine manual and automated testing and apply our experience with trusted automation frameworks to help you accelerate releases, increase test coverage, and find more bugs before they enter production."},
+        {"desc":"We are also proficient in establishing continuous testing practices and integrating testing activities into CI/CD pipelines within the DevOps approach."},
+        {"desc":"Our test automation offer includes:"}
+      ],
+      "items":[
+        {"title":"Test automation strategy development"},
+        {"title":"Test environment setup and configuration"},
+        {"title":"Automated UI testing"},
+        {"title":"Performance testing"}
+      ]
+    },
+    "section_6":{
+      "title":"More success stories",
+      "items":[
+        {"title":"Full-Cycle Testing of Two Image Processing Applications for a Global Digital Imaging Leader","desc":"KosovaOutsource testing team provided comprehensive testing of 2 image processing desktop applications for a European product company delivering powerful image processing software for professional photographers, amateurs and manufacturers of photography equipment. "},
+        {"title":"Testing of a Cloud-Based Citizen Service Portal for a European IT Company","desc":"KosovaOutsource testing team performed end-to-end functional testing and non-functional testing of a cloud-based citizen service web application for a European IT company providing online citizen service solutions for public sector. "},
+        {"title":"Testing of a Video Streaming Application for an International TV Everywhere Service Provider","desc":"KosovaOutsource tested an application for an international TV Everywhere provider powering major broadcasting companies throughout Europe and the USA. "}
       ]
     }
   }
