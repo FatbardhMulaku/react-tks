@@ -2,16 +2,15 @@
 	margin-top: 80px;
 	background-image:linear-gradient(
 		to right,
-		rgba(5, 20, 83, 0.6),
-		rgba(8, 22, 82, 0.6)
+		rgba(5, 20, 83, 0.7),
+		rgba(8, 22, 82, 0.7)
 	  ), url(./../../../../assets/Services/IT-Support/section_3bg.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 550px;
+	padding-bottom: 30px;
 }
 .SectionITS4__wapper{
-	height: 550px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -20,6 +19,7 @@
 	color: white;
 	text-align: center;
 	margin-top: 50px !important;
+	margin-bottom: 40px;
 }
 .ITS4_box{
 	background-color: white;
@@ -54,14 +54,7 @@
 .ITS4_icon3{
 	background-image: url(./../../../../assets/Services/IT-Support/section_3icon3.jpg);
 }
-@media only screen and (max-width: 992px) {
-	.SectionITS4{
-		height: 900px;
-	}
-	.SectionITS4__wapper{
-		height: 900px;
-	}
-}
+
 @media only screen and (max-width: 768px) {
 	.SectionITS4__wapper > h2{
 		margin-top: 50px !important;

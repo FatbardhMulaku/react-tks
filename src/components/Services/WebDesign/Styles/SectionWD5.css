@@ -28,10 +28,7 @@
 .WD5_box a:hover{
     text-decoration: none;
     color: white;
-    font-size: 13px;
-    -webkit-box-shadow: 0px 9px 14px -6px rgba(0,0,0,0.53);
-    -moz-box-shadow: 0px 9px 14px -6px rgba(0,0,0,0.53);
-    box-shadow: 0px 9px 14px -6px rgba(0,0,0,0.53);
+    box-shadow: 0px 9px 14px -4px rgba(0,0,0,0.53);
 }
 .WD5_icon1, .WD5_icon2, .WD5_icon3{
     background-position: center;

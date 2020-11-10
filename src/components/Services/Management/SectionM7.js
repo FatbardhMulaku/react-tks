@@ -12,7 +12,7 @@ function SectionM7() {
 
 			{t("Management.section_7").map((item, index) => {
 				return(
-					<div key={index} className="row my-3">
+					<div key={index} className="row my-3 SectionM7__box">
 						<div className="col-md-2 col-lg-1 d-flex justify-content-center align-items-center" ><div className={WorkImg[index]}/></div>
 						<p className="col-md-10 col-lg-10  my-auto"><span>{item.title}</span>{item.desc}</p>
 					</div>

@@ -83,6 +83,12 @@
 	.ITO5_box a{
 		margin-left: 30%;
 	}
+	.SectionITO5__wapper > h2{
+		font-size: 25px;
+	}
+	.ITO5_box_p1,.ITO5_box_p2{
+		margin-top: 20px !important;
+	}
 }
 @media only screen and (max-width: 450px) {
 	.ITO5_box_p1,.ITO5_box_p2{

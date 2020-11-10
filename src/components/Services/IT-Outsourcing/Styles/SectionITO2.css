@@ -23,7 +23,7 @@
 	font-size: 14px;
 	text-align: center;
 	background-color: #006FFF;
-	width: 220px;
+	width: 300px;
 	padding: 8px 10px;
 	margin-top: 30px;
 	border-radius: 15px;
@@ -34,5 +34,5 @@
 }
 .SectionITO2 p:nth-child(3):hover{
 	transform: translateY(-3px);
-	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.39);
+	box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.39);
 }

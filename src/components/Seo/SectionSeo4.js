@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles/SectionSeo4.css';
 import { useTranslation } from "react-i18next";
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 function SectionSeo4() {
     const { t } = useTranslation();
@@ -9,7 +11,7 @@ function SectionSeo4() {
             <h3 className="text-center">{t("seo.section_4title")}</h3>
             <hr className="SeoS4-hr"/>
             <p className="text-center mt-4">{t("seo.section_4p")}</p>
-
+            <Zoom>
             <div className="row justify-content-center SeoS4-mid">
                 <div className="col-8 col-sm-5 col-lg-3 SeoS4-img"/>
                 <div className="col-11 col-sm-9 col-lg-6 SeoS4-info mt-5 mt-md-5 mt-lg-0">
@@ -21,8 +23,8 @@ function SectionSeo4() {
                         );
                     })}
                 </div>
-            </div>
-
+            </div></Zoom>
+            <Fade bottom>
             <div className="row SeoS4-footer">
             {t("seo.section_4Box").map((item, index) => {
                         return (
@@ -33,7 +35,7 @@ function SectionSeo4() {
                             </div>
                         );
                     })}
-            </div>
+            </div></Fade>
         </div>
     )
 }

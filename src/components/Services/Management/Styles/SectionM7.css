@@ -24,6 +24,13 @@
 .SecM7_img3{
 	background-image: url(./../../../../assets/Services/Management/section7_3.jpg);
 }
+.SectionM7__box{
+	border: 1px solid transparent;
+}
+.SectionM7__box:hover{
+	border:1px solid rgb(192, 192, 192);
+	border-radius: 20px;
+}
 @media only screen and (max-width: 768px) {
 	.SectionM7 p{
 		font-size: 12px;

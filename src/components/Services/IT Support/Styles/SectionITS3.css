@@ -16,10 +16,10 @@
 .ITS3__box--txt1{
 	background-color:  #29AA10;
 	border-radius: 10px;
-	width: 300px;
-	transform: translate(270px, -10px);
+	width: 350px;
+	transform: translate(230px, -12px);
 	color: white;
-	padding: 2px 10px;
+	padding: 2px 2px;
 	font-size: 14px;
 	text-align: center;
 }
@@ -48,8 +48,8 @@
 }
 .ITS3__box--txt5{
 	background-color: #005EB8;
-	width: 180px;
-	transform: translate(390px, -100px);
+	width: 220px;
+	transform: translate(370px, -100px);
 }
 .ITS3__box--txt6{
 	background-color: #01AEBC;
@@ -64,7 +64,7 @@
 }
 .ITS3__box--txt8{
 	background-color: #7B7F84;
-	width: 110px;
+	width: 150px;
 	padding: 5px 2px;
 	transform: translate(300px, -195px);
 }

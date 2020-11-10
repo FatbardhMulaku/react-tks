@@ -8,7 +8,8 @@ import { Divider } from "@material-ui/core";
 import ScrollTop from "../../UI/ScrollTop";
 import SocialMedia from "../../UI/SocialMedia/SocialMedia";
 import Subscribe from "./Subscribe";
-import { FaCopyright } from "react-icons/fa";
+import { FaCopyright , FaMobileAlt} from "react-icons/fa";
+import {AiOutlineMail} from "react-icons/ai";
 
 function Footer(props) {
   const { t } = useTranslation();
@@ -34,16 +35,13 @@ function Footer(props) {
                   {t("location")}
                 </a>
               </li>
-              <li>
+              <li><AiOutlineMail color="white"/>
                 <a
                   className="text-lowercase"
-                  href="mailto: info@kosovaoutsource.com"
-                >
-                  info@kosovaoutsource.com
-                </a>
+                  href="mailto: info@kosovaoutsource.com"> info@kosovaoutsource.com</a>
               </li>
-              <li>
-                <a href="tel:+38345400400">+383 45 400 400</a>
+              <li><FaMobileAlt color="white"/>
+                <a href="tel:+38345400400"> +383 45 400 400</a>
               </li>
             </ul>
           </div>

@@ -9,7 +9,7 @@
 }
 
 .footer hr {
-  background-color: #c2c2c2;
+  background-color: #d1d1d1;
   margin: 1% 0%;
 }
 .footer-list {
@@ -19,7 +19,7 @@
   margin-left: 3px;
 }
 .footer-list-text {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   line-height: 1.7rem;
 }
 .footer-list li {
@@ -29,7 +29,7 @@
 
 .footer-list li a {
   color: #d1d1d1;
-  font-size: 18px;
+  font-size: 17px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   text-transform: capitalize;
