@@ -7,6 +7,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionSA5.css";
+import Zoom from 'react-reveal/Zoom';
 
 function SectionSA5() {
 	const { t } = useTranslation();
@@ -15,6 +16,7 @@ function SectionSA5() {
 			<h3>{t("Application.section_5.title")}</h3>
 			<p>{t("Application.section_5.desc")}</p>
 			<h6>{t("Application.section_5.subtitle")}</h6>
+			<Zoom>
 			<React.Fragment>
 			<Timeline align="alternate" >
 				<TimelineItem>
@@ -79,6 +81,7 @@ function SectionSA5() {
 				</TimelineItem>
 			</Timeline>
     </React.Fragment>
+	</Zoom>
 		</div>
 	)
 }

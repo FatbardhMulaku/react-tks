@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionIA4.css";
+import Fade from 'react-reveal/Fade';
 
 function SectionIA4() {
 	const { t } = useTranslation();
@@ -9,6 +10,7 @@ function SectionIA4() {
 			<div className="SectionIA4__wapper container">
 				<h2>{t("Image-Analysis.section_4.title")}</h2>
 
+				<Fade bottom cascade>
 				<div className="row">
 					{t("Image-Analysis.section_4.items").map((item, index) => {
 						return( 
@@ -19,7 +21,7 @@ function SectionIA4() {
 							</div>
 						);
 					})}
-				</div>
+				</div></Fade>
 			</div>
 		</div>
 	)

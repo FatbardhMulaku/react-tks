@@ -1,13 +1,14 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionDA6.css";
+import Fade from 'react-reveal/Fade';
 
 function SectionDA6() {
 	const { t } = useTranslation();
 	return (
 		<div className="SectionDA6 container">
 			<h2>{t("DataAnalytics.section_6.title")}</h2>
-
+            <Fade bottom big cascade>
 			<div className="row d-flex flex-wrap">
                  {t("DataAnalytics.section_6.items").map((item, index) => {
                     return( 
@@ -17,9 +18,9 @@ function SectionDA6() {
                         </div>
                     );
                  })}
-            </div>
+            </div></Fade>
 		</div>
 	)
 }
 
-export default SectionDA6
+export default SectionDA6;

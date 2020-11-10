@@ -2,6 +2,7 @@ import React from 'react';
 import "./Styles/SectionTQ6.css";
 import LearnMore from "./../../UI/Button/LearnMore";
 import { useTranslation } from "react-i18next";
+import Zoom from 'react-reveal/Zoom';
 
 function SectionTQ6() {
 	const { t } = useTranslation();
@@ -10,7 +11,7 @@ function SectionTQ6() {
 			<h3>{t("Testing-Qa.section_6.title")}</h3>
 			<hr className="SectionCL3--hr"/>
 
-			
+			<Zoom bottom>
 				{t("Testing-Qa.section_6.items").map((item, index) => {
 					return(
 						<div key={index} className="row my-3 SectionCBS6__box">
@@ -25,8 +26,8 @@ function SectionTQ6() {
 							</div>
 						</div>
 					)
-					})}
+					})}</Zoom>
 		</div>
 	)
 }
-export default SectionTQ6
+export default SectionTQ6;

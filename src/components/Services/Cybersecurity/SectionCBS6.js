@@ -2,6 +2,7 @@ import React from 'react';
 import "./Styles/SectionCBS6.css";
 import LearnMore from "./../../UI/Button/LearnMore";
 import { useTranslation } from "react-i18next";
+import Fade from 'react-reveal/Fade';
 
 function SectionCBS6() {
 	const { t } = useTranslation();
@@ -10,7 +11,7 @@ function SectionCBS6() {
 			<h3>{t("Cybersecurity.section_6.title")}</h3>
 			<hr className="SectionCL3--hr"/>
 
-			
+				<Fade bottom cascade>
 				{t("Cybersecurity.section_6.items").map((item, index) => {
 					return(
 						<div key={index} className="row my-3 SectionCBS6__box">
@@ -25,7 +26,7 @@ function SectionCBS6() {
 							</div>
 						</div>
 					)
-					})}
+					})}</Fade>
 		</div>
 	)
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Styles/SectionCL4.css";
 import { useTranslation } from "react-i18next";
+import Fade from 'react-reveal/Fade';
 
 function SectionCL4() {
 	const { t } = useTranslation();
@@ -8,7 +9,7 @@ function SectionCL4() {
 		<div className="SectionCL4 container">
 			<h2>{t("Cloud.section4_title")}</h2>
 			<div className="SectionCL4--wapper">
-				
+			<Fade bottom big cascade>
 				{t("Cloud.section_4").map((item, index) => {
 					return (
 						<div key={index} className="SectionCL4__box1 row">
@@ -23,7 +24,7 @@ function SectionCL4() {
 							</div>
 						</div>
 					);
-				})}
+				})}</Fade>
 
 
 			</div>

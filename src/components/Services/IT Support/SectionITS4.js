@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionITS4.css";
+import Fade from 'react-reveal/Fade';
 
 function SectionITS4() {
 	const { t } = useTranslation();
@@ -9,6 +10,7 @@ function SectionITS4() {
 			<div className="SectionITS4__wapper container align-items-center">
 				<h2>{t("IT-Support.section_4.title")}</h2>
 
+				<Fade bottom cascade>
 				<div  className="row">
 					{t("IT-Support.section_4.box").map((item, index) => {
 						return(
@@ -18,8 +20,7 @@ function SectionITS4() {
 								<p>{item.desc}</p>
 							</div>
 						);
-					})}</div>
-
+					})}</div></Fade>
 			</div>
 		</div>
 	)

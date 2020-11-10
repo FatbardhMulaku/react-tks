@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionITc2.css";
+import Fade from 'react-reveal/Fade';
 
 function SectionITc2() {
 	const { t } = useTranslation();
@@ -9,6 +10,7 @@ function SectionITc2() {
 			<div className="SectionITc2_wapper container">
 			<h2>{t("IT-Consulting.section_2.title")}</h2>
 
+			<Fade bottom cascade>
 			<div  className="row">
 				{t("IT-Consulting.section_2.items").map((item, index) => {
 					return(
@@ -18,7 +20,7 @@ function SectionITc2() {
 							<p>{item.desc}</p><br/>
 						</div>
 					);
-				})}</div>
+				})}</div></Fade>
 			</div>
 		</div>
 	)

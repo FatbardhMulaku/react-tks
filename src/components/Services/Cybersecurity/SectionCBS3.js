@@ -7,6 +7,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionCBS3.css";
+import Zoom from 'react-reveal/Zoom';
 
 function SectionCBS3() {
 	const { t } = useTranslation();
@@ -15,6 +16,7 @@ function SectionCBS3() {
 			<div className="SectionCBS3__wapper container">
 			<h3>{t("Cybersecurity.section_3.title")}</h3>
 			<p>{t("Cybersecurity.section_3.desc")}</p>
+			<Zoom>
 			<React.Fragment>
 			<Timeline align="alternate" >
 				<TimelineItem>
@@ -79,6 +81,7 @@ function SectionCBS3() {
 				</TimelineItem>
 			</Timeline>
     </React.Fragment>
+	</Zoom>
 	</div>
 		</div>
 	)

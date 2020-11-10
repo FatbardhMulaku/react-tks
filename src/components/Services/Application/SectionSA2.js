@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionSA2.css";
+import Slide from 'react-reveal/Slide';
 
 function SectionSA2() {
 	const { t } = useTranslation();
@@ -10,6 +11,7 @@ function SectionSA2() {
 				<h3>{t("Application.section_2.title")}</h3>
 				<p>{t("Application.section_2.desc")}</p>
 
+				<Slide bottom cascade>
 				<div className="row justify-content-center">
 				{t("Application.section_2.items").map((item, index) => {
 					return(
@@ -19,10 +21,10 @@ function SectionSA2() {
 						</div>
 					);
 				})}
-				</div>
+				</div></Slide>
 			</div>
 		</div>
 	)
 }
 
-export default SectionSA2
+export default SectionSA2;

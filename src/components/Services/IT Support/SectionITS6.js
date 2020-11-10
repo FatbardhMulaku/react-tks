@@ -1,13 +1,14 @@
 import React from 'react';
 import "./Styles/SectionITS6.css";
 import { useTranslation } from "react-i18next";
+import Fade from 'react-reveal/Fade';
 
 function SectionITS6() {
 	const { t } = useTranslation();
 	return (
 		<div className="SectionITS6 container">
 			<h3>{t("IT-Support.section_6.title")}</h3>
-
+			<Fade top big cascade>
 			<div  className="row mx-auto justify-content-center">
 			{t("IT-Support.section_6.list").map((item, index) => {
 				return(
@@ -17,7 +18,7 @@ function SectionITS6() {
 						</div>
 				);
 			})}
-			</div>
+			</div></Fade>
 		</div>
 	)
 }

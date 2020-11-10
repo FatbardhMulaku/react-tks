@@ -7,6 +7,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionEC2.css";
+import Zoom from 'react-reveal/Zoom';
 
 function SectionEC2() {
 	const { t } = useTranslation();
@@ -16,7 +17,7 @@ function SectionEC2() {
 			<hr className="SectionCBS5--hr"/>
 			<p>{t("Ecommerce.section_2.desc")}</p>
 
-			
+			<Zoom>
 			<React.Fragment>
 				{t("Ecommerce.section_2.items").map((item, index) => {
 					return(
@@ -41,6 +42,7 @@ function SectionEC2() {
 				})}
 				
     		</React.Fragment>
+			</Zoom>
 		</div>
 	)
 }

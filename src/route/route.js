@@ -73,6 +73,6 @@ const route = () => {
       </Layout>
     </Router>
   );
-};
+}
 
 export default route;

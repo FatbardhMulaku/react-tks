@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionWPD3.css";
+import Fade from 'react-reveal/Fade';
 
 function SectionWPD3() {
 	const { t } = useTranslation();
@@ -9,7 +10,7 @@ function SectionWPD3() {
 			<div className="SectionWPD3__wapper container">
 				<h2>{t("Web-Portal.section_3.title")}</h2>
 				<hr className="SectionCL3--hr"/>
-
+				<Fade bottom cascade>
 				<div className="row">
 					{t("Web-Portal.section_3.items").map((item, index) => {
 						return( 
@@ -20,10 +21,10 @@ function SectionWPD3() {
 							</div>
 						);
 					})}
-				</div>
+				</div></Fade>
 			</div>
 		</div>
 	)
 }
 
-export default SectionWPD3
+export default SectionWPD3;

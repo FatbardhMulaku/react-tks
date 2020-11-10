@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionITc6.css";
+import Flip from 'react-reveal/Flip';
 
 function SectionITc6() {
 	const { t } = useTranslation();
@@ -9,6 +10,7 @@ function SectionITc6() {
 			<div className="SectionITc6__wapper container">
 				<h3>{t("IT-Consulting.section_6.title")}</h3>
 
+				<Flip left cascade>
 				<div className="row">
 					{t("IT-Consulting.section_6.items").map((item, index) => {
 						return( 
@@ -19,7 +21,7 @@ function SectionITc6() {
 							</div>
 						);
 					})}
-				</div>
+				</div></Flip>
 			</div>
 		</div>
 	)

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionSA4.css";
+import Fade from 'react-reveal/Fade';
 
 function SectionSA4() {
 	const { t } = useTranslation();
@@ -10,7 +11,7 @@ function SectionSA4() {
 			<h1>{t("Application.section_4.title")}</h1>
 			<p>{t("Application.section_4.desc")}</p>
 			<h5>{t("Application.section_4.subtitle")}</h5>
-
+			<Fade bottom cascade>
 			<div className="row">
 				{t("Application.section_4.items").map((item, index) => {
 					return( 
@@ -21,7 +22,7 @@ function SectionSA4() {
 						</div>
 					);
 				})}
-			</div>
+			</div></Fade>
 			</div>
 		</div>
 	)

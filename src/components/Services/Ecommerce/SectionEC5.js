@@ -2,6 +2,7 @@ import React from 'react';
 import "./Styles/SectionEC5.css";
 import LearnMore from "./../../UI/Button/LearnMore";
 import { useTranslation } from "react-i18next";
+import Zoom from 'react-reveal/Zoom';
 
 function SectionEC5() {
 	const { t } = useTranslation();
@@ -10,7 +11,7 @@ function SectionEC5() {
 			<h3>{t("Ecommerce.section_5.title")}</h3>
 			<hr className="SectionCL3--hr"/>
 
-			
+			<Zoom bottom>
 				{t("Ecommerce.section_5.items").map((item, index) => {
 					return(
 						<div key={index} className="row my-3 SectionCBS6__box">
@@ -25,7 +26,7 @@ function SectionEC5() {
 							</div>
 						</div>
 					)
-					})}
+					})}</Zoom>
 		</div>
 	)
 }

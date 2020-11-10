@@ -7,6 +7,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionTQ4.css";
+import Zoom from 'react-reveal/Zoom';
 
 function SectionTQ4() {
 	const { t } = useTranslation();
@@ -15,7 +16,7 @@ function SectionTQ4() {
 			<h3>{t("Testing-Qa.section_4.title")}</h3>
 			<hr className="SectionCL3--hr"/>
 			<p>{t("Testing-Qa.section_4.desc")}</p>
-
+			<Zoom >
 			<React.Fragment>
 			<Timeline align="alternate" >
 				<TimelineItem>
@@ -80,6 +81,7 @@ function SectionTQ4() {
 				</TimelineItem>
 			</Timeline>
     </React.Fragment>
+	</Zoom>
 		</div>
 	)
 }

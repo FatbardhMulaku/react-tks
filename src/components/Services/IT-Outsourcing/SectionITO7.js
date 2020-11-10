@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionITO7.css";
+import Fade from 'react-reveal/Fade';
 
 function SectionITO7() {
 	const { t } = useTranslation();
@@ -10,6 +11,7 @@ function SectionITO7() {
 			<p>{t("IT-Outsourcing.section_7.desc")}</p>
 
 			<h6>{t("IT-Outsourcing.section_7.items1_title")}</h6>
+			<Fade bottom cascade>
 			<div  className="row mx-auto justify-content-center">
 			{t("IT-Outsourcing.section_7.items1").map((item, index) => {
 				return(
@@ -19,10 +21,11 @@ function SectionITO7() {
 						</div>
 				);
 			})}
-			</div>
+			</div></Fade>
 
 
 			<h6>{t("IT-Outsourcing.section_7.items2_title")}</h6>
+			<Fade bottom cascade>
 			<div  className="row mx-auto justify-content-center">
 			{t("IT-Outsourcing.section_7.items2").map((item, index) => {
 				return(
@@ -32,7 +35,7 @@ function SectionITO7() {
 						</div>
 				);
 			})}
-			</div>
+			</div></Fade>
 		</div>
 	)
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import "./Styles/SectionWD5.css";
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 
 function SectionWD5() {
     const { t } = useTranslation();
@@ -9,7 +10,7 @@ function SectionWD5() {
         <div className="SectionWD5 container">
             <h3>{t("webdesign.section5_title")}</h3>
             <p>{t("webdesign.section5_desc")}</p>
-
+            <Fade bottom cascade>
             <div  className="row">
             {t("webdesign.section_5").map((item, index) => {
                 return(
@@ -20,7 +21,7 @@ function SectionWD5() {
                         <Link to="/webdesign">{item.btn}</Link>
                     </div>
                 );
-            })}</div>
+            })}</div></Fade>
         </div>
     )
 }

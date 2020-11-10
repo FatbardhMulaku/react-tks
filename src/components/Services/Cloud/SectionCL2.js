@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Styles/SectionCL2.css";
 import { useTranslation } from "react-i18next";
+import Flip from 'react-reveal/Flip';
 
 function SectionCL2() {
 	const { t } = useTranslation();
@@ -12,7 +13,7 @@ function SectionCL2() {
 			</div>
 			<p>{t("Cloud.section2_desc")}</p>
 
-
+			<Flip top cascade>
 			<div className="SectionCL2_grid mx-auto">
 			{t("Cloud.section_2").map((item, index) => {
 				return(
@@ -23,9 +24,9 @@ function SectionCL2() {
 					
 				);
 			})}
-			</div>
+			</div></Flip>
 		</div>
 	)
 }
 
-export default SectionCL2
+export default SectionCL2;

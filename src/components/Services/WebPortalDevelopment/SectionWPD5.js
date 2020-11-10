@@ -1,13 +1,14 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./Styles/SectionWPD5.css";
+import Fade from 'react-reveal/Fade';
 
 function SectionWPD5() {
 	const { t } = useTranslation();
 	return (
 		<div className="SectionWPD5 container">
 				<h2>{t("Web-Portal.section_5.title")}</h2>
-
+				<Fade bottom cascade>
 				<div className="row">
 					{t("Web-Portal.section_5.items").map((item, index) => {
 						return( 
@@ -18,9 +19,9 @@ function SectionWPD5() {
 							</div>
 						);
 					})}
-				</div>
+				</div></Fade>
 		</div>
 	)
 }
 
-export default SectionWPD5
+export default SectionWPD5;

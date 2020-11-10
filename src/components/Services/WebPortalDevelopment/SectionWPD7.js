@@ -2,6 +2,7 @@ import React from 'react';
 import "./Styles/SectionWPD7.css";
 import LearnMore from "./../../UI/Button/LearnMore";
 import { useTranslation } from "react-i18next";
+import Zoom from 'react-reveal/Zoom';
 
 function SectionWPD7() {
 	const { t } = useTranslation();
@@ -10,7 +11,7 @@ function SectionWPD7() {
 			<h3>{t("Web-Portal.section_7.title")}</h3>
 			<hr className="SectionCL3--hr"/>
 
-			
+			<Zoom bottom >
 				{t("Web-Portal.section_7.items").map((item, index) => {
 					return(
 						<div key={index} className="row my-3 SectionCBS6__box">
@@ -25,9 +26,9 @@ function SectionWPD7() {
 							</div>
 						</div>
 					)
-					})}
+					})}</Zoom>
 		</div>
 	)
 }
 
-export default SectionWPD7
+export default SectionWPD7;
