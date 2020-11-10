@@ -17,8 +17,9 @@ function Footer(props) {
   return (
     <div className="footer">
       <div className="container-fluid ">
-        <Subscribe />
+        <Subscribe /> 
       </div>
+     
       <div className="container-fluid footer_content ">
         <div className="row justify-content-between">
           <div className="col-sm-12 col-md-6 col-lg-3 footer-logo">

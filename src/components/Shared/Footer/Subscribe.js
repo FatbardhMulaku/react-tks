@@ -12,7 +12,7 @@ const Subscribe = () => {
           <input type="email" placeholder="Enter your email address" required />
           <button type="submit">Subscribe</button>
         </form>
-      </div>
+      </div> <hr className="footer--hr"/>
     </div>
   );
 };
