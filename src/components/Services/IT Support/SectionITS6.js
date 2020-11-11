@@ -9,7 +9,7 @@ function SectionITS6() {
 		<div className="SectionITS6 container">
 			<h3>{t("IT-Support.section_6.title")}</h3>
 			<Fade top big cascade>
-			<div  className="row mx-auto justify-content-center">
+			<div  className="row mx-auto justify-content-center mb-5 pb-5">
 			{t("IT-Support.section_6.list").map((item, index) => {
 				return(
 						<div key={index} className="SectionITS6__box col-md-4 col-lg-2">

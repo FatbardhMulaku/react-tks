@@ -25,4 +25,4 @@ function SectionA1() {
     )
 }
 
-export default SectionA1
+export default SectionA1;

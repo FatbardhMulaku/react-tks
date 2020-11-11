@@ -7,7 +7,7 @@ import Slide from 'react-reveal/Slide';
 export default function About() {
     const { t } = useTranslation();
     return (
-        <div className="about row mx-auto container">
+        <div className="about row mx-auto container mb-5 pb-5">
         <Slide bottom>
             <div className="aboutLeft col-sm-12 col-lg-6">
                 <div className="aboutText1">

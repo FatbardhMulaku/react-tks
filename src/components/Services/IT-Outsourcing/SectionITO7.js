@@ -26,7 +26,7 @@ function SectionITO7() {
 
 			<h6>{t("IT-Outsourcing.section_7.items2_title")}</h6>
 			<Fade bottom cascade>
-			<div  className="row mx-auto justify-content-center">
+			<div  className="row mx-auto justify-content-center mb-5 pb-5">
 			{t("IT-Outsourcing.section_7.items2").map((item, index) => {
 				return(
 						<div key={index} className="SectionITO7__box col-md-4 col-lg-2">

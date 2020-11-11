@@ -27,5 +27,4 @@ function SectionSA4() {
 		</div>
 	)
 }
-
 export default SectionSA4

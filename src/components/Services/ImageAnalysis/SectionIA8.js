@@ -12,7 +12,7 @@ function SectionIA8() {
 
 
 			<h5>{t("Image-Analysis.section_8.subtitle")}</h5>
-			<div className="row ">
+			<div className="row mb-5 ">
 				{t("Image-Analysis.section_8.items").map((item, index) => {
 					return( 
 						<div key={index} className="SectionCBS2__Box mx-auto">

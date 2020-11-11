@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
 
-export class AutoPlay extends Component {
+export class SectionH3Slider extends Component {
     render() {
         const settings = {
             dots: false,
@@ -31,4 +31,4 @@ export class AutoPlay extends Component {
     }
 }
 
-export default AutoPlay
+export default SectionH3Slider;

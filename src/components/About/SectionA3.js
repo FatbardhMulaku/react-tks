@@ -36,4 +36,4 @@ function SectionA3() {
     )
 }
 
-export default SectionA3
+export default SectionA3;

@@ -9,7 +9,7 @@ function SectionDA7() {
 			<h3>{t("DataAnalytics.section_7.title")}</h3>
 			<p>{t("DataAnalytics.section_7.desc")}</p>
 
-			<div  className="row mx-auto justify-content-center">
+			<div  className="row mx-auto justify-content-center mb-5 pb-5">
 			{t("DataAnalytics.section_7.items").map((item, index) => {
 				return(
 						<div key={index} className="SectionITO7__box col-md-4 col-lg-2">
