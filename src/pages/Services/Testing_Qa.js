@@ -6,7 +6,7 @@ const Testing_Qa = () => {
   return (
     <>
      <Header BC="#006FFF"/>
-     <TestingQaComponents />;
+     <TestingQaComponents />
      </>
      )
 };

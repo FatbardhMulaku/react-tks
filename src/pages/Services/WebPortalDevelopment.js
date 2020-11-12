@@ -6,7 +6,7 @@ const WebPortalDevelopment = () => {
   return (
     <>
      <Header BC="#006FFF"/>
-     <WebPortalDevelopmentComponents />;
+     <WebPortalDevelopmentComponents />
      </>
      )
 };

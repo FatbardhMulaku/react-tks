@@ -6,7 +6,7 @@ const Management = () => {
   return (
     <>
      <Header BC="#006FFF"/>
-     <ManagementComponents />;
+     <ManagementComponents />
      </>
      )
 };

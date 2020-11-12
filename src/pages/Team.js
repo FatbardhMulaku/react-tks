@@ -6,7 +6,7 @@ const Team = () => {
     return (
       <>
           <Header BC="transparent"/>
-          <TeamComponents />;
+          <TeamComponents />
       </>)   
   };
 export default Team;

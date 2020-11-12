@@ -6,7 +6,7 @@ const Company = () => {
     return (
       <>
           <Header BC="#006FFF"/>
-          <CompanyComponents />;
+          <CompanyComponents />
       </>)   
   };
 

@@ -6,7 +6,7 @@ const About = () => {
     return (
         <>
             <Header BC="#006FFF"/>
-            <AboutComponents />;
+            <AboutComponents />
         </>)       
   };
 

@@ -6,7 +6,7 @@ const Seo = () => {
   return (
     <>
         <Header BC="#006FFF"/>
-        <SeoComponent />;
+        <SeoComponent />
     </>)   
 };
 

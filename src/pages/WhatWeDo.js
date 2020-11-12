@@ -6,7 +6,7 @@ const WhatWeDo = () => {
   return (
     <>
         <Header BC="transparent"/>
-        <WhatWeDoComponents />;
+        <WhatWeDoComponents />
     </>)   
 };
 export default WhatWeDo;

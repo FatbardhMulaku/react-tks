@@ -6,7 +6,7 @@ const Consulting = () => {
   return (
     <>
      <Header BC="#006FFF"/>
-     <ItConsultingComponents />;
+     <ItConsultingComponents />
      </>
      )
 };

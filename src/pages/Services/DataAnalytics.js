@@ -6,7 +6,7 @@ const DataAnalytics = () => {
   return (
     <>
      <Header BC="#006FFF"/>
-     <DataAnalyticsComponents />;
+     <DataAnalyticsComponents />
      </>
      )
 };

@@ -6,7 +6,7 @@ const WebServices = () => {
   return (
     <>
         <Header BC="transparent"/>
-        <WebServicesComponent />;
+        <WebServicesComponent />
     </>)   
 };
 

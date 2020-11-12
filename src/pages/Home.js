@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
         <Header BC="transparent"/>
-        <HomeComponents />;
+        <HomeComponents />
     </>)   
 };
 export default Home;

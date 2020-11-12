@@ -6,7 +6,7 @@ const Cybersecurity = () => {
   return (
     <>
      <Header BC="#006FFF"/>
-     <CybersecurityComponents />;
+     <CybersecurityComponents />
      </>
      )
 };

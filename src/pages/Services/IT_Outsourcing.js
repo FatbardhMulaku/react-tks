@@ -6,7 +6,7 @@ const Outsourcing = () => {
   return (
     <>
      <Header BC="#006FFF"/>
-     <ItOutsourcingComponents />;
+     <ItOutsourcingComponents />
      </>
      )
 };

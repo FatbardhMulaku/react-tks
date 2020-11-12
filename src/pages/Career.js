@@ -6,7 +6,7 @@ const Career = () => {
     return (
       <>
           <Header BC="transparent"/>
-          <CareerComponents />;
+          <CareerComponents />
       </>)   
   };
 

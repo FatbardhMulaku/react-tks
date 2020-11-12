@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
         <Header BC="transparent"/>
-        <ContactComponents />;
+        <ContactComponents />
     </>)   
 };
 export default Contact;

@@ -6,7 +6,7 @@ const Cloud = () => {
   return (
     <>
      <Header BC="#006FFF"/>
-     <CloudComponents />;
+     <CloudComponents />
      </>
      )
 };

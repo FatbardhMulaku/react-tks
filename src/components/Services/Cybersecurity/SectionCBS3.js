@@ -86,5 +86,4 @@ function SectionCBS3() {
 		</div>
 	)
 }
-
 export default SectionCBS3

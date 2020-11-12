@@ -6,7 +6,7 @@ const Faq = () => {
   return (
     <>
         <Header BC="transparent"/>
-        <FaqComponent />;
+        <FaqComponent />
     </>)   
 };
 

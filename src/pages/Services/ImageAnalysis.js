@@ -6,7 +6,7 @@ const ImageAnalysis = () => {
   return (
     <>
      <Header BC="#006FFF"/>
-     <ImageAnalysisComponents />;
+     <ImageAnalysisComponents />
      </>
      )
 };

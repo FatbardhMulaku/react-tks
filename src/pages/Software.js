@@ -6,7 +6,7 @@ const Software = () => {
   return (
     <>
         <Header BC="#006FFF"/>
-        <SoftwareComponents />;
+        <SoftwareComponents />
     </>)   
 };
 

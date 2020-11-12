@@ -6,7 +6,7 @@ const Security = () => {
   return (
     <>
         <Header BC="transparent"/>
-        <SecurityComponent />;
+        <SecurityComponent />
     </>)   
 };
 

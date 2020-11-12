@@ -6,7 +6,7 @@ const Application = () => {
   return (
     <>
      <Header BC="#006FFF"/>
-     <ApplicationComponents />;
+     <ApplicationComponents />
      </>
      )
 };

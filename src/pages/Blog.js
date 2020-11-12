@@ -6,7 +6,7 @@ const Blog = () => {
   return (
     <>
         <Header BC="transparent"/>
-        <BlogComponents />;
+        <BlogComponents />
     </>)   
 };
 export default Blog;

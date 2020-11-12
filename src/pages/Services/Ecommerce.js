@@ -6,7 +6,7 @@ const Ecommerce = () => {
   return (
     <>
      <Header BC="#006FFF"/>
-     <EcommerceComponents />;
+     <EcommerceComponents />
      </>
      )
 };
