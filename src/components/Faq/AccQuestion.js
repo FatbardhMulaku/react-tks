@@ -8,6 +8,7 @@ import {
 import { makeStyles } from "@material-ui/core/styles";
 import { FcExpand } from "react-icons/fc";
 
+
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: "2rem auto",
@@ -22,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
   accSummary: {
     "& > .MuiAccordionSummary-content": {
       margin: "20px 0",
+      color:"black"
     },
   },
   question: {
@@ -40,7 +42,7 @@ const AccQuestion = (props) => {
       onChange={props.handleChange(props.name + props.index)}
     >
       <AccordionSummary
-        expandIcon={<FcExpand className="acc_icon" />}
+        expandIcon={<FcExpand style={{ fill: 'black' }} className="acc_icon" />}
         id={props.name + props.index}
         aria-controls={props.name}
         className={classes.accSummary}

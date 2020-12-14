@@ -11,7 +11,7 @@ function BannerB() {
     <div className="bannerBlog row my-auto">
 
       <div className="col-sm-12 col-lg-6 banner__textBlog">
-      <Zoom left cascade><h1>
+      <Zoom left ><h1>
         {t("Blog.BannerB1h")}
         </h1>
         <p>

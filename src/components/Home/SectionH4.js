@@ -35,7 +35,7 @@ function SectionH4() {
     <div className="team">
       <Fade>
     <div className="team-c container">
-      <div className="team__left"><Fade left cascade>
+      <div className="team__left"><Fade left >
         <h1>{t("Home.SectionH4LeftTitle")}</h1>
         <p>
         {t("Home.SectionH4LeftP")}

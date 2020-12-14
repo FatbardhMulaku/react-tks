@@ -21,25 +21,15 @@ function Footer(props) {
       </div>
      
       <div className="container-fluid footer_content ">
-        <div className="row justify-content-between">
+        <div className="row justify-content-around">
           <div className="col-sm-12 col-md-6 col-lg-3 footer-logo">
-            <h2>
-              <Logo logo="white_logo" text="col_white" />
-            </h2>
+            <h2><Logo logo="white_logo" text="col_white" /></h2>
             <ul className="footer-list ">
               <li>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://goo.gl/maps/gWGFJN2rzNrBZ5FX7"
-                >
-                  {t("location")}
-                </a>
+                <a rel="noopener noreferrer" target="_blank" href="https://goo.gl/maps/gWGFJN2rzNrBZ5FX7" > {t("location")} </a>
               </li>
               <li><AiOutlineMail color="white"/>
-                <a
-                  className="text-lowercase"
-                  href="mailto: info@kosovaoutsource.com"> info@kosovaoutsource.com</a>
+                <a className="text-lowercase" href="mailto: info@kosovaoutsource.com"> info@kosovaoutsource.com</a>
               </li>
               <li><FaMobileAlt color="white"/>
                 <a href="tel:+38345400400"> +383 45 400 400</a>

@@ -10,7 +10,7 @@ function SectionCo1() {
     return (
         <div className="SectionCo1">
         <div className="Co_wapper container row my-auto mx-auto align-items-center">
-            <Fade left cascade>
+            <Fade left>
             <div className="col-sm-12 col-lg-6 SectionCo1_left">
                 <h1>{t("Company.Section1h")}</h1>
                 <p>{t("Company.Section1p")}</p>

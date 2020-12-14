@@ -13,7 +13,7 @@ function Banner() {
     <div className="banner">
 
     <div className="banner__text">
-    <Zoom left cascade>
+    <Zoom left >
       <h1>{t("Home.BanerH1")}</h1>
       <p>{t("Home.BannerP")}</p>
       <div className="div-banner-btn">

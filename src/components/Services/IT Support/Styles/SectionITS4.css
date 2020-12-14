@@ -26,10 +26,10 @@
 	border-radius: 20px;
 	margin: 20px 10px;
 	padding: 20px 30px !important;
-	transition-duration: 0.6s;
+	transition-duration: 0.6s !important;
 }
 .ITS4_box:hover{
-	transform: scale(1.06);
+	transform: scale(1.02) !important;
 }
 .ITS4_box > p{
 	color: rgb(105, 105, 105);

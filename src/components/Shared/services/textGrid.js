@@ -8,7 +8,7 @@ const TextGrid = (props) => {
   const { t } = useTranslation();
   return (
     <div className={`col-sm-12 col-lg-5 textGrid ${props.textCss}`}>
-      <Zoom left cascade>
+      <Zoom left >
       <h1 className="font_roboto text-capitalize font-w-600">
         {t(`${props.tr}.title`)}
       </h1>
