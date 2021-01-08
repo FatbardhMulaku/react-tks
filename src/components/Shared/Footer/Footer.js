@@ -32,7 +32,7 @@ function Footer(props) {
                 <a className="text-lowercase" href="mailto: info@kosovaoutsource.com"> info@kosovaoutsource.com</a>
               </li>
               <li><FaMobileAlt color="white"/>
-                <a href="tel:+38345400400"> +383 45 400 400</a>
+                <a href="tel:+38343560863"> +383 43 560 863</a>
               </li>
             </ul>
           </div>

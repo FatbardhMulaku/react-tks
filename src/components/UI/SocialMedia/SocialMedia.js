@@ -21,7 +21,7 @@ const socalMedias = [
   },
   {
     name: "Linkedin",
-    link: "linkedin.com",
+    link: "linkedin.com/company/kosovaoutsource-llc",
     icon: <FaLinkedinIn />,
   },
   {
