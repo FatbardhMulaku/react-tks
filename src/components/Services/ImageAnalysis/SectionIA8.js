@@ -15,7 +15,7 @@ function SectionIA8() {
 			<div className="row mb-5 ">
 				{t("Image-Analysis.section_8.items").map((item, index) => {
 					return( 
-						<div key={index} className="SectionCBS2__Boxa mx-auto">
+						<div key={index} className="SectionCBS2__Box mx-auto">
 							<div className={`SectionIA8_icon${index+1} mx-auto`}/>
 							<h6>{item.title}</h6>
 						</div>

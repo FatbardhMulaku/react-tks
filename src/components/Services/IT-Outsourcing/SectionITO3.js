@@ -13,7 +13,7 @@ function SectionITO3() {
             <div className="row">
                  {t("IT-Outsourcing.section_3.list").map((item, index) => {
                     return( 
-                        <div key={index} className="ManagementBox col-12 col-lg-5 mx-auto">
+                        <div key={index} className="ManagementBox col-12 col-lg-4 mx-auto">
                             <div className={`SectionITO3_icon${index+1} mx-auto`}/>
                             <h6>{item.title}</h6>
                             <p>{item.desc}</p>

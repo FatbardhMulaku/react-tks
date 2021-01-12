@@ -10,7 +10,7 @@
 	margin-bottom: 30px;
 }
 .SecM7_img1, .SecM7_img2, .SecM7_img3{
-	height: 60px !important;
+	height: 80px;
 	width: 80px !important;
 	background-position: center;
 	background-size: cover;
@@ -27,7 +27,6 @@
 }
 .SectionM7__box{
 	border: 1px solid transparent;
-	padding: 10px 0;
 }
 .SectionM7__box:hover{
 	border:1px solid rgb(192, 192, 192);

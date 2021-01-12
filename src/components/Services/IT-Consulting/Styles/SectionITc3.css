@@ -34,7 +34,8 @@
 	border-bottom: 1px solid transparent;
 }
 .SectionITc3__Box:hover,.SectionITc3__Box:hover,.SectionITc3__Box:hover,.SectionITc3__Box:hover{
-	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.39);
+	transform: translateY(-2px);
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.39);
 	border-bottom: 1px solid rgb(128, 128, 128);
 }
 .SectionITc3__Box > h6{

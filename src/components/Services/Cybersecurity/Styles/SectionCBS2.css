@@ -20,7 +20,7 @@
 	width: 55px;
 	border: 1px solid rgb(233, 233, 233);
 }
-.SectionCBS2__Boxa:hover p{
+.SectionCBS2__Box:hover p{
 	color: black;
 }
 .SectionCBS2_icon1{
@@ -32,7 +32,7 @@
 .SectionCBS2_icon3{
 	background-image: url(./../../../../assets/Services/Cybersecurity/section_2icon3.jpg);
 }
-.SectionCBS2__Boxa{
+.SectionCBS2__Box{
 	padding: 20px 20px !important;
 	border-radius: 20px;
 	margin-bottom: 20px;
@@ -41,17 +41,17 @@
 	border-bottom: 1px solid transparent;
 	transition: all 0.5s;
 }
-.SectionCBS2__Boxa:hover{
-	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.39);
-	border-bottom: 1px solid rgb(143, 143, 143);
+.SectionCBS2__Box:hover,.SectionCBS2__Box:hover,.SectionCBS2__Box:hover,.SectionCBS2__Box:hover{
+	box-shadow: 0px 2px 8px 0px rgba(207, 207, 207, 0.39);
+	border-bottom: 1px solid rgb(194, 194, 194);
 }
-.SectionCBS2__Boxa > h6{
+.SectionCBS2__Box > h6{
 	text-align: center;
 	margin: 10px 0;
 	font-size: 15px;
 	font-weight: bold;
 }
-.SectionCBS2__Boxa > p{
+.SectionCBS2__Box > p{
 	color: rgb(126, 126, 126);
 	font-size: 12px;
 	line-height: 1.7;
