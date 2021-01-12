@@ -10,7 +10,7 @@ function SectionITS4() {
 			<div className="SectionITS4__wapper container align-items-center">
 				<h2>{t("IT-Support.section_4.title")}</h2>
 
-				<Fade bottom cascade>
+				<Fade bottom >
 				<div  className="row">
 					{t("IT-Support.section_4.box").map((item, index) => {
 						return(

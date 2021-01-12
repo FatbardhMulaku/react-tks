@@ -13,10 +13,10 @@ function SectionTQ5() {
 				})}
 
 
-			<div className="row ">
+			<div className="row justify-content-center">
 				{t("Testing-Qa.section_5.items").map((item, index) => {
 					return( 
-						<div key={index} className="SectionTQ5__Box mx-auto">
+						<div key={index} className="SectionTQ5__Box ">
 							<div className={`SectionTQ5_icon${index+1} mx-auto`}/>
 							<h6>{item.title}</h6>
 						</div>

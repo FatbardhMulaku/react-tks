@@ -13,7 +13,7 @@ function SectionCL2() {
 			</div>
 			<p>{t("Cloud.section2_desc")}</p>
 
-			<Flip top cascade>
+			<Flip top >
 			<div className="SectionCL2_grid mx-auto">
 			{t("Cloud.section_2").map((item, index) => {
 				return(

@@ -43,9 +43,7 @@
 .Ce1-btn1:hover{
     color: white;
     text-decoration: none;
-    -webkit-box-shadow: 3px 6px 16px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 6px 16px -8px rgba(0,0,0,0.75);
-    box-shadow: 3px 6px 16px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 8px -5px rgba(0,0,0,0.75);
 }
 .Ce-Box1, .Ce-Box2{
     width: 100px;

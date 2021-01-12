@@ -13,6 +13,10 @@
     padding: 60px !important;
     text-align: center;
 }
+.WD5_box:hover{
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+}
 .WD5_box p{
     margin-bottom: 40px;
     text-align: justify !important;
@@ -28,7 +32,7 @@
 .WD5_box a:hover{
     text-decoration: none;
     color: white;
-    box-shadow: 0px 9px 14px -4px rgba(0,0,0,0.53);
+    box-shadow: 0px 2px 6px -1px rgba(0,0,0,0.53);
 }
 .WD5_icon1, .WD5_icon2, .WD5_icon3{
     background-position: center;

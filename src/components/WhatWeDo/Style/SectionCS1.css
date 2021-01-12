@@ -25,5 +25,9 @@
 @media only screen and (max-width: 500px) {
     .SectionCS1{
         width: 100%;
+        height: 650px;
+    }
+    .SectionCS1c{
+        height: 650px;
     }
 }

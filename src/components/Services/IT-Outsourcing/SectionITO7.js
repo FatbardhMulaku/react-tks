@@ -15,7 +15,7 @@ function SectionITO7() {
 			<div  className="row mx-auto justify-content-center">
 			{t("IT-Outsourcing.section_7.items1").map((item, index) => {
 				return(
-						<div key={index} className="SectionITO7__box col-md-4 col-lg-2">
+						<div key={index} className="SectionITO7__box ">
 							<h6>{item.desc}</h6>
 							<p>{item.info}</p>
 						</div>
@@ -29,7 +29,7 @@ function SectionITO7() {
 			<div  className="row mx-auto justify-content-center mb-5 pb-5">
 			{t("IT-Outsourcing.section_7.items2").map((item, index) => {
 				return(
-						<div key={index} className="SectionITO7__box col-md-4 col-lg-2">
+						<div key={index} className="SectionITO7__box ">
 							<h6>{item.desc}</h6>
 							<p>{item.info}</p>
 						</div>

@@ -27,7 +27,9 @@
 .SectionIA8_icon3{
 	background-image: url(./../../../../assets/Services/ImageAnalysis/section7_icon3.jpg);
 }
-
+.SectionIA8 > h5{
+	margin-bottom: 15px;
+}
 @media only screen and (max-width: 768px) {
 	.SectionIA8 > h3{
 		margin-top: 60px;

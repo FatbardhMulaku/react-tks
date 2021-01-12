@@ -24,7 +24,7 @@ function SectionCS3() {
                 <div className="SectionCS3__Right">
                 
                     <div className="SectionCS3__RightC">
-                    <Zoom right cascade> 
+                    <Zoom right > 
                     <h1>{t("Blog.SectionCS3h")}</h1>
                     <p>
                     {t("Blog.SectionCS3p")}
