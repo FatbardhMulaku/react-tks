@@ -274,7 +274,7 @@
 			"name": "kontaktiere uns"
 		  },
 		  {
-			"link": "/news",
+			"link": "/blog",
 			"name": "Nachrichten"
 		  }
 		]
@@ -283,23 +283,23 @@
 		"title": "Dienstleistungen",
 		"items": [
 		  {
-			"link": "/software-development",
+			"link": "/webdesign",
 			"name": "Software-Entwicklung"
 		  },
 		  {
-			"link": "/callaboration",
+			"link": "/web-services",
 			"name": "Zusammenarbeit"
 		  },
 		  {
-			"link": "/nerwork-infrastructure",
+			"link": "/it-consulting",
 			"name": "Netzwerkinfrastruktur"
 		  },
 		  {
-			"link": "/administration",
+			"link": "/it-support",
 			"name": "Verwaltung"
 		  },
 		  {
-			"link": "/managment-services",
+			"link": "/management",
 			"name": "IT-Management-Dienstleistungen"
 		  }
 		]
@@ -308,11 +308,11 @@
 		"title": "Hilfezentrum",
 		"items": [
 		  {
-			"link": "/team-services",
+			"link": "/",
 			"name": "Team von Dienstleistungen"
 		  },
 		  {
-			"link": "/privacy-policy",
+			"link": "/",
 			"name": "Datenschutz-Bestimmungen"
 		  },
 		  {
@@ -363,7 +363,7 @@
 	  "name": "Fallstudien",
 	  "caseStudiesMenu": [
 		{ "link": "portfolio", "name": "Erfahrung" },
-		{ "link": "Stories", "name": "Geschichten" }
+		{ "link": "company", "name": "Geschichten" }
 	  ]
 	},
 	"location": "Wir bieten die günstigsten und besten Outsourcing-Lösungen im Kosovo. Kontaktieren Sie uns, um ein Angebot zu erhalten!",

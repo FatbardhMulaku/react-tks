@@ -274,7 +274,7 @@
 			"name": "Na kontaktoni"
 		  },
 		  {
-			"link": "/news",
+			"link": "/blog",
 			"name": "Lajme"
 		  }
 		]
@@ -283,23 +283,23 @@
 		"title": "Shërbimet",
 		"items": [
 		  {
-			"link": "/software-development",
+			"link": "/webdesign",
 			"name": "Zhvillimi i softverit"
 		  },
 		  {
-			"link": "/callaboration",
+			"link": "/web-services",
 			"name": "Bashkëpunimi"
 		  },
 		  {
-			"link": "/nerwork-infrastructure",
+			"link": "/it-consulting",
 			"name": "Infrastruktura e rrjetit"
 		  },
 		  {
-			"link": "/administration",
+			"link": "/it-support",
 			"name": "Administrata"
 		  },
 		  {
-			"link": "/managment-services",
+			"link": "/management",
 			"name": "Shërbimet e menaxhimit"
 		  }
 		]
@@ -308,11 +308,11 @@
 		"title": "Qendra e ndihmes",
 		"items": [
 		  {
-			"link": "/team-services",
+			"link": "/",
 			"name": "Ekipi i shërbimeve"
 		  },
 		  {
-			"link": "/privacy-policy",
+			"link": "/",
 			"name": "Politika e privatësisë"
 		  },
 		  {
@@ -363,7 +363,7 @@
 	  "name": "studime të rastit",
 	  "caseStudiesMenu": [
 		{ "link": "portfolio", "name": "Përvoja" },
-		{ "link": "Stories", "name": "Tregime" }
+		{ "link": "company", "name": "Tregime" }
 	  ]
 	},
 	"location": "Ne ofrojmë zgjidhjet më të lira dhe më të mira të burimeve të jashtme në Kosovë. Na kontaktoni për të marrë një vlerësim!",

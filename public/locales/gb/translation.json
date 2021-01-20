@@ -275,7 +275,7 @@
           "name": "contact us"
         },
         {
-          "link": "/news",
+          "link": "/blog",
           "name": "news"
         }
       ]
@@ -284,23 +284,23 @@
       "title": "Services",
       "items": [
         {
-          "link": "/software-development",
+          "link": "/webdesign",
           "name": "Software development"
         },
         {
-          "link": "/callaboration",
+          "link": "/web-services",
           "name": "Callaboration"
         },
         {
-          "link": "/nerwork-infrastructure",
+          "link": "/it-consulting",
           "name": "Nerwork infrastructure"
         },
         {
-          "link": "/administration",
+          "link": "/it-support",
           "name": "Administration"
         },
         {
-          "link": "/managment-services",
+          "link": "/management",
           "name": "It managment services"
         }
       ]
@@ -309,11 +309,11 @@
       "title": "Help Center",
       "items": [
         {
-          "link": "/team-services",
+          "link": "/",
           "name": "Team of services"
         },
         {
-          "link": "/privacy-policy",
+          "link": "/",
           "name": "Privacy policy"
         },
         {
@@ -364,7 +364,7 @@
     "name": "case studies",
     "caseStudiesMenu": [
       { "link": "portfolio", "name": "Experience" },
-      { "link": "Stories", "name": "Stories" }
+      { "link": "company", "name": "Stories" }
     ]
   },
   "location": "We offer the cheapest and best outsourcing solutions in Kosovo. Contact us to get a quote!",
