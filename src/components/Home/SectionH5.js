@@ -28,7 +28,7 @@ class WorkSection extends Component {
     render() {
         const { t } = this.props;
         return (
-            <div  className="WorkSection container  mt-5"> 
+            <div  className="WorkSection container my-auto"> 
             <Zoom>
                 <h1>{t('Home.SectionH5title')}</h1>
                 <div clasname="workUL">

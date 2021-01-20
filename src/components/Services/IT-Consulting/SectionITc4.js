@@ -11,7 +11,7 @@ function SectionITc4() {
 				<h3>{t("IT-Consulting.section_4.title")}</h3>
 				<p>{t("IT-Consulting.section_4.desc")}</p>
 
-				<Fade bottom big >
+				<Fade bottom big cascade>
 				<div className="row justify-content-center ITc4__box">
 				{t("IT-Consulting.section_4.items").map((item, index) => {
 					return (

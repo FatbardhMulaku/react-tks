@@ -14,7 +14,11 @@ const Industries = (props) => {
     <PopperBox
       name={t("industriesPopper.name")}
       trigger={props.trigger}
+<<<<<<< HEAD
       width="925px"
+=======
+      width="1000px"
+>>>>>>> 5cc67bed89897bb8a111c8ffc441b16f43cd4b20
     >
       <div className="industries_popper_container">
         <ul className="industries_popper_list">

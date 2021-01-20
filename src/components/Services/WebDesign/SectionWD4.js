@@ -11,7 +11,7 @@ function SectionWD4() {
             <Fade bottom >
             {t("webdesign.section_4").map((item, index) => {
                 return (
-                    <div key={index} className="my-1 SectionWD4__box">
+                    <div key={index} className="my-4">
                         <div className="row ml-1 mb-1">
                             <div className={`${item.icon} mr-4`}/>
                             <h4>{item.title}</h4>

@@ -10,7 +10,7 @@ function SectionITO5() {
 		<div className="SectionITO5">
 			<div className="SectionITO5__wapper container">
 				<h2>{t("IT-Outsourcing.section_5.title")}</h2>
-				<Fade bottom >
+				<Fade bottom cascade>
 				<div  className="row">
 					{t("IT-Outsourcing.section_5.list").map((item, index) => {
 						return(
