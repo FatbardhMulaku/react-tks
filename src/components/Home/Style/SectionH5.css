@@ -1,5 +1,5 @@
 .WorkSection{
-    margin-top: 100px;
+    padding-top: 70px;
     width:80%;
     margin-left: auto;
     margin-right: auto;
@@ -199,8 +199,9 @@
         height: 260px;
     }
     .butone{
-        padding: 8px 15px;
+        padding: 8px 10px;
         font-size: 13px;
+        margin-left: 1px;
       }
 
   }

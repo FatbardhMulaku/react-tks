@@ -11,7 +11,7 @@ function SectionM2() {
             <div className="row">
                  {t("Management.section_2").map((item, index) => {
                     return( 
-                        <div key={index} className="ManagementBox SectionCBS2__Box mx-auto">
+                        <div key={index} className="ManagementBox SectionCBS2__Box1 mx-auto">
                             <div className={`ManagementS2_icon${index+1} mx-auto`}/>
                             <h6>{item.title}</h6>
                             <p>{item.desc}</p>

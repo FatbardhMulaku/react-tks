@@ -14,7 +14,6 @@
 .sectionSeo3 > .slick-list {
   margin: 0 2rem !important ;
 }
-
 .sectionSeo3_img1,
 .sectionSeo3_img2,
 .sectionSeo3_img3,
@@ -24,7 +23,7 @@
 }
 .sectionSeo3 {
   margin: 4rem 0;
-  margin-bottom: 17rem !important;
+  margin-bottom: 5rem !important;
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .sectionSeo3_img1,
@@ -36,6 +35,9 @@
 }
 @media (max-width: 768px) {
   .sectionSeo3 {
-    margin-bottom: 12rem !important;
+    margin-bottom: 6rem !important;
+  }
+  .sectionSeo3 h2{
+    margin-bottom: 30px;
   }
 }

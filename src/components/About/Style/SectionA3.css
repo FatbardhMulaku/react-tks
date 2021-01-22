@@ -122,6 +122,9 @@
     .SectionA3bImg5{
         transform: translate(20px, -370px);
     }
+    .SectionA3{
+        height: 630px;
+    }
 }
 @media only screen and (max-width: 850px) {
     .SectionA3{
@@ -140,10 +143,15 @@
         width: 96%;
     }
 }
+@media only screen and (max-width: 850px) {
+    .SectionA3{
+        padding-bottom: 100px;
+    }
+}
 @media only screen and (max-width: 550px) {
     .SectionA3{
         width: 99%;
-        height: 700px;
+        height: 800px;
         flex-direction: column-reverse;
     }
     .SectionA3a{
@@ -192,6 +200,6 @@
         padding: 50px;
     }
     .SectionA3{
-        height: 700px;
+        height: 800px;
     }
 }

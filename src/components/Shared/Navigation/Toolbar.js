@@ -14,10 +14,14 @@ const useStyles = makeStyles((theme) => ({
   appBar: {
     display: "flex",
     justifyContent: "space-between",
-    padding: "5px",
+    padding: "5px 70px",
     alignItems: "center",
     paddingTop: "12px",
-    color:'black'
+    color:'black',
+    maxWidth:"1800px",
+    [theme.breakpoints.down("lg")]: {
+      padding:"5px"
+    }
   },
   box1: {
     boxShadow: "none ",
@@ -82,7 +86,7 @@ const Toolbar = (props) => {
   return (
     <AppBar className={trigger ? classes.box2 : classes.box1}>
       <SearchInput isSearch={isSearch} />
-      <Container maxWidth="xl" className={classes.appBar}>
+      <Container className={classes.appBar}>
         <Logo
           logo={trigger ? "black_logo" : "white_logo"}
           text={trigger ? "col_black" : "col_white"}

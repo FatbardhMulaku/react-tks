@@ -75,11 +75,14 @@ box-shadow: -1px 4px 13px -4px rgba(0,0,0,0.75);
         border-radius: 15px;
         font-size: 13px;
     }
+    .SectionCe3{
+        height: 670px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .SectionCe3{
-        height: 1200px;
+        height: 1100px;
     }
 }
 
@@ -88,9 +91,9 @@ box-shadow: -1px 4px 13px -4px rgba(0,0,0,0.75);
     .SectionCe3-top > h2{
         font-size: 30px;
     }
-    /* .SectionCe3-top{
-        margin-top: 50px;
-    } */
+    .SectionCe3{
+        height: 1200px;
+    }
 }
 @media only screen and (max-width: 470px) {
     .SectionCe3-top > h2{
@@ -113,6 +116,9 @@ box-shadow: -1px 4px 13px -4px rgba(0,0,0,0.75);
     .jobDescription{
         width: 95%;
         padding-left: 10px;
+    }
+    .SectionCe3{
+        height: 1300px;
     }
 }
 .shigjetat{

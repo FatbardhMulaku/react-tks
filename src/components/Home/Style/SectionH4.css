@@ -7,7 +7,6 @@
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
 
 }
 .team__left{
@@ -161,13 +160,14 @@
 @media only screen and (max-width: 990px) {
     .team{
         height: 1150px;
+        padding-top: 5px !important;
     }
     .team-c{
         display: flex;
         flex-direction: column !important;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 80px;
+        margin-top: 40px !important;
     }
     .team__left{
         width: 100% !important;
@@ -197,10 +197,12 @@
 }   
 @media only screen and (max-width: 500px) {
     .team{
-        height: 900px;
+        height: 940px;
+        margin-top: 20px !important;
     }
     .team-c{
-        margin-top: 70px;
+        margin-top: 30px;
+        
     }
     .team__left h1{
         font-size: 30px;
@@ -216,6 +218,7 @@
     .team__Right{
         width: 100% !important;
         margin-top: 30px;
+        margin-bottom: 30px;
     }
     .team__Right1-con, .team__Right1-con2   {
         padding: 15px;

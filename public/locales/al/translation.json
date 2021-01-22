@@ -35,7 +35,11 @@
 	  "btn": "Hyni",
 	  "loginInfo": "Posedoni një llogari? "
 	},
-  
+    "footeri":{
+		"subscribe":"Abonohuni në gazetën tonë !!",
+		"placeholder":"Vendosni adresën tuaj të postës elektronike",
+		"sub":"Abonohuni"
+	  },
 	"learnMoreBtn": "Mëso më shumë",
 	"software": {
 	  "section_1": {

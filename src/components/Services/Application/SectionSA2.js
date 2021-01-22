@@ -15,7 +15,7 @@ function SectionSA2() {
 				<div className="row justify-content-center">
 				{t("Application.section_2.items").map((item, index) => {
 					return(
-						<div key={index} className="SectionDA3__box">
+						<div key={index} className="SectionSA2__box">
 								<div className={`SectionSA2__img${index+1}`} />
 								<p>{item}</p>
 						</div>

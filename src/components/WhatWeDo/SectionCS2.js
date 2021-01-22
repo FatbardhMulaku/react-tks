@@ -10,7 +10,7 @@ function SectionCS2() {
     return (
         <div className="SectionCS2 container">
             <div className="SectionCS2Left">
-            <Zoom left cascade> 
+            <Zoom left > 
                 <h1>{t("Blog.SectionCS2h")}</h1>
                 <p>{t("Blog.SectionCS2p")}</p>
                 <LearnMore link="SectionCS3" offset={-90} /> 

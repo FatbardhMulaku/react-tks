@@ -10,7 +10,7 @@ function SectionITc2() {
 			<div className="SectionITc2_wapper container">
 			<h2>{t("IT-Consulting.section_2.title")}</h2>
 
-			<Fade bottom cascade>
+			<Fade bottom >
 			<div  className="row">
 				{t("IT-Consulting.section_2.items").map((item, index) => {
 					return(

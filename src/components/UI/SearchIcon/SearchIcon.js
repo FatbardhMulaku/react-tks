@@ -6,6 +6,10 @@ import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 
 const useStyles = makeStyles((theme) => ({
   button: {
+    marginRight:"15px",
+    [theme.breakpoints.down("lg")]: {
+      marginRight:"0px",
+    },
     "&:focus": {
       outline: "none",
     },

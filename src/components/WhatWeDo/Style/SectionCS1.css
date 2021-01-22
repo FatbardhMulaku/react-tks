@@ -1,6 +1,6 @@
 .SectionCS1{
     width: 100%;
-    height: 900px;
+    height: 650px;
     background-image:linear-gradient(to right , rgba(54, 54, 54, 0.397), rgba(54, 54, 54, 0.4)), url(./../../../assets/CaseStudies/bannerCS.jpg);
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -8,7 +8,7 @@
 }
 .SectionCS1c{
     width: 90%;
-    height: 950px;
+    height: 650px;
     margin-left: auto;
     margin-right: auto;
     display: flex;

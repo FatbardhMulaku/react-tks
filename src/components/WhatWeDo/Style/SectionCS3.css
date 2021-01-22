@@ -1,6 +1,6 @@
 .SectionCS3{
     margin-top: 20px;
-    height: 900px;
+    height: 750px;
     width: 100%;
     background-image:linear-gradient(to right , rgba(255, 255, 255, 0.644), rgba(255, 255, 255, 0.644)), url(./../../../assets/CaseStudies/bannerCS3.jpg);
     background-repeat: no-repeat !important;
@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 
 }
 .SectionCS3__container{
@@ -63,7 +64,7 @@
 }
 .SectionCS3__RightC p{
     font-size: 19px;
-    color: #686868;
+    color: #525252;
     font-weight: 600;
     margin-bottom: 50px;
 }
@@ -72,6 +73,10 @@
     padding:20px 50px;
     text-align: left !important;
 }
+@media only screen and (max-width: 830px) {
+    .SectionCS3{
+       margin-bottom: 100px;}
+    }
 @media only screen and (max-width: 750px) {
     .SectionCS3{
         height: 100Vh;

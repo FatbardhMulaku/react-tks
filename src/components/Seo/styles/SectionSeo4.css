@@ -89,6 +89,14 @@
 .SeoS4-footer{
     margin-top: 100px;
 }
+
+.SeoBoxS4{
+    border-bottom: 2px solid transparent;
+    border-radius: 5px;
+}
+.SeoBoxS4:hover{
+    border-bottom: 2px solid black;
+}
 @media only screen and (max-width: 992px) {
     .SectionSeo4{
         height: 1150px;

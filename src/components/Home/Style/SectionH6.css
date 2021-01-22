@@ -14,7 +14,7 @@
 }
 .aboutText1 p, .aboutText2 p{
     width: 80%;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     color: rgb(141, 135, 135);
 }
 .aboutText1 a{
@@ -38,7 +38,6 @@
 .aboutLeft{
     padding: 20px;
     margin-top: auto;
-    margin-bottom: auto;
 }  
 .aboutRight{
     padding: 20px;
@@ -159,7 +158,8 @@
 
 @media only screen and (max-width: 768px) {
     .about{
-        height: 1900px;
+        height: 2150px;
+        margin-bottom: -200px !important;
     }
     .aboutLeft{
         text-align: center;
@@ -215,7 +215,7 @@
 }
 @media only screen and (max-width: 570px) {
     .about {
-        margin-top: 0px;
+        margin-top: 70px;
         height: 1800px;}
         .aboutLeft{
             width: 100%;

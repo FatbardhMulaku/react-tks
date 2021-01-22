@@ -11,14 +11,15 @@
 	margin-bottom: 40px;
 }
 .SectionITO7__box {
-	margin: 0px 30px 20px 30px !important;
+	margin: 20px 5px !important;
+	width: 260px;
 	border-bottom: 1px solid rgb(161, 161, 161);
 	border-radius: 15px;
-	padding-top: 10px;
+	padding: 20px 30px!important;
 }
 .SectionITO7__box:hover{
 	transform: translateY(-1px);
-	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.39);
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.39);
 }
 .SectionITO7__box > h6{
 	color: #006FFF;
@@ -27,6 +28,7 @@
 }
 .SectionITO7__box > p{
 	font-size: 14px;
+	margin-bottom: 0 !important;
 }
 @media only screen and (max-width: 768px) {
 	.SectionITO7 >h3 {
